@@ -13,7 +13,7 @@
 			<bibref id="SIA FN 2023542">
 				<genreform localtype="fonteNormativa" identifier="https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1930-04-17;421@originale"/>
 				<genreform localtype="Tipologia"><part>Legge</part></genreform>
-				<corpname relator="autoritaEmittente"]>Regno d'Italia</corpname> <!-- va bene? -->
+				<corpname relator="autoritaEmittente">Regno d'Italia</corpname> <!-- va bene valore? + dovrebbe esserci <part>, però nel mapping non +e indicato -->
 				<date>17-04-1930</date>
 				<num>421</num>
 				<title localtype="titoloAtto"><part>Norme sul reclutamento e sulla carriera dei magistrati</part></title>
