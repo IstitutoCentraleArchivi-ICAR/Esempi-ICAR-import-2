@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eac-cpf xsi:schemaLocation="urn:isbn:1-931666-33-4 http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd" xmlns="urn:isbn:1-931666-33-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<control>
+		<localControl localType="acronimoSistema"><term>ASI</term></localControl>
+		<recordId>1021243</recordId>
+		<otherRecordId localType="ISIL">IT-BZ0331</otherRecordId>
+		<otherRecordId localType=" ?????? ">IT-ASBZ-CC236400094</otherRecordId> <!-- nel mapping manca valore attributo -->
+
+	</control>
+	<cpfDescription>
+		<identity>
+			<identityId>ASI AG 1021243</identityId>
+			<entityType value="corporateBody"/>
+			<otherEntityTypes>
+				<otherEntityType localType="ente"><term> .. ufficio periferico postunitario .. </term></otherEntityType> <!-- in mapping mancano valori del vocabilario controllato -->
+				<otherEntityType>
+					<date localType="estremoCronologicoTestuale" standardDate="1927-1991" localType="intervallo di date">1927-1991</date>
+					<dateRange>
+						<fromDate standardDate="1927">1927</fromDate>
+						<toDate standardDate="1991">1991</toDate>
+					</dateRange>
+				</otherEntityType>
+			</otherEntityTypes> 
+			<nameEntry localType="denominazioneEnte" languageOfElement="ita">
+				<part localType="intestazionePrincipaleEnte">Intendenza di finanza di Bolzano, Bolzano (1927 - 1991)</part>
+				<part localType="denominazionePrincipaleEnte">Intendenza di finanza di Bolzano</part>
+				<part localType="acronimoEnte">IFBZ</part>
+				<useDates>
+					<date localType="estremoCronologicoTestuale" standardDate="1927-1991" localType="intervallo di date">1927-1991</date>
+					<dateRange>
+						<fromDate standardDate="1927">1927</fromDate>
+						<toDate standardDate="1991">1991</toDate>
+					</dateRange>
+				</useDates>
+			</nameEntry>
+			<nameEntry localType="denominazioneParallela" languageOfElement="deu" status="alternativo">
+				<part localType="intestazione">Finanzintendanz Bozen, Bozen (1927 - 1991)</part> <!-- si può migliorare il contenuto? -->
+				<part localType="denominazione">Finanzintendanz Bozen</part>
+				<part localType="acronimo">FIBZ</part>
+				<useDates>
+					<date localType="estremoCronologicoTestuale" standardDate="1927-1991" localType="intervallo di date">1927-1991</date>
+					<dateRange>
+						<fromDate standardDate="1927">1927</fromDate>
+						<toDate standardDate="1991">1991</toDate>
+					</dateRange>
+				</useDates>
+			</nameEntry>
+		</identity>
+		<existDates localType="dateEsistenzaEnte">
+			<date localType="estremoCronologicoTestuale" standardDate="1927-1991" localType="intervallo di date">1927-1991</date>
+			<dateRange>
+				<fromDate standardDate="1927">1927</fromDate>
+				<toDate standardDate="1991">1991</toDate>
+			</dateRange>
+		</existDates>
+		<places>
+			<place localType="luogoEnte">
+				<placeName target="ICAR TOP 2019011" localType="Sede"/> <!-- in mapping non spiega differenza tra localType e placeRole-->
+				<placeRole>Sede</placeRole>
+				<date localType="estremoCronologicoTestuale" standardDate="1927-1991" localType="intervallo di date">1927-1991</date>
+				<dateRange>
+					<fromDate standardDate="1927">1927</fromDate>
+					<toDate standardDate="1991">1991</toDate>
+				</dateRange>
+			</place>
+		</places>
+		<biogHist>
+			<p>Le Intendenze di finanza sono organi locali dell’amministrazione finanziaria istituiti nel 1869 alle dipendenze del Ministero delle finanze, con il compito di vigilare sulle pubbliche entrate e provvedere alla riscossione di tributi o altri proventi, di amministrare i beni patrimoniali immobili dello Stato e tutelare i beni del demanio pubblico. A Bolzano venne istituita l'Intendenza di finanza nel 1927, in concomitanza con la nascita della Provincia, con competenza estesa a tutto il territorio di questa. Nel quadro del processo di ristrutturazione dell’amministrazione finanziaria iniziato con la l. 358/29 ottobre 1991, il 31 dicembre 1994 venne soppressa l'Intendenza di finanza di Bolzano e contestualemente, invariata la sede, venne istituita la Direzione provinciale di Bolzano del Ministero delle finanze, le cui competenze transitarono poi, dapprima nel Dipartimento delle entrate e, da ultimo, all'Agenzia delle entrate - Direzione provinciale di Bolzano.</p>
+		</biogHist>
+		<structureOrGenealogy>
+			<p>
+			<!-- * * AGGIUNGERE CONTENUTO * * -->
+			</p>
+		</structureOrGenealogy>
+		<description>
+			<legalStatuses>
+				<legalStatus>
+					<term>Ente pubblico</term>
+					<date localType="estremoCronologicoTestuale" standardDate="1927-1991" localType="intervallo di date">1927-1991</date>
+					<dateRange>
+						<fromDate standardDate="1927">1927</fromDate>
+						<toDate standardDate="1991">1991</toDate>
+					</dateRange>
+				</legalStatus>
+			</legalStatuses>
+		</description>
+		<relations>
+			<relation><targetEntity targetType="corporateBody" valueURI="http://n2t.net/ark:/99166/w6gj5s8z" vocabularySource="SNAC" vocabularySourceURI="https://snaccooperative.org/"/></relation> <!-- va bene il valore di vocabularySourceURI ? -->
+		<relations>
+	</cpfDescription>
+</eac-cpf>
