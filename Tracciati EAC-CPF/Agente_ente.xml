@@ -85,7 +85,39 @@
 			</legalStatuses>
 		</description>
 		<relations>
-			<relation><targetEntity targetType="corporateBody" valueURI="http://n2t.net/ark:/99166/w6gj5s8z" vocabularySource="SNAC" vocabularySourceURI="https://snaccooperative.org/"/></relation> <!-- va bene il valore di vocabularySourceURI ? -->
+			<relation>
+				<targetEntity targetType="corporateBody" valueURI="http://n2t.net/ark:/99166/w6gj5s8z" vocabularySource="SNAC" vocabularySourceURI="https://snaccooperative.org/"/>
+			</relation> <!-- va bene il valore di vocabularySourceURI ? -->
+			<relation targetRole="complessoArchivistico">
+				<targetEntity targetType="resource" id="SIA CA 2013153"/>
+				<relationType>Soggetto produttore</relationType> <!-- va bene? In relazione con strumento di ricerca si usa @localType -->
+				<date localType="estremoCronologicoTestuale" standardDate="1927-1991" localType="intervallo di date">1927-1991</date>
+				<dateRange>
+					<fromDate standardDate="1927">1927</fromDate>
+					<toDate standardDate="1991">1991</toDate>
+				</dateRange>
+			</relation>
+			<relation targetRole="unitaArchivistica">
+				<targetEntity targetType="resource" id="SIA UA 2021315"/>
+				<targetRole localType="Mittente"/>
+				<descriptiveNote><p>Documentazione</p></descriptiveNote> <!-- ha senso questo valore? -->
+				<date localType="estremoCronologicoTestuale" standardDate="19300215-19321001" localType="intervallo di date">15 feb. 1930 - 1 ott. 1932</date>
+				<dateRange>
+					<fromDate standardDate="19300215">15 feb. 1930</fromDate>
+					<toDate standardDate="19321001">1 ott. 1932</toDate>
+				</dateRange>
+			</relation>
+			<relation targetRole="unitaDocumentaria">
+				<targetEntity targetType="resource" id="SIA UD 2021425"/>
+				<targetRole localType="Destinatario"/>
+				<descriptiveNote><p>Documentazione</p></descriptiveNote> <!-- ha senso questo valore? -->
+				<date localType="estremoCronologicoTestuale" standardDate="19510310" localType="data singola">10 mar. 1951</date> <!-- nel mapping non è chiaro se si può usare date per una data singola -->
+			</relation>
+			<relation targetRole="strumentoDiRicerca">
+				<targetEntity targetType="resource" id="SIA SR 2013011"/>
+				<relationType localType="Autore"/>
+			</relation>	
+			<!-- PROGETTO -->
 		<relations>
 	</cpfDescription>
 </eac-cpf>
