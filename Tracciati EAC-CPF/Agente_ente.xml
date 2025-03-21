@@ -1,15 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<eac-cpf xsi:schemaLocation="urn:isbn:1-931666-33-4 http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd" xmlns="urn:isbn:1-931666-33-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink">
+<eac-cpf xsi:schemaLocation="urn:isbn:1-931666-33-4 http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd" xmlns="urn:isbn:1-931666-33-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" audience="external">
+
+<!-- non presente parte relativa al soggetto conservatore, perchè questo soggetto produttore non esiste più, quindi non può essere un conservatore -->
+
 	<control>
-		<localControl localType="acronimoSistema"><term>ASI</term></localControl>
+		<localControl localType="Visibilita_FE"><term>Completa</term></localControl>
+		<localControl localType="acronimoSistema"><term>SIA</term></localControl>
 		<recordId>1021243</recordId>
 		<otherRecordId localType="ISIL">IT-BZ0331</otherRecordId>
 		<otherRecordId localType=" ?????? ">IT-ASBZ-CC236400094</otherRecordId> <!-- nel mapping manca valore attributo -->
-
+		<sources>
+			<source>
+				<reference linkRole="riferimentoBibliografico" id="SIA RB 1992347"/>
+				<descriptiveNote><p></p></descriptiveNote> <!-- chiarire il significato del campo -->
+			</source>
+			<source>
+				<reference linkRole="fonteArchivistica" id="SIA FA 20200312"/>
+			</source>
+			<source>
+				<reference linkRole="fonteNormativa" id="ICAR FN 2109923"/>
+			</source>
+			<source>
+				<reference linkRole="riferimentoWeb" id="https://it.wikipedia.org/wiki/Intendenza_di_finanza"/> <!-- in SIA si selezione un riferimento web da manu a tendina. Dovrebbe essere un ID di una risorsa SIA, no una URL -->
+			</source>
+		</sources>
+		<maintenanceHistory>
+			<maintenanceEvent languageOfElement="ita">
+				<agent agentType="human">Stella Di Fazio</agent>
+				<eventDescription>
+					<span localType="Azione">Importazione</span>
+					<span localType="noteRedazionali">Registro creato per sistema di test</span>
+				</eventDescription>
+				<eventDateTime standardDateTime="20250321"/>
+			</maintenanceEvent>
+		</maintenanceHistory>
 	</control>
 	<cpfDescription>
 		<identity>
-			<identityId>ASI AG 1021243</identityId>
+			<identityId>SIA AG 1021243</identityId>
 			<entityType value="corporateBody"/>
 			<otherEntityTypes>
 				<otherEntityType localType="ente"><term> .. ufficio periferico postunitario .. </term></otherEntityType> <!-- in mapping mancano valori del vocabilario controllato -->
@@ -34,7 +62,7 @@
 				</useDates>
 			</nameEntry>
 			<nameEntry localType="denominazioneParallela" languageOfElement="deu" status="alternativo">
-				<part localType="intestazione">Finanzintendanz Bozen, Bozen (1927 - 1991)</part> <!-- si può migliorare il contenuto? -->
+				<part localType="intestazione">Finanzintendanz Bozen, Bozen (1927 - 1991)</part>
 				<part localType="denominazione">Finanzintendanz Bozen</part>
 				<part localType="acronimo">FIBZ</part>
 				<useDates>
@@ -86,11 +114,11 @@
 		</description>
 		<relations>
 			<relation>
-				<targetEntity targetType="corporateBody" valueURI="http://n2t.net/ark:/99166/w6gj5s8z" vocabularySource="SNAC" vocabularySourceURI="https://snaccooperative.org/"/>
-			</relation> <!-- va bene il valore di vocabularySourceURI ? -->
+				<targetEntity targetType="corporateBody" valueURI="http://n2t.net/ark:/99166/w6gj5s8z" vocabularySource="SNAC" vocabularySourceURI="https://snaccooperative.org/"/> <!-- va bene il valore di vocabularySourceURI ? -->
+			</relation> 
 			<relation targetRole="complessoArchivistico">
 				<targetEntity targetType="resource" id="SIA CA 2013153"/>
-				<relationType>Soggetto produttore</relationType> <!-- va bene? In relazione con strumento di ricerca si usa @localType -->
+				<relationType>Soggetto produttore</relationType> <!-- va bene? In altre relazioni si usa @localType -->
 				<date localType="estremoCronologicoTestuale" standardDate="1927-1991" localType="intervallo di date">1927-1991</date>
 				<dateRange>
 					<fromDate standardDate="1927">1927</fromDate>
@@ -117,7 +145,58 @@
 				<targetEntity targetType="resource" id="SIA SR 2013011"/>
 				<relationType localType="Autore"/>
 			</relation>	
-			<!-- PROGETTO -->
-		<relations>
+			<relation targetRole="progetto">
+				<targetEntity targetType="resource" id="SIA PR 6719131"/>
+				<relationType localType="Finanziatore"/>
+			</relation>	
+			<relation targetRole="evento">
+				<targetEntity targetType="resource" id="SIA EV 7719132"/>
+				<relationType localType="Finanziatore"/> <!-- nel mapping non c'è lista chiusa di valori -->
+			</relation>	
+			<relation targetRole="contestoStoricoIstituzionale">
+				<targetEntity targetType="agent" id="SIA CS 1922132"/>
+				<date localType="estremoCronologicoTestuale" standardDate="1927-1991" localType="intervallo di date">1927-1991</date>
+				<dateRange>
+					<fromDate standardDate="1927">1927</fromDate>
+					<toDate standardDate="1991">1991</toDate>
+				</dateRange>
+			</relation>
+			<relation valueURI="SIA TE 2419131"> <!-- nel mapping non si spiega a cosa serve valueURI -->
+				<targetEntity targetType="resource" id="SIA TE 2419131"/>
+				<relationType>tematismo</relationType> <!-- va bene? In altre relazioni si usa @localType -->
+			</relation>
+			<relation>
+				<targetEntity targetType="corporateBody" id="SIA AG 1021246">
+					<part>Direzione provinciale di Bolzano del Ministero delle finanze</part>
+				</targetEntity>
+				<targetRole>Soggetto produttore collegato</targetRole>
+				<relationType>TemporaleSuccessiva</relationType>
+				<date localType="estremoCronologicoTestuale" standardDate="1994" localType="data singola">1994</date> <!-- si codifica cosí una data singola? -->
+			</relation> 
+			<!-- SOGGETTI PRODUTTORI A CUI È COLLEGATO non capisco a cosa serve. È una relazione in arrivo? -->
+			<relation>
+				<targetEntity targetType="corporateBody" id="SIA PI 1921266">
+					<part>Direzioni compartimentali (1862-1869) poi Intendenza  di finanza (1869-1991)</part>
+				</targetEntity>
+				<targetRole>Profilo istituzionale collegato</targetRole>
+				<relationType>TemporaleSuccessiva</relationType>
+				<date localType="estremoCronologicoTestuale" standardDate="1927-1991" localType="intervallo di date">1927-1991</date>
+				<dateRange>
+					<fromDate standardDate="1927">1927</fromDate>
+					<toDate standardDate="1991">1991</toDate>
+				</dateRange>
+			</relation> 
+			<relation>
+				<targetEntity targetType="resource" id=""> <!-- esempio ID? Non sono riuscito a trovarlo in SIA-->
+					<part></part> <!-- contenuto -->
+				</targetEntity>
+				<relationType>è documentazione</relationType>
+			</relation>
+		</relations>
+		<localDescriptions>
+			<localDescription localType="osservazioni">
+				<descriptiveNote><p></p></descriptiveNote> <!-- contenuto -->
+			</localDescription>
+		</localDescriptions>
 	</cpfDescription>
 </eac-cpf>

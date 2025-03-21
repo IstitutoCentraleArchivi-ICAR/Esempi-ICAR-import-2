@@ -5,7 +5,17 @@
 		<recordId>1021243</recordId>
 		<otherRecordId localType="ISIL">IT-BZ0331</otherRecordId>
 		<otherRecordId localType=" ?????? ">IT-ASBZ-CC236400094</otherRecordId> <!-- nel mapping manca valore attributo -->
-
+		
+		<maintenanceHistory>
+			<maintenanceEvent languageOfElement="ita">
+				<agent agentType="human">Stella Di Fazio</agent>
+				<eventDescription>
+					<span localType="Azione">Importazione</span>
+					<span localType="noteRedazionali">Registro creato per sistema di test</span>
+				</eventDescription>
+				<eventDateTime standardDateTime="20250321"/>
+			</maintenanceEvent>
+		</maintenanceHistory>
 	</control>
 	<cpfDescription>
 		<identity>
