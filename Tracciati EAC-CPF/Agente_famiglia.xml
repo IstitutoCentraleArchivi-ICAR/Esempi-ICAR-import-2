@@ -20,8 +20,34 @@
 	<cpfDescription>
 		<identity>
 			<entityType value="family"/>
-			<identityId>ASI AG 1021243</identityId>
-			
+			<identityId>ASI AG 1021256</identityId>
+			<nameEntry localType="denominazioneFamiglia" languageOfElement="ita">
+				<part localType="intestazionePrincipaleFamiglia">Cruciani Fabozzi, Amandola (Fermo), sec. XVIII fine - </part>
+				<part localType="denominazionePrincipaleFamiglia">Cruciani Fabozzi</part>
+				<useDates>
+					<dateSet>
+						<date localType="estremoCronologicoTestuale" localType="data aperta">sec. XVIII fine - </date> <!-- se si tratta di data aperta mi sembra meglio non mettere @standardDate -->
+						<dateRange>
+							<fromDate certainty="data approssimativa" standardDate="17910101">sec. XVIII fine</fromDate> <!-- aggiungere @localType="secolo"? -->
+						</dateRange>
+						<date localType="notaAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
+					</dateSet> <!-- mi sembra che il mapping propone una struttura per le note che non è valida -->
+				</useDates>
+			</nameEntry>
+			<nameEntry localType="altraDenominazioneFamiglia" languageOfElement="ita">
+				<part localType="intestazione">Cruciani F., Amandola (Fermo), sec. XVIII fine - </part>
+				<part localType="denominazione">Cruciani F.</part>
+				<part localType="acronico">CF</part>
+				<useDates>
+					<dateSet>
+						<date localType="estremoCronologicoTestuale" localType="data aperta">sec. XVIII fine - </date> <!-- se si tratta di data aperta mi sembra meglio non mettere @standardDate -->
+						<dateRange>
+							<fromDate certainty="data approssimativa" standardDate="17910101">sec. XVIII fine</fromDate> <!-- aggiungere @localType="secolo"? -->
+						</dateRange>
+						<date localType="notaAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
+					</dateSet> <!-- mi sembra che il mapping propone una struttura per le note che non è valida -->
+				</useDates>
+			</nameEntry>
 		</identity>
 		
 		<relations>
