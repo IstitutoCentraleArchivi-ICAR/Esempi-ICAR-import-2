@@ -21,7 +21,7 @@
 				<reference linkRole="fonteNormativa" id="ICAR FN 2109923"/>
 			</source>
 			<source>
-				<reference linkRole="riferimentoWeb" id="https://it.wikipedia.org/wiki/Intendenza_di_finanza"/> <!-- in SIA si selezione un riferimento web da manu a tendina. Dovrebbe essere un ID di una risorsa SIA, no una URL -->
+				<reference linkRole="riferimentoWeb" id="https://it.wikipedia.org/wiki/Intendenza_di_finanza"/> <!-- in SIA si selezione un riferimento web da menu a tendina. Dovrebbe essere un ID di una risorsa SIA, no una URL -->
 			</source>
 		</sources>
 		<maintenanceHistory>
