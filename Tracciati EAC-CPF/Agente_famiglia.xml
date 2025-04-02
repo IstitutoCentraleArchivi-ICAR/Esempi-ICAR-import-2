@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<eac-cpf xsi:schemaLocation="urn:isbn:1-931666-33-4 http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd" xmlns="urn:isbn:1-931666-33-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink">
+<eac-cpf xsi:schemaLocation="urn:isbn:1-931666-33-4 http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd" xmlns="urn:isbn:1-931666-33-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" audience="external">
 	<control maintenanceStatus="new" publicationStatus="published">
+		<localControl localType="Visibilita_FE"><term>Completa</term></localControl>
 		<localControl localType="acronimoSistema"><term>ASI</term></localControl>
 		<recordId>1021256</recordId>
 		<otherRecordId localType="ISIL">IT-BZ0331</otherRecordId>
@@ -121,14 +122,14 @@
 				</targetEntity>
 				<targetRole>Soggetto produttore collegato</targetRole>
 				<relationType>Associativa</relationType>
-				<date localType="estremoCronologicoTestuale" standardDate="1945-2023" localType="intervallo di date">1945-2023</date>
+				<date localType="estremoCronologicoTestuale" standardDate="19450101-20231231" localType="intervallo di date">1945-2023</date>
 				<dateRange>
-					<fromDate standardDate="1945">1945</fromDate>
-					<toDate standardDate="2023">2023</toDate>
+					<fromDate standardDate="19450101">1945</fromDate>
+					<toDate standardDate="20231231">2023</toDate>
 				</dateRange>
 			</relation>
 			
-			<!-- Mancano alcune relazioni. È necessario crearle tutte, o basta con quelle che sono presenti nella scheda dellagente ente? -->
+			<!-- Mancano alcune relazioni. È necessario crearle tutte, o basta con quelle che sono presenti nella scheda dell'agente ente? -->
 		<relations>
 	</cpfDescription>
 </eac-cpf>
