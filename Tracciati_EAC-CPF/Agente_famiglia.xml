@@ -1,36 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<eac-cpf xsi:schemaLocation="urn:isbn:1-931666-33-4 http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd" xmlns="urn:isbn:1-931666-33-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" audience="external">
-	<control maintenanceStatus="new" publicationStatus="published">
-		<localControl localType="Visibilita_FE"><term>Completa</term></localControl>
-		<localControl localType="acronimoSistema"><term>ASI</term></localControl>
+<eac xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns="https://archivists.org/ns/eac/v2"
+ xmlns:eac-sia="http://www.san.beniculturali.it/eac-sia"
+ audience="external">
+ 
+	<control maintenanceStatus="derived" publicationStatus="inProcess" eac-sia:status="bozza"> <!-- eac-sia:status sostituisce publicationStatus? -->
 		<recordId>1021256</recordId>
-		<otherRecordId localType="ISIL">IT-BZ0331</otherRecordId>
-		<otherRecordId localType=" ?????? ">IT-ASBZ-CC236400094</otherRecordId> <!-- nel mapping manca valore attributo -->
+		<maintenanceAgency>
+			<agencyCode>IT-ICAR</agencyCode>
+			<agencyName>ICAR</agencyName>
+		</maintenanceAgency>
+		<maintenanceHistory>
+			<maintenanceEvent languageOfElement="ita" maintenanceEventType="created">
+			<agent agentType="human">Stella Di Fazio</agent>
+			<eventDateTime standardDateTime="20250321"/>
+			<eventDescription>
+				<span localType="Azione">Importazione</span>
+				<span localType="noteRedazionali">Registro creato per sistema di test</span>
+			</eventDescription>
+			</maintenanceEvent>
+		</maintenanceHistory>
 		<sources>
 			<source>
-				<reference linkRole="riferimentoBibliografico" id="SIA RB 1992359"/>
+				<reference linkRole="riferimentoBibliografico" id="SIA-RB-1992359"/>
 				<descriptiveNote><p></p></descriptiveNote> <!-- chiarire il significato del campo -->
 			</source>
 			<source>
-				<reference linkRole="fonteArchivistica" id="SIA FA 20200462"/>
+				<reference linkRole="fonteArchivistica" id="SIA-FA-20200462"/>
 			</source>
 			<source>
-				<reference linkRole="fonteNormativa" id="ICAR FN 2109955"/>
+				<reference linkRole="fonteNormativa" id="ICAR-FN-2109955"/>
 			</source>
 			<source>
-				<reference linkRole="riferimentoWeb" id="https://sira-restauroarchitettonico.it/in-ricordo-di-giuseppe-cruciani-fabozzi-1945-2023/"/> <!-- in SIA si selezione un riferimento web da menu a tendina. Dovrebbe essere un ID di una risorsa SIA, no una URL -->
+				<reference linkRole="riferimentoWeb" id="wiki_Cruciani_Fabozzi"/>
 			</source>
 		</sources>
-		<maintenanceHistory>
-			<maintenanceEvent languageOfElement="ita">
-				<agent agentType="human">Stella Di Fazio</agent>
-				<eventDescription>
-					<span localType="Azione">Importazione</span>
-					<span localType="noteRedazionali">Registro creato per sistema di test</span>
-				</eventDescription>
-				<eventDateTime standardDateTime="20250321"/>
-			</maintenanceEvent>
-		</maintenanceHistory>
+		
+		<localControl localType="Visibilita_FE"><term>Completa</term></localControl>
+		<localControl localType="acronimoSistema"><term>SIA</term></localControl>
+		<otherRecordId localType=" ?????? ">IT-ASAN-CC236400</otherRecordId> <!-- nel mapping manca valore attributo -->
 	</control>
 	<cpfDescription>
 		<identity>
@@ -41,12 +49,13 @@
 				<part localType="denominazionePrincipaleFamiglia">Cruciani Fabozzi</part>
 				<useDates>
 					<dateSet>
-						<date localType="estremoCronologicoTestuale" localType="data aperta">sec. XVIII fine - </date> <!-- se si tratta di data aperta mi sembra meglio non mettere @standardDate -->
+						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="17910101-99999999">sec. XVIII fine - </date> 
 						<dateRange>
-							<fromDate certainty="data approssimativa" standardDate="17910101">sec. XVIII fine</fromDate> <!-- aggiungere @localType="secolo"? -->
+							<fromDate certainty="data approssimativa" localType="secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
+							<toDate standardDate="99999999"/>
 						</dateRange>
 						<date localType="notaAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
-					</dateSet> <!-- mi sembra che il mapping propone una struttura per le note che non è valida -->
+					</dateSet> 
 				</useDates>
 			</nameEntry>
 			<nameEntry localType="altraDenominazioneFamiglia" languageOfElement="ita">
@@ -54,49 +63,55 @@
 				<part localType="denominazione">Cruciani F.</part>
 				<part localType="acronico">CF</part>
 				<useDates>
-					<dateSet>
-						<date localType="estremoCronologicoTestuale" localType="data aperta">sec. XVIII fine - </date> <!-- se si tratta di data aperta mi sembra meglio non mettere @standardDate -->
+					<dateSet> 
+						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="17910101-99999999">sec. XVIII fine - </date> 
 						<dateRange>
-							<fromDate certainty="data approssimativa" standardDate="17910101">sec. XVIII fine</fromDate> <!-- aggiungere @localType="secolo"? aggiungere @certainity? -->
+							<fromDate certainty="data approssimativa" localType="secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
+							<toDate standardDate="99999999"/>
 						</dateRange>
 						<date localType="notaAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
-					</dateSet> <!-- mi sembra che il mapping propone una struttura per le note che non è valida -->
+					</dateSet> 
 				</useDates>
 			</nameEntry>
 		</identity>
 		<description>
 			<existDates localType="dateEsistenzaFamiglia">
-				<dateSet>
-					<date localType="estremoCronologicoTestuale" localType="data aperta">sec. XVIII fine - </date> <!-- se si tratta di data aperta mi sembra meglio non mettere @standardDate -->
+				<dateSet> <!--  come si codifica "Qualifica della data"? Comunque mi sembra che c'è un problema con i valori del campo in SIA -->
+					<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="17910101-99999999">sec. XVIII fine - </date> 
 					<dateRange>
-						<fromDate certainty="data approssimativa" standardDate="17910101">sec. XVIII fine</fromDate> <!-- aggiungere @localType="secolo"? -->
+						<fromDate certainty="data approssimativa" localType="secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
+						<toDate standardDate="99999999"/>
 					</dateRange>
 					<date localType="notaAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
-				</dateSet> <!-- mi sembra che il mapping propone una struttura per le note che non è valida -->
+				</dateSet>
 			</existDates>
 			<places>
 				<place localType="luogoFamiglia">
-					<placeName target="ICAR TOP 2019314" localType="Residenza"/> <!-- in mapping non spiega differenza tra localType e placeRole-->
+					<placeName target="ICAR-TOP-2019314" localType="Residenza"/> <!-- in mapping non spiega differenza tra localType e placeRole-->
 					<placeRole>Residenza</placeRole>
 					<dateSet>
-						<date localType="estremoCronologicoTestuale" localType="data aperta">sec. XVIII fine - </date> <!-- se si tratta di data aperta mi sembra meglio non mettere @standardDate -->
+						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="17910101-99999999">sec. XVIII fine - </date> 
 						<dateRange>
-							<fromDate certainty="data approssimativa" standardDate="17910101">sec. XVIII fine</fromDate> <!-- aggiungere @localType="secolo"? -->
+							<fromDate certainty="data approssimativa" localType="secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
+							<toDate standardDate="99999999"/>
 						</dateRange>
 						<date localType="notaAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
-					</dateSet> <!-- mi sembra che il mapping propone una struttura per le note che non è valida -->
+					</dateSet>
 				</place>
 			</places>
 			<localDescriptions>
 				<localDescription localType="titoloFamiglia">
 					<localDescription localType="Nobile"/>
-					<date localType="estremoCronologicoTestuale" localType="data aperta">1825 - </date> <!-- se si tratta di data aperta mi sembra meglio non mettere @standardDate -->
-					<dateRange>
-						<fromDate standardDate="1825">1825</fromDate>
-					</dateRange>
+					<dateSet>
+						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="18250101-99999999">1825 - </date>
+						<dateRange>
+							<fromDate standardDate="18250101">1825</fromDate>
+							<toDate standardDate="99999999"/>
+						</dateRange>
+					</dateSet>
 				</localDescription>
 			</localDescriptions>
-			<biogHist> <!-- <p> non è ripetibile? -->
+			<biogHist> 
 				<p>Dalla documentazione conservata in archivio, sappiamo che la famiglia era sicuramente esistente alla fine del sec. XVIII. Tra i suoi membri si segnalano Giuseppe Fabozzi (1799-1860), dal 1834 medico primario di Amandola ed in seguito gonfaloniere della città; l'avvocato Fernando Cruciani (1836-1898), giudice mandamentale a Cascia e dal 1862 pretore ad Amandola e Sarnano; Luigia Fabozzi (1839-1911).</p>
 				<p>Di particolare rilievo è Giuseppe Cruciani Fabozzi, figlio di Fernando Cruciani, nato ad Amandola nel 1865 e morto a Firenze nel 1952. Ingegnere, fu attivo professionalmente in Italia, Portogallo, Germania, Bulgaria, Paesi Bassi. Egli compì i primi studi a Spello (Perugia) presso i Padri Somaschi; conseguì la laurea in Ingegneria industriale a Milano nel 1888 e l'anno seguente in Ingegneria elettrotecnica a Liegi. Si spostò, poi, in vari paesi europei per progettare ed eseguire impianti industriali. Direttore dei lavori della prima centrale elettrica di Bruxelles, realizzò tra il 1894 ed il 1903, i sistemi di alimentazione e di distribuzione di energia per le esposizioni di Anversa e di Amsterdam e, nel 1898, il primo tronco tramviario a trazione elettrica in Napoli. Per la costruzione e la messa in esercizio degli impianti della rete tramviaria di Sofia ricevette nel 1903 un'onorificenza cavalleresca dal principe di Bulgaria Ferdinando di Coburgo-Gotha. Rientrato definitivamente in Italia, partecipò agli studi per lo sviluppo delle linee ferroviarie adriatiche e, nel 1908, venne chiamato a dirigere i servizi tecnici della Società belga "Les tramways florentins".</p>
 			</biogHist>
@@ -105,28 +120,33 @@
 			<relation><targetEntity targetType="corporateBody" valueURI="" vocabularySource="" vocabularySourceURI=""/></relation> <!-- IDENTIFICATIVI MULTIPLI ENTITÀ. non ho trovato esempi in SIA. Non capisco come funziona + Valore targetType dovrebbe essere "family"? -->
 			<relation>
 				<targetRole>complessoArchivistico</targetRole>
-				<targetEntity targetType="resource" id="SIA CA 2013493"/>
+				<targetEntity targetType="resource" id="SIA-CA-2013493"/>
 				<relationType>Soggetto produttore</relationType> <!-- va bene? In altre relazioni si usa @localType -->
-				<date localType="estremoCronologicoTestuale" localType="data aperta">sec. XVIII fine - </date> <!-- se si tratta di data aperta mi sembra meglio non mettere @standardDate -->
-				<dateRange>
-					<fromDate certainty="data approssimativa" standardDate="17910101">sec. XVIII fine</fromDate> <!-- aggiungere @localType="secolo"? -->
-				</dateRange>
+				<dateSet>
+					<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="17910101-99999999">sec. XVIII fine - </date> 
+					<dateRange>
+						<fromDate certainty="data approssimativa" localType="secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
+						<toDate standardDate="99999999"/>
+					</dateRange>
+				</dateSet>
 			</relation>
 			<relation valueURI="SIA TE 2412156"> <!-- nel mapping non si spiega a cosa serve valueURI -->
-				<targetEntity targetType="resource" id="SIA TE 2412156"/>
+				<targetEntity targetType="resource" id="SIA-TE-2412156"/>
 				<relationType>tematismo</relationType> <!-- va bene? In altre relazioni si usa @localType -->
 			</relation>
 			<relation>
-				<targetEntity targetType="person" id="SIA AG 1021445">
+				<targetEntity targetType="person" id="SIA-AG-1021445">
 					<part>Giuseppe Cruciani Fabozzi</part>
 				</targetEntity>
 				<targetRole>Soggetto produttore collegato</targetRole>
 				<relationType>Associativa</relationType>
-				<date localType="estremoCronologicoTestuale" standardDate="19450101-20231231" localType="intervallo di date">1945-2023</date>
-				<dateRange>
-					<fromDate standardDate="19450101">1945</fromDate>
-					<toDate standardDate="20231231">2023</toDate>
-				</dateRange>
+				<dateSet>	
+					<date localType="estremoCronologicoTestuale" standardDate="19450101-20231231" eac-sia:tipologiaData="intervallo di date">1945-2023</date>
+					<dateRange>
+						<fromDate standardDate="19450101">1945</fromDate>
+						<toDate standardDate="20231231">2023</toDate>
+					</dateRange>
+				</dateSet>
 			</relation>
 			
 			<!-- Mancano alcune relazioni. È necessario crearle tutte, o basta con quelle che sono presenti nella scheda dell'agente ente? -->

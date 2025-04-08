@@ -226,7 +226,7 @@
 			<archref><genreform><part localtype="fonteNormativa"><ref>ICAR FN 2109923</ref></part></genreform></archref>
 		</bibliography>
 		<bibliography>
-			<p><ref linkrole="riferimentoWeb" href="https://it.wikipedia.org/wiki/Intendenza_di_finanza"/></p> <!-- in SIA si selezione un riferimento web da manu a tendina. Dovrebbe essere un ID di una risorsa SIA, no una URL. È corretto usare @href? -->
+			<p><ref linkrole="riferimentoWeb" href="id_wiki_Intendenza_di_finanza"/></p>
 		</bibliography>
 		<odd localtype="Osservazioni">   <!--  MIGLIORARE CONTENUTO  -->
 			<p></p>

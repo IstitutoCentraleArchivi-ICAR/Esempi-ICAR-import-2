@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eac xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns="https://archivists.org/ns/eac/v2"
+ xmlns:eac-sia="http://www.san.beniculturali.it/eac-sia"
+ audience="external">
+ 
+	<control maintenanceStatus="new" publicationStatus="published">
+		<recordId>1021187</recordId>
+		<maintenanceAgency>
+			<agencyCode>IT-ICAR</agencyCode>
+			<agencyName>ICAR</agencyName>
+		</maintenanceAgency>
+		<maintenanceHistory>
+			<maintenanceEvent languageOfElement="ita" maintenanceEventType="created">
+				<agent agentType="human">Stella Di Fazio</agent>
+				<eventDateTime standardDateTime="20250401"/>
+				<eventDescription>
+					<span localType="Azione">Importazione</span>
+					<span localType="noteRedazionali">Registro creato per sistema di test</span>
+				</eventDescription>
+			</maintenanceEvent>
+		</maintenanceHistory>
+		<sources>
+			<source>
+				<reference linkRole="riferimentoBibliografico" id="SIA-RB-1992381"/>
+				<descriptiveNote><p></p></descriptiveNote> <!-- chiarire il significato del campo -->
+			</source>
+			<source>
+				<reference linkRole="fonteArchivistica" id="SIA-FA-20200442"/>
+			</source>
+			<source>
+				<reference linkRole="fonteNormativa" id="ICAR-FN-2109825"/>
+			</source>
+			<source>
+				<reference linkRole="riferimentoWeb" id="wiki_Antonioli_25X"/>
+			</source>
+		</sources>
+		<localControl localType="Visibilita_FE"><term>Completa</term></localControl>
+		<localControl localType="acronimoSistema"><term>SIA</term></localControl>
+		<otherRecordId localType=" ?????? ">IT-CC23644</otherRecordId> <!-- nel mapping manca valore attributo -->
+	</control>
+	<cpfDescription>
+		<identity>
+			<entityType value="person"/>
+			<otherEntityTypes>
+				<otherEntityType><term>maschile</term></otherEntityType>
+			</otherEntityTypes> 
+			<identityId>SIA AG 1021187</identityId>
+			<nameEntry languageOfElement="ita">
+				<part localType="intestazionePersona">Antonioli, Francesco Maria, militante anarchico (sec. XX inizio - 1981 apr. 1)</part>
+				<part localType="nomePersona">Francesco Maria</part>
+				<part localType="cognomePersona">Antonioli</part>
+				<useDates>
+				<dateSet>
+					<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="intervallo di date" standardDate="19010101-19810401">sec. XX inizio - 1981 apr. 1</date>
+					<dateRange>
+						<fromDate certainty="data approssimativa" localType="secolo" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate> 
+						<toDate standardDate="19810401">1981 apr. 1</toDate>
+					</dateRange>
+				</dateSet>
+				</useDates>
+			</nameEntry>
+			<nameEntry localType="altraDenominazionePersona" languageOfElement="ita" status="alternativo" localType="Altra denominazione">
+				<part localType="intestazione">Antonioli, Francesco, militante anarchico (sec. XX inizio - 1981 apr. 1)</part>
+				<part localType="denominazione">Francesco Antonioli</part>
+			</nameEntry>
+			<nameEntry>
+				<part localType="patronimico"></part> <!-- contenuto -->
+				<part localType="originePersona"></part> 
+				<part localType="provenienzaPersona"></part> <!-- significato? decidere in mapping se si usa origine o provenienza -->
+				<part localType="pseudonimo">Furio Villani</part>
+				<part localType="soprannomePersona">Gagìn</part>
+			</nameEntry>
+		</identity>
+		<description>
+			<existDates localType="dateEsistenzaPersona">
+			<dateSet>
+				<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="intervallo di date" standardDate="19010101-19810401">sec. XX inizio - 1981 apr. 1</date>
+				<dateRange>
+					<fromDate certainty="data approssimativa" localType="secolo" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate> 
+					<toDate standardDate="19810401">1981 apr. 1</toDate>
+				</dateRange>
+			</dateSet>
+			</existDates>
+			<places>
+				<place localType="luogoPersona"> <!-- in mapping @localType è indicato in placeName -->
+					<placeName target="ICAR-TOP-2019524" localType="nascita"/> <!-- in mapping non spiega differenza tra localType e placeRole-->
+					<placeRole>nascita</placeRole>
+					<dateSet> 	<!-- codifica data singola. va bene daterange? -->
+						<date localType="estremoCronologicoTestuale" standardDate="19010101-19101231" eac-sia:tipologiaData="data singola">sec. XX inizio</date>
+						<dateRange>
+							<fromDate certainty="data approssimativa" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate>
+						</dateRange>
+					</dateSet>
+				</place>
+				<place localType="luogoPersona"> <!-- in mapping @localType è indicato in placeName -->
+					<placeName target="ICAR-TOP-2019611" localType="morte"/> <!-- in mapping non spiega differenza tra localType e placeRole-->
+					<placeRole>morte</placeRole>
+					<dateSet> 	<!-- codifica data singola. va bene daterange? -->
+						<date localType="estremoCronologicoTestuale" standardDate="19810401" eac-sia:tipologiaData="data singola">1981 apr. 1</date>
+						<dateRange>
+							<fromDate standardDate="19810401">1981 apr. 1</fromDate>
+						</dateRange>
+					</dateSet>
+				</place>
+			</places>
+			<localDescriptions>
+				<localDescription localType="titoloPersona">
+					<localDescription localType="Nobile"/>
+					<dateSet>
+					<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="intervallo di date" standardDate="19010101-19810401">sec. XX inizio - 1981 apr. 1</date>
+					<dateRange>
+						<fromDate certainty="data approssimativa" localType="secolo" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate> 
+						<toDate standardDate="19810401">1981 apr. 1</toDate>
+					</dateRange>
+					</dateSet>
+				</localDescription>
+			</localDescriptions>
+			<occupations>
+				<occupation>
+					<term>Regioniere</term>
+					<dateSet>
+						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="intervallo di date" standardDate="19350101-19551231">1935 - 1955</date>
+						<dateRange>
+							<fromDate certainty="data approssimativa" standardDate="19350101">1935</fromDate>
+							<toDate standardDate="19551231">1955</toDate>
+						</dateRange>
+					</dateSet>
+				</occupation>
+			</occupations>
+			<functions>
+				<function><term></term></function> <!-- contenuto. Campo "Qualifica" -->
+			</functions>
+			<biogHist>
+				<p>Militante anarchico. Ha vissuto la maggior parte della sua vita in Emilia.</p>
+			</biogHist>
+		</description>
+		<relations>
+			<relation><targetEntity targetType="corporateBody" valueURI="" vocabularySource="" vocabularySourceURI=""/></relation> <!-- IDENTIFICATIVI MULTIPLI ENTITÀ. non ho trovato esempi in SIA. Non capisco come funziona + Valore targetType dovrebbe essere "family"? -->
+			<relation>
+				<targetRole>complessoArchivistico</targetRole>
+				<targetEntity targetType="resource" id="SIA-CA-2017123"/>
+				<relationType>Soggetto produttore</relationType> <!-- va bene? In altre relazioni si usa @localType -->
+			</relation>
+			<relation valueURI="SIA TE 2412146"> <!-- nel mapping non si spiega a cosa serve valueURI -->
+				<targetEntity targetType="resource" id="SIA-TE-2412146"/>
+				<relationType>tematismo</relationType> <!-- va bene? In altre relazioni si usa @localType -->
+			</relation>
+			<relation>
+				<targetEntity targetType="person" id="SIA-AG-1021325">
+					<part>Giuseppe Malaguti</part>
+				</targetEntity>
+				<targetRole>Soggetto produttore collegato</targetRole>
+				<relationType>Associativa</relationType>
+				<dateSet>
+					<date localType="estremoCronologicoTestuale" standardDate="19450101-19711231" eac-sia:tipologiaData="intervallo di date">1945-1971</date>
+					<dateRange>
+						<fromDate standardDate="19450101">1945</fromDate>
+						<toDate standardDate="19711231">1971</toDate>
+					</dateRange>
+				</dateSet>
+			</relation>
+			
+			<!-- Mancano alcune relazioni. È necessario crearle tutte, o basta con quelle che sono presenti nella scheda dell'agente ente? -->
+		<relations>
+	</cpfDescription>
+</eac-cpf>

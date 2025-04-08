@@ -1,30 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<eac-cpf xsi:schemaLocation="urn:isbn:1-931666-33-4 http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd" xmlns="urn:isbn:1-931666-33-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" audience="external">
+<eac xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns="https://archivists.org/ns/eac/v2"
+ xmlns:eac-sia="http://www.san.beniculturali.it/eac-sia"
+ audience="external">
 
 <!-- Descrizione dell'agente solo come soggetto conservatore -->
-
-	<control>
+	<control maintenanceStatus="derived" publicationStatus="inProcess" eac-sia:status="bozza"> <!-- eac-sia:status sostituisce publicationStatus? -->
+		<recordId>1021259</recordId>
+		<maintenanceAgency>
+			<agencyCode>IT-ICAR</agencyCode>
+			<agencyName>ICAR</agencyName>
+		</maintenanceAgency>
+		<maintenanceHistory>
+			<maintenanceEvent languageOfElement="ita" maintenanceEventType="created">
+			<agent agentType="human">Stella Di Fazio</agent>
+			<eventDateTime standardDateTime="20250321"/>
+			<eventDescription>
+				<span localType="Azione">Importazione</span>
+				<span localType="noteRedazionali">Registro creato per sistema di test</span>
+			</eventDescription>
+			</maintenanceEvent>
+		</maintenanceHistory>
 		<localControl localType="Visibilita_FE"><term>Completa</term></localControl>
 		<localControl localType="acronimoSistema"><term>SIA</term></localControl>
-		<recordId>1021259</recordId>
-		<otherRecordId localType="ISIL">IT-TO0879</otherRecordId>
 		<localControl><term>luogo della cultura</term></localControl>
 		<localControl><term>Sala studio</term></localControl>
 		<localControl><term></term></localControl><!-- Tenant. Che valore si mette? -->
-		<maintenanceHistory>
-			<maintenanceEvent languageOfElement="ita">
-				<agent agentType="human">Stella Di Fazio</agent>
-				<eventDescription>
-					<span localType="Azione">Importazione</span>
-					<span localType="noteRedazionali">Registro creato per sistema di test</span>
-				</eventDescription>
-				<eventDateTime standardDateTime="20250328"/>
-			</maintenanceEvent>
-		</maintenanceHistory>
+		<otherRecordId localType="ISIL">IT-TO0879</otherRecordId>	
 	</control>
 	<cpfDescription>
 		<identity>
-			<identityId>SIA AG 1021259</identityId>
+			<identityId>SIA-AG-1021259</identityId>
 			<entityType value="corporateBody"/>
 			<otherEntityTypes>
 				<otherEntityType localType="ente"><term> .. ufficio periferico postunitario .. </term></otherEntityType> <!-- in mapping mancano valori del vocabilario controllato -->
@@ -40,14 +46,17 @@
 		</identity>
 		<description>
 			<existDates localType="dateEsistenzaEnte">
-				<date localType="estremoCronologicoTestuale" standardDate="1870" localType="data aperta">1870 - </date>
-				<dateRange>
-					<fromDate standardDate="1870">1870</fromDate>
-				</dateRange>
+				<dateSet>
+					<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="18700101-99999999">1870 - </date>
+					<dateRange>
+						<fromDate standardDate="1870">1870</fromDate>
+						<toDate standardDate="99999999"/>
+					</dateRange>
+				</dateSet>
 			</existDates>
 			<places>
 				<place localType="luogoEnte">
-					<placeName target="ICAR TOP 2019232" localType="Sede"/> <!-- in mapping non spiega differenza tra localType e placeRole-->
+					<placeName target="ICAR-TOP-2019232" localType="Sede"/> <!-- in mapping non spiega differenza tra localType e placeRole-->
 					<placeRole>Sede</placeRole>
 				</place>
 				<place>
@@ -76,6 +85,32 @@
 					<geographicCoordinates coordinateSystem="WGS84">lat: 45.13333</geographicCoordinates> <!-- lat e long si mettono nel contenuto del campo? -->
 					<geographicCoordinates coordinateSystem="WGS84">long: 7.36667</geographicCoordinates>
 					<address localType="noteIndirizzo"></address>  <!-- .. contenuto .. -->
+					<dateSet localType="giorniDiApertura">
+						<dateRange localType="lunedì">
+							<fromDate localType="orarioInizio">8:30</fromDate>
+							<toDate localType="orarioFine">18:30</toDate>
+						</dateRange>
+						<dateRange localType="martedì">
+							<fromDate localType="orarioInizio">8:30</fromDate>
+							<toDate localType="orarioFine">18:30</toDate>
+						</dateRange>
+						<dateRange localType="mercoledì">
+							<fromDate localType="orarioInizio">8:30</fromDate>
+							<toDate localType="orarioFine">18:30</toDate>
+						</dateRange>
+						<dateRange localType="giovedì">
+							<fromDate localType="orarioInizio">8:30</fromDate>
+							<toDate localType="orarioFine">18:30</toDate>
+						</dateRange>
+						<dateRange localType="venerdì">
+							<fromDate localType="orarioInizio">8:30</fromDate>
+							<toDate localType="orarioFine">18:30</toDate>
+						</dateRange>
+						<dateRange localType="sabato">
+							<fromDate localType="orarioInizio">8:30</fromDate>
+							<toDate localType="orarioFine">13:30</toDate>
+						</dateRange>
+					</dateSet>
 				</place>
 				<place>
 					<placeName>Sezioni Riunite: Ex Ospedale San Luigi</placeName>
@@ -96,6 +131,28 @@
 					<geographicCoordinates coordinateSystem="WGS84">lat: 45.13333</geographicCoordinates> <!-- lat e long si mettono nel contenuto del campo? -->
 					<geographicCoordinates coordinateSystem="WGS84">long: 7.36667</geographicCoordinates>
 					<address localType="noteIndirizzo"></address>  <!-- .. contenuto .. -->
+					<dateSet localType="giorniDiApertura">
+						<dateRange localType="lunedì">
+							<fromDate localType="orarioInizio">8:30</fromDate>
+							<toDate localType="orarioFine">18:30</toDate>
+						</dateRange>
+						<dateRange localType="martedì">
+							<fromDate localType="orarioInizio">8:30</fromDate>
+							<toDate localType="orarioFine">18:30</toDate>
+						</dateRange>
+						<dateRange localType="mercoledì">
+							<fromDate localType="orarioInizio">8:30</fromDate>
+							<toDate localType="orarioFine">18:30</toDate>
+						</dateRange>
+						<dateRange localType="giovedì">
+							<fromDate localType="orarioInizio">8:30</fromDate>
+							<toDate localType="orarioFine">18:30</toDate>
+						</dateRange>
+						<dateRange localType="venerdì">
+							<fromDate localType="orarioInizio">8:30</fromDate>
+							<toDate localType="orarioFine">18:30</toDate>
+						</dateRange>
+					</dateSet>
 				</place>
 			</places>
 			<biogHist>
@@ -113,36 +170,6 @@
 				</function>
 				<function>
 					<term>Accesso disabili</term> <!-- questo valore potrebbe essere diverso per ogni sede. Come si gestisce la relazione? -->
-				</function>
-				<function localType="giornoDiApertura"> <!-- come si può ripetere il blocco dei giorni di apertura per le diverse sedi? -->
-					<term>lunedí</term>
-					<date localType="orarioInizio">8:30</date>
-					<date localType="orarioFine">18:30</date>
-				</function>
-				<function localType="giornoDiApertura">
-					<term>martedí</term>
-					<date localType="orarioInizio">8:30</date>
-					<date localType="orarioFine">18:30</date>
-				</function>
-				<function localType="giornoDiApertura">
-					<term>mercoledí</term>
-					<date localType="orarioInizio">8:30</date>
-					<date localType="orarioFine">18:30</date>
-				</function>
-				<function localType="giornoDiApertura">
-					<term>giovedí</term>
-					<date localType="orarioInizio">8:30</date>
-					<date localType="orarioFine">18:30</date>
-				</function>
-				<function localType="giornoDiApertura">
-					<term>venerdí</term>
-					<date localType="orarioInizio">8:30</date>
-					<date localType="orarioFine">18:30</date>
-				</function>
-				<function localType="giornoDiApertura">
-					<term>sabato</term>
-					<date localType="orarioInizio">8:30</date>
-					<date localType="orarioFine">14:00</date>
 				</function>
 				<function>
 					<descriptiveNote><p></p></descriptiveNote> <!-- .. contenuto .. Note a orario di apertura -->
@@ -174,22 +201,22 @@
 		<relations>
 			<relation>
 				<targetRole>complessoArchivistico</targetRole>
-				<targetEntity targetType="resource" id="SIA CA 2013163"/>
+				<targetEntity targetType="resource" id="SIA-CA-2013163"/>
 				<relationType>Soggetto conservatore</relationType> <!-- va bene? In altre relazioni si usa @localType -->
 			</relation>
 			<relation>
 				<targetRole>complessoArchivistico</targetRole>
-				<targetEntity targetType="resource" id="SIA CA 2014263"/>
+				<targetEntity targetType="resource" id="SIA-CA-2014263"/>
 				<relationType>Soggetto conservatore</relationType> <!-- va bene? In altre relazioni si usa @localType -->
 			</relation>
 			<relation>
 				<targetRole>complessoArchivistico</targetRole>
-				<targetEntity targetType="resource" id="SIA CA 2014239"/>
+				<targetEntity targetType="resource" id="SIA-CA-2014239"/>
 				<relationType>Soggetto conservatore</relationType> <!-- va bene? In altre relazioni si usa @localType -->
 			</relation>
 			<relation>
 				<targetRole>Soggetto conservatore collegato</targetRole>
-				<targetEntity targetType="corporateBody" id="SIA CA 2014209"/>
+				<targetEntity targetType="corporateBody" id="SIA-CA-2014209"/>
 				<part>Archivio Centrale dello Stato</part>
 				<relationType localType="Associativa"/>
 				<date localType="estremoCronologicoTestuale" standardDate="1953" localType="data aperta">1953 - </date>
