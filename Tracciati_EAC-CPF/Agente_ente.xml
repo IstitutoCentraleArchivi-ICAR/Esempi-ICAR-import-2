@@ -223,7 +223,12 @@
     <targetEntity targetType="corporateBody" id="SIA-AG-1021246">
      <part>Direzione provinciale di Bolzano del Ministero delle finanze</part>
     </targetEntity>
-    <date localType="estremoCronologicoTestuale" standardDate="1994" eac-sia:tipologiaData="data singola">1994</date> <!-- si codifica cosí una data singola? -->
+	<dateSet>
+     <date localType="estremoCronologicoTestuale" standardDate="1994" eac-sia:tipologiaData="data singola">1994</date>
+     <dateRange>
+      <fromDate standardDate="1994">1994</fromDate>
+     </dateRange>
+    </dateSet>
     <targetRole>Soggetto produttore collegato</targetRole>
     <relationType>TemporaleSuccessiva</relationType>
    </relation> 

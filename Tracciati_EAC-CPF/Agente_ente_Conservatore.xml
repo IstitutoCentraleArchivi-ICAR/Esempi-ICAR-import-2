@@ -30,61 +30,94 @@
 	</control>
 	<cpfDescription>
 		<identity>
-			<identityId>SIA-AG-1021259</identityId>
 			<entityType value="corporateBody"/>
-			<otherEntityTypes>
-				<otherEntityType localType="ente"><term> .. ufficio periferico postunitario .. </term></otherEntityType> <!-- in mapping mancano valori del vocabilario controllato -->
-			</otherEntityTypes> 
-			<otherEntityTypes>
-				<otherEntityType localType="qualifica"><term>Archivio</term></otherEntityType>
-			</otherEntityTypes> 
 			<nameEntry localType="denominazioneEnte" languageOfElement="ita">
 				<part localType="intestazionePrincipaleEnte">Archivio di Stato di Torino, Torino (1870 - )</part>
 				<part localType="denominazionePrincipaleEnte">Archivio di Stato di Torino</part>
 				<part localType="acronimoEnte">ASTO</part>
-			</nameEntry>
+			</nameEntry><!--
+			<otherEntityTypes>
+				<otherEntityType localType="ente"><term>organo e ufficio statale periferico di periodo postunitario</term></otherEntityType>
+			</otherEntityTypes> 
+			<otherEntityTypes>
+				<otherEntityType localType="qualifica"><term>Archivio</term></otherEntityType>
+			</otherEntityTypes> -->
+			<identityId>SIA-AG-1021259</identityId>
 		</identity>
 		<description>
-			<existDates localType="dateEsistenzaEnte">
-				<dateSet>
-					<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="18700101-99999999">1870 - </date>
-					<dateRange>
-						<fromDate standardDate="1870">1870</fromDate>
-						<toDate standardDate="99999999"/>
-					</dateRange>
-				</dateSet>
-			</existDates>
+			<functions>
+				<function>
+					<term>Patrimonio</term>
+					<descriptiveNote><p>L'AS Torino conserva gli atti degli organi centrali e periferici dello Stato sabaudo fino all'unificazione del regno d'Italia, nonché gli atti degli uffici statali con sede nell'attuale provincia di Torino, sia per il periodo anteriore che posteriore all'unità. I fondi denominati Archivio di corte e Archivio camerale rappresentano i nuclei documentari più antichi, risalenti al sec. XII. Furono costituiti per rispondere all'esigenza della conservazione dei "titoli" e dei "conti". Gli altri archivi cominciarono a delinearsi con autonomia soltanto alla fine del sec. XVI, all'epoca del duca Emanuele Filiberto...</p></descriptiveNote>
+				</function>
+				<function>
+					<term>Accesso disabili</term> <!-- questo valore potrebbe essere diverso per ogni sede. Come si gestisce la relazione? -->
+				</function>
+				<function>
+					<descriptiveNote><p>...</p></descriptiveNote> <!-- .. contenuto .. Note a orario di apertura -->
+				</function>
+				<function>
+					<date localType="periodoDiChiusura">24 giugno. Dal 24 al 31 di dicembre.</date>
+				</function>
+				<function localType="servizi"> <!-- nel mapping ci sono due valori diversi per localType -->
+					<term>Sala Mappe</term>
+					<descriptiveNote><p>Lunedì-Venerdi 8,30-13,00; Sabato 10,00-12,00</p></descriptiveNote>
+				</function>
+				<function localType="servizi"> <!-- nel mapping ci sono due valori diversi per localType -->
+					<term>Fotocopie</term>
+				</function>
+				<function>
+					<term>Condizioni di accesso</term>
+					<descriptiveNote><p>L'accesso ai documenti è libero. Per l'accesso a le serie che contengono documenti con dati sensibili è richiesta la firma di una dichiarazione da parte degli utenti.</p></descriptiveNote>
+				</function>
+			</functions>
+			<legalStatuses>
+				<legalStatus>
+					<term>Ente pubblico</term>
+				</legalStatus>
+			</legalStatuses>
+			<localDescriptions>
+				<localDescription>
+					<descriptiveNote><p>...</p></descriptiveNote>  <!-- .. contenuto .. -->
+				</localDescription> 
+			</localDescriptions>
 			<places>
 				<place localType="luogoEnte">
 					<placeName target="ICAR-TOP-2019232" localType="Sede"/> <!-- in mapping non spiega differenza tra localType e placeRole-->
 					<placeRole>Sede</placeRole>
 				</place>
 				<place>
-					<contact contactLineType="email">as-to@beniculturali.it</contact>
-					<contact contactLineType="PEC">mbac-as-to@mailcert.beniculturali.it</contact>
-					<contact contactLineType="homepage">http://archiviodistatotorino.beniculturali.it/</contact>
-					<contact contactLineType="phoneNumber">011540382</contact>
-					<contact contactLineType="fax">011546176</contact>
+					<contact>
+						<contactLine contactLineType="email">as-to@beniculturali.it</contactLine>
+						<contactLine contactLineType="email" localType="PEC">mbac-as-to@mailcert.beniculturali.it</contactLine>
+						<contactLine contactLineType="homepage">http://archiviodistatotorino.beniculturali.it/</contactLine>
+						<contactLine contactLineType="phoneNumber">011540382</contactLine>
+						<contactLine contactLineType="fax">011546176</contactLine>
+					</contact>
 				</place>
 				<place>
 					<placeName>Sezione Corte</placeName>
 					<placeRole>Principale</placeRole>
-					<contact localType="altraSede" contactLineType="email">as-to@beniculturali.it</contact> <!-- localType=altraSede? -->
-					<contact localType="altraSede"contactLineType="phoneNumber">011540382</contact>
-					<contact localType="altraSede"contactLineType="fax">011546176</contact>
-					<address addressLineType="country">Italia</address>
-					<address addressLineType="region">Piemonte</address>
-					<address addressLineType="district">Torino</address>
-					<address addressLineType="municipality">Torino</address>
-					<!-- <address localType="localita"></address> 
-					<address localType="frazione"></address> --> <!-- In SIA è un solo campo "localita/frazione -->
-					<address addressLineType="street">piazza Castello</address>
-					<address addressLineType="postBox">209</address>
-					<address addressLineType="postalCode">10124</address>
-					<address localType="indirizzoTestuale">piazza Castello, 209, 10124, Torino (TO)</address>
+					<contact localType="altraSede">
+						<contactLine contactLineType="email">as-to@beniculturali.it</contactLine>
+						<contactLine contactLineType="phoneNumber">011540382</contactLine>
+						<contactLine contactLineType="fax">011546176</contactLine>
+					</contact>
+					<address>
+						<addressLine addressLineType="country">Italia</addressLine>
+						<addressLine addressLineType="region">Piemonte</addressLine>
+						<addressLine addressLineType="district">Torino</addressLine>
+						<addressLine addressLineType="municipality">Torino</addressLine>
+						<!-- <addressLine localType="localita"></addressLine> 
+						<addressLine localType="frazione"></addressLine> --> <!-- In SIA è un solo campo "localita/frazione -->
+						<addressLine addressLineType="street">piazza Castello</addressLine>
+						<addressLine addressLineType="postBox">209</addressLine>
+						<addressLine addressLineType="postalCode">10124</addressLine>
+						<addressLine localType="indirizzoTestuale">piazza Castello, 209, 10124, Torino (TO)</addressLine>
+						<addressLine localType="noteIndirizzo"></addressLine>  <!-- .. contenuto .. -->
+					</address>
 					<geographicCoordinates coordinateSystem="WGS84">lat: 45.13333</geographicCoordinates> <!-- lat e long si mettono nel contenuto del campo? -->
 					<geographicCoordinates coordinateSystem="WGS84">long: 7.36667</geographicCoordinates>
-					<address localType="noteIndirizzo"></address>  <!-- .. contenuto .. -->
 					<dateSet localType="giorniDiApertura">
 						<dateRange localType="lunedì">
 							<fromDate localType="orarioInizio">8:30</fromDate>
@@ -115,22 +148,27 @@
 				<place>
 					<placeName>Sezioni Riunite: Ex Ospedale San Luigi</placeName>
 					<placeRole>Consultazione</placeRole>
-					<contact localType="altraSede" contactLineType="email">as-to@beniculturali.it</contact> <!-- localType=altraSede? -->
-					<contact localType="altraSede"contactLineType="phoneNumber">0114604111</contact>
-					<contact localType="altraSede"contactLineType="fax">0114604109</contact>
-					<address addressLineType="country">Italia</address>
-					<address addressLineType="region">Piemonte</address>
-					<address addressLineType="district">Torino</address>
-					<address addressLineType="municipality">Torino</address>
-					<!-- <address localType="localita"></address> 
-					<address localType="frazione"></address> --> <!-- In SIA è un solo campo "localita/frazione -->
-					<address addressLineType="street">via Piave</address>
-					<address addressLineType="postBox">21</address>
-					<address addressLineType="postalCode">10122</address>
-					<address localType="indirizzoTestuale">via Piave, 21, 10122, Torino (TO)</address>
+					<contact localType="altraSede">
+						<contactLine contactLineType="email">as-to@beniculturali.it</contactLine> <!-- localType=altraSede? -->
+						<contactLine contactLineType="phoneNumber">0114604111</contactLine>
+						<contactLine contactLineType="fax">0114604109</contactLine>
+					</contact>
+					<address>
+						<addressLine addressLineType="country">Italia</addressLine>
+						<addressLine addressLineType="region">Piemonte</addressLine>
+						<addressLine addressLineType="district">Torino</addressLine>
+						<addressLine addressLineType="municipality">Torino</addressLine>
+						<!-- <addressLine localType="localita"></addressLine> 
+						<addressLine localType="frazione"></addressLine> --> <!-- In SIA è un solo campo "localita/frazione -->
+						<addressLine addressLineType="street">via Piave</addressLine>
+						<addressLine addressLineType="postBox">21</addressLine>
+						<addressLine addressLineType="postalCode">10122</addressLine>
+						<addressLine localType="indirizzoTestuale">via Piave, 21, 10122, Torino (TO)</addressLine>
+						<addressLine localType="noteIndirizzo"></addressLine>  <!-- .. contenuto .. -->
+					</address>
 					<geographicCoordinates coordinateSystem="WGS84">lat: 45.13333</geographicCoordinates> <!-- lat e long si mettono nel contenuto del campo? -->
 					<geographicCoordinates coordinateSystem="WGS84">long: 7.36667</geographicCoordinates>
-					<address localType="noteIndirizzo"></address>  <!-- .. contenuto .. -->
+					
 					<dateSet localType="giorniDiApertura">
 						<dateRange localType="lunedì">
 							<fromDate localType="orarioInizio">8:30</fromDate>
@@ -155,76 +193,52 @@
 					</dateSet>
 				</place>
 			</places>
+			<existDates localType="dateEsistenzaEnte">
+				<dateSet>
+					<date eac-sia:qualificaData="data di istituzione/costituzione" localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="18700101-99999999">1870 - </date>
+					<dateRange>
+						<fromDate eac-sia:qualificaData="data di istituzione/costituzione" standardDate="18700101">1870</fromDate>
+						<toDate eac-sia:qualificaData="data di istituzione/costituzione" standardDate="99999999"/>
+					</dateRange>
+				</dateSet>
+			</existDates>
 			<biogHist>
 				<p>L'emanazione dello Statuto Albertino (4 marzo 1848) comportò il cambiamento di denominazione dei Regi Archivi di Corte, divenuti Archivi Generali del Regno con il compito di coordinare le attività di tutti gli archivi provinciali dello Stato. Con la nascita dello Stato italiano unitario, l'Archivio torinese divenne nel 1862 Direzione generale e Archivio centrale, mantenendo funzioni di coordinamento dell'intera amministrazione archivistica nazionale. Il trasferimento della capitale a Firenze e Roma significò per Torino la perdita progressiva di tali funzioni e l'assunzione di competenze prima regionali, poi provinciali: tappe di tale processo sono la soppressione della Direzione Generale degli Archivi del Regno nel 1870, la nuova denominazione data all'Archivio, posto alle dipendenze del Ministero degli Interni come tutta l'amministrazione archivistica, di Sovrintendenza degli archivi piemontesi nel 1874, e la soppressione delle Soprintendenze regionali del 1891, con l'attribuzione di tutte le competenze provinciali alle Direzioni di ciascun Archivio di Stato.</p>
 			</biogHist>
-			<legalStatuses>
-				<legalStatus>
-					<term>Ente pubblico</term>
-				</legalStatus>
-			</legalStatuses>
-			<functions>
-				<function>
-					<term>Patrimonio</term>
-					<descriptiveNote><p>L'AS Torino conserva gli atti degli organi centrali e periferici dello Stato sabaudo fino all'unificazione del regno d'Italia, nonché gli atti degli uffici statali con sede nell'attuale provincia di Torino, sia per il periodo anteriore che posteriore all'unità. I fondi denominati Archivio di corte e Archivio camerale rappresentano i nuclei documentari più antichi, risalenti al sec. XII. Furono costituiti per rispondere all'esigenza della conservazione dei "titoli" e dei "conti". Gli altri archivi cominciarono a delinearsi con autonomia soltanto alla fine del sec. XVI, all'epoca del duca Emanuele Filiberto...</p></descriptiveNote>
-				</function>
-				<function>
-					<term>Accesso disabili</term> <!-- questo valore potrebbe essere diverso per ogni sede. Come si gestisce la relazione? -->
-				</function>
-				<function>
-					<descriptiveNote><p></p></descriptiveNote> <!-- .. contenuto .. Note a orario di apertura -->
-				</function>
-				<function>
-					<date localType="periodoDiChiusura">24 giugno. Dal 24 al 31 di dicembre.</date>
-				</function>
-				<function localType="servizi"> <!-- nel mapping ci sono due valori diversi per localType -->
-					<term>Sala Mappe</term>
-					<descriptiveNote><p>Lunedì-Venerdi 8,30-13,00; Sabato 10,00-12,00</p></descriptiveNote>
-				</function>
-				<function localType="servizi"> <!-- nel mapping ci sono due valori diversi per localType -->
-					<term>Fotocopie</term>
-				</function>
-				<function>
-					<term>Condizioni di accesso</term>
-					<descriptiveNote><p>L'accesso ai documenti è libero. Per l'accesso a le serie che contengono documenti con dati sensibili è richiesta la firma di una dichiarazione da parte degli utenti.</p></descriptiveNote>
-				</function>
-			</functions>
-			<localDescriptions>
-				<localDescription>
-					<descriptiveNote><p></p></descriptiveNote>  <!-- .. contenuto .. -->
-				</localDescription> 
-			</localDescriptions>
+			<generalContext localType="politicheGestioneAcquisizione">
+				<p>L'archivio riceve annualmente i versamenti dai soggetti produttori.</p>
+			</generalContext>
 		</description>
-		<generalContext localType="politicheGestioneAcquisizione">
-			<p>L'archivio riceve annualmente i versamenti dai soggetti produttori.</p>
-		</generalContext>
 		<relations>
 			<relation>
 				<targetRole>complessoArchivistico</targetRole>
 				<targetEntity targetType="resource" id="SIA-CA-2013163"/>
-				<relationType>Soggetto conservatore</relationType> <!-- va bene? In altre relazioni si usa @localType -->
+				<relationType>Soggetto conservatore</relationType>
 			</relation>
 			<relation>
 				<targetRole>complessoArchivistico</targetRole>
 				<targetEntity targetType="resource" id="SIA-CA-2014263"/>
-				<relationType>Soggetto conservatore</relationType> <!-- va bene? In altre relazioni si usa @localType -->
+				<relationType>Soggetto conservatore</relationType>
 			</relation>
 			<relation>
 				<targetRole>complessoArchivistico</targetRole>
 				<targetEntity targetType="resource" id="SIA-CA-2014239"/>
-				<relationType>Soggetto conservatore</relationType> <!-- va bene? In altre relazioni si usa @localType -->
+				<relationType>Soggetto conservatore</relationType>
 			</relation>
 			<relation>
 				<targetRole>Soggetto conservatore collegato</targetRole>
 				<targetEntity targetType="corporateBody" id="SIA-CA-2014209"/>
 				<part>Archivio Centrale dello Stato</part>
 				<relationType localType="Associativa"/>
-				<date localType="estremoCronologicoTestuale" standardDate="1953" localType="data aperta">1953 - </date>
-				<dateRange>
-					<fromDate standardDate="1953">1953</fromDate>
-				</dateRange>
+				<dateSet>
+					<date localType="estremoCronologicoTestuale" standardDate="19530101-99999999" eac-sia:tipologiaData="data aperta">1953 - </date>
+					<dateRange>
+						<fromDate standardDate="19530101">1953</fromDate>
+						<toDate standardDate="99999999"/>
+					</dateRange>
+				</dateSet>
 			</relation>
 			<!-- ? SOGGETTI CONSERVATORI A CUI E' COLLEGATO ? -->
 		</relations>
 	</cpfDescription>
-</eac-cpf>
+</eac>
