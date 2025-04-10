@@ -75,7 +75,7 @@
    </nameEntry>
    <otherEntityTypes>
     <otherEntityType localType="ente">
-     <term>organo e ufficio statale periferico di periodo postunitario</term> <!-- in mapping mancano valori del vocabilario controllato -->
+     <term>organo e ufficio statale periferico di periodo postunitario</term>
      <dateSet>
       <date localType="estremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="intervallo di date">1927-1991</date>
       <dateRange>
@@ -109,10 +109,7 @@
    <places>
    
     <place localType="luogoEnte">
-	<!-- in presenza di @target la validazione genera il messaggio "There is no ID/IDREF binding for IDREF 'ICAR-TOP-2019011'"
-     <placeName target="ICAR-TOP-2019011" localType="Sede"/> -->
-	 
-     <placeName localType="Sede"/> <!-- in mapping non spiega differenza tra localType e placeRole-->
+     <placeName id="ICAR-TOP-2019011" localType="Sede"/> <!-- in mapping non spiega differenza tra localType e placeRole-->
      <placeRole>Sede</placeRole>
      <dateSet>
       <date localType="estremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="intervallo di date">1927-1991</date>
@@ -202,7 +199,6 @@
     <targetEntity targetType="resource" id="SIA-EV-7719132"><part>...</part></targetEntity>
     <relationType>Finanziatore</relationType>
 	<targetRole>evento</targetRole>
-    <relationType localType="Finanziatore"/> <!-- nel mapping non c'è lista chiusa di valori -->
    </relation> 
    <relation>
     <targetEntity targetType="agent" id="SIA-CS-1922132"><part>...</part></targetEntity>

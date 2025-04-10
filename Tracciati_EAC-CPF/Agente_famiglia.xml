@@ -43,7 +43,6 @@
 	<cpfDescription>
 		<identity>
 			<entityType value="family"/>
-			<identityId>ASI AG 1021256</identityId>
 			<nameEntry localType="denominazioneFamiglia" languageOfElement="ita">
 				<part localType="intestazionePrincipaleFamiglia">Cruciani Fabozzi, Amandola (Fermo), sec. XVIII fine - </part>
 				<part localType="denominazionePrincipaleFamiglia">Cruciani Fabozzi</part>
@@ -51,7 +50,7 @@
 					<dateSet>
 						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="17910101-99999999">sec. XVIII fine - </date> 
 						<dateRange>
-							<fromDate certainty="data approssimativa" localType="secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
+							<fromDate certainty="dataApprossimativa" localType="secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
 							<toDate standardDate="99999999"/>
 						</dateRange>
 						<date localType="notaAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
@@ -66,42 +65,19 @@
 					<dateSet> 
 						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="17910101-99999999">sec. XVIII fine - </date> 
 						<dateRange>
-							<fromDate certainty="data approssimativa" localType="secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
+							<fromDate certainty="dataApprossimativa" localType="secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
 							<toDate standardDate="99999999"/>
 						</dateRange>
 						<date localType="notaAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
 					</dateSet> 
 				</useDates>
 			</nameEntry>
+			<identityId>ASI AG 1021256</identityId>
 		</identity>
 		<description>
-			<existDates localType="dateEsistenzaFamiglia">
-				<dateSet> <!--  come si codifica "Qualifica della data"? Comunque mi sembra che c'è un problema con i valori del campo in SIA -->
-					<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="17910101-99999999">sec. XVIII fine - </date> 
-					<dateRange>
-						<fromDate certainty="data approssimativa" localType="secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
-						<toDate standardDate="99999999"/>
-					</dateRange>
-					<date localType="notaAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
-				</dateSet>
-			</existDates>
-			<places>
-				<place localType="luogoFamiglia">
-					<placeName target="ICAR-TOP-2019314" localType="Residenza"/> <!-- in mapping non spiega differenza tra localType e placeRole-->
-					<placeRole>Residenza</placeRole>
-					<dateSet>
-						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="17910101-99999999">sec. XVIII fine - </date> 
-						<dateRange>
-							<fromDate certainty="data approssimativa" localType="secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
-							<toDate standardDate="99999999"/>
-						</dateRange>
-						<date localType="notaAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
-					</dateSet>
-				</place>
-			</places>
 			<localDescriptions>
 				<localDescription localType="titoloFamiglia">
-					<localDescription localType="Nobile"/>
+					<term>Nobile</term> <!-- term è obbligatorio. Correggere mapping -->
 					<dateSet>
 						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="18250101-99999999">1825 - </date>
 						<dateRange>
@@ -111,35 +87,59 @@
 					</dateSet>
 				</localDescription>
 			</localDescriptions>
+			<places>
+				<place localType="luogoFamiglia">
+					<placeName id="ICAR-TOP-2019314" localType="Residenza"/> <!-- in mapping non spiega differenza tra localType e placeRole-->
+					<placeRole>Residenza</placeRole>
+					<dateSet>
+						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="17910101-99999999">sec. XVIII fine - </date> 
+						<dateRange>
+							<fromDate certainty="dataApprossimativa" localType="secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
+							<toDate standardDate="99999999"/>
+						</dateRange>
+						<date localType="notaAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
+					</dateSet>
+				</place>
+			</places>
+			<existDates localType="dateEsistenzaFamiglia">
+				<dateSet>
+					<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="17910101-99999999" eac-sia:qualificaData="data di estinzione">sec. XVIII fine - </date> 
+					<dateRange>
+						<fromDate certainty="dataApprossimativa" localType="secolo" notBefore="17910101" notAfter="18001231" eac-sia:qualificaData="data di estinzione">sec. XVIII fine</fromDate>
+						<toDate standardDate="99999999" eac-sia:qualificaData="data di estinzione"/>
+					</dateRange>
+					<date localType="notaAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
+				</dateSet>
+			</existDates>
 			<biogHist> 
 				<p>Dalla documentazione conservata in archivio, sappiamo che la famiglia era sicuramente esistente alla fine del sec. XVIII. Tra i suoi membri si segnalano Giuseppe Fabozzi (1799-1860), dal 1834 medico primario di Amandola ed in seguito gonfaloniere della città; l'avvocato Fernando Cruciani (1836-1898), giudice mandamentale a Cascia e dal 1862 pretore ad Amandola e Sarnano; Luigia Fabozzi (1839-1911).</p>
 				<p>Di particolare rilievo è Giuseppe Cruciani Fabozzi, figlio di Fernando Cruciani, nato ad Amandola nel 1865 e morto a Firenze nel 1952. Ingegnere, fu attivo professionalmente in Italia, Portogallo, Germania, Bulgaria, Paesi Bassi. Egli compì i primi studi a Spello (Perugia) presso i Padri Somaschi; conseguì la laurea in Ingegneria industriale a Milano nel 1888 e l'anno seguente in Ingegneria elettrotecnica a Liegi. Si spostò, poi, in vari paesi europei per progettare ed eseguire impianti industriali. Direttore dei lavori della prima centrale elettrica di Bruxelles, realizzò tra il 1894 ed il 1903, i sistemi di alimentazione e di distribuzione di energia per le esposizioni di Anversa e di Amsterdam e, nel 1898, il primo tronco tramviario a trazione elettrica in Napoli. Per la costruzione e la messa in esercizio degli impianti della rete tramviaria di Sofia ricevette nel 1903 un'onorificenza cavalleresca dal principe di Bulgaria Ferdinando di Coburgo-Gotha. Rientrato definitivamente in Italia, partecipò agli studi per lo sviluppo delle linee ferroviarie adriatiche e, nel 1908, venne chiamato a dirigere i servizi tecnici della Società belga "Les tramways florentins".</p>
 			</biogHist>
 		</description>
 		<relations>
-			<relation><targetEntity targetType="corporateBody" valueURI="" vocabularySource="" vocabularySourceURI=""/></relation> <!-- IDENTIFICATIVI MULTIPLI ENTITÀ. non ho trovato esempi in SIA. Non capisco come funziona + Valore targetType dovrebbe essere "family"? -->
 			<relation>
-				<targetRole>complessoArchivistico</targetRole>
-				<targetEntity targetType="resource" id="SIA-CA-2013493"/>
-				<relationType>Soggetto produttore</relationType> <!-- va bene? In altre relazioni si usa @localType -->
+				<targetEntity targetType="corporateBody" valueURI="" vocabularySource="" vocabularySourceURI=""><part>...</part></targetEntity>
+			</relation> <!-- IDENTIFICATIVI MULTIPLI ENTITÀ. non ho trovato esempi in SIA. Non capisco come funziona + Valore targetType dovrebbe essere "family"? -->
+			<relation>
+				<targetEntity targetType="resource" id="SIA-CA-2013493"><part>...</part></targetEntity>
 				<dateSet>
 					<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="17910101-99999999">sec. XVIII fine - </date> 
 					<dateRange>
-						<fromDate certainty="data approssimativa" localType="secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
+						<fromDate certainty="dataApprossimativa" localType="secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
 						<toDate standardDate="99999999"/>
 					</dateRange>
 				</dateSet>
+				<targetRole>complessoArchivistico</targetRole>
+				<relationType>Soggetto produttore</relationType> <!-- va bene? In altre relazioni si usa @localType -->
 			</relation>
-			<relation valueURI="SIA TE 2412156"> <!-- nel mapping non si spiega a cosa serve valueURI -->
-				<targetEntity targetType="resource" id="SIA-TE-2412156"/>
+			<relation> <!-- nel mapping dice di usare @valueURI, però l'attributo non è previsto in relation e non è uniforme con tutte le altre relazioni: basta usare @id in targetEntity -->
+				<targetEntity targetType="resource" id="SIA-TE-2412156"><part>...</part></targetEntity>
 				<relationType>tematismo</relationType> <!-- va bene? In altre relazioni si usa @localType -->
 			</relation>
 			<relation>
 				<targetEntity targetType="person" id="SIA-AG-1021445">
 					<part>Giuseppe Cruciani Fabozzi</part>
 				</targetEntity>
-				<targetRole>Soggetto produttore collegato</targetRole>
-				<relationType>Associativa</relationType>
 				<dateSet>	
 					<date localType="estremoCronologicoTestuale" standardDate="19450101-20231231" eac-sia:tipologiaData="intervallo di date">1945-2023</date>
 					<dateRange>
@@ -147,9 +147,11 @@
 						<toDate standardDate="20231231">2023</toDate>
 					</dateRange>
 				</dateSet>
+				<targetRole>Soggetto produttore collegato</targetRole>
+				<relationType>Associativa</relationType>
 			</relation>
 			
 			<!-- Mancano alcune relazioni. È necessario crearle tutte, o basta con quelle che sono presenti nella scheda dell'agente ente? -->
-		<relations>
+		</relations>
 	</cpfDescription>
 </eac>

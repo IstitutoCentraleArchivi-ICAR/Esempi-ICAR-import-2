@@ -4,7 +4,7 @@
  xmlns:eac-sia="http://www.san.beniculturali.it/eac-sia"
  audience="external">
  
-	<control maintenanceStatus="new" publicationStatus="published">
+	<control maintenanceStatus="derived" publicationStatus="inProcess" eac-sia:status="bozza"> <!-- eac-sia:status sostituisce publicationStatus? -->
 		<recordId>1021187</recordId>
 		<maintenanceAgency>
 			<agencyCode>IT-ICAR</agencyCode>
@@ -42,10 +42,6 @@
 	<cpfDescription>
 		<identity>
 			<entityType value="person"/>
-			<otherEntityTypes>
-				<otherEntityType><term>maschile</term></otherEntityType>
-			</otherEntityTypes> 
-			<identityId>SIA AG 1021187</identityId>
 			<nameEntry languageOfElement="ita">
 				<part localType="intestazionePersona">Antonioli, Francesco Maria, militante anarchico (sec. XX inizio - 1981 apr. 1)</part>
 				<part localType="nomePersona">Francesco Maria</part>
@@ -54,63 +50,39 @@
 				<dateSet>
 					<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="intervallo di date" standardDate="19010101-19810401">sec. XX inizio - 1981 apr. 1</date>
 					<dateRange>
-						<fromDate certainty="data approssimativa" localType="secolo" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate> 
+						<fromDate certainty="dataApprossimativa" localType="secolo" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate> 
 						<toDate standardDate="19810401">1981 apr. 1</toDate>
 					</dateRange>
 				</dateSet>
 				</useDates>
 			</nameEntry>
-			<nameEntry localType="altraDenominazionePersona" languageOfElement="ita" status="alternativo" localType="Altra denominazione">
+			<nameEntry localType="altraDenominazionePersona" languageOfElement="ita" status="alternative"> <!-- non si può ripetere attributo (localType="Altra denominazione"). Rivedere istruzioni in mapping. in mapping dice status="alternativo" -->
 				<part localType="intestazione">Antonioli, Francesco, militante anarchico (sec. XX inizio - 1981 apr. 1)</part>
 				<part localType="denominazione">Francesco Antonioli</part>
 			</nameEntry>
 			<nameEntry>
-				<part localType="patronimico"></part> <!-- contenuto -->
-				<part localType="originePersona"></part> 
-				<part localType="provenienzaPersona"></part> <!-- significato? decidere in mapping se si usa origine o provenienza -->
+				<part localType="patronimico">...</part> <!-- contenuto -->
+				<part localType="originePersona">...</part> 
+				<part localType="provenienzaPersona">...</part> <!-- significato? decidere in mapping se si usa origine o provenienza -->
 				<part localType="pseudonimo">Furio Villani</part>
 				<part localType="soprannomePersona">Gagìn</part>
 			</nameEntry>
+			<otherEntityTypes>
+				<otherEntityType><term>maschile</term></otherEntityType>
+			</otherEntityTypes> 
+			<identityId>SIA AG 1021187</identityId>
 		</identity>
 		<description>
-			<existDates localType="dateEsistenzaPersona">
-			<dateSet>
-				<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="intervallo di date" standardDate="19010101-19810401">sec. XX inizio - 1981 apr. 1</date>
-				<dateRange>
-					<fromDate certainty="data approssimativa" localType="secolo" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate> 
-					<toDate standardDate="19810401">1981 apr. 1</toDate>
-				</dateRange>
-			</dateSet>
-			</existDates>
-			<places>
-				<place localType="luogoPersona"> <!-- in mapping @localType è indicato in placeName -->
-					<placeName target="ICAR-TOP-2019524" localType="nascita"/> <!-- in mapping non spiega differenza tra localType e placeRole-->
-					<placeRole>nascita</placeRole>
-					<dateSet> 	<!-- codifica data singola. va bene daterange? -->
-						<date localType="estremoCronologicoTestuale" standardDate="19010101-19101231" eac-sia:tipologiaData="data singola">sec. XX inizio</date>
-						<dateRange>
-							<fromDate certainty="data approssimativa" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate>
-						</dateRange>
-					</dateSet>
-				</place>
-				<place localType="luogoPersona"> <!-- in mapping @localType è indicato in placeName -->
-					<placeName target="ICAR-TOP-2019611" localType="morte"/> <!-- in mapping non spiega differenza tra localType e placeRole-->
-					<placeRole>morte</placeRole>
-					<dateSet> 	<!-- codifica data singola. va bene daterange? -->
-						<date localType="estremoCronologicoTestuale" standardDate="19810401" eac-sia:tipologiaData="data singola">1981 apr. 1</date>
-						<dateRange>
-							<fromDate standardDate="19810401">1981 apr. 1</fromDate>
-						</dateRange>
-					</dateSet>
-				</place>
-			</places>
+			<functions>
+				<function><term></term></function> <!-- contenuto. Campo "Qualifica" -->
+			</functions>
 			<localDescriptions>
 				<localDescription localType="titoloPersona">
-					<localDescription localType="Nobile"/>
+					<term>Nobile</term> <!-- term è obbligatorio. Correggere mapping -->
 					<dateSet>
 					<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="intervallo di date" standardDate="19010101-19810401">sec. XX inizio - 1981 apr. 1</date>
 					<dateRange>
-						<fromDate certainty="data approssimativa" localType="secolo" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate> 
+						<fromDate certainty="dataApprossimativa" localType="secolo" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate> 
 						<toDate standardDate="19810401">1981 apr. 1</toDate>
 					</dateRange>
 					</dateSet>
@@ -122,36 +94,65 @@
 					<dateSet>
 						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="intervallo di date" standardDate="19350101-19551231">1935 - 1955</date>
 						<dateRange>
-							<fromDate certainty="data approssimativa" standardDate="19350101">1935</fromDate>
+							<fromDate certainty="dataApprossimativa" standardDate="19350101">1935</fromDate>
 							<toDate standardDate="19551231">1955</toDate>
 						</dateRange>
 					</dateSet>
 				</occupation>
 			</occupations>
-			<functions>
-				<function><term></term></function> <!-- contenuto. Campo "Qualifica" -->
-			</functions>
+			<places> <!-- RIVEDERE CON STELLA comparando con maping -->
+				<place localType="luogoPersona"> <!-- in mapping @localType è indicato in placeName -->
+					<placeName id="ICAR-TOP-2019524" localType="nascita"/> <!-- non si può usare @target - in mapping non spiega differenza tra localType e placeRole-->
+					<placeRole>nascita</placeRole>
+					<dateSet> 	<!-- codifica data singola. va bene daterange? -->
+						<date localType="estremoCronologicoTestuale" standardDate="19010101-19101231" eac-sia:tipologiaData="data singola">sec. XX inizio</date>
+						<dateRange>
+							<fromDate certainty="dataApprossimativa" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate>
+						</dateRange>
+					</dateSet>
+				</place>
+				<place localType="luogoPersona"> <!-- in mapping @localType è indicato in placeName -->
+					<placeName id="ICAR-TOP-2019611" localType="morte"/> <!-- non si può usare @target -  in mapping non spiega differenza tra localType e placeRole-->
+					<placeRole>morte</placeRole>
+					<dateSet> 	<!-- codifica data singola. va bene daterange? -->
+						<date localType="estremoCronologicoTestuale" standardDate="19810401" eac-sia:tipologiaData="data singola">1981 apr. 1</date>
+						<dateRange>
+							<fromDate standardDate="19810401">1981 apr. 1</fromDate>
+						</dateRange>
+					</dateSet>
+				</place>
+			</places>
+			
+			<existDates localType="dateEsistenzaPersona">
+			<dateSet>
+				<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="intervallo di date" standardDate="19010101-19810401" eac-sia:qualificaData="data di esistenza">sec. XX inizio - 1981 apr. 1</date>
+				<dateRange>
+					<fromDate certainty="dataApprossimativa" localType="secolo" notBefore="19010101" notAfter="19101231" eac-sia:qualificaData="data di esistenza">sec. XX inizio</fromDate> 
+					<toDate standardDate="19810401" eac-sia:qualificaData="data di esistenza">1981 apr. 1</toDate>
+				</dateRange>
+			</dateSet>
+			</existDates>
 			<biogHist>
 				<p>Militante anarchico. Ha vissuto la maggior parte della sua vita in Emilia.</p>
 			</biogHist>
 		</description>
 		<relations>
-			<relation><targetEntity targetType="corporateBody" valueURI="" vocabularySource="" vocabularySourceURI=""/></relation> <!-- IDENTIFICATIVI MULTIPLI ENTITÀ. non ho trovato esempi in SIA. Non capisco come funziona + Valore targetType dovrebbe essere "family"? -->
 			<relation>
+				<targetEntity targetType="corporateBody" valueURI="" vocabularySource="" vocabularySourceURI=""><part>...</part></targetEntity>
+			</relation> <!-- IDENTIFICATIVI MULTIPLI ENTITÀ. non ho trovato esempi in SIA. Non capisco come funziona + Valore targetType dovrebbe essere "family"? -->
+			<relation>
+				<targetEntity targetType="resource" id="SIA-CA-2017123"><part>...</part></targetEntity>
 				<targetRole>complessoArchivistico</targetRole>
-				<targetEntity targetType="resource" id="SIA-CA-2017123"/>
-				<relationType>Soggetto produttore</relationType> <!-- va bene? In altre relazioni si usa @localType -->
+				<relationType>Soggetto produttore</relationType>
 			</relation>
-			<relation valueURI="SIA TE 2412146"> <!-- nel mapping non si spiega a cosa serve valueURI -->
-				<targetEntity targetType="resource" id="SIA-TE-2412146"/>
-				<relationType>tematismo</relationType> <!-- va bene? In altre relazioni si usa @localType -->
+			<relation> <!-- nel mapping dice di usare @valueURI, però l'attributo non è previsto in relation e non è uniforme con tutte le altre relazioni: basta usare @id in targetEntity -->
+				<targetEntity targetType="resource" id="SIA-TE-2412146"><part>...</part></targetEntity>
+				<relationType>tematismo</relationType>
 			</relation>
 			<relation>
 				<targetEntity targetType="person" id="SIA-AG-1021325">
 					<part>Giuseppe Malaguti</part>
 				</targetEntity>
-				<targetRole>Soggetto produttore collegato</targetRole>
-				<relationType>Associativa</relationType>
 				<dateSet>
 					<date localType="estremoCronologicoTestuale" standardDate="19450101-19711231" eac-sia:tipologiaData="intervallo di date">1945-1971</date>
 					<dateRange>
@@ -159,9 +160,11 @@
 						<toDate standardDate="19711231">1971</toDate>
 					</dateRange>
 				</dateSet>
+				<targetRole>Soggetto produttore collegato</targetRole>
+				<relationType>Associativa</relationType>
 			</relation>
 			
 			<!-- Mancano alcune relazioni. È necessario crearle tutte, o basta con quelle che sono presenti nella scheda dell'agente ente? -->
-		<relations>
+		</relations>
 	</cpfDescription>
 </eac>

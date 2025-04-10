@@ -35,13 +35,15 @@
 				<part localType="intestazionePrincipaleEnte">Archivio di Stato di Torino, Torino (1870 - )</part>
 				<part localType="denominazionePrincipaleEnte">Archivio di Stato di Torino</part>
 				<part localType="acronimoEnte">ASTO</part>
-			</nameEntry><!--
+			</nameEntry>
 			<otherEntityTypes>
-				<otherEntityType localType="ente"><term>organo e ufficio statale periferico di periodo postunitario</term></otherEntityType>
+				<otherEntityType localType="ente">
+					<term>organo e ufficio statale periferico di periodo postunitario</term>
+				</otherEntityType>
+				<otherEntityType localType="qualifica">
+					<term>Archivio</term>
+				</otherEntityType>
 			</otherEntityTypes> 
-			<otherEntityTypes>
-				<otherEntityType localType="qualifica"><term>Archivio</term></otherEntityType>
-			</otherEntityTypes> -->
 			<identityId>SIA-AG-1021259</identityId>
 		</identity>
 		<description>
@@ -54,9 +56,11 @@
 					<term>Accesso disabili</term> <!-- questo valore potrebbe essere diverso per ogni sede. Come si gestisce la relazione? -->
 				</function>
 				<function>
+					<term>...</term>
 					<descriptiveNote><p>...</p></descriptiveNote> <!-- .. contenuto .. Note a orario di apertura -->
 				</function>
 				<function>
+					<term>...</term>
 					<date localType="periodoDiChiusura">24 giugno. Dal 24 al 31 di dicembre.</date>
 				</function>
 				<function localType="servizi"> <!-- nel mapping ci sono due valori diversi per localType -->
@@ -78,12 +82,13 @@
 			</legalStatuses>
 			<localDescriptions>
 				<localDescription>
+					<term>...</term>
 					<descriptiveNote><p>...</p></descriptiveNote>  <!-- .. contenuto .. -->
 				</localDescription> 
 			</localDescriptions>
 			<places>
 				<place localType="luogoEnte">
-					<placeName target="ICAR-TOP-2019232" localType="Sede"/> <!-- in mapping non spiega differenza tra localType e placeRole-->
+					<placeName id="ICAR-TOP-2019232" localType="Sede"/> <!-- target="ICAR-TOP-2019232" non si può usare. in mapping non spiega differenza tra localType e placeRole-->
 					<placeRole>Sede</placeRole>
 				</place>
 				<place>
@@ -211,25 +216,22 @@
 		</description>
 		<relations>
 			<relation>
+				<targetEntity targetType="resource" id="SIA-CA-2013163"><part>...</part></targetEntity>
 				<targetRole>complessoArchivistico</targetRole>
-				<targetEntity targetType="resource" id="SIA-CA-2013163"/>
 				<relationType>Soggetto conservatore</relationType>
 			</relation>
 			<relation>
+				<targetEntity targetType="resource" id="SIA-CA-2014263"><part>...</part></targetEntity>
 				<targetRole>complessoArchivistico</targetRole>
-				<targetEntity targetType="resource" id="SIA-CA-2014263"/>
 				<relationType>Soggetto conservatore</relationType>
 			</relation>
 			<relation>
+				<targetEntity targetType="resource" id="SIA-CA-2014239"><part>...</part></targetEntity>
 				<targetRole>complessoArchivistico</targetRole>
-				<targetEntity targetType="resource" id="SIA-CA-2014239"/>
 				<relationType>Soggetto conservatore</relationType>
 			</relation>
 			<relation>
-				<targetRole>Soggetto conservatore collegato</targetRole>
-				<targetEntity targetType="corporateBody" id="SIA-CA-2014209"/>
-				<part>Archivio Centrale dello Stato</part>
-				<relationType localType="Associativa"/>
+				<targetEntity targetType="corporateBody" id="SIA-CA-2014209"><part>Archivio Centrale dello Stato</part></targetEntity>
 				<dateSet>
 					<date localType="estremoCronologicoTestuale" standardDate="19530101-99999999" eac-sia:tipologiaData="data aperta">1953 - </date>
 					<dateRange>
@@ -237,6 +239,8 @@
 						<toDate standardDate="99999999"/>
 					</dateRange>
 				</dateSet>
+				<targetRole>Soggetto conservatore collegato</targetRole>
+				<relationType>Associativa</relationType>
 			</relation>
 			<!-- ? SOGGETTI CONSERVATORI A CUI E' COLLEGATO ? -->
 		</relations>
