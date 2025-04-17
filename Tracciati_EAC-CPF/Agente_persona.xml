@@ -100,32 +100,28 @@
 					</dateSet>
 				</occupation>
 			</occupations>
-			<places> <!-- RIVEDERE CON STELLA comparando con maping -->
+			<places>
 				<place localType="luogoPersona"> <!-- in mapping @localType è indicato in placeName -->
-					<placeName id="ICAR-TOP-2019524" localType="nascita"/> <!-- non si può usare @target - in mapping non spiega differenza tra localType e placeRole-->
+					<placeName id="ICAR-TOP-2019524"/>
 					<placeRole>nascita</placeRole>
-					<dateSet> 	<!-- codifica data singola. va bene daterange? -->
+					<dateSet> 	
 						<date localType="estremoCronologicoTestuale" standardDate="19010101-19101231" eac-sia:tipologiaData="data singola">sec. XX inizio</date>
-						<dateRange>
-							<fromDate certainty="dataApprossimativa" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate>
-						</dateRange>
+						<date certainty="dataApprossimativa" localType="secolo" notBefore="19010101" notAfter="19101231">sec. XX inizio</date>
 					</dateSet>
 				</place>
 				<place localType="luogoPersona"> <!-- in mapping @localType è indicato in placeName -->
-					<placeName id="ICAR-TOP-2019611" localType="morte"/> <!-- non si può usare @target -  in mapping non spiega differenza tra localType e placeRole-->
+					<placeName id="ICAR-TOP-2019611"/>
 					<placeRole>morte</placeRole>
-					<dateSet> 	<!-- codifica data singola. va bene daterange? -->
+					<dateSet>
 						<date localType="estremoCronologicoTestuale" standardDate="19810401" eac-sia:tipologiaData="data singola">1981 apr. 1</date>
-						<dateRange>
-							<fromDate standardDate="19810401">1981 apr. 1</fromDate>
-						</dateRange>
+						<date standardDate="19810401">1981 apr. 1</date>
 					</dateSet>
 				</place>
 			</places>
 			
 			<existDates localType="dateEsistenzaPersona">
 			<dateSet>
-				<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="intervallo di date" standardDate="19010101-19810401" eac-sia:qualificaData="data di esistenza">sec. XX inizio - 1981 apr. 1</date>
+				<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="intervallo di date" standardDate="19010101-19810401" eac-sia:qualificaData="Date di esistenza">sec. XX inizio - 1981 apr. 1</date>
 				<dateRange>
 					<fromDate certainty="dataApprossimativa" localType="secolo" notBefore="19010101" notAfter="19101231" eac-sia:qualificaData="data di esistenza">sec. XX inizio</fromDate> 
 					<toDate standardDate="19810401" eac-sia:qualificaData="data di esistenza">1981 apr. 1</toDate>
@@ -145,7 +141,7 @@
 				<targetRole>complessoArchivistico</targetRole>
 				<relationType>Soggetto produttore</relationType>
 			</relation>
-			<relation> <!-- nel mapping dice di usare @valueURI, però l'attributo non è previsto in relation e non è uniforme con tutte le altre relazioni: basta usare @id in targetEntity -->
+			<relation> <!-- nel mapping dice di usare @valueURI, però non è uniforme con tutte le altre relazioni: basta usare @id in targetEntity -->
 				<targetEntity targetType="resource" id="SIA-TE-2412146"><part>...</part></targetEntity>
 				<relationType>tematismo</relationType>
 			</relation>

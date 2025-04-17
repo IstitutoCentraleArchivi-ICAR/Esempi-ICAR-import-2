@@ -89,7 +89,7 @@
 			</localDescriptions>
 			<places>
 				<place localType="luogoFamiglia">
-					<placeName id="ICAR-TOP-2019314" localType="Residenza"/> <!-- in mapping non spiega differenza tra localType e placeRole-->
+					<placeName id="ICAR-TOP-2019314"/>
 					<placeRole>Residenza</placeRole>
 					<dateSet>
 						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="17910101-99999999">sec. XVIII fine - </date> 
@@ -105,8 +105,8 @@
 				<dateSet>
 					<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="17910101-99999999" eac-sia:qualificaData="data di estinzione">sec. XVIII fine - </date> 
 					<dateRange>
-						<fromDate certainty="dataApprossimativa" localType="secolo" notBefore="17910101" notAfter="18001231" eac-sia:qualificaData="data di estinzione">sec. XVIII fine</fromDate>
-						<toDate standardDate="99999999" eac-sia:qualificaData="data di estinzione"/>
+						<fromDate certainty="dataApprossimativa" localType="secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
+						<toDate standardDate="99999999"/>
 					</dateRange>
 					<date localType="notaAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
 				</dateSet>
@@ -130,11 +130,11 @@
 					</dateRange>
 				</dateSet>
 				<targetRole>complessoArchivistico</targetRole>
-				<relationType>Soggetto produttore</relationType> <!-- va bene? In altre relazioni si usa @localType -->
+				<relationType>Soggetto produttore</relationType>
 			</relation>
-			<relation> <!-- nel mapping dice di usare @valueURI, però l'attributo non è previsto in relation e non è uniforme con tutte le altre relazioni: basta usare @id in targetEntity -->
+			<relation> <!-- nel mapping dice di usare @valueURI, però non è uniforme con tutte le altre relazioni: basta usare @id in targetEntity -->
 				<targetEntity targetType="resource" id="SIA-TE-2412156"><part>...</part></targetEntity>
-				<relationType>tematismo</relationType> <!-- va bene? In altre relazioni si usa @localType -->
+				<relationType>tematismo</relationType>
 			</relation>
 			<relation>
 				<targetEntity targetType="person" id="SIA-AG-1021445">

@@ -57,7 +57,7 @@
 				</function>
 				<function>
 					<term>...</term>
-					<descriptiveNote><p>...</p></descriptiveNote> <!-- .. contenuto .. Note a orario di apertura -->
+					<descriptiveNote><p>...</p></descriptiveNote> <!-- .. contenuto .. Note a sedi -->
 				</function>
 				<function>
 					<term>...</term>
@@ -83,12 +83,12 @@
 			<localDescriptions>
 				<localDescription>
 					<term>...</term>
-					<descriptiveNote><p>...</p></descriptiveNote>  <!-- .. contenuto .. -->
+					<descriptiveNote><p>...</p></descriptiveNote>
 				</localDescription> 
 			</localDescriptions>
 			<places>
 				<place localType="luogoEnte">
-					<placeName id="ICAR-TOP-2019232" localType="Sede"/> <!-- target="ICAR-TOP-2019232" non si può usare. in mapping non spiega differenza tra localType e placeRole-->
+					<placeName id="ICAR-TOP-2019232"/> <!-- target="ICAR-TOP-2019232" non si può usare perchè è IDREF -->
 					<placeRole>Sede</placeRole>
 				</place>
 				<place>
@@ -113,16 +113,15 @@
 						<addressLine addressLineType="region">Piemonte</addressLine>
 						<addressLine addressLineType="district">Torino</addressLine>
 						<addressLine addressLineType="municipality">Torino</addressLine>
-						<!-- <addressLine localType="localita"></addressLine> 
-						<addressLine localType="frazione"></addressLine> --> <!-- In SIA è un solo campo "localita/frazione -->
+						<addressLine localType="localita-frazione"></addressLine>  <!-- .. contenuto .. -->
 						<addressLine addressLineType="street">piazza Castello</addressLine>
 						<addressLine addressLineType="postBox">209</addressLine>
 						<addressLine addressLineType="postalCode">10124</addressLine>
 						<addressLine localType="indirizzoTestuale">piazza Castello, 209, 10124, Torino (TO)</addressLine>
 						<addressLine localType="noteIndirizzo"></addressLine>  <!-- .. contenuto .. -->
 					</address>
-					<geographicCoordinates coordinateSystem="WGS84">lat: 45.13333</geographicCoordinates> <!-- lat e long si mettono nel contenuto del campo? -->
-					<geographicCoordinates coordinateSystem="WGS84">long: 7.36667</geographicCoordinates>
+					<geographicCoordinates coordinateSystem="WGS84" eac-sia:tipoCoordinata="latitudine">45.13333</geographicCoordinates>
+					<geographicCoordinates coordinateSystem="WGS84" eac-sia:tipoCoordinata="longitudine">7.36667</geographicCoordinates>
 					<dateSet localType="giorniDiApertura">
 						<dateRange localType="lunedì">
 							<fromDate localType="orarioInizio">8:30</fromDate>
@@ -154,7 +153,7 @@
 					<placeName>Sezioni Riunite: Ex Ospedale San Luigi</placeName>
 					<placeRole>Consultazione</placeRole>
 					<contact localType="altraSede">
-						<contactLine contactLineType="email">as-to@beniculturali.it</contactLine> <!-- localType=altraSede? -->
+						<contactLine contactLineType="email">as-to@beniculturali.it</contactLine>
 						<contactLine contactLineType="phoneNumber">0114604111</contactLine>
 						<contactLine contactLineType="fax">0114604109</contactLine>
 					</contact>
@@ -163,17 +162,15 @@
 						<addressLine addressLineType="region">Piemonte</addressLine>
 						<addressLine addressLineType="district">Torino</addressLine>
 						<addressLine addressLineType="municipality">Torino</addressLine>
-						<!-- <addressLine localType="localita"></addressLine> 
-						<addressLine localType="frazione"></addressLine> --> <!-- In SIA è un solo campo "localita/frazione -->
+						<addressLine localType="localita/frazione"></addressLine>  <!-- contenuto -->
 						<addressLine addressLineType="street">via Piave</addressLine>
 						<addressLine addressLineType="postBox">21</addressLine>
 						<addressLine addressLineType="postalCode">10122</addressLine>
 						<addressLine localType="indirizzoTestuale">via Piave, 21, 10122, Torino (TO)</addressLine>
 						<addressLine localType="noteIndirizzo"></addressLine>  <!-- .. contenuto .. -->
 					</address>
-					<geographicCoordinates coordinateSystem="WGS84">lat: 45.13333</geographicCoordinates> <!-- lat e long si mettono nel contenuto del campo? -->
-					<geographicCoordinates coordinateSystem="WGS84">long: 7.36667</geographicCoordinates>
-					
+					<geographicCoordinates coordinateSystem="WGS84" eac-sia:tipoCoordinata="latitudine">45.13333</geographicCoordinates>
+					<geographicCoordinates coordinateSystem="WGS84" eac-sia:tipoCoordinata="longitudine">7.36667</geographicCoordinates>
 					<dateSet localType="giorniDiApertura">
 						<dateRange localType="lunedì">
 							<fromDate localType="orarioInizio">8:30</fromDate>
@@ -200,10 +197,10 @@
 			</places>
 			<existDates localType="dateEsistenzaEnte">
 				<dateSet>
-					<date eac-sia:qualificaData="data di istituzione/costituzione" localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="18700101-99999999">1870 - </date>
+					<date eac-sia:qualificaData="Date di esistenza" localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="18700101-99999999">1870 - </date>
 					<dateRange>
-						<fromDate eac-sia:qualificaData="data di istituzione/costituzione" standardDate="18700101">1870</fromDate>
-						<toDate eac-sia:qualificaData="data di istituzione/costituzione" standardDate="99999999"/>
+						<fromDate standardDate="18700101">1870</fromDate>
+						<toDate standardDate="99999999"/>
 					</dateRange>
 				</dateSet>
 			</existDates>
@@ -216,7 +213,9 @@
 		</description>
 		<relations>
 			<relation>
-				<targetEntity targetType="resource" id="SIA-CA-2013163"><part>...</part></targetEntity>
+				<targetEntity targetType="resource" id="SIA-CA-2013163">
+					<part>......</part>
+				</targetEntity>
 				<targetRole>complessoArchivistico</targetRole>
 				<relationType>Soggetto conservatore</relationType>
 			</relation>
@@ -242,6 +241,7 @@
 				<targetRole>Soggetto conservatore collegato</targetRole>
 				<relationType>Associativa</relationType>
 			</relation>
+			
 			<!-- ? SOGGETTI CONSERVATORI A CUI E' COLLEGATO ? -->
 		</relations>
 	</cpfDescription>

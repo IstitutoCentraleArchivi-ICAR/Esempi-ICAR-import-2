@@ -107,9 +107,8 @@
     </localDescription>
    </localDescriptions>
    <places>
-   
     <place localType="luogoEnte">
-     <placeName id="ICAR-TOP-2019011" localType="Sede"/> <!-- in mapping non spiega differenza tra localType e placeRole-->
+     <placeName id="ICAR-TOP-2019011"/>
      <placeRole>Sede</placeRole>
      <dateSet>
       <date localType="estremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="intervallo di date">1927-1991</date>
@@ -120,17 +119,15 @@
      </dateSet>
     </place>
    </places>
-   
    <existDates localType="dateEsistenzaEnte">
     <dateSet>
-     <date localType="estremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="intervallo di date" eac-sia:qualificaData="data di istituzione/costituzione">1927-1991</date>
+     <date localType="estremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="intervallo di date" eac-sia:qualificaData="Date di esistenza">1927-1991</date>
      <dateRange>
-      <fromDate standardDate="1927" eac-sia:qualificaData="data di istituzione/costituzione">1927</fromDate>
-      <toDate standardDate="1991" eac-sia:qualificaData="data di soppressione/cessazione">1991</toDate>
+      <fromDate standardDate="1927">1927</fromDate>
+      <toDate standardDate="1991">1991</toDate>
      </dateRange>
     </dateSet>
    </existDates>
-   
    <biogHist>
     <p>Le Intendenze di finanza sono organi locali dell’amministrazione finanziaria istituiti nel 1869 alle dipendenze del Ministero delle finanze, con il compito di vigilare sulle pubbliche entrate e provvedere alla riscossione di tributi o altri proventi, di amministrare i beni patrimoniali immobili dello Stato e tutelare i beni del demanio pubblico. A Bolzano venne istituita l'Intendenza di finanza nel 1927, in concomitanza con la nascita della Provincia, con competenza estesa a tutto il territorio di questa. Nel quadro del processo di ristrutturazione dell’amministrazione finanziaria iniziato con la l. 358/29 ottobre 1991, il 31 dicembre 1994 venne soppressa l'Intendenza di finanza di Bolzano e contestualemente, invariata la sede, venne istituita la Direzione provinciale di Bolzano del Ministero delle finanze, le cui competenze transitarono poi, dapprima nel Dipartimento delle entrate e, da ultimo, all'Agenzia delle entrate - Direzione provinciale di Bolzano.</p>
    </biogHist>
@@ -142,11 +139,12 @@
   </description>
   <relations>
    <relation>
-    <targetEntity targetType="corporateBody" valueURI="http://n2t.net/ark:/99166/w6gj5s8z" vocabularySource="SNAC" vocabularySourceURI="https://snaccooperative.org/"><part>...</part></targetEntity> <!-- va bene il valore di vocabularySourceURI ? -->
+    <targetEntity targetType="corporateBody" valueURI="http://n2t.net/ark:/99166/w6gj5s8z" vocabularySource="SNAC" vocabularySourceURI="https://snaccooperative.org/"><part>...</part><!-- contenuto -->
+	</targetEntity> <!-- va bene il valore di vocabularySourceURI ? -->
    </relation> 
    <relation>
     <targetEntity targetType="resource" id="SIA-CA-2013153">
-		<part>...</part> <!-- elemento obbligatorio non previsto in mapping -->
+		<part>...</part> <!-- contenuto -->
 	</targetEntity>
     <dateSet>
      <date localType="estremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="intervallo di date">1927-1991</date>
@@ -160,7 +158,7 @@
    </relation>
    <relation>
     <targetEntity targetType="resource" id="SIA-UA-2021315">
-		<part>...</part> <!-- elemento obbligatorio non previsto in mapping -->
+		<part>...</part> <!-- contenuto -->
 	</targetEntity>
     <dateSet>
      <date localType="estremoCronologicoTestuale" standardDate="19300215-19321001" eac-sia:tipologiaData="intervallo di date">15 feb. 1930 - 1 ott. 1932</date>
@@ -175,33 +173,31 @@
    </relation>
    <relation>
     <targetEntity targetType="resource" id="SIA-UD-2021425"><part>...</part></targetEntity>
-	<dateSet> 	<!-- codifica data singola. va bene daterange? -->
+	<dateSet> 	
 		<date localType="estremoCronologicoTestuale" standardDate="19510310" eac-sia:tipologiaData="data singola">10 mar. 1951</date>
-		<dateRange>
-			<fromDate standardDate="19510310">10 mar. 1951</fromDate>
-		</dateRange>
+		<date standardDate="19510310">10 mar. 1951</date>
     </dateSet>
 	<relationType>Destinatario</relationType>
     <targetRole>unitaDocumentaria</targetRole>
     <descriptiveNote><p>Documentazione</p></descriptiveNote> <!-- ha senso questo valore? -->
    </relation>
    <relation>
-    <targetEntity targetType="resource" id="SIA-SR-2013011"><part>...</part></targetEntity>
+    <targetEntity targetType="resource" id="SIA-SR-2013011"><part>...</part><!-- contenuto --></targetEntity>
     <relationType>Autore</relationType>
 	<targetRole>strumentoDiRicerca</targetRole>
    </relation> 
    <relation>
-    <targetEntity targetType="resource" id="SIA-PR-6719131"><part>...</part></targetEntity>
+    <targetEntity targetType="resource" id="SIA-PR-6719131"><part>...</part><!-- contenuto --></targetEntity>
     <relationType>Finanziatore</relationType>
 	<targetRole>progetto</targetRole>
    </relation> 
    <relation>
-    <targetEntity targetType="resource" id="SIA-EV-7719132"><part>...</part></targetEntity>
+    <targetEntity targetType="resource" id="SIA-EV-7719132"><part>...</part><!-- contenuto --></targetEntity>
     <relationType>Finanziatore</relationType>
 	<targetRole>evento</targetRole>
    </relation> 
    <relation>
-    <targetEntity targetType="agent" id="SIA-CS-1922132"><part>...</part></targetEntity>
+    <targetEntity targetType="agent" id="SIA-CS-1922132"><part>...</part><!-- contenuto --></targetEntity>
     <dateSet>
      <date localType="estremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="intervallo di date">1927-1991</date>
      <dateRange>
@@ -212,7 +208,9 @@
     <targetRole>contestoStoricoIstituzionale</targetRole>
    </relation>
    <relation> <!-- nel mapping non si spiega a cosa serve valueURI -->
-    <targetEntity targetType="resource" id="SIA-TE-2419131" valueURI="SIA TE 2419131"><part>...</part></targetEntity>
+    <targetEntity targetType="resource" id="SIA-TE-2419131" valueURI="SIA-TE-2419131">
+		<part>...</part><!-- contenuto -->
+	</targetEntity>
     <relationType>tematismo</relationType>
    </relation>
    <relation>
@@ -221,14 +219,12 @@
     </targetEntity>
 	<dateSet>
      <date localType="estremoCronologicoTestuale" standardDate="1994" eac-sia:tipologiaData="data singola">1994</date>
-     <dateRange>
-      <fromDate standardDate="1994">1994</fromDate>
-     </dateRange>
+	 <date standardDate="1994">1994</date>
     </dateSet>
     <targetRole>Soggetto produttore collegato</targetRole>
     <relationType>TemporaleSuccessiva</relationType>
    </relation> 
-   <!-- SOGGETTI PRODUTTORI A CUI È COLLEGATO non capisco a cosa serve. È una relazione in arrivo? -->
+   <!-- SOGGETTI PRODUTTORI A CUI È COLLEGATO  -->
    <relation>
     <targetEntity targetType="corporateBody" id="SIA-PI-1921266">
      <part>Direzioni compartimentali (1862-1869) poi Intendenza  di finanza (1869-1991)</part>
