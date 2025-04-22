@@ -3,10 +3,9 @@
  xmlns="https://archivists.org/ns/eac/v2"
  xmlns:eac-sia="http://www.san.beniculturali.it/eac-sia"
  audience="external">
-
 <!-- non presente parte relativa al soggetto conservatore, perchè questo soggetto produttore non esiste più, quindi non può essere un conservatore -->
 
- <control maintenanceStatus="derived" publicationStatus="inProcess" eac-sia:status="bozza"> <!-- eac-sia:status sostituisce publicationStatus? -->
+ <control maintenanceStatus="derived" eac-sia:status="bozza">
   <recordId>1021243</recordId>
   <maintenanceAgency>
    <agencyCode>IT-ICAR</agencyCode>
@@ -25,7 +24,7 @@
   <sources>
    <source>
     <reference linkRole="riferimentoBibliografico" id="SIA-RB-1992347"/>
-    <descriptiveNote><p></p></descriptiveNote> <!-- chiarire il significato del campo -->
+    <descriptiveNote><p></p></descriptiveNote> <!-- contenuto -->
    </source>
    <source>
     <reference linkRole="fonteArchivistica" id="SIA-FA-20200312"/>
@@ -40,7 +39,7 @@
   <localControl localType="Visibilita_FE"><term>Completa</term></localControl>
   <localControl localType="acronimoSistema"><term>SIA</term></localControl>
   <otherRecordId localType="ISIL">IT-BZ0331</otherRecordId>
-  <otherRecordId localType=" ?????? ">IT-ASBZ-CC236400094</otherRecordId> <!-- nel mapping manca valore attributo -->
+  <otherRecordId localType="SIAS">IT-ASBZ-CC236400094</otherRecordId> 
  </control>
  <cpfDescription>
   <identity>
@@ -85,7 +84,7 @@
      </dateSet>
     </otherEntityType>
    </otherEntityTypes> 
-   <identityId>SIA AG 1021243</identityId>
+   <identityId>SIA-AG-1021243</identityId>
   </identity>
   <description>
    <legalStatuses>
@@ -101,8 +100,8 @@
     </legalStatus>
    </legalStatuses>
    <localDescriptions>
-    <localDescription localType="osservazioni">
-     <term>...</term>
+    <localDescription>
+     <term>Osservazioni</term>
      <descriptiveNote><p></p></descriptiveNote> <!-- contenuto -->
     </localDescription>
    </localDescriptions>
@@ -133,18 +132,19 @@
    </biogHist>
    <structureOrGenealogy>
     <p>
-    <!-- * * AGGIUNGERE CONTENUTO * * -->
+    <!-- contenuto -->
     </p>
    </structureOrGenealogy>
   </description>
   <relations>
    <relation>
-    <targetEntity targetType="corporateBody" valueURI="http://n2t.net/ark:/99166/w6gj5s8z" vocabularySource="SNAC" vocabularySourceURI="https://snaccooperative.org/"><part>...</part><!-- contenuto -->
-	</targetEntity> <!-- va bene il valore di vocabularySourceURI ? -->
-   </relation> 
+    <targetEntity targetType="corporateBody" valueURI="http://n2t.net/ark:/99166/w6gj5s8z" vocabularySource="SNAC" vocabularySourceURI="https://snaccooperative.org/"><part>Intendenza di finanza di Bolzano</part>
+	</targetEntity>
+	<relationType>sameAs</relationType>
+   </relation>
    <relation>
     <targetEntity targetType="resource" id="SIA-CA-2013153">
-		<part>...</part> <!-- contenuto -->
+		<part>Intendenza di finanza di Bolzano</part>
 	</targetEntity>
     <dateSet>
      <date localType="estremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="intervallo di date">1927-1991</date>
@@ -158,7 +158,7 @@
    </relation>
    <relation>
     <targetEntity targetType="resource" id="SIA-UA-2021315">
-		<part>...</part> <!-- contenuto -->
+		<part>Ristrutturazione facciata sede principale</part>
 	</targetEntity>
     <dateSet>
      <date localType="estremoCronologicoTestuale" standardDate="19300215-19321001" eac-sia:tipologiaData="intervallo di date">15 feb. 1930 - 1 ott. 1932</date>
@@ -172,7 +172,9 @@
     <descriptiveNote><p>Documentazione</p></descriptiveNote> <!-- ha senso questo valore? -->
    </relation>
    <relation>
-    <targetEntity targetType="resource" id="SIA-UD-2021425"><part>...</part></targetEntity>
+    <targetEntity targetType="resource" id="SIA-UD-2021425">
+		<part>Circolare N.3/1951</part>
+	</targetEntity>
 	<dateSet> 	
 		<date localType="estremoCronologicoTestuale" standardDate="19510310" eac-sia:tipologiaData="data singola">10 mar. 1951</date>
 		<date standardDate="19510310">10 mar. 1951</date>
@@ -182,22 +184,30 @@
     <descriptiveNote><p>Documentazione</p></descriptiveNote> <!-- ha senso questo valore? -->
    </relation>
    <relation>
-    <targetEntity targetType="resource" id="SIA-SR-2013011"><part>...</part><!-- contenuto --></targetEntity>
+    <targetEntity targetType="resource" id="SIA-SR-2013011">
+		<part>Inventario del fondo Intendenza di finanza di Bolzano</part>
+	</targetEntity>
     <relationType>Autore</relationType>
 	<targetRole>strumentoDiRicerca</targetRole>
    </relation> 
    <relation>
-    <targetEntity targetType="resource" id="SIA-PR-6719131"><part>...</part><!-- contenuto --></targetEntity>
+    <targetEntity targetType="resource" id="SIA-PR-6719131">
+		<part>...</part><!-- contenuto -->
+	</targetEntity>
     <relationType>Finanziatore</relationType>
 	<targetRole>progetto</targetRole>
    </relation> 
    <relation>
-    <targetEntity targetType="resource" id="SIA-EV-7719132"><part>...</part><!-- contenuto --></targetEntity>
+    <targetEntity targetType="resource" id="SIA-EV-7719132">
+		<part>...</part><!-- contenuto -->
+	</targetEntity>
     <relationType>Finanziatore</relationType>
 	<targetRole>evento</targetRole>
    </relation> 
    <relation>
-    <targetEntity targetType="agent" id="SIA-CS-1922132"><part>...</part><!-- contenuto --></targetEntity>
+    <targetEntity targetType="agent" id="SIA-CS-1922132">
+		<part>Regno d'Italia poi Repubblica Italiana</part>
+	</targetEntity>
     <dateSet>
      <date localType="estremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="intervallo di date">1927-1991</date>
      <dateRange>
@@ -207,9 +217,9 @@
     </dateSet>
     <targetRole>contestoStoricoIstituzionale</targetRole>
    </relation>
-   <relation> <!-- nel mapping non si spiega a cosa serve valueURI -->
-    <targetEntity targetType="resource" id="SIA-TE-2419131" valueURI="SIA-TE-2419131">
-		<part>...</part><!-- contenuto -->
+   <relation>
+    <targetEntity targetType="resource" id="SIA-TE-2419131">
+		<part>Storia economica</part>
 	</targetEntity>
     <relationType>tematismo</relationType>
    </relation>

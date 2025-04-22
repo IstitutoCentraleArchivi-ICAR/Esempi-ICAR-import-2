@@ -3,8 +3,7 @@
  xmlns="https://archivists.org/ns/eac/v2"
  xmlns:eac-sia="http://www.san.beniculturali.it/eac-sia"
  audience="external">
- 
-	<control maintenanceStatus="derived" publicationStatus="inProcess" eac-sia:status="bozza"> <!-- eac-sia:status sostituisce publicationStatus? -->
+	<control maintenanceStatus="derived" eac-sia:status="bozza">
 		<recordId>1021187</recordId>
 		<maintenanceAgency>
 			<agencyCode>IT-ICAR</agencyCode>
@@ -23,7 +22,7 @@
 		<sources>
 			<source>
 				<reference linkRole="riferimentoBibliografico" id="SIA-RB-1992381"/>
-				<descriptiveNote><p></p></descriptiveNote> <!-- chiarire il significato del campo -->
+				<descriptiveNote><p></p></descriptiveNote> <!-- contenuto -->
 			</source>
 			<source>
 				<reference linkRole="fonteArchivistica" id="SIA-FA-20200442"/>
@@ -37,7 +36,7 @@
 		</sources>
 		<localControl localType="Visibilita_FE"><term>Completa</term></localControl>
 		<localControl localType="acronimoSistema"><term>SIA</term></localControl>
-		<otherRecordId localType=" ?????? ">IT-CC23644</otherRecordId> <!-- nel mapping manca valore attributo -->
+		<otherRecordId localType="SIAS">IT-CC23644</otherRecordId> 
 	</control>
 	<cpfDescription>
 		<identity>
@@ -62,7 +61,7 @@
 			</nameEntry>
 			<nameEntry>
 				<part localType="patronimico">...</part> <!-- contenuto -->
-				<part localType="originePersona">...</part> 
+				<part localType="originePersona">...</part>  <!-- contenuto -->
 				<part localType="provenienzaPersona">...</part> <!-- significato? decidere in mapping se si usa origine o provenienza -->
 				<part localType="pseudonimo">Furio Villani</part>
 				<part localType="soprannomePersona">Gagìn</part>
@@ -70,7 +69,7 @@
 			<otherEntityTypes>
 				<otherEntityType><term>maschile</term></otherEntityType>
 			</otherEntityTypes> 
-			<identityId>SIA AG 1021187</identityId>
+			<identityId>SIA-AG-1021187</identityId>
 		</identity>
 		<description>
 			<functions>
@@ -134,15 +133,20 @@
 		</description>
 		<relations>
 			<relation>
-				<targetEntity targetType="corporateBody" valueURI="" vocabularySource="" vocabularySourceURI=""><part>...</part></targetEntity>
-			</relation> <!-- IDENTIFICATIVI MULTIPLI ENTITÀ. non ho trovato esempi in SIA. Non capisco come funziona + Valore targetType dovrebbe essere "family"? -->
+				<targetEntity targetType="corporateBody" valueURI="http://n2t.net/ark:/99156/w5gf5s1q" vocabularySource="SNAC" vocabularySourceURI="https://snaccooperative.org/">
+					<part>Francesco Antonioli</part>
+				</targetEntity><!--  Valore targetType dovrebbe essere "family"? -->
+				<relationType>sameAs</relationType>
+			</relation> 
 			<relation>
-				<targetEntity targetType="resource" id="SIA-CA-2017123"><part>...</part></targetEntity>
+				<targetEntity targetType="resource" id="SIA-CA-2017123"><part>Francesco Maria Antonioli</part></targetEntity>
 				<targetRole>complessoArchivistico</targetRole>
 				<relationType>Soggetto produttore</relationType>
 			</relation>
-			<relation> <!-- nel mapping dice di usare @valueURI, però non è uniforme con tutte le altre relazioni: basta usare @id in targetEntity -->
-				<targetEntity targetType="resource" id="SIA-TE-2412146"><part>...</part></targetEntity>
+			<relation>
+				<targetEntity targetType="resource" id="SIA-TE-2412146">
+					<part>Anarchismo</part>
+				</targetEntity>
 				<relationType>tematismo</relationType>
 			</relation>
 			<relation>

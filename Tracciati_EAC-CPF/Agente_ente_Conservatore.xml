@@ -5,7 +5,7 @@
  audience="external">
 
 <!-- Descrizione dell'agente solo come soggetto conservatore -->
-	<control maintenanceStatus="derived" publicationStatus="inProcess" eac-sia:status="bozza"> <!-- eac-sia:status sostituisce publicationStatus? -->
+	<control maintenanceStatus="derived" eac-sia:status="bozza">
 		<recordId>1021259</recordId>
 		<maintenanceAgency>
 			<agencyCode>IT-ICAR</agencyCode>
@@ -25,7 +25,6 @@
 		<localControl localType="acronimoSistema"><term>SIA</term></localControl>
 		<localControl><term>luogo della cultura</term></localControl>
 		<localControl><term>Sala studio</term></localControl>
-		<localControl><term></term></localControl><!-- Tenant. Che valore si mette? -->
 		<otherRecordId localType="ISIL">IT-TO0879</otherRecordId>	
 	</control>
 	<cpfDescription>
@@ -52,28 +51,6 @@
 					<term>Patrimonio</term>
 					<descriptiveNote><p>L'AS Torino conserva gli atti degli organi centrali e periferici dello Stato sabaudo fino all'unificazione del regno d'Italia, nonché gli atti degli uffici statali con sede nell'attuale provincia di Torino, sia per il periodo anteriore che posteriore all'unità. I fondi denominati Archivio di corte e Archivio camerale rappresentano i nuclei documentari più antichi, risalenti al sec. XII. Furono costituiti per rispondere all'esigenza della conservazione dei "titoli" e dei "conti". Gli altri archivi cominciarono a delinearsi con autonomia soltanto alla fine del sec. XVI, all'epoca del duca Emanuele Filiberto...</p></descriptiveNote>
 				</function>
-				<function>
-					<term>Accesso disabili</term> <!-- questo valore potrebbe essere diverso per ogni sede. Come si gestisce la relazione? -->
-				</function>
-				<function>
-					<term>...</term>
-					<descriptiveNote><p>...</p></descriptiveNote> <!-- .. contenuto .. Note a sedi -->
-				</function>
-				<function>
-					<term>...</term>
-					<date localType="periodoDiChiusura">24 giugno. Dal 24 al 31 di dicembre.</date>
-				</function>
-				<function localType="servizi"> <!-- nel mapping ci sono due valori diversi per localType -->
-					<term>Sala Mappe</term>
-					<descriptiveNote><p>Lunedì-Venerdi 8,30-13,00; Sabato 10,00-12,00</p></descriptiveNote>
-				</function>
-				<function localType="servizi"> <!-- nel mapping ci sono due valori diversi per localType -->
-					<term>Fotocopie</term>
-				</function>
-				<function>
-					<term>Condizioni di accesso</term>
-					<descriptiveNote><p>L'accesso ai documenti è libero. Per l'accesso a le serie che contengono documenti con dati sensibili è richiesta la firma di una dichiarazione da parte degli utenti.</p></descriptiveNote>
-				</function>
 			</functions>
 			<legalStatuses>
 				<legalStatus>
@@ -82,13 +59,13 @@
 			</legalStatuses>
 			<localDescriptions>
 				<localDescription>
-					<term>...</term>
-					<descriptiveNote><p>...</p></descriptiveNote>
+					<term>Note alla descrizione</term>
+					<descriptiveNote><p>...</p></descriptiveNote> <!-- contenuto -->
 				</localDescription> 
 			</localDescriptions>
 			<places>
 				<place localType="luogoEnte">
-					<placeName id="ICAR-TOP-2019232"/> <!-- target="ICAR-TOP-2019232" non si può usare perchè è IDREF -->
+					<placeName id="ICAR-TOP-2019232"/>
 					<placeRole>Sede</placeRole>
 				</place>
 				<place>
@@ -113,7 +90,7 @@
 						<addressLine addressLineType="region">Piemonte</addressLine>
 						<addressLine addressLineType="district">Torino</addressLine>
 						<addressLine addressLineType="municipality">Torino</addressLine>
-						<addressLine localType="localita-frazione"></addressLine>  <!-- .. contenuto .. -->
+						<addressLine localType="localita-frazione">Centro</addressLine>
 						<addressLine addressLineType="street">piazza Castello</addressLine>
 						<addressLine addressLineType="postBox">209</addressLine>
 						<addressLine addressLineType="postalCode">10124</addressLine>
@@ -147,6 +124,7 @@
 							<fromDate localType="orarioInizio">8:30</fromDate>
 							<toDate localType="orarioFine">13:30</toDate>
 						</dateRange>
+						<date localType="periodoDiChiusura">24 giugno. Dal 24 al 31 di dicembre.</date>
 					</dateSet>
 				</place>
 				<place>
@@ -162,12 +140,16 @@
 						<addressLine addressLineType="region">Piemonte</addressLine>
 						<addressLine addressLineType="district">Torino</addressLine>
 						<addressLine addressLineType="municipality">Torino</addressLine>
-						<addressLine localType="localita/frazione"></addressLine>  <!-- contenuto -->
+						<addressLine localType="localita/frazione">Centro</addressLine>
 						<addressLine addressLineType="street">via Piave</addressLine>
 						<addressLine addressLineType="postBox">21</addressLine>
 						<addressLine addressLineType="postalCode">10122</addressLine>
 						<addressLine localType="indirizzoTestuale">via Piave, 21, 10122, Torino (TO)</addressLine>
 						<addressLine localType="noteIndirizzo"></addressLine>  <!-- .. contenuto .. -->
+						<addressLine localType="accessoDisabili">SI</addressLine>
+						<addressLine localType="condizioniDiAccesso">L'accesso ai documenti è libero. Per l'accesso a le serie che contengono documenti con dati sensibili è richiesta la firma di una dichiarazione da parte degli utenti.</addressLine>
+						<addressLine localType="servizi">Sala Mappe. Lunedì-Venerdi 8,30-13,00; Sabato 10,00-12,00.</addressLine>
+						<addressLine localType="servizi">Fotocopie</addressLine>
 					</address>
 					<geographicCoordinates coordinateSystem="WGS84" eac-sia:tipoCoordinata="latitudine">45.13333</geographicCoordinates>
 					<geographicCoordinates coordinateSystem="WGS84" eac-sia:tipoCoordinata="longitudine">7.36667</geographicCoordinates>
@@ -192,15 +174,17 @@
 							<fromDate localType="orarioInizio">8:30</fromDate>
 							<toDate localType="orarioFine">18:30</toDate>
 						</dateRange>
+						<date localType="periodoDiChiusura">24 giugno. Dal 24 al 31 di dicembre.</date>
 					</dateSet>
+					<descriptiveNote><p>Si segnala che l'ultima richiesta di materiale si realizza alle ore 16:00.</p></descriptiveNote>
 				</place>
 			</places>
 			<existDates localType="dateEsistenzaEnte">
 				<dateSet>
-					<date eac-sia:qualificaData="Date di esistenza" localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="18700101-99999999">1870 - </date>
+					<date eac-sia:qualificaData="Date di esistenza" localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="18700101-99991231">1870 - </date>
 					<dateRange>
 						<fromDate standardDate="18700101">1870</fromDate>
-						<toDate standardDate="99999999"/>
+						<toDate standardDate="99991231"/>
 					</dateRange>
 				</dateSet>
 			</existDates>
@@ -214,28 +198,32 @@
 		<relations>
 			<relation>
 				<targetEntity targetType="resource" id="SIA-CA-2013163">
-					<part>......</part>
+					<part>Abbazia di Santo Stefano di Prarolo</part>
 				</targetEntity>
 				<targetRole>complessoArchivistico</targetRole>
 				<relationType>Soggetto conservatore</relationType>
 			</relation>
 			<relation>
-				<targetEntity targetType="resource" id="SIA-CA-2014263"><part>...</part></targetEntity>
+				<targetEntity targetType="resource" id="SIA-CA-2014263">
+					<part>Ferrero d'Ormea (Famiglia)</part>
+				</targetEntity>
 				<targetRole>complessoArchivistico</targetRole>
 				<relationType>Soggetto conservatore</relationType>
 			</relation>
 			<relation>
-				<targetEntity targetType="resource" id="SIA-CA-2014239"><part>...</part></targetEntity>
+				<targetEntity targetType="resource" id="SIA-CA-2014239">
+					<part>Vittorio Pozzo</part>
+				</targetEntity>
 				<targetRole>complessoArchivistico</targetRole>
 				<relationType>Soggetto conservatore</relationType>
 			</relation>
 			<relation>
 				<targetEntity targetType="corporateBody" id="SIA-CA-2014209"><part>Archivio Centrale dello Stato</part></targetEntity>
 				<dateSet>
-					<date localType="estremoCronologicoTestuale" standardDate="19530101-99999999" eac-sia:tipologiaData="data aperta">1953 - </date>
+					<date localType="estremoCronologicoTestuale" standardDate="19530101-99991231" eac-sia:tipologiaData="data aperta">1953 - </date>
 					<dateRange>
 						<fromDate standardDate="19530101">1953</fromDate>
-						<toDate standardDate="99999999"/>
+						<toDate standardDate="99991231"/>
 					</dateRange>
 				</dateSet>
 				<targetRole>Soggetto conservatore collegato</targetRole>

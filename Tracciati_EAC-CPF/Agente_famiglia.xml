@@ -3,8 +3,7 @@
  xmlns="https://archivists.org/ns/eac/v2"
  xmlns:eac-sia="http://www.san.beniculturali.it/eac-sia"
  audience="external">
- 
-	<control maintenanceStatus="derived" publicationStatus="inProcess" eac-sia:status="bozza"> <!-- eac-sia:status sostituisce publicationStatus? -->
+	<control maintenanceStatus="derived" eac-sia:status="bozza">
 		<recordId>1021256</recordId>
 		<maintenanceAgency>
 			<agencyCode>IT-ICAR</agencyCode>
@@ -23,7 +22,7 @@
 		<sources>
 			<source>
 				<reference linkRole="riferimentoBibliografico" id="SIA-RB-1992359"/>
-				<descriptiveNote><p></p></descriptiveNote> <!-- chiarire il significato del campo -->
+				<descriptiveNote><p></p></descriptiveNote> <!-- contenuto -->
 			</source>
 			<source>
 				<reference linkRole="fonteArchivistica" id="SIA-FA-20200462"/>
@@ -35,10 +34,9 @@
 				<reference linkRole="riferimentoWeb" id="wiki_Cruciani_Fabozzi"/>
 			</source>
 		</sources>
-		
 		<localControl localType="Visibilita_FE"><term>Completa</term></localControl>
 		<localControl localType="acronimoSistema"><term>SIA</term></localControl>
-		<otherRecordId localType=" ?????? ">IT-ASAN-CC236400</otherRecordId> <!-- nel mapping manca valore attributo -->
+		<otherRecordId localType="SIAS">IT-ASAN-CC236400</otherRecordId>
 	</control>
 	<cpfDescription>
 		<identity>
@@ -48,10 +46,10 @@
 				<part localType="denominazionePrincipaleFamiglia">Cruciani Fabozzi</part>
 				<useDates>
 					<dateSet>
-						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="17910101-99999999">sec. XVIII fine - </date> 
+						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="17910101-99991231">sec. XVIII fine - </date> 
 						<dateRange>
 							<fromDate certainty="dataApprossimativa" localType="secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
-							<toDate standardDate="99999999"/>
+							<toDate standardDate="99991231"/>
 						</dateRange>
 						<date localType="notaAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
 					</dateSet> 
@@ -63,26 +61,26 @@
 				<part localType="acronico">CF</part>
 				<useDates>
 					<dateSet> 
-						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="17910101-99999999">sec. XVIII fine - </date> 
+						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="17910101-99991231">sec. XVIII fine - </date> 
 						<dateRange>
 							<fromDate certainty="dataApprossimativa" localType="secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
-							<toDate standardDate="99999999"/>
+							<toDate standardDate="99991231"/>
 						</dateRange>
 						<date localType="notaAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
 					</dateSet> 
 				</useDates>
 			</nameEntry>
-			<identityId>ASI AG 1021256</identityId>
+			<identityId>ASI-AG-1021256</identityId>
 		</identity>
 		<description>
 			<localDescriptions>
 				<localDescription localType="titoloFamiglia">
 					<term>Nobile</term> <!-- term è obbligatorio. Correggere mapping -->
 					<dateSet>
-						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="18250101-99999999">1825 - </date>
+						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="18250101-99991231">1825 - </date>
 						<dateRange>
 							<fromDate standardDate="18250101">1825</fromDate>
-							<toDate standardDate="99999999"/>
+							<toDate standardDate="99991231"/>
 						</dateRange>
 					</dateSet>
 				</localDescription>
@@ -92,10 +90,10 @@
 					<placeName id="ICAR-TOP-2019314"/>
 					<placeRole>Residenza</placeRole>
 					<dateSet>
-						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="17910101-99999999">sec. XVIII fine - </date> 
+						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="17910101-99991231">sec. XVIII fine - </date> 
 						<dateRange>
 							<fromDate certainty="dataApprossimativa" localType="secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
-							<toDate standardDate="99999999"/>
+							<toDate standardDate="99991231"/>
 						</dateRange>
 						<date localType="notaAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
 					</dateSet>
@@ -103,10 +101,10 @@
 			</places>
 			<existDates localType="dateEsistenzaFamiglia">
 				<dateSet>
-					<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="17910101-99999999" eac-sia:qualificaData="data di estinzione">sec. XVIII fine - </date> 
+					<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="17910101-99991231" eac-sia:qualificaData="data di estinzione">sec. XVIII fine - </date> 
 					<dateRange>
 						<fromDate certainty="dataApprossimativa" localType="secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
-						<toDate standardDate="99999999"/>
+						<toDate standardDate="99991231"/>
 					</dateRange>
 					<date localType="notaAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
 				</dateSet>
@@ -118,22 +116,28 @@
 		</description>
 		<relations>
 			<relation>
-				<targetEntity targetType="corporateBody" valueURI="" vocabularySource="" vocabularySourceURI=""><part>...</part></targetEntity>
-			</relation> <!-- IDENTIFICATIVI MULTIPLI ENTITÀ. non ho trovato esempi in SIA. Non capisco come funziona + Valore targetType dovrebbe essere "family"? -->
+				<targetEntity targetType="corporateBody" valueURI="http://n2t.net/ark:/99141/i5gg1s2y" vocabularySource="SNAC" vocabularySourceURI="https://snaccooperative.org/"> <!--  Valore targetType dovrebbe essere "family"? -->
+					<part>Famiglia Cruciani Fabozzi</part>
+				</targetEntity>
+			</relation> 
 			<relation>
-				<targetEntity targetType="resource" id="SIA-CA-2013493"><part>...</part></targetEntity>
+				<targetEntity targetType="resource" id="SIA-CA-2013493">
+					<part>Famiglia Cruciani Fabozzi</part>
+				</targetEntity>
 				<dateSet>
-					<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="17910101-99999999">sec. XVIII fine - </date> 
+					<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="17910101-99991231">sec. XVIII fine - </date> 
 					<dateRange>
 						<fromDate certainty="dataApprossimativa" localType="secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
-						<toDate standardDate="99999999"/>
+						<toDate standardDate="99991231"/>
 					</dateRange>
 				</dateSet>
 				<targetRole>complessoArchivistico</targetRole>
 				<relationType>Soggetto produttore</relationType>
 			</relation>
-			<relation> <!-- nel mapping dice di usare @valueURI, però non è uniforme con tutte le altre relazioni: basta usare @id in targetEntity -->
-				<targetEntity targetType="resource" id="SIA-TE-2412156"><part>...</part></targetEntity>
+			<relation>
+				<targetEntity targetType="resource" id="SIA-TE-2412156">
+					<part>Storia locale</part>
+				</targetEntity>
 				<relationType>tematismo</relationType>
 			</relation>
 			<relation>
