@@ -118,8 +118,8 @@
 			<relation>
 				<targetEntity targetType="agent" valueURI="http://n2t.net/ark:/99141/i5gg1s2y" vocabularySource="SNAC" vocabularySourceURI="https://snaccooperative.org/">
 					<part>Famiglia Cruciani Fabozzi</part>
-					<relationType>sameAs</relationType>
 				</targetEntity>
+				<relationType>sameAs</relationType>
 			</relation> 
 			<relation>
 				<targetEntity targetType="resource" id="SIA-CA-2013493">
