@@ -95,7 +95,7 @@
 						<addressLine addressLineType="postBox">209</addressLine>
 						<addressLine addressLineType="postalCode">10124</addressLine>
 						<addressLine localType="indirizzoTestuale">piazza Castello, 209, 10124, Torino (TO)</addressLine>
-						<addressLine localType="noteIndirizzo"></addressLine>  <!-- .. contenuto .. -->
+						<addressLine localType="noteIndirizzo">...</addressLine>  <!-- .. contenuto .. -->
 					</address>
 					<geographicCoordinates coordinateSystem="WGS84" eac-sia:tipoCoordinata="latitudine">45.13333</geographicCoordinates>
 					<geographicCoordinates coordinateSystem="WGS84" eac-sia:tipoCoordinata="longitudine">7.36667</geographicCoordinates>
@@ -218,7 +218,9 @@
 				<relationType>Soggetto conservatore</relationType>
 			</relation>
 			<relation>
-				<targetEntity targetType="corporateBody" id="SIA-CA-2014209"><part>Archivio Centrale dello Stato</part></targetEntity>
+				<targetEntity targetType="corporateBody" id="SIA-CA-2014209">
+					<part>Archivio Centrale dello Stato</part>
+				</targetEntity>
 				<dateSet>
 					<date localType="estremoCronologicoTestuale" standardDate="19530101-99991231" eac-sia:tipologiaData="data aperta">1953 - </date>
 					<dateRange>

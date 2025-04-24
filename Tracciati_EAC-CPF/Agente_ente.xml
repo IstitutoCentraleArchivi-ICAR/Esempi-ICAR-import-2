@@ -24,7 +24,7 @@
   <sources>
    <source>
     <reference linkRole="riferimentoBibliografico" id="SIA-RB-1992347"/>
-    <descriptiveNote><p></p></descriptiveNote> <!-- contenuto -->
+    <descriptiveNote><p>...</p></descriptiveNote> <!-- contenuto -->
    </source>
    <source>
     <reference linkRole="fonteArchivistica" id="SIA-FA-20200312"/>
@@ -102,7 +102,7 @@
    <localDescriptions>
     <localDescription>
      <term>Osservazioni</term>
-     <descriptiveNote><p></p></descriptiveNote> <!-- contenuto -->
+     <descriptiveNote><p>...</p></descriptiveNote> <!-- contenuto -->
     </localDescription>
    </localDescriptions>
    <places>
@@ -131,14 +131,12 @@
     <p>Le Intendenze di finanza sono organi locali dell’amministrazione finanziaria istituiti nel 1869 alle dipendenze del Ministero delle finanze, con il compito di vigilare sulle pubbliche entrate e provvedere alla riscossione di tributi o altri proventi, di amministrare i beni patrimoniali immobili dello Stato e tutelare i beni del demanio pubblico. A Bolzano venne istituita l'Intendenza di finanza nel 1927, in concomitanza con la nascita della Provincia, con competenza estesa a tutto il territorio di questa. Nel quadro del processo di ristrutturazione dell’amministrazione finanziaria iniziato con la l. 358/29 ottobre 1991, il 31 dicembre 1994 venne soppressa l'Intendenza di finanza di Bolzano e contestualemente, invariata la sede, venne istituita la Direzione provinciale di Bolzano del Ministero delle finanze, le cui competenze transitarono poi, dapprima nel Dipartimento delle entrate e, da ultimo, all'Agenzia delle entrate - Direzione provinciale di Bolzano.</p>
    </biogHist>
    <structureOrGenealogy>
-    <p>
-    <!-- contenuto -->
-    </p>
+    <p>...</p> <!-- contenuto -->
    </structureOrGenealogy>
   </description>
   <relations>
    <relation>
-    <targetEntity targetType="corporateBody" valueURI="http://n2t.net/ark:/99166/w6gj5s8z" vocabularySource="SNAC" vocabularySourceURI="https://snaccooperative.org/"><part>Intendenza di finanza di Bolzano</part>
+    <targetEntity targetType="agent" valueURI="http://n2t.net/ark:/99166/w6gj5s8z" vocabularySource="SNAC" vocabularySourceURI="https://snaccooperative.org/"><part>Intendenza di finanza di Bolzano</part>
 	</targetEntity>
 	<relationType>sameAs</relationType>
    </relation>

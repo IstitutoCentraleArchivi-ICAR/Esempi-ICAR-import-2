@@ -22,7 +22,7 @@
 		<sources>
 			<source>
 				<reference linkRole="riferimentoBibliografico" id="SIA-RB-1992359"/>
-				<descriptiveNote><p></p></descriptiveNote> <!-- contenuto -->
+				<descriptiveNote><p>...</p></descriptiveNote> <!-- contenuto -->
 			</source>
 			<source>
 				<reference linkRole="fonteArchivistica" id="SIA-FA-20200462"/>
@@ -58,7 +58,7 @@
 			<nameEntry localType="altraDenominazioneFamiglia" languageOfElement="ita">
 				<part localType="intestazione">Cruciani F., Amandola (Fermo), sec. XVIII fine - </part>
 				<part localType="denominazione">Cruciani F.</part>
-				<part localType="acronico">CF</part>
+				<part localType="acronimo">CF</part>
 				<useDates>
 					<dateSet> 
 						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="17910101-99991231">sec. XVIII fine - </date> 
@@ -75,11 +75,11 @@
 		<description>
 			<localDescriptions>
 				<localDescription localType="titoloFamiglia">
-					<term>Nobile</term> <!-- term è obbligatorio. Correggere mapping -->
+					<term>Nobile</term>
 					<dateSet>
-						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="18250101-99991231">1825 - </date>
+						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="1825-99991231">1825 - </date>
 						<dateRange>
-							<fromDate standardDate="18250101">1825</fromDate>
+							<fromDate standardDate="1825">1825</fromDate>
 							<toDate standardDate="99991231"/>
 						</dateRange>
 					</dateSet>
@@ -116,8 +116,9 @@
 		</description>
 		<relations>
 			<relation>
-				<targetEntity targetType="corporateBody" valueURI="http://n2t.net/ark:/99141/i5gg1s2y" vocabularySource="SNAC" vocabularySourceURI="https://snaccooperative.org/"> <!--  Valore targetType dovrebbe essere "family"? -->
+				<targetEntity targetType="agent" valueURI="http://n2t.net/ark:/99141/i5gg1s2y" vocabularySource="SNAC" vocabularySourceURI="https://snaccooperative.org/">
 					<part>Famiglia Cruciani Fabozzi</part>
+					<relationType>sameAs</relationType>
 				</targetEntity>
 			</relation> 
 			<relation>

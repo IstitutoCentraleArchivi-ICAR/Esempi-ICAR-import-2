@@ -22,7 +22,7 @@
 		<sources>
 			<source>
 				<reference linkRole="riferimentoBibliografico" id="SIA-RB-1992381"/>
-				<descriptiveNote><p></p></descriptiveNote> <!-- contenuto -->
+				<descriptiveNote><p>...</p></descriptiveNote> <!-- contenuto -->
 			</source>
 			<source>
 				<reference linkRole="fonteArchivistica" id="SIA-FA-20200442"/>
@@ -41,10 +41,14 @@
 	<cpfDescription>
 		<identity>
 			<entityType value="person"/>
-			<nameEntry languageOfElement="ita">
+			<nameEntry localType="denominazionePersona" languageOfElement="ita">
 				<part localType="intestazionePersona">Antonioli, Francesco Maria, militante anarchico (sec. XX inizio - 1981 apr. 1)</part>
 				<part localType="nomePersona">Francesco Maria</part>
 				<part localType="cognomePersona">Antonioli</part>
+				<part localType="patronimico">...</part> <!-- contenuto -->
+				<part localType="origine-provenienzaPersona">...</part>  <!-- contenuto -->				
+				<part localType="pseudonimo">Furio Villani</part>
+				<part localType="soprannomePersona">Gagìn</part>
 				<useDates>
 				<dateSet>
 					<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="intervallo di date" standardDate="19010101-19810401">sec. XX inizio - 1981 apr. 1</date>
@@ -55,16 +59,10 @@
 				</dateSet>
 				</useDates>
 			</nameEntry>
-			<nameEntry localType="altraDenominazionePersona" languageOfElement="ita" status="alternative"> <!-- non si può ripetere attributo (localType="Altra denominazione"). Rivedere istruzioni in mapping. in mapping dice status="alternativo" -->
+			<nameEntry localType="altraDenominazionePersona" languageOfElement="ita" status="alternative"> 
 				<part localType="intestazione">Antonioli, Francesco, militante anarchico (sec. XX inizio - 1981 apr. 1)</part>
-				<part localType="denominazione">Francesco Antonioli</part>
-			</nameEntry>
-			<nameEntry>
-				<part localType="patronimico">...</part> <!-- contenuto -->
-				<part localType="originePersona">...</part>  <!-- contenuto -->
-				<part localType="provenienzaPersona">...</part> <!-- significato? decidere in mapping se si usa origine o provenienza -->
-				<part localType="pseudonimo">Furio Villani</part>
-				<part localType="soprannomePersona">Gagìn</part>
+				<part localType="nome">Francesco</part>
+				<part localType="cognome">Antonioli</part>
 			</nameEntry>
 			<otherEntityTypes>
 				<otherEntityType><term>maschile</term></otherEntityType>
@@ -73,11 +71,13 @@
 		</identity>
 		<description>
 			<functions>
-				<function><term></term></function> <!-- contenuto. Campo "Qualifica" -->
+				<function localType="qualifica">
+					<term>....</term><!-- contenuto -->
+				</function> 
 			</functions>
 			<localDescriptions>
 				<localDescription localType="titoloPersona">
-					<term>Nobile</term> <!-- term è obbligatorio. Correggere mapping -->
+					<term>Nobile</term> 
 					<dateSet>
 					<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="intervallo di date" standardDate="19010101-19810401">sec. XX inizio - 1981 apr. 1</date>
 					<dateRange>
@@ -91,16 +91,16 @@
 				<occupation>
 					<term>Regioniere</term>
 					<dateSet>
-						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="intervallo di date" standardDate="19350101-19551231">1935 - 1955</date>
+						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="intervallo di date" standardDate="1935-1955">1935 - 1955</date>
 						<dateRange>
-							<fromDate certainty="dataApprossimativa" standardDate="19350101">1935</fromDate>
-							<toDate standardDate="19551231">1955</toDate>
+							<fromDate certainty="dataApprossimativa" standardDate="1935">1935</fromDate>
+							<toDate standardDate="1955">1955</toDate>
 						</dateRange>
 					</dateSet>
 				</occupation>
 			</occupations>
 			<places>
-				<place localType="luogoPersona"> <!-- in mapping @localType è indicato in placeName -->
+				<place localType="luogoPersona">
 					<placeName id="ICAR-TOP-2019524"/>
 					<placeRole>nascita</placeRole>
 					<dateSet> 	
@@ -108,7 +108,7 @@
 						<date certainty="dataApprossimativa" localType="secolo" notBefore="19010101" notAfter="19101231">sec. XX inizio</date>
 					</dateSet>
 				</place>
-				<place localType="luogoPersona"> <!-- in mapping @localType è indicato in placeName -->
+				<place localType="luogoPersona">
 					<placeName id="ICAR-TOP-2019611"/>
 					<placeRole>morte</placeRole>
 					<dateSet>
@@ -117,13 +117,12 @@
 					</dateSet>
 				</place>
 			</places>
-			
 			<existDates localType="dateEsistenzaPersona">
 			<dateSet>
 				<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="intervallo di date" standardDate="19010101-19810401" eac-sia:qualificaData="Date di esistenza">sec. XX inizio - 1981 apr. 1</date>
 				<dateRange>
-					<fromDate certainty="dataApprossimativa" localType="secolo" notBefore="19010101" notAfter="19101231" eac-sia:qualificaData="data di esistenza">sec. XX inizio</fromDate> 
-					<toDate standardDate="19810401" eac-sia:qualificaData="data di esistenza">1981 apr. 1</toDate>
+					<fromDate certainty="dataApprossimativa" localType="secolo" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate> 
+					<toDate standardDate="19810401">1981 apr. 1</toDate>
 				</dateRange>
 			</dateSet>
 			</existDates>
@@ -133,13 +132,15 @@
 		</description>
 		<relations>
 			<relation>
-				<targetEntity targetType="corporateBody" valueURI="http://n2t.net/ark:/99156/w5gf5s1q" vocabularySource="SNAC" vocabularySourceURI="https://snaccooperative.org/">
+				<targetEntity targetType="agent" valueURI="http://n2t.net/ark:/99156/w5gf5s1q" vocabularySource="SNAC" vocabularySourceURI="https://snaccooperative.org/">
 					<part>Francesco Antonioli</part>
-				</targetEntity><!--  Valore targetType dovrebbe essere "family"? -->
+				</targetEntity>
 				<relationType>sameAs</relationType>
 			</relation> 
 			<relation>
-				<targetEntity targetType="resource" id="SIA-CA-2017123"><part>Francesco Maria Antonioli</part></targetEntity>
+				<targetEntity targetType="resource" id="SIA-CA-2017123">
+					<part>Francesco Maria Antonioli</part>
+				</targetEntity>
 				<targetRole>complessoArchivistico</targetRole>
 				<relationType>Soggetto produttore</relationType>
 			</relation>
