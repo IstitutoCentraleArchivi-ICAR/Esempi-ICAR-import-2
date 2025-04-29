@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eac xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns="https://archivists.org/ns/eac/v2"
+ xmlns:eac-sia="http://www.san.beniculturali.it/eac-sia"
+ audience="external">
+	<control maintenanceStatus="derived" eac-sia:status="bozza">
+		<recordId>3221199</recordId>
+		<maintenanceAgency>
+			<agencyCode>IT-ICAR</agencyCode>
+			<agencyName>ICAR</agencyName>
+		</maintenanceAgency>
+		<maintenanceHistory>
+			<maintenanceEvent languageOfElement="ita" maintenanceEventType="created">
+				<agent agentType="human">Stella Di Fazio</agent>
+				<eventDateTime standardDateTime="20250401"/>
+				<eventDescription>
+					<span localType="Azione">Importazione</span>
+					<span localType="noteRedazionali">Registro creato per sistema di test</span>
+				</eventDescription>
+			</maintenanceEvent>
+		</maintenanceHistory>
+		<localControl localType="acronimoSistema"><term>SIA</term></localControl>
+	</control>
+	<cpfDescription>
+		<identity>
+			<entityType value="corporateBody"/> <!-- obbligatorio. non previsto in mapping. Valore non ha senso per un evento -->
+			<nameEntry>
+				<part>Spedizione dei mille</part> <!-- obbligatorio. non previsto in mapping -->
+			</nameEntry>
+		</identity>
+		<description>
+			<localDescriptions>
+				<localDescription localType="Osservazioni">
+					<term>...</term> <!-- term è obbligatorio. non c'è in mapping -->
+					<descriptiveNote>
+						<p>La partenza di Garibaldi per la Sicilia era stata commentata da molti giornali internazionali, che riportavano notizie a volte molto diverse da quelle poi accertate dagli storici, sia sul numero dei volontari, sia delle armi imbarcate, oltre che sul numero delle navi, che secondo la stampa di quei giorni, risulterebbero superiori alle due conosciute.</p>
+					</descriptiveNote>
+				</localDescription>
+			</localDescriptions>
+			<biogHist>
+				<chronList>
+					<chronItem>
+						<dateSet>
+							<date localType="estremoCronologicoTestuale" standardDate="18600505-18610117" eac-sia:tipologiaData="intervallo di date">1860 mag. 5 - 1861 gen. 17</date>
+							<dateRange>
+								<fromDate standardDate="18600505">1860 mag. 5</fromDate>
+								<toDate standardDate="18610117">1861 gen. 17</toDate>
+							</dateRange>
+						</dateSet>
+						<event id="SIA-EV-3221199" localType="Evento storico" languageOfElement="ita"> 
+							<span localtype="denominazioneEvento">Spedizione dei mille</span>
+							<span localtype="descrizioneEvento">La spedizione dei Mille fu uno degli episodi cruciali del Risorgimento. Si svolse dal 1860 al 1861 quando un migliaio di volontari, al comando di Giuseppe Garibaldi, partì nella notte tra il 5 e il 6 maggio da Quarto (borgo di Genova e allora Regno di Sardegna), alla volta della Sicilia, che faceva parte del Regno delle Due Sicilie. Lo scopo della spedizione era di rovesciare il governo borbonico e appoggiare le rivolte scoppiate sull'isola. I garibaldini sbarcarono l'11 maggio presso Marsala e, con il contributo di volontari meridionali e a rinforzi alla spedizione, aumentarono di numero, creando l'Esercito meridionale. Dopo una campagna di pochi mesi con alcune battaglie vittoriose contro l'esercito borbonico, i Mille e il neonato esercito meridionale riuscirono a conquistare tutto il Regno delle Due Sicilie, permettendone l'annessione al nascente Regno d'Italia.</span>
+						</event>
+						<place>
+							<placeName>Genova</placeName>
+							<placeRole>Luogo evento</placeRole>
+						</place>
+					</chronItem>
+				</chronList>
+			</biogHist>
+		</description>
+	</cpfDescription>
+</eac>

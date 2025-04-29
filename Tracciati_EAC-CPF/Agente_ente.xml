@@ -232,8 +232,6 @@
     <targetRole>Soggetto produttore collegato</targetRole>
     <relationType>TemporaleSuccessiva</relationType>
    </relation> 
-   
-   <!-- SOGGETTI PRODUTTORI A CUI È COLLEGATO  -->
    <relation>
     <targetEntity targetType="corporateBody" id="SIA-AG-1021556">
      <part>Ministero delle finanze</part>
@@ -241,8 +239,6 @@
     <targetRole>Relazione in arrivo - Soggetto produttore a cui è collegato</targetRole>
     <relationType>Associativa</relationType>
    </relation> 
-   <!-- / SOGGETTI PRODUTTORI A CUI È COLLEGATO / -->
-   
    <relation>
     <targetEntity targetType="corporateBody" id="SIA-PI-1921266">
      <part>Direzioni compartimentali (1862-1869) poi Intendenza  di finanza (1869-1991)</part>

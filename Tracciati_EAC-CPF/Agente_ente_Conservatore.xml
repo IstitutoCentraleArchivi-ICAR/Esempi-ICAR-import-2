@@ -231,8 +231,6 @@
 				<targetRole>Soggetto conservatore collegato</targetRole>
 				<relationType>Associativa</relationType>
 			</relation>
-			
-			<!-- ? SOGGETTI CONSERVATORI A CUI E' COLLEGATO ? -->
 		</relations>
 	</cpfDescription>
 </eac>
