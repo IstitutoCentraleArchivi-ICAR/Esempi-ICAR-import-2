@@ -11,7 +11,7 @@
 		</maintenanceAgency>
 		<maintenanceHistory>
 			<maintenanceEvent languageOfElement="ita" maintenanceEventType="created">
-			<agent agentType="human">Stella Di Fazio</agent>
+			<agent agentType="human">Alessandro Chiaretti</agent>
 			<eventDateTime standardDateTime="20250321"/>
 			<eventDescription>
 				<span localType="Azione">Importazione</span>
@@ -58,7 +58,6 @@
 			<nameEntry localType="altraDenominazioneFamiglia" languageOfElement="ita">
 				<part localType="intestazione">Cruciani F., Amandola (Fermo), sec. XVIII fine - </part>
 				<part localType="denominazione">Cruciani F.</part>
-				<part localType="acronimo">CF</part>
 				<useDates>
 					<dateSet> 
 						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="17910101-99991231">sec. XVIII fine - </date> 

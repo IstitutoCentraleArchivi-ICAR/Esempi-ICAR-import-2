@@ -11,7 +11,7 @@
   </maintenanceAgency>
   <maintenanceHistory>
    <maintenanceEvent languageOfElement="ita" maintenanceEventType="created">
-    <agent agentType="human">Stella Di Fazio</agent>
+    <agent agentType="human">Alessandro Chiaretti</agent>
     <eventDateTime standardDateTime="20250421"/>
     <eventDescription>
      <span localType="Azione">Importazione</span>
@@ -43,7 +43,7 @@
   <identity localType="contestoStoricoIstituzionale">
    <entityType value="corporateBody"/>
    <nameEntry localType="denominazioneContesto" languageOfElement="ita">
-    <part localType="intestazione">Regno d'Italia poi Repubblica Italiana (1861 - )</part> <!-- localType="intestazioneContesto" per uniformare con Agenti? --> <!-- Regno e Repubblica sono due contesti diversi? Se è così, correggere anche Agente Ente -->
+    <part localType="intestazione">Regno d'Italia poi Repubblica Italiana (1861 - )</part> <!-- localType="intestazioneContesto" per uniformare con Agenti? --> 
     <part localType="acronimo">RI</part> <!-- localType="acronimoContesto" per uniformare con Agenti? -->
 	
     <useDates> <!-- non si dovrebbe usare existDates? -->

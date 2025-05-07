@@ -13,7 +13,7 @@
 		</maintenanceAgency>
 		<maintenanceHistory>
 			<maintenanceEvent languageOfElement="ita" maintenanceEventType="created">
-			<agent agentType="human">Stella Di Fazio</agent>
+			<agent agentType="human">Alessandro Chiaretti</agent>
 			<eventDateTime standardDateTime="20250321"/>
 			<eventDescription>
 				<span localType="Azione">Importazione</span>
@@ -68,7 +68,7 @@
 					<placeName id="ICAR-TOP-2019232"/>
 					<placeRole>Sede</placeRole>
 				</place>
-				<place>
+				<place localType="Contatti">
 					<contact>
 						<contactLine contactLineType="email">as-to@beniculturali.it</contactLine>
 						<contactLine contactLineType="email" localType="PEC">mbac-as-to@mailcert.beniculturali.it</contactLine>
@@ -77,10 +77,10 @@
 						<contactLine contactLineType="fax">011546176</contactLine>
 					</contact>
 				</place>
-				<place>
+				<place localType="Sedi">
 					<placeName>Sezione Corte</placeName>
 					<placeRole>Principale</placeRole>
-					<contact localType="altraSede">
+					<contact>
 						<contactLine contactLineType="email">as-to@beniculturali.it</contactLine>
 						<contactLine contactLineType="phoneNumber">011540382</contactLine>
 						<contactLine contactLineType="fax">011546176</contactLine>
@@ -127,10 +127,10 @@
 						<date localType="periodoDiChiusura">24 giugno. Dal 24 al 31 di dicembre.</date>
 					</dateSet>
 				</place>
-				<place>
+				<place localType="Sedi">
 					<placeName>Sezioni Riunite: Ex Ospedale San Luigi</placeName>
 					<placeRole>Consultazione</placeRole>
-					<contact localType="altraSede">
+					<contact>
 						<contactLine contactLineType="email">as-to@beniculturali.it</contactLine>
 						<contactLine contactLineType="phoneNumber">0114604111</contactLine>
 						<contactLine contactLineType="fax">0114604109</contactLine>

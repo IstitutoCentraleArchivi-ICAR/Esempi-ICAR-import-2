@@ -13,7 +13,7 @@
   </maintenanceAgency>
   <maintenanceHistory>
    <maintenanceEvent languageOfElement="ita" maintenanceEventType="created">
-    <agent agentType="human">Stella Di Fazio</agent>
+    <agent agentType="human">Alessandro Chiaretti</agent>
     <eventDateTime standardDateTime="20250321"/>
     <eventDescription>
      <span localType="Azione">Importazione</span>

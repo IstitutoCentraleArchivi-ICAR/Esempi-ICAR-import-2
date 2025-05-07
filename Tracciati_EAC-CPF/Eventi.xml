@@ -3,7 +3,10 @@
  xmlns="https://archivists.org/ns/eac/v2"
  xmlns:eac-sia="http://www.san.beniculturali.it/eac-sia"
  audience="external">
-	<control maintenanceStatus="derived" eac-sia:status="bozza">
+	<control maintenanceStatus="derived" eac-sia:status="bozza"> 
+		
+		<!-- controllare errori del validatore per decidere semodificare i dati o le regole del validatore -->
+		
 		<recordId>3221199</recordId>
 		<maintenanceAgency>
 			<agencyCode>IT-ICAR</agencyCode>
@@ -11,7 +14,7 @@
 		</maintenanceAgency>
 		<maintenanceHistory>
 			<maintenanceEvent languageOfElement="ita" maintenanceEventType="created">
-				<agent agentType="human">Stella Di Fazio</agent>
+				<agent agentType="human">Alessandro Chiaretti</agent>
 				<eventDateTime standardDateTime="20250401"/>
 				<eventDescription>
 					<span localType="Azione">Importazione</span>
@@ -19,44 +22,39 @@
 				</eventDescription>
 			</maintenanceEvent>
 		</maintenanceHistory>
+		<localControl localType="Visibilita_FE"><term>Completa</term></localControl>
 		<localControl localType="acronimoSistema"><term>SIA</term></localControl>
 	</control>
 	<cpfDescription>
 		<identity>
-			<entityType value="corporateBody"/> <!-- obbligatorio. non previsto in mapping. Valore non ha senso per un evento -->
+			<entityType value="corporateBody" eac-sia:tipoLocale="Evento"/>
 			<nameEntry>
-				<part>Spedizione dei mille</part> <!-- obbligatorio. non previsto in mapping -->
+				<part>Strage di Ustica</part>
 			</nameEntry>
+			<identityId>SIA-EV-3221199</identityId>
 		</identity>
 		<description>
 			<localDescriptions>
-				<localDescription localType="Osservazioni">
-					<term>...</term> <!-- term è obbligatorio. non c'è in mapping -->
-					<descriptiveNote>
-						<p>La partenza di Garibaldi per la Sicilia era stata commentata da molti giornali internazionali, che riportavano notizie a volte molto diverse da quelle poi accertate dagli storici, sia sul numero dei volontari, sia delle armi imbarcate, oltre che sul numero delle navi, che secondo la stampa di quei giorni, risulterebbero superiori alle due conosciute.</p>
-					</descriptiveNote>
+				<localDescription>
+					<term>Osservazioni</term>
+					<descriptiveNote><p>Tipologia evento: strage.</p></descriptiveNote> <!-- va bene contenuto? -->
 				</localDescription>
 			</localDescriptions>
+			<places>
+				<place>
+					<placeName id="ICAR-TOP-2021032"/>
+					<placeRole>Luogo evento</placeRole>
+				</place>
+			</places>
+			<existDates>
+				<dateSet>
+					<date localType="estremoCronologicoTestuale" standardDate="19800627" eac-sia:tipologiaData="data singola">1980 giu. 27</date>
+					<date standardDate="19800627">1980 giu. 27</date>
+				</dateSet>
+			</existDates>
 			<biogHist>
-				<chronList>
-					<chronItem>
-						<dateSet>
-							<date localType="estremoCronologicoTestuale" standardDate="18600505-18610117" eac-sia:tipologiaData="intervallo di date">1860 mag. 5 - 1861 gen. 17</date>
-							<dateRange>
-								<fromDate standardDate="18600505">1860 mag. 5</fromDate>
-								<toDate standardDate="18610117">1861 gen. 17</toDate>
-							</dateRange>
-						</dateSet>
-						<event id="SIA-EV-3221199" localType="Evento storico" languageOfElement="ita"> 
-							<span localtype="denominazioneEvento">Spedizione dei mille</span>
-							<span localtype="descrizioneEvento">La spedizione dei Mille fu uno degli episodi cruciali del Risorgimento. Si svolse dal 1860 al 1861 quando un migliaio di volontari, al comando di Giuseppe Garibaldi, partì nella notte tra il 5 e il 6 maggio da Quarto (borgo di Genova e allora Regno di Sardegna), alla volta della Sicilia, che faceva parte del Regno delle Due Sicilie. Lo scopo della spedizione era di rovesciare il governo borbonico e appoggiare le rivolte scoppiate sull'isola. I garibaldini sbarcarono l'11 maggio presso Marsala e, con il contributo di volontari meridionali e a rinforzi alla spedizione, aumentarono di numero, creando l'Esercito meridionale. Dopo una campagna di pochi mesi con alcune battaglie vittoriose contro l'esercito borbonico, i Mille e il neonato esercito meridionale riuscirono a conquistare tutto il Regno delle Due Sicilie, permettendone l'annessione al nascente Regno d'Italia.</span>
-						</event>
-						<place>
-							<placeName>Genova</placeName>
-							<placeRole>Luogo evento</placeRole>
-						</place>
-					</chronItem>
-				</chronList>
+				<p>Il 27 giugno 1980 il velivolo DC9 I-TIGI della compagnia Itavia decolla dall'aeroporto "Guglielmo Marconi" di Bologna. Sono a bordo 81 passeggeri, 64 adulti, 11 bambini tra i due e i dodici anni, due bambini di età inferiore ai 24 mesi, oltre ai 4 uomini dell'equipaggio. Il volo, con nominativo IH870, è diretto a Palermo e parte alle 20.08, con due ore di ritardo. L'atterraggio è previsto per le 21.13. Tutto procede regolarmente fino all'ultimo normale contatto radio tra il velivolo e Roma Controllo, avvenuto alle 20.58. Alle 21.04, chiamato per autorizzare l'avvio della fase di atterraggio su Palermo, il DC9 non risponde. Iniziano affannose ricerche e cominciano anche ad emergere dubbi inquietanti su quello che può essere capitato.</p>
+				<p>Già alle 21.40 si ha qualche sospetto: dalle comunicazioni radio - ascoltate molto tempo dopo, durante l'inchiesta - si apprende infatti che «il personale di Roma aveva sentito traffico americano in quella zona». La mattina dopo tutti i giornali riportano notizie della tragedia e si comincia anche a fare le prime ipotesi sulle cause del disastro. Nonostante tanti inquietanti interrogativi, le indagini si adagiano sulla ipotesi più tranquillizzante: la «tragica ovvietà» che purtroppo gli aerei cadono. E l'Aeronautica Militare è molto attiva nel supportare l'ipotesi del cedimento strutturale. Un'ipotesi che sarà presto smentita (la Commissione ministeriale chiuse i propri lavori escludendo il cedimento strutturale), ma che continuerà inspiegabilmente a condizionare tanti atteggiamenti; tanto che il sospetto che si era diffuso circa la cattiva manutenzione del DC9 ha portato, nel gennaio 1981, alla chiusura e in seguito al fallimento della compagnia aerea Itavia.</p>
 			</biogHist>
 		</description>
 	</cpfDescription>
