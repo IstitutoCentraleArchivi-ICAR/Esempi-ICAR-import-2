@@ -4,9 +4,6 @@
  xmlns:eac-sia="http://www.san.beniculturali.it/eac-sia"
  audience="external">
 	<control maintenanceStatus="derived" eac-sia:status="bozza"> 
-		
-		<!-- controllare errori del validatore per decidere semodificare i dati o le regole del validatore -->
-		
 		<recordId>3221199</recordId>
 		<maintenanceAgency>
 			<agencyCode>IT-ICAR</agencyCode>
@@ -29,15 +26,20 @@
 		<identity>
 			<entityType value="corporateBody" eac-sia:tipoLocale="Evento"/>
 			<nameEntry>
-				<part>Strage di Ustica</part>
+				<part localType="denominazioneEvento">Strage di Ustica</part>
 			</nameEntry>
+			<otherEntityTypes>
+				<otherEntityType localType="Evento">
+					<term>Evento storico</term>
+				</otherEntityType>
+			</otherEntityTypes>
 			<identityId>SIA-EV-3221199</identityId>
 		</identity>
 		<description>
 			<localDescriptions>
 				<localDescription>
 					<term>Osservazioni</term>
-					<descriptiveNote><p>Tipologia evento: strage.</p></descriptiveNote> <!-- va bene contenuto? -->
+					<descriptiveNote><p>...</p></descriptiveNote>  <!-- contenuto -->
 				</localDescription>
 			</localDescriptions>
 			<places>

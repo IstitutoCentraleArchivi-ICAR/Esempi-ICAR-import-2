@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.san.beniculturali.it/tracciato/ead3.xsd" xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<control repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" scriptencoding="iso15924" langencoding="iso639-2b">
-		<localcontrol localtype="acronimoDiSistema"]> 
+		<localcontrol localtype="acronimoDiSistema"> 
 			<term>SIA</term>
 		</localcontrol>
-		<localcontrol localtype="identificativoDiSistema"]>   <!-- MANCA IL CONTENUTO DEGLI ELEMENTI -->
+		<localcontrol localtype="identificativoDiSistema">   <!-- MANCA IL CONTENUTO DEGLI ELEMENTI -->
 			<term>2025998</term>
 		</localcontrol>
 	</control>
-	<archdesc>
+	<archdesc level="item"> <!-- @level obbligatorio in Ead però non presente in mapping-->
 		<bibliography>
-			<bibref lang="ita" id="SIA RB 2025998">
+			<bibref lang="ita" id="SIA-RB-2025998">
 				<num localtype="codicePrecedente"></num>
 				<persname attributonondefinito="Autore"><part></part></persname> <!-- il nome dell'attributo non è presente nelle tabelle -->
 				<persname attributonondefinito="Curatore"><part></part></persname>
@@ -48,7 +48,7 @@
 					<chronitem>
 						<event>Importazione
 							<corpname relator="Compilatore">
-								<part localtype="Denominazione">ICAR CP 1988029</part>
+								<part localtype="Denominazione">ICAR-CP-1988029</part>
 							</corpname>
 						</event>
 						<datesingle>20250222</datesingle>

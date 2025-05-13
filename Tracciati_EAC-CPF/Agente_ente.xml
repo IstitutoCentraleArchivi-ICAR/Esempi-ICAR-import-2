@@ -3,8 +3,6 @@
  xmlns="https://archivists.org/ns/eac/v2"
  xmlns:eac-sia="http://www.san.beniculturali.it/eac-sia"
  audience="external">
-<!-- non presente parte relativa al soggetto conservatore, perchè questo soggetto produttore non esiste più, quindi non può essere un conservatore -->
-
  <control maintenanceStatus="derived" eac-sia:status="bozza">
   <recordId>1021243</recordId>
   <maintenanceAgency>
@@ -152,7 +150,7 @@
      </dateRange>
     </dateSet>
     <relationType>Soggetto produttore</relationType>
-    <targetRole>complessoArchivistico</targetRole>
+    <targetRole>Complesso archivistico</targetRole>
    </relation>
    <relation>
     <targetEntity targetType="resource" id="SIA-UA-2021315">
@@ -166,7 +164,7 @@
      </dateRange>
     </dateSet>
     <relationType>Mittente</relationType>
-	<targetRole>unitaArchivistica</targetRole>
+	<targetRole>Unità archivistica</targetRole>
     <descriptiveNote><p>Documentazione</p></descriptiveNote> <!-- ha senso questo valore? -->
    </relation>
    <relation>
@@ -178,7 +176,7 @@
 		<date standardDate="19510310">10 mar. 1951</date>
     </dateSet>
 	<relationType>Destinatario</relationType>
-    <targetRole>unitaDocumentaria</targetRole>
+    <targetRole>Unità documentaria</targetRole>
     <descriptiveNote><p>Documentazione</p></descriptiveNote> <!-- ha senso questo valore? -->
    </relation>
    <relation>
@@ -186,34 +184,34 @@
 		<part>Inventario del fondo Intendenza di finanza di Bolzano</part>
 	</targetEntity>
     <relationType>Autore</relationType>
-	<targetRole>strumentoDiRicerca</targetRole>
+	<targetRole>Strumento di ricerca</targetRole>
    </relation> 
    <relation>
     <targetEntity targetType="resource" id="SIA-PR-6719131">
 		<part>...</part><!-- contenuto -->
 	</targetEntity>
     <relationType>Finanziatore</relationType>
-	<targetRole>progetto</targetRole>
+	<targetRole>Progetto</targetRole>
    </relation> 
    <relation>
     <targetEntity targetType="resource" id="SIA-EV-7719132">
 		<part>...</part><!-- contenuto -->
 	</targetEntity>
     <relationType>Finanziatore</relationType>
-	<targetRole>evento</targetRole>
+	<targetRole>Evento</targetRole>
    </relation> 
    <relation>
     <targetEntity targetType="agent" id="SIA-CS-1922132">
-		<part>Regno d'Italia poi Repubblica Italiana</part>
+		<part>Regno d'Italia</part>
 	</targetEntity>
     <dateSet>
-     <date localType="estremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="intervallo di date">1927-1991</date>
+     <date localType="estremoCronologicoTestuale" standardDate="1927-1946" eac-sia:tipologiaData="intervallo di date">1927-1946</date>
      <dateRange>
       <fromDate standardDate="1927">1927</fromDate>
-      <toDate standardDate="1991">1991</toDate>
+      <toDate standardDate="1946">1946</toDate>
      </dateRange>
     </dateSet>
-    <targetRole>contestoStoricoIstituzionale</targetRole>
+    <targetRole>Contesto storico istituzionale collegato</targetRole>
    </relation>
    <relation>
     <targetEntity targetType="resource" id="SIA-TE-2419131">

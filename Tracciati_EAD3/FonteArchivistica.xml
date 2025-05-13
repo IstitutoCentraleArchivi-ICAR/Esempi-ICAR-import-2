@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.san.beniculturali.it/tracciato/ead3.xsd" xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<control repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" scriptencoding="iso15924" langencoding="iso639-2b">
-		<localcontrol localtype="acronimoDiSistema"]> 
+		<localcontrol localtype="acronimoDiSistema"> 
 			<term>SIA</term>
 		</localcontrol>
-		<localcontrol localtype="identificativoDiSistema"]> 
+		<localcontrol localtype="identificativoDiSistema"> 
 			<term>2013027</term>
 		</localcontrol>
 	</control>
-	<archdesc>
+	<archdesc level="item"> <!-- @level obbligatorio in Ead però non presente in mapping-->
+		<did><unitid></unitid></did>
 		<bibliography>
-			<archref  lang="ita" id="SIA FA 2013027">
+			<archref  lang="ita" id="SIA-FA-2013027">
 				<num localtype="codicePrecedente">IT-ASCA-F346000090</num>
 				<ref>CA-424529</ref>
-				<title><part localtype="titoloBreve"]>Carteggio particolare della Segreteria di Stato</part></title>
-				<title><part localtype="Titolo"]>Carteggio particolare della Segreteria di Stato presso Sua Maestà in Cagliari con funzionari, particolari ed ecclesiastici dell'isola</part></title>
-				<title><part localtype="Descrizione"]>Registri copialettere contenenti il carteggio tra il viceré e i funzionari regi, ecclesiastici ed altre persone.</part></title>
+				<title><part localtype="titoloBreve">Carteggio particolare della Segreteria di Stato</part></title>
+				<title><part localtype="Titolo">Carteggio particolare della Segreteria di Stato presso Sua Maestà in Cagliari con funzionari, particolari ed ecclesiastici dell'isola</part></title>
+				<title><part localtype="Descrizione">Registri copialettere contenenti il carteggio tra il viceré e i funzionari regi, ecclesiastici ed altre persone.</part></title>
 			</archref>
-			<bibref localtype="riferimentoWeb" id="https://www.archiviostatocagliari.org/patrimonio/cnt/W-4245"/>
+			<bibref id="https://www.archiviostatocagliari.org/patrimonio/cnt/W-4245"/> <!-- localtype="riferimentoWeb" non è previsto in EAD -->
 		</bibliography>
 		<odd localtype="Osservazioni"><p>Una parte dei documenti è stata sottoposta a processi di restaurazione.</p></odd>
 		<processinfo>
@@ -26,7 +27,7 @@
 					<chronitem>
 						<event>Importazione
 							<corpname relator="Compilatore">
-								<part localtype="Denominazione">ICAR CP 1988029</part>
+								<part localtype="Denominazione">ICAR-CP-1988029</part>
 							</corpname>
 						</event>
 						<datesingle>20250222</datesingle>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.san.beniculturali.it/tracciato/ead3.xsd" xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<control repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" scriptencoding="iso15924" langencoding="iso639-2b">
-		<localcontrol localtype="acronimoDiSistema"]> 
+		<localcontrol localtype="acronimoDiSistema"> 
 			<term>SIA</term>
 		</localcontrol>
-		<localcontrol localtype="identificativoDiSistema"]> <!-- nella tabella non è indicato l'elemento per il mapping -->
+		<localcontrol localtype="identificativoDiSistema"> <!-- nella tabella non è indicato l'elemento per il mapping -->
 			<term>2013011</term>
 		</localcontrol>
 	</control>
@@ -12,8 +12,8 @@
 		<processinfo localtype="statusScheda">
 			<p>pubblicata</p> 
 		</processinfo>
-		<otherfindaid id="SIA SR 2013011" audience="external"> 	
-			<title><part localtype="titoloOriginale">Inventario della serie Danni di guerra, Intendenza di finanza di Bolzano</part><title>
+		<otherfindaid id="SIA-SR-2013011" audience="external"> 	
+			<title><part localtype="titoloOriginale">Inventario della serie Danni di guerra, Intendenza di finanza di Bolzano</part></title>
 			<bibref lang="ita">
 				<title><part localtype="titoloNormalizzato"]>Intendenza di finanza di Bolzano, Danni di guerra. Risarcimenti di danni di guerra a norma della legge 22 ottobre 1981, n. 593: inventario</part></title>
 				<genreform>
@@ -26,7 +26,7 @@
 				</genreform>
 				<date normal="20110101-20111231" localtype="Data singola">2011</date> <!-- BISOGNA RIPETERE <date> per estremo remoto e recente? -->
 				<date normal="20110101-20111231" localtype="Estremo_remoto">2011</date>
-				<persname relator="Compilatore"]>ICAR AG 2034556</persname>  	<!-- in SIA ci sono diversi valori per il ruolo dell'agente -->
+				<persname relator="Compilatore">ICAR-AG-2034556</persname>  	<!-- in SIA ci sono diversi valori per il ruolo dell'agente -->
 				<ref href="risorsaDigitaleCollegata" arcrole="è rappresentazione di">http://www.asbolzano.beniculturali.it/MW/mediaArchive/Pdf/invent/asbz_intend_finanz_danni_guerra_l593_1981.pdf"</ref> <!-- modificare valore di arcrole? -->
 			</bibref>
 		</otherfindaid>

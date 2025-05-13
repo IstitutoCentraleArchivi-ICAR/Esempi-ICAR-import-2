@@ -131,7 +131,7 @@
 						<toDate standardDate="99991231"/>
 					</dateRange>
 				</dateSet>
-				<targetRole>complessoArchivistico</targetRole>
+				<targetRole>Complesso archivistico</targetRole>
 				<relationType>Soggetto produttore</relationType>
 			</relation>
 			<relation>
@@ -154,7 +154,33 @@
 				<targetRole>Soggetto produttore collegato</targetRole>
 				<relationType>Associativa</relationType>
 			</relation>
-			
+			<relation>
+				<targetEntity targetType="agent" id="SIA-CS-1922132">
+					<part>Regno d'Italia</part>
+				</targetEntity>
+				<dateSet>
+					<date localType="estremoCronologicoTestuale" standardDate="1862-1946" eac-sia:tipologiaData="intervallo di date">1862-1946</date>
+					<dateRange>
+						<fromDate standardDate="1862">1862</fromDate>
+						<toDate standardDate="1946">1946</toDate>
+					</dateRange>
+				</dateSet>
+				<targetRole>Contesto storico istituzionale collegato</targetRole>
+			</relation>
+			<relation>
+				<targetEntity targetType="family" id="SIA-AG-1021716">
+					<part>Cruciani Barella, Rimini, sec. XIX - </part>
+				</targetEntity>
+				<targetRole>Relazione in arrivo - Soggetto produttore a cui è collegato</targetRole>
+				<relationType>Associativa</relationType>
+			</relation> 
+			<relation>
+				<targetEntity targetType="resource" id="SIA-RR-122057">
+					<part>...</part> <!-- contenuto -->
+				</targetEntity>
+				<relationType>è documentazione</relationType>
+				<targetRole>Risorsa digitale collegata</targetRole>
+			</relation>
 			<!-- Mancano alcune relazioni. È necessario crearle tutte, o basta con quelle che sono presenti nella scheda dell'agente ente? -->
 		</relations>
 	</cpfDescription>

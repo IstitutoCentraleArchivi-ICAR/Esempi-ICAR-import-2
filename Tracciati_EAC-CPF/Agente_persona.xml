@@ -141,14 +141,27 @@
 				<targetEntity targetType="resource" id="SIA-CA-2017123">
 					<part>Francesco Maria Antonioli</part>
 				</targetEntity>
-				<targetRole>complessoArchivistico</targetRole>
+				<targetRole>Complesso archivistico</targetRole>
 				<relationType>Soggetto produttore</relationType>
 			</relation>
 			<relation>
 				<targetEntity targetType="resource" id="SIA-TE-2412146">
 					<part>Anarchismo</part>
 				</targetEntity>
-				<relationType>tematismo</relationType>
+				<relationType>Tematismo</relationType>
+			</relation>
+			<relation>
+				<targetEntity targetType="agent" id="SIA-CS-1922132">
+					<part>Regno d'Italia</part>
+				</targetEntity>
+				<dateSet>
+					<date localType="estremoCronologicoTestuale" standardDate="1901-1946" eac-sia:tipologiaData="intervallo di date">sec. XX inizio-1946</date>
+					<dateRange>
+						<fromDate standardDate="1901">sec. XX inizio</fromDate>
+						<toDate standardDate="1946">1946</toDate>
+					</dateRange>
+				</dateSet>
+				<targetRole>Contesto storico istituzionale collegato</targetRole>
 			</relation>
 			<relation>
 				<targetEntity targetType="person" id="SIA-AG-1021325">

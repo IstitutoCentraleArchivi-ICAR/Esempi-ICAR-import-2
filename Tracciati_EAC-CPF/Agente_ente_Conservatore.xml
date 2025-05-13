@@ -3,7 +3,6 @@
  xmlns="https://archivists.org/ns/eac/v2"
  xmlns:eac-sia="http://www.san.beniculturali.it/eac-sia"
  audience="external">
-
 <!-- Descrizione dell'agente solo come soggetto conservatore -->
 	<control maintenanceStatus="derived" eac-sia:status="bozza">
 		<recordId>1021259</recordId>

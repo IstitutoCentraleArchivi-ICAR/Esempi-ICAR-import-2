@@ -37,24 +37,14 @@
   <localControl localType="Visibilita_FE"><term>Completa</term></localControl>
   <localControl localType="acronimoSistema"><term>SIA</term></localControl>
   <otherRecordId localType="SIAS">IT-PS1122</otherRecordId>
-  <otherRecordId localType="identificativoPrecedente">IT-PI002416</otherRecordId>  <!-- mi sembra che questa soluzione è diversa da come si fa in agenti -->
+  <otherRecordId localType="GGASI">IT-PI002416</otherRecordId>
  </control>
  <cpfDescription>
   <identity localType="profiloIstituzionale">
    <entityType value="corporateBody"/>
    <nameEntry localType="denominazioneProfilo" languageOfElement="ita">
-    <part localType="intestazione">Direzioni compartimentali (1862-1869) poi Intendenza  di finanza (1869-1991)</part> <!-- localType="intestazioneContesto" per uniformare con Agenti? --> 
-    <part localType="acronimo">IF</part> <!-- localType="acronimoContesto" per uniformare con Agenti? -->
-	
-    <useDates> <!-- non si dovrebbe usare existDates? -->
-     <dateSet>
-      <date localType="estremoCronologicoTestuale" standardDate="18620101-19911231" eac-sia:tipologiaData="intervallo di date">1862 - 1991</date>
-      <dateRange>
-       <fromDate standardDate="18620101">1862</fromDate>
-       <toDate standardDate="19911231">1991</toDate>
-      </dateRange>
-     </dateSet>
-    </useDates>
+    <part localType="intestazioneProfilo">Direzioni compartimentali (1862-1869) poi Intendenza  di finanza (1869-1991)</part>
+    <part localType="acronimoProfilo">IF</part>
    </nameEntry>
    <identityId>SIA-PI-19256155</identityId>
   </identity>
@@ -65,16 +55,15 @@
      <descriptiveNote><p>...</p></descriptiveNote> <!-- contenuto -->
     </localDescription>
    </localDescriptions>
-   <!--
    <existDates localType="dateEsistenzaEnte">
     <dateSet>
-     <date localType="estremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="intervallo di date" eac-sia:qualificaData="Date di esistenza">1927-1991</date>
+     <date localType="estremoCronologicoTestuale" standardDate="1862-1991" eac-sia:tipologiaData="intervallo di date" eac-sia:qualificaData="Date di esistenza">1862-1991</date>
      <dateRange>
-      <fromDate standardDate="1927">1927</fromDate>
+      <fromDate standardDate="1862">1862</fromDate>
       <toDate standardDate="1991">1991</toDate>
      </dateRange>
     </dateSet>
-   </existDates>-->
+   </existDates>
 	<biogHist>
 		<p>Il r.d. 26 set. 1869, n. 5286, istituisce le Intendenze di finanza in ogni capoluogo di provincia, come organi di decentramento, direzione e coordinamento dell'attività tributaria locale, cui vengono devolute tutte le attribuzioni spettanti alle cessate Direzioni compartimentali del demanio e delle tasse sugli affari, delle imposte dirette, del catasto e dei pesi e misure, delle gabelle, alle Ispezioni distrettuali ed alle Agenzie del tesoro, con esclusione pertanto delle competenze delle sopravvissute Direzioni del debito pubblico e delle casse depositi e prestiti, del Lotto e del Contenzioso finanziario. Restano, inoltre, la Direzione delle zecche, gli Uffici del cambio delle paste preziose, gli stabilimenti salini e l'Officina per la fabbricazione delle marche da bollo, francobolli e carte valori.</p>
    </biogHist>
@@ -117,13 +106,13 @@
    </relation>
    <relation>
     <targetEntity targetType="agent" id="SIA-CS-1922132">
-		<part>Regno d'Italia poi Repubblica Italiana</part>
+		<part>Regno d'Italia</part>
 	</targetEntity>
     <dateSet>
-     <date localType="estremoCronologicoTestuale" standardDate="1862-1991" eac-sia:tipologiaData="intervallo di date">1862-1991</date>
+     <date localType="estremoCronologicoTestuale" standardDate="1862-1946" eac-sia:tipologiaData="intervallo di date">1862-1946</date>
      <dateRange>
       <fromDate standardDate="1862">1862</fromDate>
-      <toDate standardDate="1991">1991</toDate>
+      <toDate standardDate="1946">1946</toDate>
      </dateRange>
     </dateSet>
     <targetRole>Contesto storico istituzionale collegato</targetRole>

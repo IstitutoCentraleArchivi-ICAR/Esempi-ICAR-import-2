@@ -37,24 +37,13 @@
   <localControl localType="Visibilita_FE"><term>Completa</term></localControl>
   <localControl localType="acronimoSistema"><term>SIA</term></localControl>
   <otherRecordId localType="ISIL">IT-CS0341</otherRecordId>
-  <otherRecordId localType="identificativoPrecedente">IT-RI002566</otherRecordId>  <!-- mi sembra che questa soluzione è diversa da come si fa in agenti -->
+  <otherRecordId localType="SIAS">IT-RI002566</otherRecordId>
  </control>
  <cpfDescription>
   <identity localType="contestoStoricoIstituzionale">
    <entityType value="corporateBody"/>
-   <nameEntry localType="denominazioneContesto" languageOfElement="ita">
-    <part localType="intestazione">Regno d'Italia poi Repubblica Italiana (1861 - )</part> <!-- localType="intestazioneContesto" per uniformare con Agenti? --> 
-    <part localType="acronimo">RI</part> <!-- localType="acronimoContesto" per uniformare con Agenti? -->
-	
-    <useDates> <!-- non si dovrebbe usare existDates? -->
-     <dateSet>
-      <date localType="estremoCronologicoTestuale" standardDate="18610101-99991231" eac-sia:tipologiaData="data aperta">1861 - </date>
-      <dateRange>
-       <fromDate standardDate="18610101">1861</fromDate>
-       <toDate standardDate="99991231"/>
-      </dateRange>
-     </dateSet>
-    </useDates>
+   <nameEntry localType="denominazioneCSI" languageOfElement="ita">
+    <part localType="intestazioneCSI">Regno d'Italia (1861 - 1946)</part>
    </nameEntry>
    <identityId>SIA-CS-1922132</identityId>
   </identity>
@@ -65,16 +54,15 @@
      <descriptiveNote><p>...</p></descriptiveNote> <!-- contenuto -->
     </localDescription>
    </localDescriptions>
-   <!--
    <existDates localType="dateEsistenzaEnte">
     <dateSet>
-     <date localType="estremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="intervallo di date" eac-sia:qualificaData="Date di esistenza">1927-1991</date>
+     <date localType="estremoCronologicoTestuale" standardDate="1861-1946" eac-sia:tipologiaData="intervallo di date" eac-sia:qualificaData="Date di esistenza"></date>
      <dateRange>
-      <fromDate standardDate="1927">1927</fromDate>
-      <toDate standardDate="1991">1991</toDate>
+      <fromDate standardDate="1861">1861</fromDate>
+      <toDate standardDate="1946">1946</toDate>
      </dateRange>
     </dateSet>
-   </existDates>-->
+   </existDates>
    <generalContext localType="descrizioneCSI">
 		<p>Il 17 marzo Vittorio Emanuele II viene proclamato re d'Italia. Il 18 febbraio 1861 si inaugura a Torino il primo Parlamento italiano: lo Statuto albertino, concesso da Carlo Alberto nel 1848, diventa la carta fondamentale del nuovo Stato. Il dibattito sull'organizzazione dello Stato, che includeva posizioni centralistiche e posizioni federative e regionalistiche, vede l'affermarsi della soluzione centralistica, nella linea risorgimentale dell'unità e indipendenza nazionale. Il nuovo Stato si modella sulla legge cavouriana del 1853 in un ordinamento per ministeri e si incardina a livello territoriale sulla figura del prefetto, sul modello dei dipartimenti francesi, ancorché derivante dalla figura dell'intendente, che rappresenta in ogni provincia il governo centrale ed esercita il controllo politico ed economico sulle amministrazioni provinciali e comunali e su tutte le amministrazioni periferiche dello Stato. Dopo una prima fase in cui rimangono in vigore alcune norme di Stati preunitari e operano varie amministrazioni stralcio, viene affrontata la complessa questione dell'unificazione amministrativa e giudiziaria che ha in un complesso di norme del 1865 il risultato più rilevante...</p>
    </generalContext>
@@ -118,11 +106,11 @@
       <toDate standardDate="1861">1861</toDate>
      </dateRange>
     </dateSet>
-    <targetRole>contestoStoricoIstituzionale</targetRole> <!-- rivedere in generale se valore di targetRole è con spazi o senza -->
-	<relationType>Collegato</relationType> <!-- lista chiusa? -->
+    <targetRole>Contesto storico istituzionale collegato</targetRole>
+	<relationType>Collegato</relationType>
    </relation>
 	<relation>
-    <targetEntity targetType="agent" id="SIA-CS-192534"> <!-- nel mapping dice che si tratta di relazione tra Contesti, però il primo campo è "Profilo istituzionale" -->
+    <targetEntity targetType="agent" id="SIA-CS-192534"> 
 		<part>Regno delle Due Sicilie</part>
 	</targetEntity>
     <dateSet>
