@@ -1,34 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.san.beniculturali.it/tracciato/ead3.xsd" xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<control repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" scriptencoding="iso15924" langencoding="iso639-2b">
-		<localcontrol localtype="acronimoDiSistema"> 
+		
+		<!-- ELEMENTI OBBLIGATORI NON PRESENTI NELLE TABELLE -->
+		<recordid>SIA-SR-2013011</recordid>
+		<filedesc>
+			<titlestmt>
+				<titleproper>Inventario della serie Danni di guerra, Intendenza di finanza di Bolzano</titleproper>
+			</titlestmt>
+		</filedesc>
+		<maintenancestatus value="new"/>
+		<maintenanceagency>
+			<agencyname>ICAR</agencyname>
+		</maintenanceagency>
+		<!-- / ELEMENTI OBBLIGATORI NON PRESENTI NELLE TABELLE / -->
+		
+		<localcontrol localtype="AcronimoDiSistema"> 
 			<term>SIA</term>
 		</localcontrol>
-		<localcontrol localtype="identificativoDiSistema"> <!-- nella tabella non è indicato l'elemento per il mapping -->
+		<localcontrol localtype="IdentificativoDiSistema"> <!-- nella tabella non è indicato l'elemento per il mapping -->
 			<term>2013011</term>
 		</localcontrol>
+		
+		<!-- ELEMENTI OBBLIGATORI NON PRESENTI NELLE TABELLE -->
+		<maintenancehistory>
+			<maintenanceevent>
+				<eventtype value="derived"/>
+				<eventdatetime>2025-02-21</eventdatetime>
+				<agenttype value="human"/>
+				<agent>Gruppo di lavoro ICAR</agent>
+			</maintenanceevent>
+		</maintenancehistory>
+		<!-- / ELEMENTI OBBLIGATORI NON PRESENTI NELLE TABELLE / -->
+		
 	</control>
-	<archdesc> 
-		<processinfo localtype="statusScheda">
-			<p>pubblicata</p> 
-		</processinfo>
-		<otherfindaid id="SIA-SR-2013011" audience="external"> 	
-			<title><part localtype="titoloOriginale">Inventario della serie Danni di guerra, Intendenza di finanza di Bolzano</part></title>
+	<archdesc level="item"> <!-- @level obbligatorio in Ead però non presente in mapping-->
+		<did>
+			<unitid>SIA-SR-2013011</unitid> <!-- obbligatorio in Ead. Non presente in mapping -->
+			
+			<unitid localtype="altroId" label="SIAS">GT-00149</unitid> <!-- in mapping manca xpath -->
+			<unitid localtype="idPrecedente">IF.DG.11022</unitid> <!-- in mapping manca xpath -->
+			
+			<unittitle localtype="Denominazione">Inventario della serie Danni di guerra, Intendenza di finanza di Bolzano</unittitle> <!-- obbligatorio in Ead. Non presente in mapping -->
+		</did>
+		
+		<otherfindaid id="SIA-SR-2013011" audience="external"> 
 			<bibref lang="ita">
-				<title><part localtype="titoloNormalizzato"]>Intendenza di finanza di Bolzano, Danni di guerra. Risarcimenti di danni di guerra a norma della legge 22 ottobre 1981, n. 593: inventario</part></title>
+				<title>
+					<part localtype="TitoloOriginale">Inventario della serie Danni di guerra, Intendenza di finanza di Bolzano</part> <!-- errore xpath in mapping? -->
+					<part localtype="TitoloNormalizzato">Intendenza di finanza di Bolzano, Danni di guerra. Risarcimenti di danni di guerra a norma della legge 22 ottobre 1981, n. 593: inventario</part>
+				</title>
 				<genreform>
-					<part localtype="tipologia">Inventario analitico</part>
-					<part localtype="specificazione"> ? ? ? </part>  <!-- MIGLIORARE CONTENUTO -->
-					<part localtype="descrizioneIntrinseca"> ? ? ? </part>   <!-- MIGLIORARE CONTENUTO -->
-					<part localtype="supporto">Analogico</part>
-					<part localtype="modalitaRedazione">Stampa da computer</part>
-					<part localtype="descrizioneEstrinseca">I titoli delle unità archivistiche sono individuati dalla colonna denominata “Descrizione del bene”, che nelle sottocolonne definisce i beni immobili danneggiati secondo il comune catastale, la/le particelle edificiali, quella/e fondiarie e la/le partite tavolari. Le pratiche relative ai beni mobili danneggiati – ai quali è stata assegnata una posizione diversa (e di solito consecutiva) rispetto all’immobile di pertinenza – sono comprese nel medesimo fascicolo, che in questo caso, dunque, comprende una o più pratiche, o sottofascicoli, ognuna individuata da una posizione.</part>
+					<part localtype="Tipologia">Inventario analitico</part>
+					<part localtype="Specificazione"> ? ? ? </part>  <!-- MIGLIORARE CONTENUTO -->
+					<part localtype="DescrizioneIntrinseca"> ? ? ? </part>   <!-- MIGLIORARE CONTENUTO -->
+					<part localtype="Supporto">Analogico</part>
+					<part localtype="ModalitaRedazione">Stampa da computer</part>
+					<part localtype="DescrizioneEstrinseca">I titoli delle unità archivistiche sono individuati dalla colonna denominata “Descrizione del bene”, che nelle sottocolonne definisce i beni immobili danneggiati secondo il comune catastale, la/le particelle edificiali, quella/e fondiarie e la/le partite tavolari. Le pratiche relative ai beni mobili danneggiati – ai quali è stata assegnata una posizione diversa (e di solito consecutiva) rispetto all’immobile di pertinenza – sono comprese nel medesimo fascicolo, che in questo caso, dunque, comprende una o più pratiche, o sottofascicoli, ognuna individuata da una posizione.</part>
 				</genreform>
-				<date normal="20110101-20111231" localtype="Data singola">2011</date> <!-- BISOGNA RIPETERE <date> per estremo remoto e recente? -->
+				<date normal="20110101-20111231" localtype="Data singola">2011</date> <!-- non mi è chiaro il mapping -->
 				<date normal="20110101-20111231" localtype="Estremo_remoto">2011</date>
-				<persname relator="Compilatore">ICAR-AG-2034556</persname>  	<!-- in SIA ci sono diversi valori per il ruolo dell'agente -->
-				<ref href="risorsaDigitaleCollegata" arcrole="è rappresentazione di">http://www.asbolzano.beniculturali.it/MW/mediaArchive/Pdf/invent/asbz_intend_finanz_danni_guerra_l593_1981.pdf"</ref> <!-- modificare valore di arcrole? -->
+				
+				<persname relator="Compilatore"><part>ICAR-AG-2034556</part></persname> <!-- elemento usato 2 volte in mapping: agenti collegati; complilatore --> 	<!-- in SIA ci sono diversi valori per il ruolo dell'agente --> <!-- part obbligatorio iin Ead, non previsto in mapping -->
+				
+				<ref href="RisorsaDigitaleCollegata" arcrole="è rappresentazione di">http://www.asbolzano.beniculturali.it/MW/mediaArchive/Pdf/invent/asbz_intend_finanz_danni_guerra_l593_1981.pdf</ref> <!-- modificare valore di arcrole? è un risorsa SIA o una URL? -->
 			</bibref>
 		</otherfindaid>
+		<processinfo localtype="StatusScheda">
+			<p>pubblicata</p> 
+		</processinfo>
+		
+		<!-- non ci sono informazioni di Compilazione? -->
+		
 	</archdesc>
 </ead>

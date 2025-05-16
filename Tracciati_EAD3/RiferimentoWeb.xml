@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.san.beniculturali.it/tracciato/ead3.xsd" xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<control repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" scriptencoding="iso15924" langencoding="iso639-2b">
+		 
+		<!-- ELEMENTI OBBLIGATORI NON PRESENTI NELLE TABELLE -->
+		<recordid>SIA-RW-3025911</recordid>
+		<filedesc>
+			<titlestmt>
+				<titleproper>Intendenza di Finznza</titleproper>
+			</titlestmt>
+		</filedesc>
+		<maintenancestatus value="new"/>
+		<maintenanceagency>
+			<agencyname>ICAR</agencyname>
+		</maintenanceagency>
+		<!-- / ELEMENTI OBBLIGATORI NON PRESENTI NELLE TABELLE / -->
+		
+		<localcontrol localtype="AcronimoDiSistema"> <!-- in mapping acronimo con minuscola -->
+			<term>SIA</term>
+		</localcontrol>
+		<localcontrol localtype="IdentificativoDiSistema">  
+			<term>3025911</term>
+		</localcontrol>
+		
+		<!-- ELEMENTI OBBLIGATORI NON PRESENTI NELLE TABELLE -->
+		<maintenancehistory>
+			<maintenanceevent>
+				<eventtype value="derived"/>
+				<eventdatetime>2025-02-21</eventdatetime>
+				<agenttype value="human"/>
+				<agent>Gruppo di lavoro ICAR</agent>
+			</maintenanceevent>
+		</maintenancehistory>
+		<!-- / ELEMENTI OBBLIGATORI NON PRESENTI NELLE TABELLE / -->
+		
+	</control>
+	<archdesc level="item"> <!-- @level obbligatorio in Ead però non presente in mapping-->
+		<did>
+			<unitid>SIA-RW-3025911</unitid> <!-- obbligatorio in Ead. Non presente in mapping -->
+			<unittitle localtype="Denominazione">Intendenza di Finznza</unittitle> <!-- obbligatorio per validatore. Non presente in mapping -->
+		</did>
+		<bibliography localtype="RiferimentoWeb"> <!-- rivedere mapping muovere sempre localtype="RiferimentoWeb" in bibliography, perchè in bibref non è permesso -->
+			<bibref lang="ita" id="SIA-RW-3025911">
+				<title>
+					<part localtype="Denominazione">Intendenza di Finznza</part> <!-- in mapping manca parte e rivedere posizione localtype -->
+					<part localtype="Descrizione">Pagina di Wikipedia dedicata all'Intendenza di Finznza.</part>
+				</title>
+				<ref href="https://it.wikipedia.org/wiki/Intendenza_di_finanza"/>
+				<date localtype="DataInserimento">2011/06/11</date> <!-- in Rif bibliografico è dentro un ref -->
+			</bibref>
+		</bibliography>
+		<odd localtype="Osservazioni"><p>Questa pagina è stata modificata per l'ultima volta il 13 mar 2025 alle 16:17.</p></odd>
+		<processinfo localtype="StatusScheda"> <!-- obbligatorio per validatore, ma in mapping non c'è xpath -->
+			<p>Bozza</p>
+		</processinfo>
+		<processinfo>
+			<processinfo localtype="Compilazione">
+				<chronlist>
+					<chronitem>
+						<datesingle>20250222</datesingle>
+						<event>Importazione
+							<corpname relator="Compilatore">
+								<part localtype="Denominazione">ICAR-CP-1988029</part>
+							</corpname>
+						</event>
+					</chronitem>
+				</chronlist>
+				<p> ..Note redazionali.. </p> <!-- contenuto -->
+			</processinfo>
+		</processinfo>
+	</archdesc>
+</ead>

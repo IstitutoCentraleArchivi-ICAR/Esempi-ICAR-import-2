@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.san.beniculturali.it/tracciato/ead3.xsd" xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<control repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" scriptencoding="iso15924" langencoding="iso639-2b">
+		 
+		<!-- ELEMENTI OBBLIGATORI NON PRESENTI NELLE TABELLE -->
+		<recordid>SIA-TE-2419131</recordid>
+		<filedesc>
+			<titlestmt>
+				<titleproper>Storia economica</titleproper>
+			</titlestmt>
+		</filedesc>
+		<maintenancestatus value="new"/>
+		<maintenanceagency>
+			<agencyname>ICAR</agencyname>
+		</maintenanceagency>
+		<!-- / ELEMENTI OBBLIGATORI NON PRESENTI NELLE TABELLE / -->
+		
+		<localcontrol localtype="AcronimoDiSistema"> <!-- in mapping acronimo con minuscola -->
+			<term>SIA</term>
+		</localcontrol>
+		<localcontrol localtype="IdentificativoDiSistema">  
+			<term>2419131</term>
+		</localcontrol>
+		
+		<!-- ELEMENTI OBBLIGATORI NON PRESENTI NELLE TABELLE -->
+		<maintenancehistory>
+			<maintenanceevent>
+				<eventtype value="derived"/>
+				<eventdatetime>2025-02-21</eventdatetime>
+				<agenttype value="human"/>
+				<agent>Gruppo di lavoro ICAR</agent>
+			</maintenanceevent>
+		</maintenancehistory>
+		<!-- / ELEMENTI OBBLIGATORI NON PRESENTI NELLE TABELLE / -->
+		
+	</control>
+	<archdesc level="item"> <!-- @level obbligatorio in Ead però non presente in mapping-->
+		<did>
+			<unitid>SIA-TE-2419131</unitid> <!-- obbligatorio in Ead. Non presente in mapping -->
+			<unittitle localtype="Denominazione">Storia economica</unittitle> <!-- obbligatorio per validatore. Non presente in mapping -->
+		</did>
+		<controlaccess>
+			<subject localtype="PercorsoRicercaNo" lang="ita" id="SIA-TE-2419131">
+				<part localtype="Denominazione">Storia economica</part>
+				<part localtype="Descrizione">La storia economica studia e analizza i fenomeni economici passati e presenti, inserendoli nel loro contesto sociale, politico e culturale. La storia economica utilizza metodi qualitativi (storiografici) e quantitativi (statistici ed econometrici). La storia economica che fa ampio uso di modelli econometrici, spesso accompagnati da ipotesi controfattuali, è nota come cliometria.</part>
+				<part localtype="Osservazioni">Materie affini, ma talvolta tenute distinte, sono la business history (storia dell'impresa) e la financial history (storia della moneta e degli intermediari finanziari).</part> <!-- negli altri oggetti si codifica con odd -->
+			</subject>
+		</controlaccess>
+		<processinfo localtype="StatusScheda"> <!-- obbligatorio per validatore, ma in mapping non c'è xpath -->
+			<p>Bozza</p>
+		</processinfo>
+		<processinfo>
+			<processinfo localtype="Compilazione">
+				<chronlist>
+					<chronitem>
+						<datesingle>20250222</datesingle>
+						<event>Importazione
+							<corpname relator="Compilatore">
+								<part localtype="Denominazione">ICAR-CP-1988029</part>
+							</corpname>
+						</event>
+					</chronitem>
+				</chronlist>
+				<p> ..Note redazionali.. </p> <!-- contenuto -->
+			</processinfo>
+		</processinfo>
+	</archdesc>
+</ead>
