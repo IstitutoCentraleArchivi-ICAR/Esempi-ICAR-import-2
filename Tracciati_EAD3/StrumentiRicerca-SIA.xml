@@ -2,7 +2,6 @@
 <ead xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.san.beniculturali.it/tracciato/ead3.xsd" xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<control repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" scriptencoding="iso15924" langencoding="iso639-2b">
 		
-		<!-- ELEMENTI OBBLIGATORI NON PRESENTI NELLE TABELLE -->
 		<recordid>SIA-SR-2013011</recordid>
 		<filedesc>
 			<titlestmt>
@@ -13,7 +12,6 @@
 		<maintenanceagency>
 			<agencyname>ICAR</agencyname>
 		</maintenanceagency>
-		<!-- / ELEMENTI OBBLIGATORI NON PRESENTI NELLE TABELLE / -->
 		
 		<localcontrol localtype="AcronimoDiSistema"> 
 			<term>SIA</term>
@@ -22,7 +20,6 @@
 			<term>2013011</term>
 		</localcontrol>
 		
-		<!-- ELEMENTI OBBLIGATORI NON PRESENTI NELLE TABELLE -->
 		<maintenancehistory>
 			<maintenanceevent>
 				<eventtype value="derived"/>
@@ -31,10 +28,9 @@
 				<agent>Gruppo di lavoro ICAR</agent>
 			</maintenanceevent>
 		</maintenancehistory>
-		<!-- / ELEMENTI OBBLIGATORI NON PRESENTI NELLE TABELLE / -->
 		
 	</control>
-	<archdesc level="item"> <!-- @level obbligatorio in Ead però non presente in mapping-->
+	<archdesc level="item">
 		<did>
 			<unitid>SIA-SR-2013011</unitid> <!-- obbligatorio in Ead. Non presente in mapping -->
 			
@@ -56,7 +52,7 @@
 					<part localtype="DescrizioneIntrinseca"> ? ? ? </part>   <!-- MIGLIORARE CONTENUTO -->
 					<part localtype="Supporto">Analogico</part>
 					<part localtype="ModalitaRedazione">Stampa da computer</part>
-					<part localtype="DescrizioneEstrinseca">I titoli delle unità archivistiche sono individuati dalla colonna denominata “Descrizione del bene”, che nelle sottocolonne definisce i beni immobili danneggiati secondo il comune catastale, la/le particelle edificiali, quella/e fondiarie e la/le partite tavolari. Le pratiche relative ai beni mobili danneggiati – ai quali è stata assegnata una posizione diversa (e di solito consecutiva) rispetto all’immobile di pertinenza – sono comprese nel medesimo fascicolo, che in questo caso, dunque, comprende una o più pratiche, o sottofascicoli, ognuna individuata da una posizione.</part>
+					<part localtype="DescrizioneEstrinseca">I titoli delle unità archivistiche sono individuati dalla colonna denominata "Descrizione del bene", che nelle sottocolonne definisce i beni immobili danneggiati secondo il comune catastale, la/le particelle edificiali, quella/e fondiarie e la/le partite tavolari. Le pratiche relative ai beni mobili danneggiati – ai quali è stata assegnata una posizione diversa (e di solito consecutiva) rispetto all'immobile di pertinenza – sono comprese nel medesimo fascicolo, che in questo caso, dunque, comprende una o più pratiche, o sottofascicoli, ognuna individuata da una posizione.</part>
 				</genreform>
 				<date normal="20110101-20111231" localtype="Data singola">2011</date> <!-- non mi è chiaro il mapping -->
 				<date normal="20110101-20111231" localtype="Estremo_remoto">2011</date>

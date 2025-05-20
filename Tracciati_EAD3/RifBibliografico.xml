@@ -2,27 +2,24 @@
 <ead xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.san.beniculturali.it/tracciato/ead3.xsd" xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<control repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" scriptencoding="iso15924" langencoding="iso639-2b">
 		 
-		<!-- ELEMENTI OBBLIGATORI NON PRESENTI NELLE TABELLE -->
-		<recordid>SIA-RB-2025998</recordid>
+		<recordid>..ID record contenitore..</recordid>
 		<filedesc>
 			<titlestmt>
-				<titleproper>Informatica testuale: teoria e prassi</titleproper>
+				<titleproper>Carteggio particolare della Segreteria di Stato</titleproper>
 			</titlestmt>
 		</filedesc>
 		<maintenancestatus value="new"/>
 		<maintenanceagency>
 			<agencyname>ICAR</agencyname>
 		</maintenanceagency>
-		<!-- / ELEMENTI OBBLIGATORI NON PRESENTI NELLE TABELLE / -->
 		
 		<localcontrol localtype="AcronimoDiSistema"> 
-			<term>SIA</term>
+			<term>..Acronimo di sistema record contenitore..</term>
 		</localcontrol>
-		<localcontrol localtype="IdentificativoDiSistema">  
-			<term>2025998</term>
+		<localcontrol localtype="IdentificativoDiSistema"> 
+			<term>..Identificativo di sistema record contenitore..</term>
 		</localcontrol>
 		
-		<!-- ELEMENTI OBBLIGATORI NON PRESENTI NELLE TABELLE -->
 		<maintenancehistory>
 			<maintenanceevent>
 				<eventtype value="derived"/>
@@ -31,58 +28,58 @@
 				<agent>Gruppo di lavoro ICAR</agent>
 			</maintenanceevent>
 		</maintenancehistory>
-		<!-- / ELEMENTI OBBLIGATORI NON PRESENTI NELLE TABELLE / -->
 		
 	</control>
-	<archdesc level="item"> <!-- @level obbligatorio in Ead però non presente in mapping-->
+	<archdesc level="item"> 
 		<did>
-			<unitid>SIA-RB-2025998</unitid> <!-- obbligatorio in Ead. Non presente in mapping -->
-			<unittitle localtype="Denominazione">Informatica testuale: teoria e prassi</unittitle> <!-- obbligatorio in Ead. Non presente in mapping -->
+			<unitid>..ID record contenitore..</unitid>
+			<unittitle localtype="Denominazione">..Denominazione record contenitore..</unittitle>
 		</did>
 		<bibliography>
 			<bibliography localtype="RiferimentoBibliografico">
 				<bibref lang="ita" id="SIA-RB-2025998">
 					<num localtype="CodicePrecedente">KH-02001</num>
-					<persname localtype="Autore"><part>Orlandi, Tito</part></persname>
-					<persname localtype="Curatore"><part>...</part></persname>
-					<genreform localtype="Tipologia"><part>Monografia</part></genreform>
+					<persname localtype="Autore"><part>Bottazzi G.</part></persname>
+					<persname localtype="Curatore"><part></part></persname>
+					<genreform localtype="Tipologia"><part>Periodico</part></genreform>
 					<title>
-						<part localtype="TitoloLibroOrRivista">Informatica testuale: teoria e prassi</part>
-						<part localtype="TitoloContributo"></part>
+						<part localtype="TitoloLibroOrRivista">Civiltà padana. Archeologia e storia del territorio</part>
+						<part localtype="TitoloContributo">L'evoluzione del paesaggio agrario di età romana. Dalla Carta archeologica alla storia dell'ambiente e delle comunità padane</part>
 						<part localtype="TitoloCorrelato"></part>
 						<part localtype="NotaTitoloCorrelato"></part>
-						<part localtype="SiglaCitazione"></part>
+						<part localtype="SiglaCitazione">00000009</part>
 						<part localtype="Volume"></part>
-						<part localtype="Pagine">IX, 180 p.</part>
+						<part localtype="Pagine">pp. 65-91</part>
+						<part localtype="StatusScheda">Bozza</part>
 					</title>
-					<geogname localtype="LuogoPubblicazione"><part>Roma, Bari</part></geogname>
-					<date localtype="DataPubblicazione">2010</date>
-					<corpname localtype="Editore"><part>GLF editori Laterza</part></corpname>
-					<geogname localtype="LuogoEdizione"><part>Roma, Bari</part></geogname>
-					<date localtype="AnnoEdizione">2010</date>
-					<num localtype="NumEdizione">1</num>
-					<!-- Specifiche (BIBS) non c'è xpath in mapping -->
+					<geogname localtype="LuogoPubblicazione"><part>Modena</part></geogname>
+					<date localtype="DataPubblicazione">1990</date>
+					<corpname localtype="Editore"><part>Aedes Muratoriana</part></corpname>
+					<geogname localtype="LuogoEdizione"><part>Modena</part></geogname>
+					<date localtype="AnnoEdizione">1990</date>
+					<num localtype="NumEdizione"></num>
+					<num localtype="Specifiche">LXVI, VI, n.11</num>
 					<subject localtype="Abstract"><part>Il mondo che ruota attorno alle funzioni, alla produzione e alla ricerca del testo sta oggi subendo una trasformazione redicale di cui molti parlano (perchè il fenomeno è sotto gli occhi di tutti) ma di cui pochi sono in grado di apprezzare compiutamente le origini e l'esatto significato, e dunque le possibili conseguenze.</part></subject>
-					
 				</bibref>
-			</bibliography>
-			<bibliography localtype="RiferimentoBibliografico"> <!-- è un bibliography diverso o è lo stesso di sopra? Sarà LinkRiferimentoBibliografico? -->
-				<ref linkrole="BID_SBN" id="xxx" href="https://opac.sbn.it/risultati-ricerca-avanzata/-/opac-adv/detail/MIL0792005?">
-					<title localtype="Didascalia">
-						<part></part>
-						<part localtype="Qualifica"></part> <!-- contenuto -->
-					</title>
-					<date localtype="DataInserimento"></date> <!-- contenuto -->
-				</ref>
+				<bibref>
+					<ref linkrole="BID_SBN" id="xxx" href="https://opac.sbn.it/risultati-ricerca-avanzata/-/opac-adv/detail/MIL0792005?">
+						<title>
+							<part localtype="Didascalia"></part> <!-- contenuto -->
+							<part localtype="Qualifica"></part> <!-- contenuto -->
+						</title>
+						<date localtype="DataInserimento"></date> <!-- contenuto -->
+					</ref>
+				</bibref>
 			</bibliography>
 			<bibliography localtype="LinkRiferimentoWeb">
 				<bibref id="SIA-RW-3024911"/>
 			</bibliography>
 		</bibliography>
-		<odd localtype="Osservazioni"><p>In appendice: I concetti dell'informatica, dello stesso autore</p></odd>
-		<processinfo localtype="StatusScheda"> <!-- rivedere xpath in mapping -->
-			<p>Bozza</p>
-		</processinfo>
+		<odd localtype="Osservazioni">
+			<odd localtype="RiferimentoBibliografico">
+				<p>In appendice: I concetti dell'informatica, dello stesso autore</p>
+			</odd>
+		</odd>
 		<processinfo localtype="Compilazione">
 			<processinfo localtype="RiferimentoBibliografico">
 				<chronlist>

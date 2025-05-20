@@ -2,27 +2,24 @@
 <ead xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.san.beniculturali.it/tracciato/ead3.xsd" xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<control repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" scriptencoding="iso15924" langencoding="iso639-2b">
 		
-		<!-- ELEMENTI OBBLIGATORI NON PRESENTI NELLE TABELLE -->
-		<recordid>SIA-FN-2023542</recordid>
+		<recordid>..ID record contenitore..</recordid>
 		<filedesc>
 			<titlestmt>
-				<titleproper>Norme sul reclutamento e sulla carriera dei magistrati</titleproper>
+				<titleproper>Carteggio particolare della Segreteria di Stato</titleproper>
 			</titlestmt>
 		</filedesc>
 		<maintenancestatus value="new"/>
 		<maintenanceagency>
 			<agencyname>ICAR</agencyname>
 		</maintenanceagency>
-		<!-- / ELEMENTI OBBLIGATORI NON PRESENTI NELLE TABELLE / -->
 		
 		<localcontrol localtype="AcronimoDiSistema"> 
-			<term>SIA</term>
+			<term>..Acronimo di sistema record contenitore..</term>
 		</localcontrol>
 		<localcontrol localtype="IdentificativoDiSistema"> 
-			<term>2023542</term>
+			<term>..Identificativo di sistema record contenitore..</term>
 		</localcontrol>
 		
-		<!-- ELEMENTI OBBLIGATORI NON PRESENTI NELLE TABELLE -->
 		<maintenancehistory>
 			<maintenanceevent>
 				<eventtype value="derived"/>
@@ -31,41 +28,43 @@
 				<agent>Gruppo di lavoro ICAR</agent>
 			</maintenanceevent>
 		</maintenancehistory>
-		<!-- / ELEMENTI OBBLIGATORI NON PRESENTI NELLE TABELLE / -->
 		
 	</control>
 	<archdesc level="item"> 
 		<did>
-			<unitid>SIA-FN-2023542</unitid> <!-- obbligatorio in Ead. Non presente in mapping -->
-			<unittitle localtype="Denominazione">Norme sul reclutamento e sulla carriera dei magistrati</unittitle> <!-- obbligatorio in Ead. Non presente in mapping -->
+			<unitid>..ID record contenitore..</unitid>
+			<unittitle localtype="Denominazione">..Denominazione record contenitore..</unittitle>
 		</did>
+		
 		<bibliography>
 			<bibliography localtype="FonteNormativa">
 				<bibref id="SIA-FN-2023542">
 					<genreform localtype="Tipologia"><part>Legge</part></genreform>
-					<corpname relator="AutoritaEmittente"><part>Regno d'Italia</part></corpname> <!--  <part> non è indicato nel mapping -->
+					<corpname relator="AutoritaEmittente"><part>Regno d'Italia</part></corpname>
 					<date>17-04-1930</date>
 					<num localtype="IdentificativoNIR">https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1930-04-17;421@originale</num>
 					<title>
-						<part localtype="TitoloAtto">Norme sul reclutamento e sulla carriera dei magistrati</part> 
-						<!-- errore in mapping: Titlo senza xpath e Numero con xpath di Titolo -->
-						<part localtype="Annesso">Tabella.</part>
+						<part localtype="TitoloAtto">Legge 17 aprile 1930, n. 421. Norme sul reclutamento e sulla carriera dei magistrati</part> 
+						<part localtype="NumeroAtto">421</part> 
+						<part localtype="Annesso">Tabella</part>
 						<part localtype="DataVersione"><date>17-04-1930</date></part>
 						<part localtype="SpecificaVersione">originale</part>
+						<part localtype="StatusScheda">Bozza</part>
 					</title>
 				</bibref>
 			</bibliography>
 			<bibliography localtype="LinkRiferimentoWeb"> 
-				<bibref id="gazzettaufficiale_1930_04_29"/> <!-- deve esere un ID SIA? -->
+				<bibref id="SIA-RW-3025911"/>
 			</bibliography>
 			<bibliography localtype="LinkRiferimentoBibliografico"> 
 				<bibref id="SIA-RB-2023899"/>
 			</bibliography>
 		</bibliography>
-		<odd localtype="Osservazioni"><p>Pubblicato in GU n.100 del 29-04-1930</p></odd>
-		<processinfo localtype="StatusScheda"> <!-- rivedere xpath in mapping -->
-			<p>Bozza</p>
-		</processinfo>
+		<odd localtype="Osservazioni">
+			<odd localtype="FonteNormativa">
+				<p>Pubblicato in GU n.100 del 29-04-1930</p>
+			</odd>
+		</odd>
 		<processinfo localtype="Compilazione">
 			<processinfo localtype="FonteNormativa">
 				<chronlist>

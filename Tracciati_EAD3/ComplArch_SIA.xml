@@ -15,10 +15,10 @@
 		</maintenanceagency>
 		<!-- / ELEMENTI OBBLIGATORI NON PRESENTI NELLE TABELLE / -->
 		
-		<localcontrol localtype="acronimoDiSistema"> 
+		<localcontrol localtype="AcronimoDiSistema"> 
 			<term>SIA</term>
 		</localcontrol>
-		<localcontrol localtype="identificativoDiSistema"> 
+		<localcontrol localtype="IdentificativoDiSistema"> 
 			<term>2013153</term>
 		</localcontrol>
 		
@@ -37,13 +37,13 @@
 	<archdesc level="fonds" audience="external"> 
 		<did>
 			<unitid>SIA-CA-2013153</unitid> 
-			<unitid localType="altroId" label="SIAS">IT-ASBZ-F230000094</unitid> 
-			<unitid localType="idPrecedente">SIcod001</unitid> 
-			<unittitle>Intendenza di finanza di Bolzano</unittitle> 
-			<unittitle label="altraDenominazione">Delegazione di finanza di Bolzano
-				<date localtype="dataTestuale" normal="19410101/19501231" localType="Intervallo di date">1941-1950</date> 
-				
+			<unitid localtype="AltroId" label="SIAS">IT-ASBZ-F230000094</unitid> 
+			<unitid localtype="IdPrecedente">SIcod001</unitid> 
+			<unittitle localtype="Denominazione">Intendenza di finanza di Bolzano</unittitle> 
+			<unittitle label="AltraDenominazione">Delegazione di finanza di Bolzano<footnote localtype="Annotazioni"></footnote> <!-- contenuto -->
 			</unittitle> 
+			
+			
 			
 			<unitdate label="dataTestuale" unitdatetype="inclusive" normal="19410101/19841231">1941-1984 (con documentazione dal 1915)</unitdate>
 			<unitdatestructured> <!-- pensavo che fosse ALTERNATIVO A unitdate, però in SIA compaiono entrambi -->
@@ -142,7 +142,7 @@
 				<p>Non si sono restrizioni all'utilizzo dei documenti.</p>
 			</userrestrict>
 		</userrestrict>
-		<processinfo localtype="statusScheda">
+		<processinfo localtype="StatusScheda">
 			<p>pubblicata</p> 
 		</processinfo>
 		<originalsloc>
