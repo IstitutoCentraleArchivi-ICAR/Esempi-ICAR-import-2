@@ -39,26 +39,31 @@
 			<unitid>SIA-RW-3025911</unitid> <!-- obbligatorio in Ead. Non presente in mapping -->
 			<unittitle localtype="Denominazione">Intendenza di Finznza</unittitle> <!-- obbligatorio per validatore. Non presente in mapping -->
 		</did>
-		<bibliography localtype="RiferimentoWeb"> <!-- rivedere mapping muovere sempre localtype="RiferimentoWeb" in bibliography, perchè in bibref non è permesso -->
-			<bibref lang="ita" id="SIA-RW-3025911">
-				<title>
-					<part localtype="Denominazione">Intendenza di Finznza</part> <!-- in mapping manca parte e rivedere posizione localtype -->
-					<part localtype="Descrizione">Pagina di Wikipedia dedicata all'Intendenza di Finznza.</part>
-				</title>
-				<ref href="https://it.wikipedia.org/wiki/Intendenza_di_finanza"/>
-				<date localtype="DataInserimento">2011/06/11</date> <!-- in Rif bibliografico è dentro un ref -->
-			</bibref>
+		<bibliography>
+			<bibliography localtype="RiferimentoWeb"> 
+				<bibref lang="ita" id="SIA-RW-3025911">
+					<title>
+						<part localtype="Denominazione">Intendenza di Finznza</part>
+						<part localtype="Descrizione">Pagina di Wikipedia dedicata all'Intendenza di Finznza.</part>
+					</title>
+					<ref href="https://it.wikipedia.org/wiki/Intendenza_di_finanza"/>
+					<date localtype="DataInserimento">2011/06/11</date>
+				</bibref>
+			</bibliography>
 		</bibliography>
 		<odd localtype="Osservazioni"><p>Questa pagina è stata modificata per l'ultima volta il 13 mar 2025 alle 16:17.</p></odd>
-		<processinfo localtype="StatusScheda"> <!-- obbligatorio per validatore, ma in mapping non c'è xpath -->
+		<processinfo localtype="StatusScheda"> <!-- rivedere xpath in mapping -->
 			<p>Bozza</p>
 		</processinfo>
-		<processinfo>
-			<processinfo localtype="Compilazione">
+		<processinfo localtype="Compilazione">
+			<processinfo localtype="RiferimentoWeb">
 				<chronlist>
 					<chronitem>
 						<datesingle>20250222</datesingle>
-						<event>Importazione
+						<event>
+							<name>
+								<part>Importazione</part>
+							</name>
 							<corpname relator="Compilatore">
 								<part localtype="Denominazione">ICAR-CP-1988029</part>
 							</corpname>

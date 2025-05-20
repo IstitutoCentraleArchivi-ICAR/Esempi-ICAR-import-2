@@ -18,7 +18,7 @@
 		<localcontrol localtype="AcronimoDiSistema"> 
 			<term>SIA</term>
 		</localcontrol>
-		<localcontrol localtype="identificativoDiSistema"> 
+		<localcontrol localtype="IdentificativoDiSistema"> 
 			<term>2013027</term>
 		</localcontrol>
 		
@@ -43,22 +43,29 @@
 			<archref  lang="ita" id="SIA-FA-2013027">
 				<num localtype="CodicePrecedente">IT-ASCA-F346000090</num>
 				<ref>CA-424529</ref>
-				<title><part localtype="TitoloBreve">Carteggio particolare della Segreteria di Stato</part></title>
-				<title><part localtype="Titolo">Carteggio particolare della Segreteria di Stato presso Sua Maestà in Cagliari con funzionari, particolari ed ecclesiastici dell'isola</part></title>
-				<title><part localtype="Descrizione">Registri copialettere contenenti il carteggio tra il viceré e i funzionari regi, ecclesiastici ed altre persone.</part></title>
+				<title>
+					<part localtype="TitoloBreve">Carteggio particolare della Segreteria di Stato</part>
+					<part localtype="Titolo">Carteggio particolare della Segreteria di Stato presso Sua Maestà in Cagliari con funzionari, particolari ed ecclesiastici dell'isola</part>
+					<part localtype="Descrizione">Registri copialettere contenenti il carteggio tra il viceré e i funzionari regi, ecclesiastici ed altre persone.</part>
+				</title>
 			</archref>
-			<bibref localtype="riferimentoWeb" id="wiki_Segreteria_Stato"/> <!-- @localtype non è previsto in EAD -->
+			<bibliography localtype="LinkRiferimentoWeb"> 
+				<bibref id="wiki_Segreteria_Stato"/> <!-- deve esere un ID SIA? -->
+			</bibliography>
 		</bibliography>
 		<odd localtype="Osservazioni"><p>Una parte dei documenti è stata sottoposta a processi di restaurazione.</p></odd>
-		<processinfo localtype="StatusScheda"> <!-- obbligatorio per validatore, ma in mapping non c'è xpath -->
+		<processinfo localtype="StatusScheda"> <!-- rivedere xpath in mapping -->
 			<p>Bozza</p>
 		</processinfo>
-		<processinfo>
-			<processinfo localtype="Compilazione">
+		<processinfo localtype="Compilazione">
+			<processinfo localtype="FonteArchivistica">
 				<chronlist>
 					<chronitem>
 						<datesingle>20250222</datesingle>
-						<event>Importazione
+						<event>
+							<name>
+								<part>Importazione</part>
+							</name>
 							<corpname relator="Compilatore">
 								<part localtype="Denominazione">ICAR-CP-1988029</part>
 							</corpname>

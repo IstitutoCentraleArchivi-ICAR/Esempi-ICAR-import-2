@@ -18,7 +18,7 @@
 		<localcontrol localtype="AcronimoDiSistema"> 
 			<term>SIA</term>
 		</localcontrol>
-		<localcontrol localtype="identificativoDiSistema"> 
+		<localcontrol localtype="IdentificativoDiSistema"> 
 			<term>2023542</term>
 		</localcontrol>
 		
@@ -39,30 +39,42 @@
 			<unitid>SIA-FN-2023542</unitid> <!-- obbligatorio in Ead. Non presente in mapping -->
 			<unittitle localtype="Denominazione">Norme sul reclutamento e sulla carriera dei magistrati</unittitle> <!-- obbligatorio in Ead. Non presente in mapping -->
 		</did>
-		<bibliography localtype="fonteNormativa">
-			<bibref id="SIA-FN-2023542">
-				<genreform localtype="FonteNormativa" identifier="https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1930-04-17;421@originale"><part>...</part></genreform> <!-- <part> obbligatorio però non presente in mapping -->
-				<genreform localtype="Tipologia"><part>Legge</part></genreform>
-				<corpname relator="AutoritaEmittente"><part>Regno d'Italia</part></corpname> <!--  <part> non è indicato nel mapping -->
-				<date>17-04-1930</date>
-				<num>421</num> <!-- errore in mapping (valore xpath) -->
-				<title localtype="titoloAtto"><part>Norme sul reclutamento e sulla carriera dei magistrati</part></title>
-				<title localtype="Annesso"><part>Tabella.</part></title>
-				<title localtype="SpecificaVersione"><part>originale</part></title> <!-- va bene? -->
-			</bibref>
-			<bibref id="SIA-RB-2023899"/> <!-- Link a entità Riferimento bibliografico. Il mapping è corretto? L'unica differenza con il bibref precedente è che questo non ha elementi figli -->
-			<bibref localtype="riferimentoWeb" id="gazzettaufficiale_1930_04_29"/> <!-- @localtype non è previsto in EAD -->
+		<bibliography>
+			<bibliography localtype="FonteNormativa">
+				<bibref id="SIA-FN-2023542">
+					<genreform localtype="Tipologia"><part>Legge</part></genreform>
+					<corpname relator="AutoritaEmittente"><part>Regno d'Italia</part></corpname> <!--  <part> non è indicato nel mapping -->
+					<date>17-04-1930</date>
+					<num localtype="IdentificativoNIR">https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1930-04-17;421@originale</num>
+					<title>
+						<part localtype="TitoloAtto">Norme sul reclutamento e sulla carriera dei magistrati</part> 
+						<!-- errore in mapping: Titlo senza xpath e Numero con xpath di Titolo -->
+						<part localtype="Annesso">Tabella.</part>
+						<part localtype="DataVersione"><date>17-04-1930</date></part>
+						<part localtype="SpecificaVersione">originale</part>
+					</title>
+				</bibref>
+			</bibliography>
+			<bibliography localtype="LinkRiferimentoWeb"> 
+				<bibref id="gazzettaufficiale_1930_04_29"/> <!-- deve esere un ID SIA? -->
+			</bibliography>
+			<bibliography localtype="LinkRiferimentoBibliografico"> 
+				<bibref id="SIA-RB-2023899"/>
+			</bibliography>
 		</bibliography>
 		<odd localtype="Osservazioni"><p>Pubblicato in GU n.100 del 29-04-1930</p></odd>
-		<processinfo localtype="StatusScheda"> <!-- obbligatorio per validatore, ma in mapping non c'è xpath -->
+		<processinfo localtype="StatusScheda"> <!-- rivedere xpath in mapping -->
 			<p>Bozza</p>
 		</processinfo>
-		<processinfo>
-			<processinfo localtype="Compilazione">
+		<processinfo localtype="Compilazione">
+			<processinfo localtype="FonteNormativa">
 				<chronlist>
 					<chronitem>
 						<datesingle>20250222</datesingle>
-						<event>Importazione
+						<event>
+							<name>
+								<part>Importazione</part>
+							</name>
 							<corpname relator="Compilatore">
 								<part localtype="Denominazione">ICAR-CP-1988029</part>
 							</corpname>

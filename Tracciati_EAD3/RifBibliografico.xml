@@ -40,50 +40,58 @@
 			<unittitle localtype="Denominazione">Informatica testuale: teoria e prassi</unittitle> <!-- obbligatorio in Ead. Non presente in mapping -->
 		</did>
 		<bibliography>
-			<bibref lang="ita" id="SIA-RB-2025998">
-				<num localtype="CodicePrecedente">KH-02001</num>
-				<persname attributonondefinito="Autore"><part>Orlandi, Tito</part></persname> <!-- il nome dell'attributo non è presente nelle tabelle -->
-				<persname attributonondefinito="Curatore"><part></part></persname> <!-- il nome dell'attributo non è presente nelle tabelle -->
-				<genreform localtype="Tipologia"><part>Monografia</part></genreform>
-				<title>
-					<part>Informatica testuale: teoria e prassi</part>
-					<part localtype="TitoloContributo"></part>
-					<part localtype="TitoloCorrelato"></part>
-					<part localtype="NotaTitoloCorrelato"></part>
-					<part localtype="SiglaCitazione"></part>
-					<part localtype="Volume"></part>
-					<part localtype="Pagine">IX, 180 p.</part>
-				</title>
-				<geogname localtype="LuogoPubblicazione"><part>Roma, Bari</part></geogname>
-				<date localtype="DataPubblicazione">2010</date>
-				<corpname localtype="Editore"><part>GLF editori Laterza</part></corpname>
-				<geogname localtype="LuogoEdizione"><part>Roma, Bari</part></geogname>
-				<date localtype="AnnoEdizione">2010</date>
-				<num localtype="NumEdizione">1</num>
+			<bibliography localtype="RiferimentoBibliografico">
+				<bibref lang="ita" id="SIA-RB-2025998">
+					<num localtype="CodicePrecedente">KH-02001</num>
+					<persname localtype="Autore"><part>Orlandi, Tito</part></persname>
+					<persname localtype="Curatore"><part>...</part></persname>
+					<genreform localtype="Tipologia"><part>Monografia</part></genreform>
+					<title>
+						<part localtype="TitoloLibroOrRivista">Informatica testuale: teoria e prassi</part>
+						<part localtype="TitoloContributo"></part>
+						<part localtype="TitoloCorrelato"></part>
+						<part localtype="NotaTitoloCorrelato"></part>
+						<part localtype="SiglaCitazione"></part>
+						<part localtype="Volume"></part>
+						<part localtype="Pagine">IX, 180 p.</part>
+					</title>
+					<geogname localtype="LuogoPubblicazione"><part>Roma, Bari</part></geogname>
+					<date localtype="DataPubblicazione">2010</date>
+					<corpname localtype="Editore"><part>GLF editori Laterza</part></corpname>
+					<geogname localtype="LuogoEdizione"><part>Roma, Bari</part></geogname>
+					<date localtype="AnnoEdizione">2010</date>
+					<num localtype="NumEdizione">1</num>
 					<!-- Specifiche (BIBS) non c'è xpath in mapping -->
-				<subject localtype="Abstract"><part>Il mondo che ruota attorno alle funzioni, alla produzione e alla ricerca del testo sta oggi subendo una trasformazione redicale di cui molti parlano (perchè il fenomeno è sotto gli occhi di tutti) ma di cui pochi sono in grado di apprezzare compiutamente le origini e l'esatto significato, e dunque le possibili conseguenze.</part></subject>
-				<ref><date localtype="DataInserimento"></date></ref> <!-- contenuto -->
-			</bibref>
-			<bibref localtype="riferimentoWeb" id="SIA-RW-3024911"/> <!-- localtype non permesso in Ead -->
-			<p>
+					<subject localtype="Abstract"><part>Il mondo che ruota attorno alle funzioni, alla produzione e alla ricerca del testo sta oggi subendo una trasformazione redicale di cui molti parlano (perchè il fenomeno è sotto gli occhi di tutti) ma di cui pochi sono in grado di apprezzare compiutamente le origini e l'esatto significato, e dunque le possibili conseguenze.</part></subject>
+					
+				</bibref>
+			</bibliography>
+			<bibliography localtype="RiferimentoBibliografico"> <!-- è un bibliography diverso o è lo stesso di sopra? Sarà LinkRiferimentoBibliografico? -->
 				<ref linkrole="BID_SBN" id="xxx" href="https://opac.sbn.it/risultati-ricerca-avanzata/-/opac-adv/detail/MIL0792005?">
 					<title localtype="Didascalia">
 						<part></part>
 						<part localtype="Qualifica"></part> <!-- contenuto -->
 					</title>
+					<date localtype="DataInserimento"></date> <!-- contenuto -->
 				</ref>
-			</p>
+			</bibliography>
+			<bibliography localtype="LinkRiferimentoWeb">
+				<bibref id="SIA-RW-3024911"/>
+			</bibliography>
 		</bibliography>
 		<odd localtype="Osservazioni"><p>In appendice: I concetti dell'informatica, dello stesso autore</p></odd>
-		<processinfo localtype="StatusScheda"> <!-- obbligatorio per validatore, ma in mapping non c'è xpath -->
+		<processinfo localtype="StatusScheda"> <!-- rivedere xpath in mapping -->
 			<p>Bozza</p>
 		</processinfo>
-		<processinfo>
-			<processinfo localtype="Compilazione">
+		<processinfo localtype="Compilazione">
+			<processinfo localtype="RiferimentoBibliografico">
 				<chronlist>
 					<chronitem>
 						<datesingle>20250222</datesingle>
-						<event>Importazione
+						<event>
+							<name>
+								<part>Importazione</part>
+							</name>
 							<corpname relator="Compilatore">
 								<part localtype="Denominazione">ICAR-CP-1988029</part>
 							</corpname>

@@ -15,7 +15,7 @@
 		</maintenanceagency>
 		<!-- / ELEMENTI OBBLIGATORI NON PRESENTI NELLE TABELLE / -->
 		
-		<localcontrol localtype="AcronimoDiSistema"> <!-- in mapping acronimo con minuscola -->
+		<localcontrol localtype="AcronimoDiSistema">
 			<term>SIA</term>
 		</localcontrol>
 		<localcontrol localtype="IdentificativoDiSistema">  
@@ -40,21 +40,25 @@
 			<unittitle localtype="Denominazione">Storia economica</unittitle> <!-- obbligatorio per validatore. Non presente in mapping -->
 		</did>
 		<controlaccess>
-			<subject localtype="PercorsoRicercaNo" lang="ita" id="SIA-TE-2419131">
+			<subject localtype="Tematismo" lang="ita" id="SIA-TE-2419131">
 				<part localtype="Denominazione">Storia economica</part>
 				<part localtype="Descrizione">La storia economica studia e analizza i fenomeni economici passati e presenti, inserendoli nel loro contesto sociale, politico e culturale. La storia economica utilizza metodi qualitativi (storiografici) e quantitativi (statistici ed econometrici). La storia economica che fa ampio uso di modelli econometrici, spesso accompagnati da ipotesi controfattuali, è nota come cliometria.</part>
 				<part localtype="Osservazioni">Materie affini, ma talvolta tenute distinte, sono la business history (storia dell'impresa) e la financial history (storia della moneta e degli intermediari finanziari).</part> <!-- negli altri oggetti si codifica con odd -->
+				<part localtype="PercorsoRicercaNo"/>
 			</subject>
 		</controlaccess>
-		<processinfo localtype="StatusScheda"> <!-- obbligatorio per validatore, ma in mapping non c'è xpath -->
+		<processinfo localtype="StatusScheda"> <!-- rivedere xpath in mapping -->
 			<p>Bozza</p>
 		</processinfo>
-		<processinfo>
-			<processinfo localtype="Compilazione">
+		<processinfo localtype="Compilazione">
+			<processinfo localtype="Tematismo">
 				<chronlist>
 					<chronitem>
 						<datesingle>20250222</datesingle>
-						<event>Importazione
+						<event>
+							<name>
+								<part>Importazione</part>
+							</name>
 							<corpname relator="Compilatore">
 								<part localtype="Denominazione">ICAR-CP-1988029</part>
 							</corpname>
