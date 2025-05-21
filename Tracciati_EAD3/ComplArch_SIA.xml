@@ -2,8 +2,7 @@
 <ead xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.san.beniculturali.it/tracciato/ead3.xsd" xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<control repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" scriptencoding="iso15924" langencoding="iso639-2b">
 
-		<!-- ELEMENTI OBBLIGATORI NON PRESENTI NELLE TABELLE -->
-		<recordid>IT-ASBZ-F230000094</recordid>
+		<recordid>SIA-CA-2013153</recordid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Intendenza di finanza di Bolzano</titleproper>
@@ -13,7 +12,6 @@
 		<maintenanceagency>
 			<agencyname>Archivio di Stato di Bolzano</agencyname>
 		</maintenanceagency>
-		<!-- / ELEMENTI OBBLIGATORI NON PRESENTI NELLE TABELLE / -->
 		
 		<localcontrol localtype="AcronimoDiSistema"> 
 			<term>SIA</term>
@@ -22,7 +20,6 @@
 			<term>2013153</term>
 		</localcontrol>
 		
-		<!-- ELEMENTI OBBLIGATORI NON PRESENTI NELLE TABELLE -->
 		<maintenancehistory>
 			<maintenanceevent>
 				<eventtype value="derived"/>
@@ -31,7 +28,6 @@
 				<agent>Gruppo di lavoro ICAR</agent>
 			</maintenanceevent>
 		</maintenancehistory>
-		<!-- / ELEMENTI OBBLIGATORI NON PRESENTI NELLE TABELLE / -->
 		
 	</control>
 	<archdesc level="fonds" audience="external"> 
@@ -42,61 +38,51 @@
 			<unittitle localtype="Denominazione">Intendenza di finanza di Bolzano</unittitle> 
 			<unittitle label="AltraDenominazione">Delegazione di finanza di Bolzano<footnote localtype="Annotazioni"></footnote> <!-- contenuto -->
 			</unittitle> 
-			
-			
-			
-			<unitdate label="dataTestuale" unitdatetype="inclusive" normal="19410101/19841231">1941-1984 (con documentazione dal 1915)</unitdate>
-			<unitdatestructured> <!-- pensavo che fosse ALTERNATIVO A unitdate, però in SIA compaiono entrambi -->
-				<daterange>  <!-- non è previsto datesingle (e dateset) -->
-					<fromdate standarddate="19410101">1941</fromdate>
-					<todate standarddate="19841231">1984</todate>
-				</daterange>
+			<unitdatestructured>
+				<dateset>
+					<datesingle label="dataTestuale" standarddate="1941/1984" altrender="Intervallo di date">1941-1984 (con documentazione dal 1915)</datesingle>
+					<daterange>
+						<fromdate standarddate="1941">1941</fromdate>
+						<todate standarddate="1984">1984</todate>
+					</daterange>
+					<datesingle localtype="NoteAllaDatazione">con documentazione dal 1915</datesingle>
+				</dateset>
 			</unitdatestructured>
-			<didnote label="Note_a_Estremo_recente_Complesso">(con documentazione dal 1915)</didnote>
-			
-			<physdescset> <!-- physdescset non è consideato nelle tabelle -->
-				<physdescstructured physdescstructuredtype="materialtype" coverage="part"> <!-- attributi obbligatori non previsti nelle tabelle -->
-					<dimensions unit="metri_lineari">3</dimensions>
-					<unittype>volumi</unittype>
-					<quantity>10</quantity>
-					<descriptivenote>
-						<p>Volumi rilegati con posteriorità.</p>
-					</descriptivenote>
-				</physdescstructured>
-				<physdescstructured physdescstructuredtype="materialtype" coverage="part">
-					<dimensions unit="metri_lineari">297</dimensions>
-					<unittype>buste</unittype>
-					<quantity>400</quantity>
-				</physdescstructured>
-			</physdescset>
-			<physdesc>300 m.l. (10 volumi e 400 buste)</physdesc> <!-- questo è alternativo a physdescset? -->
-			
-			<physloc>  <!-- VERIFICARE COME FUNZIONA IN SIA -->
-				<ptr></ptr>
-				<ref></ref>
+			<physdescstructured physdescstructuredtype="materialtype" coverage="part"> <!-- attributi obbligatori non previsti nelle tabelle -->
+				<dimensions unit="MetriLineari">300</dimensions>
+				<unittype>volumi</unittype>
+				<quantity>10</quantity>
+				<descriptivenote>
+					<p>Volumi rilegati con posteriorità.</p>
+				</descriptivenote>
+			</physdescstructured>
+			<physdescstructured physdescstructuredtype="materialtype" coverage="part"> <!-- la consistenza è ripetibile, però solo elemanti Tipo e Quantità. Va bene così il markup, o è meglio separare metri lineari e integrazione? -->
+				<unittype>buste</unittype>
+				<quantity>400</quantity>
+			</physdescstructured>
+			<physdesc localtype="ConsistenzaTotale">300 m.l. (10 volumi e 400 buste)</physdesc>
+			<physloc>
+				<ptr linkrole="Internal" target=""/>
+				<ref arcrole="DaPezzo"></ref>
+				<ref arcrole="APezzo"></ref>
 			</physloc>
+			<didnote localtype="StatoDiConservazione">Discreto</didnote>
+			<didnote localtype="CondizioniDelMateriale">Le condizioni del materiale sono stabili e non presenta particolari problemi di conservazione.</didnote>
+			<didnote localtype="RestauroOAltriInterventi">Parte del fondo é stato soggetto a interventi di restauro.</didnote>
 			
-			<didnote localtype="Stato_di_conservazione">
-				<p>Discreto</p>
-			</didnote>
-			<didnote localtype="Condizioni_del_materiale">
-				<p>Le condizioni del materiale sono stabili e non presenta particolari problemi di conservazione.</p>
-			</didnote>
-			<didnote localtype="Restauro_o_Altri_interventi">
-				<p>Parte del fondo é stato soggetto a interventi di restauro.</p>
-			</didnote>
 			<dao></dao> <!-- HA PIÙ SENSO NEI LIVELLI INFERIORI -->
+			
 			<langmaterial>
 				<language lang="ita">italian</language>
 			</langmaterial>
 		</did>
-		<scopecontent>
+		<scopecontent localtype="AmbitiEContenuto">
 			<p>Il fondo è costituito dalle due serie Danni di guerra, corredata da uno schedario alfabetico coevo organizzato per richiedente, e Campionatura, contenente le carte dell'Intendenza di finanza versate dall'Agenzia delle entrate di Bolzano.</p>
 		</scopecontent>
 		<custodhist>
 			<p>La serie archivistica denominata "Danni di Guerra", corredata da schedario coevo, fu versata dall'Intendenza di Finanza di Bolzano all'Archivio di Stato mediante vari versamenti tra il 30 giugno 1987 e l'8 marzo 1988; una seconda serie costituita da una campionatura venne versata il 15 marzo 2002 dall'Agenzia delle entrate di Bolzano, cui era confluito l'archivio dell'Intendenza di Finanza, a seguito dell'assimilazione delle funzioni da parte della Direzione generale delle entrate di Bolzano nel 1991.</p>
 		</custodhist>
-		<appraisal localtype="procedure_scarto">
+		<appraisal localtype="ProcedureScarto">
 			<p>Il fondo non é stato soggetto a procedure di scarto.</p>
 		</appraisal>
 		<accruals>
@@ -105,10 +91,10 @@
 		<acquinfo>
 			<p>Fondo versato in parte dall'Intendenza di Finanza di Bolzano e in parte dall'Agenzia delle entrate di Bolzano.</p>
 		</acquinfo>
-		<arrangement>
+		<arrangement localtype="CriteriOrdinamento">
 			<p>Fondo organizzato in due serie.</p>
 		</arrangement>
-		<arrangement>
+		<arrangement> <!-- rivedere xpath: usare head o localtype="Numerazione"? -->
 			<head>numerazione</head>
 			<p><num localtype="tipoNumerazione">numeri arabi</num></p>
 			<list>
@@ -116,13 +102,13 @@
 			</list>
 		</arrangement>
 		<arrangement>
-			<head>numerazione</head>
-			<p><num localtype="tipoNumerazione">numeri arabi</num></p>
+			<head>numerazione</head> <!-- rivedere xpath: usare head o localtype="Numerazione"? -->
+			<p><num localtype="TipoNumerazione">numeri arabi</num></p>
 			<list>
 				<item>401-410 (numerazione dei volumi)</item>
 			</list>
 		</arrangement>
-		<odd localtype="altreInfo">
+		<odd localtype="AltreInfo">
 			<p>Parte del fondo é stato digitalizzato.</p>
 		</odd>
 		<accessrestrict>
@@ -132,13 +118,13 @@
 		</accessrestrict>
 		<accessrestrict>
 			<p>Liberamente accessibile</p>
-			<accessrestrict localtype="noteCondizioniAccesso">
+			<accessrestrict localtype="NoteCondizioniAccesso">
 				<p>Non ci sono restrizioni all'accesso.</p>
 			</accessrestrict>
 		</accessrestrict>
 		<userrestrict>
 			<p>Riproduzione libera</p>
-			<userrestrict localtype="noteCondizioniUtilizzo">
+			<userrestrict localtype="NoteCondizioniUtilizzo">
 				<p>Non si sono restrizioni all'utilizzo dei documenti.</p>
 			</userrestrict>
 		</userrestrict>
@@ -146,23 +132,30 @@
 			<p>pubblicata</p> 
 		</processinfo>
 		<originalsloc>
-			<p>
+			<p> <!-- contenuto mixed -->
 				<title><part>Agenzia delle entrate di Bolzano</part></title>
 				Sono presenti alcuni fascicoli in copia. Gli originali sono conservati nel fondo dell'Agenzia delle entrate di Bolzano.
-			<!-- <ref arcrole="Localizzazione"></ref>
+				<ref arcrole="Localizzazione"></ref>
 				<ref arcrole="Segnatura"></ref>    
-				<ref href=""></ref> -->
+				<ref href=""/>
 			</p>
 		</originalsloc>
 		<altformavail>
 			<p>
 				<title><part>Free University of Bozen-Bolzano</part></title>
 				Una parte della serie Danni di guerra è disponibile in copia nella biblioteca della Free University of Bozen-Bolzano.
-			<!-- <ref arcrole="Localizzazione"></ref>
+				<ref arcrole="Localizzazione"></ref>
 				<ref arcrole="Segnatura"></ref>    
-				<ref href=""></ref> -->
+				<ref href=""/>>
 			</p>
 		</altformavail>
+		
+		
+		
+		
+		
+		
+		
 		<relatedmaterial>
 			<archref>
 				<title>Archivio storico della Città di Bolzano</title>
@@ -184,18 +177,23 @@
 				<ref linktitle="relazioneConUD" arcrole="" target=""></ref>
 			</archref>-->
 		</relatedmaterial>
+		
+		
+		
+		
+		
 		<relations>
 			<relation relationtype="cpfrelation">
-				<relationentry localtype="soggettoProduttore" id="IT-ASBZ-CC236400094"/>
-				<daterange> 		<!-- può essere anche datesingle -->
-					<fromdate standarddate="19410101">1941</fromdate>
-					<todate standarddate="19841231">1984</todate>
-				</daterange>
+				<relationentry localtype="SoggettoProduttore" id="SIA-AG-1021243"/>
+				<dateset>
+					<datesingle label="dataTestuale" standarddate="1941/1984" altrender="Intervallo di date">1941-1984</datesingle>
+					<daterange>
+						<fromdate standarddate="1941">1941</fromdate>
+						<todate standarddate="1984">1984</todate>
+					</daterange>
+				</dateset>
 			</relation>
-			<relation relationtype="cpfrelation"> <!-- è così? Nelle tabelle non è molto chiaro e in SIA non si inserisce questa informazione -->
-				<relationentry localtype="Soggetto conservatore">san.cat.sogC.4939</relationentry>
-				<datesingle standarddate="1987" localtype="data aperta">1987-</datesingle>
-			</relation>
+
 			<relation relationtype="otherrelationtype" otherrelationtype="ProgettoCollegato">
 				<relationentry>SIA-prg-A00011</relationentry>
 			</relation>
