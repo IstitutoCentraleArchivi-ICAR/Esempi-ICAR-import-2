@@ -36,44 +36,42 @@
 			<unitid localtype="AltroId" label="SIAS">IT-ASBZ-F230000094</unitid> 
 			<unitid localtype="IdPrecedente">SIcod001</unitid> 
 			<unittitle localtype="Denominazione">Intendenza di finanza di Bolzano</unittitle> 
-			<unittitle label="AltraDenominazione">Delegazione di finanza di Bolzano<footnote localtype="Annotazioni"></footnote> <!-- contenuto -->
+			<unittitle label="AltraDenominazione">Delegazione di finanza di Bolzano<footnote localtype="Annotazioni"><p></p></footnote> <!-- contenuto --> <!-- p obbligatorio in Ead però non in xpath mapping -->
 			</unittitle> 
 			<unitdatestructured>
 				<dateset>
-					<datesingle label="dataTestuale" standarddate="1941/1984" altrender="Intervallo di date">1941-1984 (con documentazione dal 1915)</datesingle>
+					<datesingle localtype="dataTestuale" standarddate="1941/1984" altrender="Intervallo di date">1941-1984 (con documentazione dal 1915)</datesingle>
 					<daterange>
-						<fromdate standarddate="1941">1941</fromdate>
+						<fromdate standarddate="1941">1941</fromdate> <!-- va bene? per il validatore non va bene, ma il messaggio di errore non sembra corretto -->
 						<todate standarddate="1984">1984</todate>
 					</daterange>
 					<datesingle localtype="NoteAllaDatazione">con documentazione dal 1915</datesingle>
 				</dateset>
 			</unitdatestructured>
 			<physdescstructured physdescstructuredtype="materialtype" coverage="part"> <!-- attributi obbligatori non previsti nelle tabelle -->
-				<dimensions unit="MetriLineari">300</dimensions>
-				<unittype>volumi</unittype>
 				<quantity>10</quantity>
+				<unittype>volumi</unittype>
+				<dimensions unit="MetriLineari">300</dimensions>
 				<descriptivenote>
 					<p>Volumi rilegati con posteriorità.</p>
 				</descriptivenote>
 			</physdescstructured>
 			<physdescstructured physdescstructuredtype="materialtype" coverage="part"> <!-- la consistenza è ripetibile, però solo elemanti Tipo e Quantità. Va bene così il markup, o è meglio separare metri lineari e integrazione? -->
-				<unittype>buste</unittype>
 				<quantity>400</quantity>
+				<unittype>buste</unittype>
 			</physdescstructured>
 			<physdesc localtype="ConsistenzaTotale">300 m.l. (10 volumi e 400 buste)</physdesc>
 			<physloc>
-				<ptr linkrole="Internal" target=""/>
+				<ptr linkrole="Internal" id="xxx"/> <!-- in mapping sostituire @target (tipo IDREF) con @id -->
 				<ref arcrole="DaPezzo"></ref>
 				<ref arcrole="APezzo"></ref>
 			</physloc>
 			<didnote localtype="StatoDiConservazione">Discreto</didnote>
 			<didnote localtype="CondizioniDelMateriale">Le condizioni del materiale sono stabili e non presenta particolari problemi di conservazione.</didnote>
 			<didnote localtype="RestauroOAltriInterventi">Parte del fondo é stato soggetto a interventi di restauro.</didnote>
-			
-			<dao></dao> <!-- HA PIÙ SENSO NEI LIVELLI INFERIORI -->
-			
+			<dao href="" daotype="derived"></dao> <!-- href è Url o ID SIA? --> <!-- HA PIÙ SENSO NEI LIVELLI INFERIORI -->
 			<langmaterial>
-				<language lang="ita">italian</language>
+				<language lang="ita">italian</language> <!-- così o solo @lamg? -->
 			</langmaterial>
 		</did>
 		<scopecontent localtype="AmbitiEContenuto">
@@ -88,20 +86,20 @@
 		<accruals>
 			<p>Fondo chiuso. Non sono previsti incrementi.</p>
 		</accruals>
-		<acquinfo>
+		<acqinfo>
 			<p>Fondo versato in parte dall'Intendenza di Finanza di Bolzano e in parte dall'Agenzia delle entrate di Bolzano.</p>
-		</acquinfo>
+		</acqinfo>
 		<arrangement localtype="CriteriOrdinamento">
 			<p>Fondo organizzato in due serie.</p>
 		</arrangement>
-		<arrangement> <!-- rivedere xpath: usare head o localtype="Numerazione"? -->
+		<arrangement localtype="Numerazione"> <!-- va bene usare head=numerazione e localtype="Numerazione"? -->
 			<head>numerazione</head>
-			<p><num localtype="tipoNumerazione">numeri arabi</num></p>
+			<p><num localtype="TipoNumerazione">numeri arabi</num></p>
 			<list>
 				<item>1-400 (numerazione delle buste)</item>
 			</list>
 		</arrangement>
-		<arrangement>
+		<arrangement localtype="Numerazione">
 			<head>numerazione</head> <!-- rivedere xpath: usare head o localtype="Numerazione"? -->
 			<p><num localtype="TipoNumerazione">numeri arabi</num></p>
 			<list>
@@ -112,7 +110,7 @@
 			<p>Parte del fondo é stato digitalizzato.</p>
 		</odd>
 		<accessrestrict>
-			<accessrestrict localtype="visibilita FE">
+			<accessrestrict localtype="VisibilitaFE">
 				<p>Completa</p>
 			</accessrestrict>
 		</accessrestrict>
@@ -122,12 +120,12 @@
 				<p>Non ci sono restrizioni all'accesso.</p>
 			</accessrestrict>
 		</accessrestrict>
-		<userrestrict>
+		<userestrict> <!-- errore nome elemento in mapping (doppia r)-->
 			<p>Riproduzione libera</p>
-			<userrestrict localtype="NoteCondizioniUtilizzo">
+			<userestrict localtype="NoteCondizioniUtilizzo">
 				<p>Non si sono restrizioni all'utilizzo dei documenti.</p>
-			</userrestrict>
-		</userrestrict>
+			</userestrict>
+		</userestrict>
 		<processinfo localtype="StatusScheda">
 			<p>pubblicata</p> 
 		</processinfo>
@@ -146,56 +144,52 @@
 				Una parte della serie Danni di guerra è disponibile in copia nella biblioteca della Free University of Bozen-Bolzano.
 				<ref arcrole="Localizzazione"></ref>
 				<ref arcrole="Segnatura"></ref>    
-				<ref href=""/>>
+				<ref href=""/>
 			</p>
 		</altformavail>
-		
-		
-		
-		
-		
-		
-		
 		<relatedmaterial>
 			<archref>
-				<title>Archivio storico della Città di Bolzano</title>
+				<title><part>Archivio storico della Città di Bolzano</part></title> <!-- part obbligatorio in ead. Aggiungere in mapping -->
 				<!-- Descrizione -->
-				<ref href="https://opencity.comune.bolzano.it/Argomenti/Istruzione-cultura-e-sport/Cultura/Archivio-Storico" arcrole="xx qualifica del collegamento xx"><!-- campo Localizzazione (che significato ha?) --></ref>
+				<ref href="https://opencity.comune.bolzano.it/Argomenti/Istruzione-cultura-e-sport/Cultura/Archivio-Storico" arcrole="xx qualifica del collegamento xx"><!-- contenuto campo Localizzazione --></ref>
 			</archref>
 			<archref>
-				<title>Agenzia delle entrate di Bolzano</title>
+				<title><part>Agenzia delle entrate di Bolzano</part></title>
 				<!-- Descrizione -->
-				<ref linktitle="relazioneConCA" arcrole="xx qualifica della relazione xx" target="ICAR BZ 1500021"></ref>
+				<ref linktitle="RelazioneConCA" arcrole="xx qualifica della relazione xx" id="ICAR-BZ-1500021"></ref> <!-- in mapping sostituire @target (tipo IDREF) con @id -->
 			</archref>
 <!--			QUESTE RELAZIONI HANNO PIÙ SENSO A LIVELLO DI SERIE
 			<archref>
 				<title></title>
-				<ref linktitle="relazioneConUA" arcrole="" target=""></ref>
+				<ref linktitle="RelazioneConUA" arcrole="" target=""></ref>
 			</archref>
 		<archref> 
 				<title></title>
-				<ref linktitle="relazioneConUD" arcrole="" target=""></ref>
+				<ref linktitle="RelazioneConUD" arcrole="" target=""></ref>
 			</archref>-->
 		</relatedmaterial>
-		
-		
-		
-		
-		
 		<relations>
 			<relation relationtype="cpfrelation">
 				<relationentry localtype="SoggettoProduttore" id="SIA-AG-1021243"/>
 				<dateset>
-					<datesingle label="dataTestuale" standarddate="1941/1984" altrender="Intervallo di date">1941-1984</datesingle>
+					<datesingle localtype="dataTestuale" standarddate="1941/1984" altrender="Intervallo di date">1941-1984</datesingle>
 					<daterange>
 						<fromdate standarddate="1941">1941</fromdate>
 						<todate standarddate="1984">1984</todate>
 					</daterange>
 				</dateset>
 			</relation>
-
+			<relation relationtype="cpfrelation">
+				<relationentry localtype="SoggettoConservatore">SIA-AG-1033245</relationentry> <!-- nel mapping manca la lista dei valori controllati--> <!-- meglio mettere ID dell'agente in @id come nel collegamento con Soggetto produttore? -->
+				<dateset>
+					<datesingle localtype="dataTestuale" standarddate="1991" altrender="Data aperta (a partire da)">1991-</datesingle>
+					<daterange>
+						<fromdate standarddate="1991">1991</fromdate>
+					</daterange>
+				</dateset>
+			</relation>
 			<relation relationtype="otherrelationtype" otherrelationtype="ProgettoCollegato">
-				<relationentry>SIA-prg-A00011</relationentry>
+				<relationentry>SIA-prg-A00011</relationentry> <!-- o usare @id? -->
 			</relation>
 			<relation relationtype="otherrelationtype" otherrelationtype="EventoCollegato">
 				<relationentry>SIA-evn-C00032</relationentry>
@@ -203,7 +197,7 @@
 		</relations>
 		<otherfindaid> <!-- in SIA si crea un solo tipo di collegamento. perchè nel mapping c'è alternativa di usare bibref archref o p?-->
 			<bibref>Fonti per la storia dell'Alto Adige e del Sud Tirolo, Bolzano, 1998.</bibref>
-			<otherfindaid localtype="qualificaCollegamento">
+			<otherfindaid localtype="QualificaCollegamento">
 				<p>Pp. 151-199.</p>
 			</otherfindaid>
 		</otherfindaid>
@@ -214,54 +208,53 @@
 			</otherfindaid>
 		</otherfindaid>
 		<controlaccess>
-			<subject><part>Storia economica</part></subject>
-			<subject><part>Guerra</part></subject>
+			<subject><part>SIA-TE-2419131</part></subject>
+			<subject><part>SIA-TE-2419145</part></subject>
 		</controlaccess>
 		<bibliography>
 			<bibref>Pp. 55-102.
 				<title><part>ICAR-RB-1992347</part></title> <!-- non sono sicuro che vada cosí -->
 			</bibref>
-		</bibliography>
-		<bibliography>
 			<archref><ref>ICAR-FA-20200312</ref></archref>
+			<archref><genreform><part localtype="FonteNormativa"><ref>ICAR-FN-2109923</ref></part></genreform></archref>
+			<p><ref linkrole="RiferimentoWeb" href="SIA-RW-3025911"/></p>
 		</bibliography>
-		<bibliography>
-			<archref><genreform><part localtype="fonteNormativa"><ref>ICAR-FN-2109923</ref></part></genreform></archref>
-		</bibliography>
-		<bibliography>
-			<p><ref linkrole="riferimentoWeb" href="id_wiki_Intendenza_di_finanza"/></p> <!-- se l'oggetto a cui si punta è un'antità di SIA non è meglio usare @id? -->
-		</bibliography>
-		<odd localtype="Osservazioni">   <!--  MIGLIORARE CONTENUTO  -->
-			<p></p>
+		<odd localtype="Osservazioni"> <!-- modificare xpath -->
+			<odd localtype="ComplessoArchivistico">
+				<p></p>	<!--  CONTENUTO  -->
+			</odd>
 		</odd>
 		<processinfo localtype="StatusScheda">
 			<p>Bozza</p>
 		</processinfo>
-		<processinfo>
-			<processinfo localtype="Compilazione">
+		<processinfo localtype="Compilazione">
+			<processinfo localtype="ComplessoArchivistico">
 				<chronlist>
 					<chronitem>
-						<event>Importazione
+						<datesingle>20250222</datesingle>
+						<event>
 							<corpname relator="Compilatore">
 								<part localtype="Denominazione">ICAR-CP-1988029</part>
 							</corpname>
+							<name>
+								<part>Importazione</part>
+							</name>
 						</event>
-						<datesingle>20250222</datesingle>
 					</chronitem>
 				</chronlist>
 				<p> Note redazionali? </p>
 			</processinfo>
 		</processinfo>
-		<dsc>
+		<!--<dsc>
 			<c level="series"> 
 					
-					<!-- INSERIRE DATI DELLA SERIE DOPO L'APPROVAZIONE DEI DATI DEL FONDO -->
+					 INSERIRE DATI DELLA SERIE DOPO L'APPROVAZIONE DEI DATI DEL FONDO 
 					
 				<did>
 				
 				</did>
 				
 			</c>
-		</dsc>
+		</dsc>-->
 	</archdesc>
 </ead>
