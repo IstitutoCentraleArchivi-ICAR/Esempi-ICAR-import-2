@@ -56,13 +56,13 @@
 					<p>Volumi rilegati con posteriorità.</p>
 				</descriptivenote>
 			</physdescstructured>
-			<physdescstructured physdescstructuredtype="materialtype" coverage="part"> <!-- la consistenza è ripetibile, però solo elemanti Tipo e Quantità. Va bene così il markup, o è meglio separare metri lineari e integrazione? -->
+			<physdescstructured physdescstructuredtype="materialtype" coverage="part"> <!-- in SIA la consistenza è ripetibile, però solo elementi Tipo e Quantità. Va bene così il markup, o è meglio separare metri lineari e integrazione? -->
 				<quantity>400</quantity>
 				<unittype>buste</unittype>
 			</physdescstructured>
 			<physdesc localtype="ConsistenzaTotale">300 m.l. (10 volumi e 400 buste)</physdesc>
 			<physloc>
-				<ptr linkrole="Internal" id="xxx"/> <!-- in mapping sostituire @target (tipo IDREF) con @id -->
+				<ptr id="xxx" linkrole="Internal"/> <!-- in mapping sostituire @target (tipo IDREF) con @id -->
 				<ref arcrole="DaPezzo"></ref>
 				<ref arcrole="APezzo"></ref>
 			</physloc>
@@ -109,7 +109,7 @@
 		<odd localtype="AltreInfo">
 			<p>Parte del fondo é stato digitalizzato.</p>
 		</odd>
-		<accessrestrict>
+		<accessrestrict> <!-- validatore dice che ci deve essere solo un accessrestrict, però mi sembra che in Ead è ripetibile -->
 			<accessrestrict localtype="VisibilitaFE">
 				<p>Completa</p>
 			</accessrestrict>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.san.beniculturali.it/tracciato/ead3.xsd" xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<control repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" scriptencoding="iso15924" langencoding="iso639-2b">
+		 
+		<recordid>SIA-PR-15134566</recordid>
+		<filedesc>
+			<titlestmt>
+				<titleproper localtype="DenominazioneProgetto">Le pergamene dell'Archivio di Stato di Novara</titleproper>
+				<subtitle localtype="AcronimoProgetto">
+					<abbr>PASN</abbr>
+				</subtitle>
+				<author localtype="AgentePartecipante">
+					<ref id="SIA-AG-13634966">
+						<function localtype="Qualifica">
+							<part>Coordinatore</part>
+						</function>
+					</ref>
+				</author>
+			</titlestmt>
+			<notestmt>
+				<controlnote localtype="TipologiaProgetto">
+					<p>ProgettoDigitalizzazione</p>
+				</controlnote>
+				<controlnote localtype="FinalitaProgetto">
+					<p>Riproduzione di serie/fondi archivistici</p>
+				</controlnote>
+				<controlnote localtype="ObiettiviProgetto">
+					<p></p> <!-- contenuto -->
+				</controlnote>
+			</notestmt>
+		</filedesc>
+		<maintenancestatus value="new"/> <!-- questo corrisponde a Status scheda: modificare? -->
+		<maintenanceagency>
+			<agencyname localtype="AgentePrincipale" id="SIA-AG-13019682"/>
+			<descriptivenote>
+				<p>Responsabile</p>
+			</descriptivenote>
+		</maintenanceagency>
+		
+		<localcontrol localtype="AcronimoDiSistema"> 
+			<term>SIA</term>
+		</localcontrol>
+		<localcontrol localtype="IdentificativoDiSistema"> 
+			<term>15134566</term>
+		</localcontrol>
+		<localcontrol localtype="CriteriSelezioneMateriale"> 
+			<term></term>  <!-- contenuto -->
+		</localcontrol>
+		<localcontrol localtype="CriteriRiproduzioneMateriale"> 
+			<term></term>  <!-- contenuto -->
+		</localcontrol>
+		<localcontrol localtype="CoperturaSpazialeMateriale"> 
+			<term></term>  <!-- contenuto -->
+		</localcontrol>
+		<localcontrol localtype="CoperturaTemporaleMateriale"> 
+			<term></term>  <!-- contenuto -->
+		</localcontrol>
+		
+		<maintenancehistory>
+			<maintenanceevent>
+				<eventtype value="derived"/>
+				<eventdatetime>2025-02-21</eventdatetime>
+				<agenttype value="human"/>
+				<agent>Gruppo di lavoro ICAR</agent>
+			</maintenanceevent>
+		</maintenancehistory>
+		
+	</control>
+	<archdesc level="otherlevel" otherlevel="ProgettoDigitalizzazione">
+		<did>
+			<unitid>SIA-PR-15134566</unitid> <!-- non presente nel mapping -->
+			<unitdatestructured> <!-- in mapping markup è diverso. Uniformare con gestione date in fondi? -->
+				<dateset>
+					<datesingle localtype="dataTestuale" standarddate="2021/2023" altrender="Intervallo di date">2021-2023</datesingle>
+					<daterange>
+						<fromdate standarddate="2021">2021</fromdate>
+						<todate standarddate="2023">2023</todate>
+					</daterange>
+				</dateset>
+			</unitdatestructured>
+			<physdescstructured physdescstructuredtype="spaceoccupied" coverage="part"> <!-- coverage è  obbligatori non previsto nelle tabelle --> <!-- in mapping non è chiaro se c'è solo 1 physdescstructured o 2 -->
+				<quantity>...</quantity> <!-- obbligatorio in Ead. non presente in mapping -->
+				<unittype>...</unittype> <!-- obbligatorio in Ead. non presente in mapping -->
+				<dimensions></dimensions>  <!-- contenuto -->
+				<physfacet localtype="FormatoImmaginiOnline"></physfacet>  <!-- contenuto -->
+				<physfacet localtype="FormatoRiproduzione"></physfacet>  <!-- contenuto -->
+				<physfacet localtype="Risoluzione"></physfacet>  <!-- contenuto -->
+				<physfacet localtype="GestioneColore"></physfacet>  <!-- contenuto -->
+			</physdescstructured>
+			<daoset>
+				<dao href="xxx" daotype="derived"/> <!-- @href è Url o ID SIA? -->
+			</daoset>
+		</did>
+		<phystech localtype="ArchitetturaSistema">
+			<p></p>  <!-- contenuto -->
+		</phystech>
+		<phystech localtype="AltroSoftware">
+			<p></p>  <!-- contenuto -->
+		</phystech>
+		<phystech localtype="StrumentazioneRipresa">
+			<p></p>  <!-- contenuto -->
+		</phystech>
+		<phystech localtype="StandardAdottati">
+			<p></p>  <!-- contenuto -->
+		</phystech>
+		<accessrestrict localtype="AccessoOriginaliAnalogici">
+			<p></p>  <!-- contenuto -->
+		</accessrestrict>
+		<accessrestrict localtype="DetentoreDiritti">
+			<p>
+				<corpname><part></part></corpname>  <!-- contenuto -->
+			</p>  
+		</accessrestrict>
+		<scopecontent localtype="NoteProgetto">
+			<p>Il progetto trae origine dall'attività di schedatura e inventariazione delle pergamene del fondo Cacciapiatti, effettuata nel 2021 dalla dott.ssa Sara Sarselli, che ha prestato attività di servizio volontario presso l'Archivio di Stato di Novara ai sensi dell'art. 55 del DPR 1409/1963. Successivamente, Patrizio Zamborlin si è occupato della digitalizzazione delle preziose raccolte membranacee pervenute nel Fondo manoscritti della Biblioteca Civica di Novara: Azzati, Canetta, Cattaneo-Brambilla, Giannoni, Mirabelli, Olina, San Giulio d'Orta, Società archeologica di Novara, Tarella. Nell'ambito del tirocinio "Fondo giovani per la cultura", promosso dalla Direzione Generale Educazione, Ricerca e Istituti culturali, svolto dalla dott.ssa Ilaria Crespi nel corso del 2023, le dette raccolte sono state schedate sia su Archimista sia sulla piattaforma Metafad, con l'importazione dei relativi oggetti digitali nel DAM.</p>
+		</scopecontent>
+		<relations>
+			<relation relationtype="resourcerelation">
+				<relationentry localtype="ComplArchCollegato">SIA-CA-13637874</relationentry> <!-- o usare @id? -->
+			</relation>
+			<relation relationtype="resourcerelation">
+				<relationentry localtype="UACollegata">SIA-UA-2013122</relationentry>
+			</relation>
+			<relation relationtype="resourcerelation">
+				<relationentry localtype="UDCollegata">SIA-UD-2013129</relationentry>
+			</relation>
+			<relation relationtype="otherrelationtype" otherrelationtype="StrumentoDiRicerca">
+				<relationentry>SIA-SR-2013087</relationentry> <!-- o usare @id? -->
+			</relation>
+			<relation relationtype="otherrelationtype" otherrelationtype="Tematismo">
+				<relationentry>SIA-TE-2413133</relationentry>
+			</relation>
+		</relations>
+		<bibliography>
+			<bibliography localtype="LinkRiferimentoBibliografico">
+				<bibref id="SIA-RB-3025641"> <!-- contenuto indicazioni specifiche --></bibref>
+			</bibliography>
+			<bibliography localtype="LinkFonteNormativa">
+				<bibref id="SIA-FN-3025677"/>
+			</bibliography>
+			<bibliography localtype="LinkRiferimentoWeb">
+				<bibref id="SIA-RW-3025911"/>
+			</bibliography>
+			<archref id="SIA-FA-3023657"/>
+		</bibliography>
+		<processinfo>
+			<p></p>  <!-- campo Informazioni sommarie sullo stato di avanzamento. contenuto -->
+		</processinfo>
+		<processinfo localtype="Compilazione">
+			<processinfo localtype="Progetto">
+				<chronlist>
+					<chronitem>
+						<datesingle>20250222</datesingle>
+						<event>
+							<name>
+								<part>Importazione</part>
+							</name>
+							<corpname relator="Compilatore">
+								<part localtype="Denominazione">ICAR-CP-1988029</part>
+							</corpname>
+						</event>
+					</chronitem>
+				</chronlist>
+				<p> ..Note redazionali.. </p> <!-- contenuto -->
+			</processinfo>
+		</processinfo>
+	</archdesc>
+</ead>
