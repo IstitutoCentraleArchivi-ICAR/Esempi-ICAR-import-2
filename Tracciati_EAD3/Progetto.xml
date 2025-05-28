@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.san.beniculturali.it/tracciato/ead3.xsd" xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<control repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" scriptencoding="iso15924" langencoding="iso639-2b">
+		 <!-- https://archiviodigitale-icar.cultura.gov.it/it/186/esplora/digitalproject/653374?exploreType=progetti
+controllare <maintenancestatus value="new"/> negli altri esempi		 -->
+		 
+		 <!-- inserire odd e lingua descrizione record -->
+		 
 		 
 		<recordid>SIA-PR-15134566</recordid>
 		<filedesc>
@@ -25,11 +30,23 @@
 					<p>Riproduzione di serie/fondi archivistici</p>
 				</controlnote>
 				<controlnote localtype="ObiettiviProgetto">
-					<p></p> <!-- contenuto -->
+					<p></p>  <!-- contenuto -->
+				</controlnote>
+				<controlnote localtype="CriteriSelezioneMateriale"> 
+					<p></p>  <!-- contenuto -->
+				</controlnote>
+				<controlnote localtype="CriteriRiproduzioneMateriale"> 
+					<p></p>  <!-- contenuto -->
+				</controlnote>
+				<controlnote localtype="CoperturaSpazialeMateriale"> 
+					<p></p>  <!-- contenuto -->
+				</controlnote>
+				<controlnote localtype="CoperturaTemporaleMateriale"> 
+					<p></p>  <!-- contenuto -->
 				</controlnote>
 			</notestmt>
 		</filedesc>
-		<maintenancestatus value="new"/> <!-- questo corrisponde a Status scheda: modificare? -->
+		<maintenancestatus value="derived"/> <!-- usare in tutti gli Ead -->
 		<maintenanceagency>
 			<agencyname localtype="AgentePrincipale" id="SIA-AG-13019682"/>
 			<descriptivenote>
@@ -43,17 +60,8 @@
 		<localcontrol localtype="IdentificativoDiSistema"> 
 			<term>15134566</term>
 		</localcontrol>
-		<localcontrol localtype="CriteriSelezioneMateriale"> 
-			<term></term>  <!-- contenuto -->
-		</localcontrol>
-		<localcontrol localtype="CriteriRiproduzioneMateriale"> 
-			<term></term>  <!-- contenuto -->
-		</localcontrol>
-		<localcontrol localtype="CoperturaSpazialeMateriale"> 
-			<term></term>  <!-- contenuto -->
-		</localcontrol>
-		<localcontrol localtype="CoperturaTemporaleMateriale"> 
-			<term></term>  <!-- contenuto -->
+		<localcontrol localtype="StatusScheda"> 
+			<term>Bozza</term>
 		</localcontrol>
 		
 		<maintenancehistory>
@@ -78,18 +86,17 @@
 					</daterange>
 				</dateset>
 			</unitdatestructured>
-			<physdescstructured physdescstructuredtype="spaceoccupied" coverage="part"> <!-- coverage è  obbligatori non previsto nelle tabelle --> <!-- in mapping non è chiaro se c'è solo 1 physdescstructured o 2 -->
-				<quantity>...</quantity> <!-- obbligatorio in Ead. non presente in mapping -->
-				<unittype>...</unittype> <!-- obbligatorio in Ead. non presente in mapping -->
-				<dimensions></dimensions>  <!-- contenuto -->
-				<physfacet localtype="FormatoImmaginiOnline"></physfacet>  <!-- contenuto -->
-				<physfacet localtype="FormatoRiproduzione"></physfacet>  <!-- contenuto -->
-				<physfacet localtype="Risoluzione"></physfacet>  <!-- contenuto -->
-				<physfacet localtype="GestioneColore"></physfacet>  <!-- contenuto -->
-			</physdescstructured>
+			<physdesc localtype="Dimensioni"></physdesc>  <!-- contenuto -->
+			<physdesc localtype="FormatoImmaginiOnline">JPG</physdesc>
+			<physdesc localtype="FormatoRiproduzione">TIFF, JPEG, PDF</physdesc>
+			<physdesc localtype="Risoluzione">300 dpi</physdesc>
+			<physdesc localtype="GestioneColore">RGB a 24 bits</physdesc>
 			<daoset>
-				<dao href="xxx" daotype="derived"/> <!-- @href è Url o ID SIA? -->
+				<dao href="xxx" daotype="derived"/> <!--  ID SIA TECA -->
 			</daoset>
+			<langmaterial>
+				<language lang="ita">italian</language> <!-- così o solo @lang? -->
+			</langmaterial>
 		</did>
 		<phystech localtype="ArchitetturaSistema">
 			<p></p>  <!-- contenuto -->
@@ -116,7 +123,9 @@
 		</scopecontent>
 		<relations>
 			<relation relationtype="resourcerelation">
-				<relationentry localtype="ComplArchCollegato">SIA-CA-13637874</relationentry> <!-- o usare @id? -->
+				<relationentry localtype="ComplArchCollegato">SIA-CA-13637874</relationentry> 
+				
+				<!-- non usare @id. controllare altre relazioni in ComplArch -->
 			</relation>
 			<relation relationtype="resourcerelation">
 				<relationentry localtype="UACollegata">SIA-UA-2013122</relationentry>
@@ -125,7 +134,7 @@
 				<relationentry localtype="UDCollegata">SIA-UD-2013129</relationentry>
 			</relation>
 			<relation relationtype="otherrelationtype" otherrelationtype="StrumentoDiRicerca">
-				<relationentry>SIA-SR-2013087</relationentry> <!-- o usare @id? -->
+				<relationentry>SIA-SR-2013087</relationentry>
 			</relation>
 			<relation relationtype="otherrelationtype" otherrelationtype="Tematismo">
 				<relationentry>SIA-TE-2413133</relationentry>
@@ -143,6 +152,11 @@
 			</bibliography>
 			<archref id="SIA-FA-3023657"/>
 		</bibliography>
+		<odd localtype="Osservazioni">
+			<odd localtype="Progetti">
+				<p></p>	<!--  CONTENUTO  -->
+			</odd>
+		</odd>
 		<processinfo>
 			<p></p>  <!-- campo Informazioni sommarie sullo stato di avanzamento. contenuto -->
 		</processinfo>

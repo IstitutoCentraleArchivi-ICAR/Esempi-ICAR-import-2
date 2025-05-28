@@ -8,7 +8,7 @@
 				<titleproper>Intendenza di finanza di Bolzano</titleproper>
 			</titlestmt>
 		</filedesc>
-		<maintenancestatus value="new"/>
+		<maintenancestatus value="new"/> <!-- rivedere -->
 		<maintenanceagency>
 			<agencyname>Archivio di Stato di Bolzano</agencyname>
 		</maintenanceagency>
@@ -36,42 +36,47 @@
 			<unitid localtype="AltroId" label="SIAS">IT-ASBZ-F230000094</unitid> 
 			<unitid localtype="IdPrecedente">SIcod001</unitid> 
 			<unittitle localtype="Denominazione">Intendenza di finanza di Bolzano</unittitle> 
-			<unittitle label="AltraDenominazione">Delegazione di finanza di Bolzano<footnote localtype="Annotazioni"><p></p></footnote> <!-- contenuto --> <!-- p obbligatorio in Ead però non in xpath mapping -->
-			</unittitle> 
+			<unittitle label="AltraDenominazione">Delegazione di finanza di Bolzano</unittitle> 
+			<unittitle label="AnnotazioniAltraDenominazione"></unittitle>  <!-- contenuto -->
 			<unitdatestructured>
 				<dateset>
 					<datesingle localtype="dataTestuale" standarddate="1941/1984" altrender="Intervallo di date">1941-1984 (con documentazione dal 1915)</datesingle>
 					<daterange>
-						<fromdate standarddate="1941">1941</fromdate> <!-- va bene? per il validatore non va bene, ma il messaggio di errore non sembra corretto -->
+						<fromdate standarddate="1941">1941</fromdate>
 						<todate standarddate="1984">1984</todate>
 					</daterange>
 					<datesingle localtype="NoteAllaDatazione">con documentazione dal 1915</datesingle>
 				</dateset>
 			</unitdatestructured>
-			<physdescstructured physdescstructuredtype="materialtype" coverage="part"> <!-- attributi obbligatori non previsti nelle tabelle -->
+			<physdesc localtype="MetriLineari">300 m.l.</physdesc>
+			<physdescstructured physdescstructuredtype="materialtype" coverage="part">
 				<quantity>10</quantity>
 				<unittype>volumi</unittype>
-				<dimensions unit="MetriLineari">300</dimensions>
 				<descriptivenote>
 					<p>Volumi rilegati con posteriorità.</p>
 				</descriptivenote>
 			</physdescstructured>
-			<physdescstructured physdescstructuredtype="materialtype" coverage="part"> <!-- in SIA la consistenza è ripetibile, però solo elementi Tipo e Quantità. Va bene così il markup, o è meglio separare metri lineari e integrazione? -->
+			<physdescstructured physdescstructuredtype="materialtype" coverage="part">
 				<quantity>400</quantity>
 				<unittype>buste</unittype>
 			</physdescstructured>
-			<physdesc localtype="ConsistenzaTotale">300 m.l. (10 volumi e 400 buste)</physdesc>
+			<physdesc localtype="ConsistenzaTotale">10 volumi e 400 buste</physdesc>
+			<physdesc localtype="NoteAllaConsistenza"></physdesc> <!-- contenuto -->
 			<physloc>
-				<ptr id="xxx" linkrole="Internal"/> <!-- in mapping sostituire @target (tipo IDREF) con @id -->
+				<ptr id="xxx" linkrole="Internal"/>
 				<ref arcrole="DaPezzo"></ref>
 				<ref arcrole="APezzo"></ref>
 			</physloc>
+			
+			
+			
+			
 			<didnote localtype="StatoDiConservazione">Discreto</didnote>
 			<didnote localtype="CondizioniDelMateriale">Le condizioni del materiale sono stabili e non presenta particolari problemi di conservazione.</didnote>
 			<didnote localtype="RestauroOAltriInterventi">Parte del fondo é stato soggetto a interventi di restauro.</didnote>
-			<dao href="" daotype="derived"></dao> <!-- href è Url o ID SIA? --> <!-- HA PIÙ SENSO NEI LIVELLI INFERIORI -->
+			<dao href="" daotype="derived"></dao> <!-- href è Url o ID SIA? --> 
 			<langmaterial>
-				<language lang="ita">italian</language> <!-- così o solo @lamg? -->
+				<language lang="ita">italian</language> <!-- così o solo @lang? controllare anche altri esempi -->
 			</langmaterial>
 		</did>
 		<scopecontent localtype="AmbitiEContenuto">
@@ -158,19 +163,18 @@
 				<!-- Descrizione -->
 				<ref linktitle="RelazioneConCA" arcrole="xx qualifica della relazione xx" id="ICAR-BZ-1500021"></ref> <!-- in mapping sostituire @target (tipo IDREF) con @id -->
 			</archref>
-<!--			QUESTE RELAZIONI HANNO PIÙ SENSO A LIVELLO DI SERIE
 			<archref>
-				<title></title>
-				<ref linktitle="RelazioneConUA" arcrole="" target=""></ref>
+				<title><part></part></title>
+				<ref linktitle="RelazioneConUA" arcrole="" id=""></ref>
 			</archref>
-		<archref> 
-				<title></title>
-				<ref linktitle="RelazioneConUD" arcrole="" target=""></ref>
-			</archref>-->
+			<archref> 
+				<title><part></part></title>
+				<ref linktitle="RelazioneConUD" arcrole="" id=""></ref>
+			</archref>
 		</relatedmaterial>
 		<relations>
 			<relation relationtype="cpfrelation">
-				<relationentry localtype="SoggettoProduttore" id="SIA-AG-1021243"/>
+				<relationentry localtype="SoggettoProduttore">SIA-AG-1021243</relationentry>
 				<dateset>
 					<datesingle localtype="dataTestuale" standarddate="1941/1984" altrender="Intervallo di date">1941-1984</datesingle>
 					<daterange>
@@ -180,7 +184,7 @@
 				</dateset>
 			</relation>
 			<relation relationtype="cpfrelation">
-				<relationentry localtype="SoggettoConservatore">SIA-AG-1033245</relationentry> <!-- nel mapping manca la lista dei valori controllati--> <!-- meglio mettere ID dell'agente in @id come nel collegamento con Soggetto produttore? -->
+				<relationentry localtype="SoggettoConservatore">SIA-AG-1033245</relationentry> <!-- nel mapping manca la lista dei valori controllati-->
 				<dateset>
 					<datesingle localtype="dataTestuale" standarddate="1991" altrender="Data aperta (a partire da)">1991-</datesingle>
 					<daterange>
@@ -189,7 +193,7 @@
 				</dateset>
 			</relation>
 			<relation relationtype="otherrelationtype" otherrelationtype="ProgettoCollegato">
-				<relationentry>SIA-prg-A00011</relationentry> <!-- o usare @id? -->
+				<relationentry>SIA-prg-A00011</relationentry>
 			</relation>
 			<relation relationtype="otherrelationtype" otherrelationtype="EventoCollegato">
 				<relationentry>SIA-evn-C00032</relationentry>
@@ -212,14 +216,18 @@
 			<subject><part>SIA-TE-2419145</part></subject>
 		</controlaccess>
 		<bibliography>
-			<bibref>Pp. 55-102.
+			<bibref localtype="RiferimentoBibliografico">Pp. 55-102.
 				<title><part>ICAR-RB-1992347</part></title> <!-- non sono sicuro che vada cosí -->
 			</bibref>
 			<archref><ref>ICAR-FA-20200312</ref></archref>
-			<archref><genreform><part localtype="FonteNormativa"><ref>ICAR-FN-2109923</ref></part></genreform></archref>
+			<archref>
+				<genreform>
+					<part localtype="FonteNormativa"><ref>ICAR-FN-2109923</ref></part>
+				</genreform>
+			</archref>
 			<p><ref linkrole="RiferimentoWeb" href="SIA-RW-3025911"/></p>
 		</bibliography>
-		<odd localtype="Osservazioni"> <!-- modificare xpath -->
+		<odd localtype="Osservazioni">
 			<odd localtype="ComplessoArchivistico">
 				<p></p>	<!--  CONTENUTO  -->
 			</odd>
