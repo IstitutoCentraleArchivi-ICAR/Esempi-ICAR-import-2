@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.san.beniculturali.it/tracciato/ead3.xsd" xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
-	<control repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" scriptencoding="iso15924" langencoding="iso639-2b">
+	<control repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" scriptencoding="iso15924" langencoding="iso639-3">
+	
 		 <!-- https://archiviodigitale-icar.cultura.gov.it/it/186/esplora/digitalproject/653374?exploreType=progetti
-controllare <maintenancestatus value="new"/> negli altri esempi		 -->
-		 
-		 <!-- inserire odd e lingua descrizione record -->
-		 
+		 -->		 
 		 
 		<recordid>SIA-PR-15134566</recordid>
 		<filedesc>
@@ -46,7 +44,7 @@ controllare <maintenancestatus value="new"/> negli altri esempi		 -->
 				</controlnote>
 			</notestmt>
 		</filedesc>
-		<maintenancestatus value="derived"/> <!-- usare in tutti gli Ead -->
+		<maintenancestatus value="derived"/>
 		<maintenanceagency>
 			<agencyname localtype="AgentePrincipale" id="SIA-AG-13019682"/>
 			<descriptivenote>
@@ -76,8 +74,8 @@ controllare <maintenancestatus value="new"/> negli altri esempi		 -->
 	</control>
 	<archdesc level="otherlevel" otherlevel="ProgettoDigitalizzazione">
 		<did>
-			<unitid>SIA-PR-15134566</unitid> <!-- non presente nel mapping -->
-			<unitdatestructured> <!-- in mapping markup è diverso. Uniformare con gestione date in fondi? -->
+			<unitid>SIA-PR-15134566</unitid>
+			<unitdatestructured> 
 				<dateset>
 					<datesingle localtype="dataTestuale" standarddate="2021/2023" altrender="Intervallo di date">2021-2023</datesingle>
 					<daterange>
@@ -92,10 +90,10 @@ controllare <maintenancestatus value="new"/> negli altri esempi		 -->
 			<physdesc localtype="Risoluzione">300 dpi</physdesc>
 			<physdesc localtype="GestioneColore">RGB a 24 bits</physdesc>
 			<daoset>
-				<dao href="xxx" daotype="derived"/> <!--  ID SIA TECA -->
+				<dao href="xxx" daotype="derived"/> <!-- ..IN SOSPESO..  ID SIA TECA -->
 			</daoset>
 			<langmaterial>
-				<language lang="ita">italian</language> <!-- così o solo @lang? -->
+				<language lang="ita"/>
 			</langmaterial>
 		</did>
 		<phystech localtype="ArchitetturaSistema">
@@ -124,8 +122,6 @@ controllare <maintenancestatus value="new"/> negli altri esempi		 -->
 		<relations>
 			<relation relationtype="resourcerelation">
 				<relationentry localtype="ComplArchCollegato">SIA-CA-13637874</relationentry> 
-				
-				<!-- non usare @id. controllare altre relazioni in ComplArch -->
 			</relation>
 			<relation relationtype="resourcerelation">
 				<relationentry localtype="UACollegata">SIA-UA-2013122</relationentry>

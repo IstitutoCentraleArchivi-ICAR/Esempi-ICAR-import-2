@@ -36,7 +36,7 @@
 			<unittitle localtype="Denominazione">..Denominazione record contenitore..</unittitle>
 		</did>
 		
-		<otherfindaid id="SIA-SR-2013011" audience="external"> 
+		<otherfindaid id="SIA-SR-2013011"> 
 			<bibref lang="ita">
 				<title>
 					<part localtype="TitoloOriginale">Inventario della serie Danni di guerra, Intendenza di finanza di Bolzano</part> <!-- errore xpath in mapping? (manca bibref) -->

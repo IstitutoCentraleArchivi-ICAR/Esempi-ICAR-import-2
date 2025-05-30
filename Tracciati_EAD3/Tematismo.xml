@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.san.beniculturali.it/tracciato/ead3.xsd" xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
-	<control repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" scriptencoding="iso15924" langencoding="iso639-2b">
+	<control repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" scriptencoding="iso15924" langencoding="iso639-3">
 		 
 		<recordid>..ID record contenitore..</recordid>
 		<filedesc>
@@ -8,7 +8,7 @@
 				<titleproper>Carteggio particolare della Segreteria di Stato</titleproper>
 			</titlestmt>
 		</filedesc>
-		<maintenancestatus value="new"/>
+		<maintenancestatus value="derived"/>
 		<maintenanceagency>
 			<agencyname>ICAR</agencyname>
 		</maintenanceagency>
