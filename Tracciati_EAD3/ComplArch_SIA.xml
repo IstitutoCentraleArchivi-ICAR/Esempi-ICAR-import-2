@@ -96,16 +96,10 @@
 			<p>Fondo organizzato in due serie.</p>
 		</arrangement>
 		<arrangement localtype="Numerazione">
-			<p><num localtype="TipoNumerazione">numeri arabi</num></p>
-			<list>
-				<item>1-400 (numerazione delle buste)</item>
-			</list>
+			<p><num localtype="Numeri arabi">1-400 (numerazione delle buste)</num></p>
 		</arrangement>
 		<arrangement localtype="Numerazione">
-			<p><num localtype="TipoNumerazione">numeri arabi</num></p>
-			<list>
-				<item>401-410 (numerazione dei volumi)</item>
-			</list>
+			<p><num localtype="Numeri arabi">401-410 (numerazione dei volumi)</num></p>
 		</arrangement>
 		<odd localtype="AltreInfo">
 			<p>Parte del fondo é stato digitalizzato.</p>
@@ -194,9 +188,9 @@
 			</relation>
 		</relations>
 		<otherfindaid> <!-- in SIA si crea un solo tipo di collegamento. perchè nel mapping c'è alternativa di usare bibref archref o p?-->
-			<bibref>Fonti per la storia dell'Alto Adige e del Sud Tirolo, Bolzano, 1998.</bibref>
+			<bibref>Intendenza di finanza di Bolzano: 1941—1983, 2002</bibref>
 			<otherfindaid localtype="QualificaCollegamento">
-				<p>Pp. 151-199.</p>
+				<p>Pp. 1-15.</p>
 			</otherfindaid>
 		</otherfindaid>
 		<otherfindaid>
@@ -209,7 +203,7 @@
 			<subject><part>SIA-TE-2419131</part></subject>
 			<subject><part>SIA-TE-2419145</part></subject>
 		</controlaccess>
-		<bibliography>
+		<bibliography> <!-- controllare mapping e decidere se è necessario un bibliography con @localtype che contiene bibref (anche in UA) -->
 			<bibref>Pp. 55-102.
 				<title><part>ICAR-RB-1992347</part></title> <!-- non sono sicuro che vada cosí + localtype="RiferimentoBibliografico" non può andare in bibref -->
 			</bibref>
@@ -272,6 +266,249 @@
 				<processinfo localtype="StatusScheda">
 					<p>pubblicata</p> 
 				</processinfo>
+				<relations>
+					<relation relationtype="resourcerelation">
+						<relationentry localtype="ComplArchSovraordinato">SIA-CA-2013153</relationentry>
+					</relation>
+				</relations>
+				<processinfo localtype="Compilazione">
+					<processinfo localtype="ComplessoArchivistico">
+						<chronlist>
+							<chronitem>
+								<datesingle>20250222</datesingle>
+								<event>
+									<corpname relator="Compilatore">
+										<part localtype="Denominazione">ICAR-CP-1988029</part>
+									</corpname>
+									<name>
+										<part>Importazione</part>
+									</name>
+								</event>
+							</chronitem>
+						</chronlist>
+						<p> Note redazionali? </p>
+					</processinfo>
+				</processinfo>
+				
+				<c level="file">
+					<did>
+						<unitid>SIA-UD-2013159</unitid>
+						<unitid localtype="AltroId" label="SIAS">IT-ASBZ-F230000251</unitid>
+						<unitid localtype="IdPrecedente">SIcod055</unitid> 
+						<unitid localtype="NumeroSequenza">1556</unitid> 
+						<unitid localtype="NumOrdinamentoProvvisorio">00256</unitid> 
+						<unitid localtype="NumOrdinamentoDefinitivo">31</unitid> 
+						<unitid localtype="Segnatura">b.1 fasc.2 </unitid> 
+						<unitid localtype="SegnaturaPrecedente" label="SIAS">SI-ITBZ-00031</unitid>  <!-- nel mapping sembra che bisogna correggere gli attributi -->
+						<unittitle localtype="TitoloOriginale">113 - 104/II</unittitle> 
+						<unittitle label="IntegrazioneTitolo">Barbiano</unittitle> 
+						<unittitle localtype="TitoloAttributo">Richiesta risarcimento di guerra 113 - 104/II - Barbiano</unittitle> 
+						<unitdatestructured>
+							<dateset>
+								<datesingle localtype="dataTestuale" standarddate="19461015/19830419" altrender="Intervallo di date">1946 ott. 15 - 1983 apr. 19 (con documenti in copia del 1943)</datesingle>
+								<daterange>
+									<fromdate standarddate="19461015">1946 ott. 15</fromdate>
+									<todate standarddate="19830419">1983 apr. 19</todate>
+								</daterange>
+								<datesingle localtype="NoteAllaDatazione">con documenti in copia del 1943</datesingle>
+							</dateset>
+						</unitdatestructured>
+						
+						<physdescstructured physdescstructuredtype="materialtype" coverage="part"> <!-- attributi obbligatori non previsti in mapping -->
+							<quantity>1</quantity> <!-- quantity e unittype sono obbligatori in Ead, però non sono obbligatori in SIA (si possono creare gli elementi e lasciarli vuoti) -->
+							<unittype>fascicolo</unittype>
+							<physfacet> <!-- aggiungere localtype? -->
+								<genreform>
+									<part localtype="Tipologia"></part> <!-- contenuto? -->
+								</genreform>
+							</physfacet>
+							<physfacet localtype="Supporto"></physfacet> <!-- contenuto? -->
+							<physfacet localtype="Legatura"></physfacet> <!-- contenuto? -->
+							<dimensions localtype="Altezza"></dimensions> <!-- contenuto? -->
+							<dimensions localtype="Larghezza"></dimensions> <!-- contenuto? -->
+							<dimensions localtype="Spessore"></dimensions> <!-- contenuto? -->
+							<descriptivenote>
+								<p>-Integrazione alla descrizione e alla consistenza.-</p>
+							</descriptivenote>
+						</physdescstructured>
+						<container localtype="Tipologia"> <!-- contenuto di Tipologia --> <!-- mixed -->
+							<ref><num></num></ref> <!-- contenuto? Numero -->
+							<ref><title><part></part></title></ref> <!-- contenuto? Titolo unità di condizionamento + part è obbligatorio (non previsto nel mapping) -->
+						</container>
+						<physloc> <!-- contenuto di Collocazione --> <!-- mixed -->
+							<ref><num></num></ref> <!-- contenuto? Numero di posizione -->
+						</physloc>
+						<didnote localtype="StatoDiConservazione">Discreto</didnote>
+						<didnote localtype="CondizioniDelMateriale">Le condizioni del materiale sono stabili e non presenta particolari problemi di conservazione.</didnote>
+						<didnote localtype="RestauroOAltriInterventi">Fascicolo non restaurato.</didnote>
+						
+						<dao href="" daotype="derived"/> <!-- ..IN SOSPESO.. ID TECA --> 
+						
+						<langmaterial> <!-- lingua della descrizione -->
+							<languageset>
+								<script>italian</script>
+								<language lang="ita">ita</language> 
+							</languageset>
+							<descriptivenote>
+								<p>Parte dei documenti scritti in tedesco.</p> <!-- Descrizione tipo scrittura. va bene contenuto? -->
+							</descriptivenote>
+						</langmaterial>
+						<langmaterial><!-- lingua della documentazione -->
+							<language lang="ita"/>
+						</langmaterial>
+					</did>
+					<scopecontent localtype="DescrizioneContenuto">
+						<p>Richiedente: E.N.T.V. / Ministero del tesoro, uff. liquidazioni</p>
+					</scopecontent>
+					<fileplan>
+						<p>VI.05.02</p> <!-- è così il markup? -->
+						<p><subject localtype="IndiceClassificazione" identifier=""><part></part></subject></p> <!-- part obbligatorio in subject. Eliminare @identifier e unare part? --> <!-- contenuto? -->
+					</fileplan>
+					<arrangement localtype="CriteriOrdinamento">
+						<p>Docuenti in ordine cronologico.</p>
+					</arrangement>
+					<arrangement localtype="Numerazione">
+						<p><num localtype="Numeri arabi">2 (numerazione del fascicolo)</num></p>
+					</arrangement>
+					<accessrestrict localtype="CondizioniAccesso">
+						<p>Liberamente accessibile</p>
+						<accessrestrict localtype="NoteCondizioniAccesso">
+							<p>Non ci sono restrizioni all'accesso.</p>
+						</accessrestrict>
+					</accessrestrict>
+					<userestrict>
+						<p>Riproduzione libera</p>
+						<userestrict localtype="NoteCondizioniUtilizzo">
+							<p>Non si sono restrizioni all'utilizzo dei documenti.</p>
+						</userestrict>
+					</userestrict>
+					<originalsloc>
+						<head></head> <!-- contenuto -->
+						<p></p> <!-- contenuto -->
+						<p><ref arcrole="Localizzazione"></ref></p>
+						<p><ref arcrole="Segnatura"></ref></p>
+						<p><ref href=""/></p>
+					</originalsloc>
+					<altformavail>
+						<head></head> <!-- contenuto -->
+						<p></p> <!-- contenuto -->
+						<p><ref arcrole="Localizzazione"></ref></p>
+						<p><ref arcrole="Segnatura"></ref></p>
+						<p><ref href=""/></p>
+					</altformavail>
+					<relatedmaterial localtype="DocumentazioneEsterna">
+						<archref>
+							<title><part>Archivio storico della Città di Bolzano</part></title>
+						<!-- contenuto descrizione -->
+							<ref href="https://opencity.comune.bolzano.it/Argomenti/Istruzione-cultura-e-sport/Cultura/Archivio-Storico" arcrole="xx qualifica del collegamento xx"><!-- contenuto campo Localizzazione --></ref>
+						</archref>
+					</relatedmaterial>
+					<relatedmaterial localtype="DocumentazioneInterna">
+						<archref>
+							<title><part>Agenzia delle entrate di Bolzano</part></title>
+						<!-- Descrizione -->
+							<ref linktitle="RelazioneConCA" arcrole="xx qualifica della relazione xx" id="ICAR-BZ-1500021"></ref>
+						</archref>
+						<archref>
+							<title><part></part></title>
+							<!-- Descrizione -->
+							<ref linktitle="RelazioneConUA" arcrole="" id="ICAR-UA-1500025"></ref>
+						</archref>
+						<archref> 
+							<title><part></part></title>
+							<!-- Descrizione -->
+							<ref linktitle="RelazioneConUD" arcrole="" id="ICAR-UD-1500121"></ref>
+						</archref>
+					</relatedmaterial>
+					<relations>
+						<relation relationtype="resourcerelation">
+							<relationentry localtype="LivelloSuperiore">SIA-CA-2013153</relationentry>
+						</relation>
+						<relation relationtype="cpfrelation" arcrole="Detentore dei diritti"> <!-- va bene valore arcrole? -->
+							<relationentry>SIA-AG-1021243</relationentry>
+							<descriptivenote>
+								<p></p> <!-- contenuto. Motivo dell'attribuzione -->
+							</descriptivenote>
+							<dateset>
+								<datesingle localtype="dataTestuale" standarddate="19461015/19830419" altrender="Intervallo di date">1946 ott. 15 - 1983 apr. 19</datesingle>
+								<daterange>
+									<fromdate standarddate="19461015">1946 ott. 15</fromdate>
+									<todate standarddate="19830419">1983 apr. 19</todate>
+								</daterange>
+							</dateset>
+						</relation>
+						<relation relationtype="otherrelationtype" otherrelationtype="ProgettoCollegato">
+							<relationentry>SIA-prg-A00011</relationentry>
+						</relation>
+						<relation relationtype="otherrelationtype" otherrelationtype="EventoCollegato">
+							<relationentry>SIA-evn-C00032</relationentry>
+						</relation>
+					</relations>
+					<otherfindaid> <!-- in SIA si crea un solo tipo di collegamento. perchè nel mapping c'è alternativa di usare bibref archref o p?-->
+						<bibref>Intendenza di finanza di Bolzano: 1941—1983, 2002</bibref>
+						<otherfindaid localtype="QualificaCollegamento">
+							<p>P. 5.</p>
+						</otherfindaid>
+					</otherfindaid>
+					<controlaccess>
+						<subject><part identifier="SIA-TE-2419131"/></subject> <!-- in Complarc non c'è @identifier -->
+						<subject><part identifier="SIA-TE-2419145"/></subject>
+						<subject><part identifier="SIA-TE-2418365" relator="tematismo"/></subject> <!-- @relator non si può usare in part -->
+						<persname><part identifier="SIA-PE-2419175"/></persname>
+						<corpname><part identifier="SIA-AG-2419933"/></corpname>
+						<geogname><part identifier="SIA-LG-2418324"/></geogname>
+						<famname><part identifier="SIA-FA-2419443"/></famname>
+					</controlaccess>
+					<bibliography>
+						<bibref>Pp. 55-102.
+							<title><part>ICAR-RB-1992347</part></title> <!-- non sono sicuro che vada cosí + localtype="RiferimentoBibliografico" non può andare in bibref -->
+						</bibref>
+						<archref><ref>ICAR-FA-20200312</ref></archref>
+						<archref>
+							<genreform>
+								<part localtype="FonteNormativa"><ref>ICAR-FN-2109923</ref></part>
+							</genreform>
+						</archref>
+						<p><ref linkrole="RiferimentoWeb" href="SIA-RW-3025911"/></p>
+					</bibliography>
+					<odd localtype="Osservazioni">
+						<odd localtype="UnitaArchivistica">
+							<p></p>	<!--  CONTENUTO  -->
+						</odd>
+					</odd>
+					<processinfo localtype="StatusScheda">
+						<p>pubblicata</p> 
+					</processinfo>
+					<processinfo localtype="Compilazione">
+						<processinfo localtype="UnitaArchivistica">
+							<chronlist>
+								<chronitem>
+									<datesingle>20250222</datesingle>
+									<event>
+										<corpname relator="Compilatore">
+											<part localtype="Denominazione">ICAR-CP-1988029</part>
+										</corpname>
+										<name>
+											<part>Importazione</part>
+										</name>
+									</event>
+								</chronitem>
+							</chronlist>
+							<p> Note redazionali? </p>
+						</processinfo>
+					</processinfo>
+					
+					<!--
+					<c level="item">
+						<did>
+							<unitid>SIA-UD-</unitid>
+					
+						</did>
+					</c>
+					-->
+					
+				</c>
+				
 			</c>
 		</dsc>
 	</archdesc>
