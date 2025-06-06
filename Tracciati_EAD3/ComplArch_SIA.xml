@@ -40,7 +40,7 @@
 			<unittitle label="AnnotazioniAltraDenominazione"></unittitle>  <!-- contenuto -->
 			<unitdatestructured>
 				<dateset>
-					<datesingle localtype="dataTestuale" standarddate="1941/1984" altrender="Intervallo di date">1941-1984 (con documentazione dal 1915)</datesingle>
+					<datesingle localtype="DataTestuale" standarddate="1941/1984" altrender="Intervallo di date">1941-1984 (con documentazione dal 1915)</datesingle>
 					<daterange>
 						<fromdate standarddate="1941">1941</fromdate>
 						<todate standarddate="1984">1984</todate>
@@ -164,7 +164,7 @@
 			<relation relationtype="cpfrelation">
 				<relationentry localtype="SoggettoProduttore">SIA-AG-1021243</relationentry>
 				<dateset>
-					<datesingle localtype="dataTestuale" standarddate="1941/1984" altrender="Intervallo di date">1941-1984</datesingle>
+					<datesingle localtype="DataTestuale" standarddate="1941/1984" altrender="Intervallo di date">1941-1984</datesingle>
 					<daterange>
 						<fromdate standarddate="1941">1941</fromdate>
 						<todate standarddate="1984">1984</todate>
@@ -174,7 +174,7 @@
 			<relation relationtype="cpfrelation">
 				<relationentry localtype="SoggettoConservatore">SIA-AG-1033245</relationentry>
 				<dateset>
-					<datesingle localtype="dataTestuale" standarddate="1991" altrender="Data aperta (a partire da)">1991-</datesingle>
+					<datesingle localtype="DataTestuale" standarddate="1991" altrender="Data aperta (a partire da)">1991-</datesingle>
 					<daterange>
 						<fromdate standarddate="1991">1991</fromdate>
 					</daterange>
@@ -248,7 +248,7 @@
 					<unittitle localtype="Denominazione">Danni di Guerra</unittitle>
 					<unitdatestructured>
 						<dateset>
-							<datesingle localtype="dataTestuale" standarddate="1941/1983" altrender="Intervallo di date">1941-1983</datesingle>
+							<datesingle localtype="DataTestuale" standarddate="1941/1983" altrender="Intervallo di date">1941-1983</datesingle>
 							<daterange>
 								<fromdate standarddate="1941">1941</fromdate>
 								<todate standarddate="1983">1983</todate>
@@ -292,20 +292,20 @@
 				
 				<c level="file">
 					<did>
-						<unitid>SIA-UD-2013159</unitid>
+						<unitid>SIA-UA-2013159</unitid>
 						<unitid localtype="AltroId" label="SIAS">IT-ASBZ-F230000251</unitid>
 						<unitid localtype="IdPrecedente">SIcod055</unitid> 
 						<unitid localtype="NumeroSequenza">1556</unitid> 
 						<unitid localtype="NumOrdinamentoProvvisorio">00256</unitid> 
 						<unitid localtype="NumOrdinamentoDefinitivo">31</unitid> 
-						<unitid localtype="Segnatura">b.1 fasc.2 </unitid> 
-						<unitid localtype="SegnaturaPrecedente" label="SIAS">SI-ITBZ-00031</unitid>  <!-- nel mapping sembra che bisogna correggere gli attributi -->
+						<unitid label="Segnatura">b.1 fasc.2 </unitid> 
+						<unitid label="SegnaturaPrecedente" localtype="SIAS">SI-ITBZ-00031</unitid>
 						<unittitle localtype="TitoloOriginale">113 - 104/II</unittitle> 
 						<unittitle label="IntegrazioneTitolo">Barbiano</unittitle> 
 						<unittitle localtype="TitoloAttributo">Richiesta risarcimento di guerra 113 - 104/II - Barbiano</unittitle> 
 						<unitdatestructured>
 							<dateset>
-								<datesingle localtype="dataTestuale" standarddate="19461015/19830419" altrender="Intervallo di date">1946 ott. 15 - 1983 apr. 19 (con documenti in copia del 1943)</datesingle>
+								<datesingle localtype="DataTestuale" standarddate="19461015/19830419" altrender="Intervallo di date">1946 ott. 15 - 1983 apr. 19 (con documenti in copia del 1943)</datesingle>
 								<daterange>
 									<fromdate standarddate="19461015">1946 ott. 15</fromdate>
 									<todate standarddate="19830419">1983 apr. 19</todate>
@@ -317,16 +317,16 @@
 						<physdescstructured physdescstructuredtype="materialtype" coverage="part"> <!-- attributi obbligatori non previsti in mapping -->
 							<quantity>1</quantity> <!-- quantity e unittype sono obbligatori in Ead, però non sono obbligatori in SIA (si possono creare gli elementi e lasciarli vuoti) -->
 							<unittype>fascicolo</unittype>
-							<physfacet> <!-- aggiungere localtype? -->
+							<physfacet>
 								<genreform>
 									<part localtype="Tipologia"></part> <!-- contenuto? -->
 								</genreform>
 							</physfacet>
 							<physfacet localtype="Supporto"></physfacet> <!-- contenuto? -->
 							<physfacet localtype="Legatura"></physfacet> <!-- contenuto? -->
-							<dimensions localtype="Altezza"></dimensions> <!-- contenuto? -->
-							<dimensions localtype="Larghezza"></dimensions> <!-- contenuto? -->
-							<dimensions localtype="Spessore"></dimensions> <!-- contenuto? -->
+							<dimensions localtype="Altezza">1</dimensions> <!-- contenuto? -->
+							<dimensions localtype="Larghezza">1</dimensions> <!-- contenuto? -->
+							<dimensions localtype="Spessore">1</dimensions> <!-- contenuto? -->
 							<descriptivenote>
 								<p>-Integrazione alla descrizione e alla consistenza.-</p>
 							</descriptivenote>
@@ -360,7 +360,7 @@
 					<scopecontent localtype="DescrizioneContenuto">
 						<p>Richiedente: E.N.T.V. / Ministero del tesoro, uff. liquidazioni</p>
 					</scopecontent>
-					<fileplan>
+					<fileplan> <!-- diverso da markup UD. Sembra meglio uniformare come UD -->
 						<p>VI.05.02</p> <!-- è così il markup? -->
 						<p><subject localtype="IndiceClassificazione" identifier=""><part></part></subject></p> <!-- part obbligatorio in subject. Eliminare @identifier e unare part? --> <!-- contenuto? -->
 					</fileplan>
@@ -370,6 +370,9 @@
 					<arrangement localtype="Numerazione">
 						<p><num localtype="Numeri arabi">2 (numerazione del fascicolo)</num></p>
 					</arrangement>
+					<accessrestrict localtype="VisibilitaFE">
+						<p>Completa</p>
+					</accessrestrict>
 					<accessrestrict localtype="CondizioniAccesso">
 						<p>Liberamente accessibile</p>
 						<accessrestrict localtype="NoteCondizioniAccesso">
@@ -430,7 +433,7 @@
 								<p></p> <!-- contenuto. Motivo dell'attribuzione -->
 							</descriptivenote>
 							<dateset>
-								<datesingle localtype="dataTestuale" standarddate="19461015/19830419" altrender="Intervallo di date">1946 ott. 15 - 1983 apr. 19</datesingle>
+								<datesingle localtype="DataTestuale" standarddate="19461015/19830419" altrender="Intervallo di date">1946 ott. 15 - 1983 apr. 19</datesingle>
 								<daterange>
 									<fromdate standarddate="19461015">1946 ott. 15</fromdate>
 									<todate standarddate="19830419">1983 apr. 19</todate>
@@ -498,14 +501,227 @@
 						</processinfo>
 					</processinfo>
 					
-					<!--
 					<c level="item">
 						<did>
-							<unitid>SIA-UD-</unitid>
-					
+							<unitid>SIA-UD-2013229</unitid>
+							<unitid localtype="AltroId" label="SIAS">IT-ASBZ-F230003577</unitid>
+							<unitid localtype="IdPrecedente">SIcod1131</unitid> 
+							<unitid localtype="NumeroSequenza">1876</unitid> 
+							<unitid localtype="NumOrdinamentoProvvisorio">01156</unitid> 
+							<unitid localtype="NumOrdinamentoDefinitivo">2</unitid> 
+							<unitid label="Segnatura">b.1 fasc.2</unitid> 
+							<unitid label="SegnaturaPrecedente" localtype="SIAS">SI-ITBZ-00062</unitid>
+							<unittitle localtype="TitoloOriginale">Risarcimento di guerra 113 - 104/II</unittitle> 
+							<unittitle label="IntegrazioneTitolo">Barbiano</unittitle> 
+							<unittitle localtype="TitoloAttributo">Lettera di richiesta risarcimento di guerra 113 - 104/II - Barbiano</unittitle>
+							<unitdatestructured>
+								<dateset>
+									<datesingle localtype="DataTestuale" standarddate="19461015" altrender="Data singola">1946 ott. 15</datesingle>
+									<datesingle localtype="DataSingola" standarddate="19461015">1946 ott. 15</datesingle>
+								</dateset>
+							</unitdatestructured>
+						
+							<physdescstructured physdescstructuredtype="materialtype" coverage="part"> <!-- @coverage non in mapping -->
+								<quantity>1</quantity> <!-- quantity e unittype sono obbligatori in Ead, però non sono obbligatori in SIA (si possono creare gli elementi e lasciarli vuoti) -->
+								<unittype>documento</unittype>
+								<physfacet> <!-- uniformare posizione localtype con elemento successivo? -->
+									<genreform>
+										<part localtype="Tipologia"></part> <!-- contenuto? -->
+									</genreform>
+								</physfacet>
+								<physfacet>
+									<genreform localtype="TipologiaDocumentaria">
+										<part>Lettera</part>
+										<part localtype="TracciatoSpecifico">Carteggio</part>
+									</genreform>
+								</physfacet>
+								<physfacet>
+									<genreform localtype="Sigillo">  
+										<part>SI</part> <!-- Presena sigillo. contenuto? --> <!-- nel mapping manca part (obbligatorio in Ead) -->
+										<part localtype="Natura">Sigillo a una faccia</part> <!-- contenuto? -->
+										<part localtype="Materiale">Cera</part> <!-- contenuto? -->
+										<part localtype="ModoApposizione">Aderente</part> <!-- contenuto? -->
+										<part localtype="Descrizione"></part> <!-- contenuto? -->
+									</genreform>
+								</physfacet>
+								<physfacet localtype="Supporto"></physfacet> <!-- contenuto? -->
+								<physfacet localtype="Legatura"></physfacet> <!-- contenuto? -->
+								
+								<dimensions localtype="Altezza">1</dimensions> <!-- contenuto? -->
+								<dimensions localtype="Larghezza">1</dimensions> <!-- contenuto? -->
+								<dimensions localtype="Spessore">1</dimensions> <!-- contenuto? -->
+								<descriptivenote>
+									<p>-Integrazione alla descrizione e alla consistenza.-</p>
+								</descriptivenote>
+							</physdescstructured>
+							
+							<container localtype="Tipologia"> <!-- contenuto di Tipologia --> <!-- mixed -->
+								<ref><num></num></ref> <!-- contenuto? Numero -->
+								<ref><title><part></part></title></ref> <!-- contenuto? Titolo unità di condizionamento + part è obbligatorio (non previsto nel mapping) -->
+							</container>
+							<physloc> <!-- contenuto di Collocazione --> <!-- mixed -->
+								<ref><num></num></ref> <!-- contenuto -->
+							</physloc>
+							<langmaterial>
+								<language lang="ita"/>
+							</langmaterial>
+							<langmaterial> <!-- lingua della descrizione --> <!-- nel mapping non c'è spiegazione di uso di languageset -->
+								<languageset>
+									<script>italian</script>
+									<language lang="ita">ita</language> 
+								</languageset>
+								<descriptivenote>
+									<p></p> <!-- Descrizione tipo scrittura. contenuto -->
+								</descriptivenote>
+							</langmaterial>
+							<didnote localtype="StatoDiConservazione">Discreto</didnote>
+							<didnote localtype="CondizioniDelMateriale">Le condizioni del materiale sono stabili e non presenta particolari problemi di conservazione.</didnote>
+							<didnote localtype="RestauroOAltriInterventi">Documento non restaurato.</didnote>
+							
+							<dao href="" daotype="derived"/> <!-- ..IN SOSPESO.. ID TECA --> 
+							
 						</did>
+						<fileplan>
+							<p><subject localtype="IndiceClassificazione" identifier="VI.05.02"><part></part></subject></p> <!-- contenuto? -->
+						</fileplan>
+						<scopecontent localtype="DescrizioneContenuto">
+							<p></p> <!-- contenuto -->
+						</scopecontent>
+						<scopecontent localtype="Regesto">
+							<p></p> <!-- contenuto -->
+						</scopecontent>
+						<scopecontent localtype="TrascrizioneEdizione">
+							<p></p> <!-- contenuto -->
+						</scopecontent>
+						<arrangement localtype="CriteriOrdinamento">
+							<p></p>
+						</arrangement>
+						<accessrestrict localtype="VisibilitaFE">
+							<p>Completa</p>
+						</accessrestrict>
+						<accessrestrict localtype="CondizioniAccesso">
+							<p>Liberamente accessibile</p>
+							<accessrestrict localtype="NoteCondizioniAccesso">
+								<p>Non ci sono restrizioni all'accesso.</p>
+							</accessrestrict>
+						</accessrestrict>
+						<userestrict>
+							<p>Riproduzione libera</p>
+							<userestrict localtype="NoteCondizioniUtilizzo">
+								<p>Non si sono restrizioni all'utilizzo dei documenti.</p>
+							</userestrict>
+						</userestrict>
+						<originalsloc> <!-- aggiornare mapping per uniformare con CA -->
+							<head></head> <!-- contenuto -->
+							<p></p> <!-- contenuto -->
+							<p><ref arcrole="Localizzazione"></ref></p>
+							<p><ref arcrole="Segnatura"></ref></p>
+							<p><ref href=""/></p>
+						</originalsloc>
+						<altformavail> <!-- aggiornare mapping per uniformare con CA -->
+							<head></head> <!-- contenuto -->
+							<p></p> <!-- contenuto -->
+							<p><ref arcrole="Localizzazione"></ref></p>
+							<p><ref arcrole="Segnatura"></ref></p>
+							<p><ref href=""/></p>
+						</altformavail>
+						<relatedmaterial localtype="DocumentazioneEsterna">
+							<archref>
+								<title><part>Archivio storico della Città di Bolzano</part></title>
+							<!-- contenuto descrizione -->
+								<ref href="https://opencity.comune.bolzano.it/Argomenti/Istruzione-cultura-e-sport/Cultura/Archivio-Storico" arcrole="xx qualifica del collegamento xx"><!-- contenuto campo Localizzazione --></ref>
+							</archref>
+						</relatedmaterial>
+						<relatedmaterial localtype="DocumentazioneInterna">
+							<archref>
+								<title><part>Agenzia delle entrate di Bolzano</part></title>
+							<!-- Descrizione -->
+								<ref linktitle="RelazioneConCA" arcrole="xx qualifica della relazione xx" id="ICAR-BZ-1500021"></ref>
+							</archref>
+							<archref>
+								<title><part></part></title>
+								<!-- Descrizione -->
+								<ref linktitle="RelazioneConUA" arcrole="" id="ICAR-UA-1500025"></ref>
+							</archref>
+							<archref> 
+								<title><part></part></title>
+								<!-- Descrizione -->
+								<ref linktitle="RelazioneConUD" arcrole="" id="ICAR-UD-1500121"></ref>
+							</archref>
+						</relatedmaterial>
+						<relations>
+							<relation relationtype="resourcerelation">
+								<relationentry localtype="LivelloSuperiore">SIA-UA-2013159</relationentry>
+							</relation>
+							<relation relationtype="cpfrelation" arcrole="Detentore dei diritti"> <!-- va bene valore arcrole? -->
+								<relationentry>SIA-AG-1021243</relationentry>
+								<descriptivenote>
+									<p></p> <!-- contenuto. Motivo dell'attribuzione -->
+								</descriptivenote>
+							</relation>
+							<relation relationtype="otherrelationtype" otherrelationtype="ProgettoCollegato">
+								<relationentry>SIA-prg-A00011</relationentry>
+							</relation>
+							<relation relationtype="otherrelationtype" otherrelationtype="EventoCollegato">
+								<relationentry>SIA-evn-C00032</relationentry>
+							</relation>
+							<relation relationtype="otherrelationtype" otherrelationtype="TematismoCollegato"> <!-- in UA è marcato come subject - errore valore otherrelationtype in mapping -->
+								<relationentry>SIA-TE-2419131</relationentry>
+							</relation>
+						</relations>
+						<otherfindaid>
+							<bibref>Intendenza di finanza di Bolzano: 1941—1983, 2002</bibref>
+							<otherfindaid localtype="QualificaCollegamento">
+								<p>P. 11.</p>
+							</otherfindaid>
+						</otherfindaid>
+						<controlaccess>
+							<subject><part identifier="SIA-TE-2419131"/></subject>
+							<subject><part identifier="SIA-TE-2419145"/></subject>
+							<persname><part identifier="SIA-PE-2419175"/></persname>
+							<corpname><part identifier="SIA-AG-2419933"/></corpname>
+							<geogname><part identifier="SIA-LG-2418324"/></geogname>
+							<famname><part identifier="SIA-FA-2419443"/></famname>
+						</controlaccess>
+						<bibliography>
+							<bibref>Pp. 55-102.
+								<title><part>ICAR-RB-1992347</part></title> <!-- non sono sicuro che vada cosí + localtype="RiferimentoBibliografico" non può andare in bibref -->
+							</bibref>
+							<archref><ref>ICAR-FA-20200312</ref></archref>
+							<archref>
+								<genreform>
+									<part localtype="FonteNormativa"><ref>ICAR-FN-2109923</ref></part>
+								</genreform>
+							</archref>
+							<p><ref linkrole="RiferimentoWeb" href="SIA-RW-3025911"/></p>
+						</bibliography>
+						<odd localtype="Osservazioni">
+							<odd localtype="UnitaDocumentaria">
+								<p></p>	<!--  CONTENUTO  -->
+							</odd>
+						</odd>
+						<processinfo localtype="StatusScheda">
+							<p>pubblicata</p> 
+						</processinfo>
+						<processinfo localtype="Compilazione">
+							<processinfo localtype="UnitaDocumentale">
+								<chronlist>
+									<chronitem>
+										<datesingle>20250222</datesingle>
+										<event>
+											<corpname relator="Compilatore">
+												<part localtype="Denominazione">ICAR-CP-1988029</part>
+											</corpname>
+											<name>
+												<part>Importazione</part>
+											</name>
+										</event>
+									</chronitem>
+								</chronlist>
+								<p> Note redazionali? </p>
+							</processinfo>
+						</processinfo>
 					</c>
-					-->
 					
 				</c>
 				
