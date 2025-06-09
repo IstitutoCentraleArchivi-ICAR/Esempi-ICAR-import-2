@@ -148,7 +148,7 @@
 				<title><part>Agenzia delle entrate di Bolzano</part></title>
 				<!-- Descrizione -->
 				<ref linktitle="RelazioneConCA" arcrole="xx qualifica della relazione xx" id="ICAR-BZ-1500021"></ref>
-			</archref>
+			</archref> <!-- errore valore @id (già presente). Correggere per inserire valore dell'ID a cui si fa riferimento come testo in ref -->
 			<archref>
 				<title><part></part></title>
 				<!-- Descrizione -->
@@ -346,8 +346,8 @@
 						
 						<langmaterial> <!-- lingua della descrizione -->
 							<languageset>
+								<language lang="ita">ita</language>
 								<script>italian</script>
-								<language lang="ita">ita</language> 
 							</languageset>
 							<descriptivenote>
 								<p>Parte dei documenti scritti in tedesco.</p> <!-- Descrizione tipo scrittura. va bene contenuto? -->
@@ -429,9 +429,6 @@
 						</relation>
 						<relation relationtype="cpfrelation" arcrole="Detentore dei diritti"> <!-- va bene valore arcrole? -->
 							<relationentry>SIA-AG-1021243</relationentry>
-							<descriptivenote>
-								<p></p> <!-- contenuto. Motivo dell'attribuzione -->
-							</descriptivenote>
 							<dateset>
 								<datesingle localtype="DataTestuale" standarddate="19461015/19830419" altrender="Intervallo di date">1946 ott. 15 - 1983 apr. 19</datesingle>
 								<daterange>
@@ -439,6 +436,9 @@
 									<todate standarddate="19830419">1983 apr. 19</todate>
 								</daterange>
 							</dateset>
+							<descriptivenote>
+								<p></p> <!-- contenuto. Motivo dell'attribuzione -->
+							</descriptivenote>
 						</relation>
 						<relation relationtype="otherrelationtype" otherrelationtype="ProgettoCollegato">
 							<relationentry>SIA-prg-A00011</relationentry>
@@ -456,7 +456,7 @@
 					<controlaccess>
 						<subject><part identifier="SIA-TE-2419131"/></subject> <!-- in Complarc non c'è @identifier -->
 						<subject><part identifier="SIA-TE-2419145"/></subject>
-						<subject><part identifier="SIA-TE-2418365" relator="tematismo"/></subject> <!-- @relator non si può usare in part -->
+						<subject relator="tematismo"><part identifier="SIA-TE-2418365"/></subject>
 						<persname><part identifier="SIA-PE-2419175"/></persname>
 						<corpname><part identifier="SIA-AG-2419933"/></corpname>
 						<geogname><part identifier="SIA-LG-2418324"/></geogname>
@@ -567,8 +567,8 @@
 							</langmaterial>
 							<langmaterial> <!-- lingua della descrizione --> <!-- nel mapping non c'è spiegazione di uso di languageset -->
 								<languageset>
-									<script>italian</script>
 									<language lang="ita">ita</language> 
+									<script>italian</script>
 								</languageset>
 								<descriptivenote>
 									<p></p> <!-- Descrizione tipo scrittura. contenuto -->
