@@ -71,7 +71,7 @@
 			<didnote localtype="CondizioniDelMateriale">Le condizioni del materiale sono stabili e non presenta particolari problemi di conservazione.</didnote>
 			<didnote localtype="RestauroOAltriInterventi">Parte del fondo é stato soggetto a interventi di restauro.</didnote>
 			
-			<dao href="" daotype="derived"/> <!-- ..IN SOSPESO.. ID TECA --> 
+			<dao href="TE-245501" daotype="derived"/>
 			
 			<langmaterial>
 				<language lang="ita"/>
@@ -143,26 +143,28 @@
 				<ref href="https://opencity.comune.bolzano.it/Argomenti/Istruzione-cultura-e-sport/Cultura/Archivio-Storico" arcrole="xx qualifica del collegamento xx"><!-- contenuto campo Localizzazione --></ref>
 			</archref>
 		</relatedmaterial>
+		
 		<relatedmaterial localtype="DocumentazioneInterna">
 			<archref>
 				<title><part>Agenzia delle entrate di Bolzano</part></title>
 				<!-- Descrizione -->
-				<ref linktitle="RelazioneConCA" arcrole="xx qualifica della relazione xx" id="ICAR-BZ-1500021"></ref>
-			</archref> <!-- errore valore @id (già presente). Correggere per inserire valore dell'ID a cui si fa riferimento come testo in ref -->
+				<ref linktitle="RelazioneConCA" arcrole="xx qualifica della relazione xx">ICAR-BZ-1500021</ref>
+			</archref> 
 			<archref>
 				<title><part></part></title>
 				<!-- Descrizione -->
-				<ref linktitle="RelazioneConUA" arcrole="" id="ICAR-UA-1500025"></ref>
+				<ref linktitle="RelazioneConUA" arcrole="xx">ICAR-UA-1500025</ref>
 			</archref>
 			<archref> 
 				<title><part></part></title>
 				<!-- Descrizione -->
-				<ref linktitle="RelazioneConUD" arcrole="" id="ICAR-UD-1500121"></ref>
+				<ref linktitle="RelazioneConUD" arcrole="xxx">ICAR-UD-1500121</ref>
 			</archref>
 		</relatedmaterial>
+		
 		<relations>
 			<relation relationtype="cpfrelation">
-				<relationentry localtype="SoggettoProduttore">SIA-AG-1021243</relationentry>
+				<relationentry localtype="Soggetto produttore">SIA-AG-1021243</relationentry>
 				<dateset>
 					<datesingle localtype="DataTestuale" standarddate="1941/1984" altrender="Intervallo di date">1941-1984</datesingle>
 					<daterange>
@@ -172,7 +174,7 @@
 				</dateset>
 			</relation>
 			<relation relationtype="cpfrelation">
-				<relationentry localtype="SoggettoConservatore">SIA-AG-1033245</relationentry>
+				<relationentry localtype="Soggetto conservatore">SIA-AG-1033245</relationentry>
 				<dateset>
 					<datesingle localtype="DataTestuale" standarddate="1991" altrender="Data aperta (a partire da)">1991-</datesingle>
 					<daterange>
@@ -186,34 +188,38 @@
 			<relation relationtype="otherrelationtype" otherrelationtype="EventoCollegato">
 				<relationentry>SIA-evn-C00032</relationentry>
 			</relation>
+			
+			<!-- CONFERMARE MARKUP CON STELLA. TABELLE DI MAPPING NON AGGIORNATE -->
+			<relation relationtype="otherrelationtype" otherrelationtype="StrumentoDiRicercaCollegato">
+				<relationentry>SIA-SR-2013011</relationentry>
+				<descriptivenote>
+					<p>Pp. 1-15.</p>
+				</descriptivenote>
+			</relation>
+			
 		</relations>
-		<otherfindaid> <!-- in SIA si crea un solo tipo di collegamento. perchè nel mapping c'è alternativa di usare bibref archref o p?-->
-			<bibref>Intendenza di finanza di Bolzano: 1941—1983, 2002</bibref>
-			<otherfindaid localtype="QualificaCollegamento">
-				<p>Pp. 1-15.</p>
-			</otherfindaid>
-		</otherfindaid>
-		<otherfindaid>
-			<archref>Intendenza di finanza di Bolzano</archref> <!-- è possibile anche usare p -->
-			<otherfindaid localtype="qualificaCollegamento">
-				<p>http://www.asbolzano.beniculturali.it/MW/mediaArchive/Pdf/invent/asbz_intend_finanz.pdf</p> <!-- esempio preso da Import 1. In p si può inserire una URL? -->
-			</otherfindaid>
-		</otherfindaid>
 		<controlaccess>
-			<subject><part>SIA-TE-2419131</part></subject>
-			<subject><part>SIA-TE-2419145</part></subject>
+			<subject relator="tematismo"><part identifier="SIA-TE-2419131"/></subject>
+			<subject relator="tematismo"><part identifier="SIA-TE-2419145"/></subject>
 		</controlaccess>
-		<bibliography> <!-- controllare mapping e decidere se è necessario un bibliography con @localtype che contiene bibref (anche in UA) -->
-			<bibref>Pp. 55-102.
-				<title><part>ICAR-RB-1992347</part></title> <!-- non sono sicuro che vada cosí + localtype="RiferimentoBibliografico" non può andare in bibref -->
-			</bibref>
+		<bibliography> 
+			<bibliography localtype="RiferimentoBibliografico">
+				<bibref>
+					<ref>ICAR-RB-1992347</ref>
+					<footnote><p>Pp. 55-102.</p></footnote> <!-- in mapping manca <p> -->
+				</bibref>
+			</bibliography>
 			<archref><ref>ICAR-FA-20200312</ref></archref>
-			<archref>
-				<genreform>
-					<part localtype="FonteNormativa"><ref>ICAR-FN-2109923</ref></part>
-				</genreform>
-			</archref>
-			<p><ref linkrole="RiferimentoWeb" href="SIA-RW-3025911"/></p>
+			<bibliography localtype="FonteNormativa">
+				<bibref>
+					<ref>ICAR-FN-2109923</ref>
+				</bibref>
+			</bibliography>
+			<bibliography localtype="RiferimentoWeb">
+				<bibref>
+					<ref>SIA-RW-3025911</ref>
+				</bibref>
+			</bibliography>
 		</bibliography>
 		<odd localtype="Osservazioni">
 			<odd localtype="ComplessoArchivistico">
@@ -263,14 +269,14 @@
 				<accessrestrict localtype="VisibilitaFE">
 					<p>Completa</p>
 				</accessrestrict>
-				<processinfo localtype="StatusScheda">
-					<p>pubblicata</p> 
-				</processinfo>
 				<relations>
 					<relation relationtype="resourcerelation">
 						<relationentry localtype="ComplArchSovraordinato">SIA-CA-2013153</relationentry>
 					</relation>
 				</relations>
+				<processinfo localtype="StatusScheda">
+					<p>pubblicata</p> 
+				</processinfo>
 				<processinfo localtype="Compilazione">
 					<processinfo localtype="ComplessoArchivistico">
 						<chronlist>
@@ -312,10 +318,9 @@
 								</daterange>
 								<datesingle localtype="NoteAllaDatazione">con documenti in copia del 1943</datesingle>
 							</dateset>
-						</unitdatestructured>
-						
-						<physdescstructured physdescstructuredtype="materialtype" coverage="part"> <!-- attributi obbligatori non previsti in mapping -->
-							<quantity>1</quantity> <!-- quantity e unittype sono obbligatori in Ead, però non sono obbligatori in SIA (si possono creare gli elementi e lasciarli vuoti) -->
+						</unitdatestructured>	
+						<physdescstructured physdescstructuredtype="materialtype" coverage="part">
+							<quantity>1</quantity> 
 							<unittype>fascicolo</unittype>
 							<physfacet>
 								<genreform>
@@ -331,21 +336,30 @@
 								<p>-Integrazione alla descrizione e alla consistenza.-</p>
 							</descriptivenote>
 						</physdescstructured>
-						<container localtype="Tipologia"> <!-- contenuto di Tipologia --> <!-- mixed -->
-							<ref><num></num></ref> <!-- contenuto? Numero -->
-							<ref><title><part></part></title></ref> <!-- contenuto? Titolo unità di condizionamento + part è obbligatorio (non previsto nel mapping) -->
+						<container localtype="Busta">
+							<ref>
+								<num>5</num>
+								<title><part>xxxx</part></title> <!-- contenuto? Titolo unità di condizionamento -->
+							</ref> 
 						</container>
-						<physloc> <!-- contenuto di Collocazione --> <!-- mixed -->
-							<ref><num></num></ref> <!-- contenuto? Numero di posizione -->
+						<physloc> 
+							<ref>xxx <!-- contenuto di Collocazione -->
+								<num>xxxx</num><!-- contenuto? Numero di posizione -->
+							</ref> 
 						</physloc>
 						<didnote localtype="StatoDiConservazione">Discreto</didnote>
 						<didnote localtype="CondizioniDelMateriale">Le condizioni del materiale sono stabili e non presenta particolari problemi di conservazione.</didnote>
 						<didnote localtype="RestauroOAltriInterventi">Fascicolo non restaurato.</didnote>
+						<daoset>
+							<dao href="TE-2418399" daotype="derived"/> 
+							<dao href="TE-2418259" daotype="derived"/> 
+						</daoset>
 						
-						<dao href="" daotype="derived"/> <!-- ..IN SOSPESO.. ID TECA --> 
 						
+					<!-- PROBLEMA PER DIFFERENZIARE lingua della descrizione da lingua della documentazione -->
+					<!-- <languageset> potrebbe non esserci (vedi note in mapping), quindi i due <langmaterial> non si possono distinguere. SOLUZIONE: aggiungere @label a <langmaterial>? -->
 						<langmaterial> <!-- lingua della descrizione -->
-							<languageset>
+							<languageset> 
 								<language lang="ita">ita</language>
 								<script>italian</script>
 							</languageset>
@@ -353,16 +367,23 @@
 								<p>Parte dei documenti scritti in tedesco.</p> <!-- Descrizione tipo scrittura. va bene contenuto? -->
 							</descriptivenote>
 						</langmaterial>
+						
 						<langmaterial><!-- lingua della documentazione -->
 							<language lang="ita"/>
 						</langmaterial>
+						
+						
 					</did>
 					<scopecontent localtype="DescrizioneContenuto">
 						<p>Richiedente: E.N.T.V. / Ministero del tesoro, uff. liquidazioni</p>
 					</scopecontent>
-					<fileplan> <!-- diverso da markup UD. Sembra meglio uniformare come UD -->
-						<p>VI.05.02</p> <!-- è così il markup? -->
-						<p><subject localtype="IndiceClassificazione" identifier=""><part></part></subject></p> <!-- part obbligatorio in subject. Eliminare @identifier e unare part? --> <!-- contenuto? -->
+					<fileplan> 
+						<p>Titolario xxx</p> 
+						<p>
+							<subject localtype="IndiceClassificazione" identifier="VI.05.02">
+								<part localtype="Note"></part> <!-- contenuto? -->
+							</subject>
+						</p>  
 					</fileplan>
 					<arrangement localtype="CriteriOrdinamento">
 						<p>Docuenti in ordine cronologico.</p>
@@ -399,28 +420,28 @@
 						<p><ref arcrole="Segnatura"></ref></p>
 						<p><ref href=""/></p>
 					</altformavail>
-					<relatedmaterial localtype="DocumentazioneEsterna">
+					<relatedmaterial localtype="DocumentazioneEsterna"> <!-- in mapping manca valore @localtype -->
 						<archref>
 							<title><part>Archivio storico della Città di Bolzano</part></title>
 						<!-- contenuto descrizione -->
 							<ref href="https://opencity.comune.bolzano.it/Argomenti/Istruzione-cultura-e-sport/Cultura/Archivio-Storico" arcrole="xx qualifica del collegamento xx"><!-- contenuto campo Localizzazione --></ref>
 						</archref>
 					</relatedmaterial>
-					<relatedmaterial localtype="DocumentazioneInterna">
+					<relatedmaterial localtype="DocumentazioneInterna"> <!-- in mapping manca valore @localtype -->
 						<archref>
 							<title><part>Agenzia delle entrate di Bolzano</part></title>
 						<!-- Descrizione -->
-							<ref linktitle="RelazioneConCA" arcrole="xx qualifica della relazione xx" id="ICAR-BZ-1500021"></ref>
+							<ref linktitle="RelazioneConCA" arcrole="xx qualifica della relazione xx">ICAR-BZ-1500021</ref>
 						</archref>
 						<archref>
 							<title><part></part></title>
 							<!-- Descrizione -->
-							<ref linktitle="RelazioneConUA" arcrole="" id="ICAR-UA-1500025"></ref>
+							<ref linktitle="RelazioneConUA" arcrole="">ICAR-UA-1500025</ref>
 						</archref>
 						<archref> 
 							<title><part></part></title>
 							<!-- Descrizione -->
-							<ref linktitle="RelazioneConUD" arcrole="" id="ICAR-UD-1500121"></ref>
+							<ref linktitle="RelazioneConUD" arcrole="">ICAR-UD-1500121</ref>
 						</archref>
 					</relatedmaterial>
 					<relations>
@@ -446,33 +467,43 @@
 						<relation relationtype="otherrelationtype" otherrelationtype="EventoCollegato">
 							<relationentry>SIA-evn-C00032</relationentry>
 						</relation>
+						
+						<!-- CONFERMARE MARKUP CON STELLA. TABELLE DI MAPPING NON AGGIORNATE -->
+						<relation relationtype="otherrelationtype" otherrelationtype="StrumentoDiRicercaCollegato">
+							<relationentry>SIA-SR-2013011</relationentry>
+							<descriptivenote>
+								<p>P. 5.</p>
+							</descriptivenote>
+						</relation>
+						
 					</relations>
-					<otherfindaid> <!-- in SIA si crea un solo tipo di collegamento. perchè nel mapping c'è alternativa di usare bibref archref o p?-->
-						<bibref>Intendenza di finanza di Bolzano: 1941—1983, 2002</bibref>
-						<otherfindaid localtype="QualificaCollegamento">
-							<p>P. 5.</p>
-						</otherfindaid>
-					</otherfindaid>
 					<controlaccess>
-						<subject><part identifier="SIA-TE-2419131"/></subject> <!-- in Complarc non c'è @identifier -->
-						<subject><part identifier="SIA-TE-2419145"/></subject>
+						<subject><part>Storia economica</part></subject>
+						<subject><part identifier="TE-419145"/></subject>
 						<subject relator="tematismo"><part identifier="SIA-TE-2418365"/></subject>
 						<persname><part identifier="SIA-PE-2419175"/></persname>
 						<corpname><part identifier="SIA-AG-2419933"/></corpname>
 						<geogname><part identifier="SIA-LG-2418324"/></geogname>
 						<famname><part identifier="SIA-FA-2419443"/></famname>
 					</controlaccess>
-					<bibliography>
-						<bibref>Pp. 55-102.
-							<title><part>ICAR-RB-1992347</part></title> <!-- non sono sicuro che vada cosí + localtype="RiferimentoBibliografico" non può andare in bibref -->
-						</bibref>
+					<bibliography> 
+						<bibliography localtype="RiferimentoBibliografico">
+							<bibref>
+								<ref>ICAR-RB-1992347</ref>
+								<footnote><p>Pp. 55-102.</p></footnote>
+							</bibref>
+						</bibliography>
 						<archref><ref>ICAR-FA-20200312</ref></archref>
-						<archref>
-							<genreform>
-								<part localtype="FonteNormativa"><ref>ICAR-FN-2109923</ref></part>
-							</genreform>
-						</archref>
-						<p><ref linkrole="RiferimentoWeb" href="SIA-RW-3025911"/></p>
+						<bibliography localtype="FonteNormativa">
+							<bibref>
+								<ref>ICAR-FN-2109923</ref>
+							</bibref>
+						</bibliography>
+						<bibliography localtype="RiferimentoWeb">
+							<bibref>
+								<ref>SIA-RW-3025911</ref>
+							</bibref>
+						</bibliography>
 					</bibliography>
 					<odd localtype="Osservazioni">
 						<odd localtype="UnitaArchivistica">
@@ -501,6 +532,8 @@
 						</processinfo>
 					</processinfo>
 					
+					
+					
 					<c level="item">
 						<did>
 							<unitid>SIA-UD-2013229</unitid>
@@ -520,9 +553,8 @@
 									<datesingle localtype="DataSingola" standarddate="19461015">1946 ott. 15</datesingle>
 								</dateset>
 							</unitdatestructured>
-						
-							<physdescstructured physdescstructuredtype="materialtype" coverage="part"> <!-- @coverage non in mapping -->
-								<quantity>1</quantity> <!-- quantity e unittype sono obbligatori in Ead, però non sono obbligatori in SIA (si possono creare gli elementi e lasciarli vuoti) -->
+							<physdescstructured physdescstructuredtype="materialtype" coverage="part">
+								<quantity>1</quantity> 
 								<unittype>documento</unittype>
 								<physfacet> <!-- uniformare posizione localtype con elemento successivo? -->
 									<genreform>
@@ -537,7 +569,7 @@
 								</physfacet>
 								<physfacet>
 									<genreform localtype="Sigillo">  
-										<part>SI</part> <!-- Presena sigillo. contenuto? --> <!-- nel mapping manca part (obbligatorio in Ead) -->
+										<part>SI</part> <!-- Presenza sigillo. contenuto? --> <!-- nel mapping manca part (obbligatorio in Ead) -->
 										<part localtype="Natura">Sigillo a una faccia</part> <!-- contenuto? -->
 										<part localtype="Materiale">Cera</part> <!-- contenuto? -->
 										<part localtype="ModoApposizione">Aderente</part> <!-- contenuto? -->
@@ -555,12 +587,18 @@
 								</descriptivenote>
 							</physdescstructured>
 							
-							<container localtype="Tipologia"> <!-- contenuto di Tipologia --> <!-- mixed -->
-								<ref><num></num></ref> <!-- contenuto? Numero -->
-								<ref><title><part></part></title></ref> <!-- contenuto? Titolo unità di condizionamento + part è obbligatorio (non previsto nel mapping) -->
+							<!-- uniformato a markup UA. Mapping UD non è aggiornato -->
+							<container localtype="Busta">
+								<ref>
+									<num>5</num>
+									<title><part>xxxx</part></title> <!-- contenuto? Titolo unità di condizionamento -->
+								</ref> 
 							</container>
-							<physloc> <!-- contenuto di Collocazione --> <!-- mixed -->
-								<ref><num></num></ref> <!-- contenuto -->
+
+							<physloc> <!-- contenuto di Collocazione. In UA va dentro ref --> 
+								<ref>
+									<num></num> <!-- contenuto -->
+								</ref> 
 							</physloc>
 							<langmaterial>
 								<language lang="ita"/>
@@ -577,12 +615,17 @@
 							<didnote localtype="StatoDiConservazione">Discreto</didnote>
 							<didnote localtype="CondizioniDelMateriale">Le condizioni del materiale sono stabili e non presenta particolari problemi di conservazione.</didnote>
 							<didnote localtype="RestauroOAltriInterventi">Documento non restaurato.</didnote>
-							
-							<dao href="" daotype="derived"/> <!-- ..IN SOSPESO.. ID TECA --> 
-							
+							<daoset>
+								<dao href="TE-2418399" daotype="derived"/> 
+								<dao href="TE-2418259" daotype="derived"/> 
+							</daoset>
 						</did>
 						<fileplan>
-							<p><subject localtype="IndiceClassificazione" identifier="VI.05.02"><part></part></subject></p> <!-- contenuto? -->
+							<p>
+								<subject localtype="CodiceClassificazione" identifier="VI.05.02">
+									<part localtype="Qualifica"></part> <!-- contenuto? -->
+								</subject>
+							</p>
 						</fileplan>
 						<scopecontent localtype="DescrizioneContenuto">
 							<p></p> <!-- contenuto -->
@@ -625,28 +668,28 @@
 							<p><ref arcrole="Segnatura"></ref></p>
 							<p><ref href=""/></p>
 						</altformavail>
-						<relatedmaterial localtype="DocumentazioneEsterna">
+						<relatedmaterial localtype="DocumentazioneEsterna"> <!-- in mapping manca valore @localtype -->
 							<archref>
 								<title><part>Archivio storico della Città di Bolzano</part></title>
 							<!-- contenuto descrizione -->
 								<ref href="https://opencity.comune.bolzano.it/Argomenti/Istruzione-cultura-e-sport/Cultura/Archivio-Storico" arcrole="xx qualifica del collegamento xx"><!-- contenuto campo Localizzazione --></ref>
 							</archref>
 						</relatedmaterial>
-						<relatedmaterial localtype="DocumentazioneInterna">
+						<relatedmaterial localtype="DocumentazioneInterna"> <!-- in mapping manca valore @localtype -->
 							<archref>
 								<title><part>Agenzia delle entrate di Bolzano</part></title>
 							<!-- Descrizione -->
-								<ref linktitle="RelazioneConCA" arcrole="xx qualifica della relazione xx" id="ICAR-BZ-1500021"></ref>
+								<ref linktitle="RelazioneConCA" arcrole="xx qualifica della relazione xx">ICAR-BZ-1500021</ref>
 							</archref>
 							<archref>
 								<title><part></part></title>
 								<!-- Descrizione -->
-								<ref linktitle="RelazioneConUA" arcrole="" id="ICAR-UA-1500025"></ref>
+								<ref linktitle="RelazioneConUA" arcrole="">ICAR-UA-1500025</ref>
 							</archref>
 							<archref> 
 								<title><part></part></title>
 								<!-- Descrizione -->
-								<ref linktitle="RelazioneConUD" arcrole="" id="ICAR-UD-1500121"></ref>
+								<ref linktitle="RelazioneConUD" arcrole="">ICAR-UD-1500121</ref>
 							</archref>
 						</relatedmaterial>
 						<relations>
@@ -668,32 +711,42 @@
 							<relation relationtype="otherrelationtype" otherrelationtype="TematismoCollegato"> <!-- in UA è marcato come subject - errore valore otherrelationtype in mapping -->
 								<relationentry>SIA-TE-2419131</relationentry>
 							</relation>
+							
+							<!-- CONFERMARE MARKUP CON STELLA. TABELLE DI MAPPING NON AGGIORNATE -->
+							<relation relationtype="otherrelationtype" otherrelationtype="StrumentoDiRicercaCollegato">
+								<relationentry>SIA-SR-2013011</relationentry>
+								<descriptivenote>
+									<p>P. 5.</p>
+								</descriptivenote>
+							</relation>
+						
 						</relations>
-						<otherfindaid>
-							<bibref>Intendenza di finanza di Bolzano: 1941—1983, 2002</bibref>
-							<otherfindaid localtype="QualificaCollegamento">
-								<p>P. 11.</p>
-							</otherfindaid>
-						</otherfindaid>
 						<controlaccess>
-							<subject><part identifier="SIA-TE-2419131"/></subject>
-							<subject><part identifier="SIA-TE-2419145"/></subject>
+							<subject><part>Storia economica</part></subject> <!-- aggiornare mapping per uniformare con UA -->
+							<subject><part identifier="TE-419145"/></subject>
 							<persname><part identifier="SIA-PE-2419175"/></persname>
 							<corpname><part identifier="SIA-AG-2419933"/></corpname>
 							<geogname><part identifier="SIA-LG-2418324"/></geogname>
 							<famname><part identifier="SIA-FA-2419443"/></famname>
 						</controlaccess>
-						<bibliography>
-							<bibref>Pp. 55-102.
-								<title><part>ICAR-RB-1992347</part></title> <!-- non sono sicuro che vada cosí + localtype="RiferimentoBibliografico" non può andare in bibref -->
-							</bibref>
+						<bibliography> 
+							<bibliography localtype="RiferimentoBibliografico">
+								<bibref>
+									<ref>ICAR-RB-1992347</ref>
+									<footnote><p>Pp. 55-102.</p></footnote> <!-- in mapping manca <p>. uniformare -->
+								</bibref>
+							</bibliography>
 							<archref><ref>ICAR-FA-20200312</ref></archref>
-							<archref>
-								<genreform>
-									<part localtype="FonteNormativa"><ref>ICAR-FN-2109923</ref></part>
-								</genreform>
-							</archref>
-							<p><ref linkrole="RiferimentoWeb" href="SIA-RW-3025911"/></p>
+							<bibliography localtype="FonteNormativa">
+								<bibref>
+									<ref>ICAR-FN-2109923</ref>
+								</bibref>
+							</bibliography>
+							<bibliography localtype="RiferimentoWeb">
+								<bibref>
+									<ref>SIA-RW-3025911</ref>
+								</bibref>
+							</bibliography>
 						</bibliography>
 						<odd localtype="Osservazioni">
 							<odd localtype="UnitaDocumentaria">
