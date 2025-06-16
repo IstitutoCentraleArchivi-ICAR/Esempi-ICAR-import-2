@@ -39,7 +39,7 @@
 		<otherRecordId localType="SIAS">IT-ASAN-CC236400</otherRecordId>
 	</control>
 	<cpfDescription>
-		<identity>
+		<identity localType="soggettoProduttore">
 			<entityType value="family"/>
 			<nameEntry localType="denominazioneFamiglia" languageOfElement="ita">
 				<part localType="intestazionePrincipaleFamiglia">Cruciani Fabozzi, Amandola (Fermo), sec. XVIII fine - </part>

@@ -27,7 +27,7 @@
 		<otherRecordId localType="ISIL">IT-TO0879</otherRecordId>	
 	</control>
 	<cpfDescription>
-		<identity>
+		<identity localType="soggettoConservatore">
 			<entityType value="corporateBody"/>
 			<nameEntry localType="denominazioneEnte" languageOfElement="ita">
 				<part localType="intestazionePrincipaleEnte">Archivio di Stato di Torino, Torino (1870 - )</part>

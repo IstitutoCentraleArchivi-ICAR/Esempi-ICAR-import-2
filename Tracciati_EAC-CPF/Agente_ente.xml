@@ -40,7 +40,7 @@
   <otherRecordId localType="SIAS">IT-ASBZ-CC236400094</otherRecordId> 
  </control>
  <cpfDescription>
-  <identity>
+  <identity localType="soggettoProduttore">
    <entityType value="corporateBody"/>
    <nameEntry localType="denominazioneEnte" languageOfElement="ita">
     <part localType="intestazionePrincipaleEnte">Intendenza di finanza di Bolzano, Bolzano (1927 - 1991)</part>
@@ -48,7 +48,7 @@
     <part localType="acronimoEnte">IFBZ</part>
     <useDates>
      <dateSet>
-      <date localType="estremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="intervallo di date">1927-1991</date>
+      <date localType="estremoCronologicoTestuale" standardDate="1927" eac-sia:tipologiaData="intervallo di date">1927-1991</date>
       <dateRange>
        <fromDate standardDate="1927">1927</fromDate>
        <toDate standardDate="1991">1991</toDate>
