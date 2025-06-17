@@ -1,24 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ead xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.san.beniculturali.it/tracciato/ead3.xsd" xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+<ead xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.san.beniculturali.it/tracciato/ead3.xsd" xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" audience="external">
 	<control repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" scriptencoding="iso15924" langencoding="iso639-2b">
 		
-		<recordid>..ID record contenitore..</recordid>
+		<recordid>SIA-SR-2013011</recordid>
+		<otherrecordid localtype="SIA">S-55A12</otherrecordid>
+		<otherrecordid localtype="IdPrecedente">SI_115SR</otherrecordid>
+		
+		<representation href="http://www.asbolzano.beniculturali.it/MW/mediaArchive/Pdf/invent/asbz_intend_finanz_danni_guerra_l593_1981.pdf" arcrole="è rappresentazione di"/> <!-- perchè in mapping ci sono 2 linee per un solo campo? + mapping correggere attributo in href -->
+		
 		<filedesc>
 			<titlestmt>
-				<titleproper>Carteggio particolare della Segreteria di Stato</titleproper>
+				<titleproper localtype="TitoloOriginale">Inventario della serie Danni di guerra, Intendenza di finanza di Bolzano</titleproper>
+				<titleproper localtype="TitoloNormalizzato">Intendenza di finanza di Bolzano, Danni di guerra. Risarcimenti di danni di guerra a norma della legge 22 ottobre 1981, n. 593: inventario</titleproper>
+				<author localtype="Autore">ICAR-AG-2034556</author>
 			</titlestmt>
+			<editionstmt>
+				<edition localtype="Tipologia">Inventario analitico</edition>
+				<edition localtype="Specificazione"> ? ? </edition> <!-- CONTENUTO -->
+			
+				<edition localtype="published">sì</edition> <!-- meglio usare valore "Pubblicato" invece si "published"? -->
+			
+				<edition localtype="online">sì</edition>
+			</editionstmt>
+			<publicationstmt>
+				<date localtype="DataTestuale" normal="20110101-20111231">2011</date> <!-- in  mapping @localtype è usato 2 volte. Usare @altrender? + In mapping manca indicazione valori di Tipologia data -->
+				<date normal="20110101-20111231" localtype="EstremoRemoto">2011</date> <!-- nel mapping non si spiega come si codifica una data singola -->
+				
+				<date encodinganalog="QualificaData"></date> <!-- contenuto -->
+				<date encodinganalog="NoteAllaData"></date> <!-- contenuto -->
+			</publicationstmt>
+			<notestmt>
+				<controlnote localtype="NoteStoricoRedazionali"><p></p></controlnote> <!-- CONTENUTO --> <!-- in mapping manca <p> obbligatorio in Ead (anche negli altri controlnote -->
+				
+				<controlnote localtype="DescrizioneIntrinseca"><p></p></controlnote> <!-- CONTENUTO -->
+				<controlnote localtype="TipoSupporto"><p>Analogico</p></controlnote>
+				<controlnote localtype="ModalitaRedazione"><p>Stampa da computer</p></controlnote>
+				<controlnote localtype="DescrizioneEstrinseca"><p>I titoli delle unità archivistiche sono individuati dalla colonna denominata "Descrizione del bene", che nelle sottocolonne definisce i beni immobili danneggiati secondo il comune catastale, la/le particelle edificiali, quella/e fondiarie e la/le partite tavolari. Le pratiche relative ai beni mobili danneggiati – ai quali è stata assegnata una posizione diversa (e di solito consecutiva) rispetto all'immobile di pertinenza – sono comprese nel medesimo fascicolo, che in questo caso, dunque, comprende una o più pratiche, o sottofascicoli, ognuna individuata da una posizione.</p></controlnote> <!-- errore valore @ in mapping -->
+				
+				<controlnote localtype="Osservazioni"><p></p></controlnote> <!-- CONTENUTO -->
+			</notestmt>
+			
+			
 		</filedesc>
 		<maintenancestatus value="new"/>
+		<publicationstatus value="published">pubblicata</publicationstatus> <!-- in mapping c'è @value="Status", però non è un valore ammesso + valore di value deve essere in linea con valore dell'elemento + serve lista controllata? -->
+		
 		<maintenanceagency>
 			<agencyname>ICAR</agencyname>
 		</maintenanceagency>
 		
-		<localcontrol localtype="AcronimoDiSistema"> 
-			<term>..Acronimo di sistema record contenitore..</term>
-		</localcontrol>
-		<localcontrol localtype="IdentificativoDiSistema"> 
-			<term>..Identificativo di sistema record contenitore..</term>
-		</localcontrol>
+		<languagedeclaration> <!-- perchè in mapping ci sono due possibilità? -->
+			<language langcode="ita"/>
+			<script></script> <!-- elemento obbligatorio, non previsto in mapping + valore -->
+		</languagedeclaration>
 		
 		<maintenancehistory>
 			<maintenanceevent>
@@ -29,49 +63,25 @@
 			</maintenanceevent>
 		</maintenancehistory>
 		
+		<sources>
+			<source linkrole="RiferimentoBibliografico">
+				<sourceentry>ICAR-RB-1992347</sourceentry>
+			</source>
+			<source linkrole="FonteArchivistica">
+				<sourceentry>ICAR-FA-20200312</sourceentry>
+			</source>
+			<source linkrole="RiferimentoWeb" href="SIA-RW-3025911"/> <!-- in ComplArch per RiferimentoWeb usiamo un ID SIA. Perchè qui si una @href e non sourceentry come sopra? -->
+		</sources>
 	</control>
+	
 	<archdesc level="item">
 		<did>
-			<unitid>..ID record contenitore..</unitid>
-			<unittitle localtype="Denominazione">..Denominazione record contenitore..</unittitle>
+			<unitid>SIA-SR-2013011</unitid><!--
+			<unittitle localtype="Denominazione">Inventario della serie Danni di guerra, Intendenza di finanza di Bolzano</unittitle>-->
 		</did>
 		
-		<otherfindaid id="SIA-SR-2013011"> 
-			<bibref lang="ita">
-				<title>
-					<part localtype="TitoloOriginale">Inventario della serie Danni di guerra, Intendenza di finanza di Bolzano</part> <!-- errore xpath in mapping? (manca bibref) -->
-					<part localtype="TitoloNormalizzato">Intendenza di finanza di Bolzano, Danni di guerra. Risarcimenti di danni di guerra a norma della legge 22 ottobre 1981, n. 593: inventario</part>
-				</title>
-				<!-- Note storico-redazionali non mappabile? -->
-				<genreform>
-					<part localtype="Tipologia">Inventario analitico</part>
-					<part localtype="Specificazione"> ? ? ? </part>  <!-- CONTENUTO -->
-					<part localtype="DescrizioneIntrinseca"> ? ? ? </part>   <!-- CONTENUTO -->
-					<part localtype="Supporto">Analogico</part>
-					<part localtype="ModalitaRedazione">Stampa da computer</part>
-					<part localtype="DescrizioneEstrinseca">I titoli delle unità archivistiche sono individuati dalla colonna denominata "Descrizione del bene", che nelle sottocolonne definisce i beni immobili danneggiati secondo il comune catastale, la/le particelle edificiali, quella/e fondiarie e la/le partite tavolari. Le pratiche relative ai beni mobili danneggiati – ai quali è stata assegnata una posizione diversa (e di solito consecutiva) rispetto all'immobile di pertinenza – sono comprese nel medesimo fascicolo, che in questo caso, dunque, comprende una o più pratiche, o sottofascicoli, ognuna individuata da una posizione.</part>
-				</genreform>
-				
-				<date normal="20110101-20111231" localtype="Data singola">2011</date> <!-- non mi è chiaro il mapping delle date -->
-				<date normal="20110101-20111231" localtype="Estremo_remoto">2011</date> <!-- nel mapping non si spiega come si codifica una data singola -->
-				
-				<persname relator="Compilatore"><part>ICAR-AG-2034556</part></persname> <!-- elemento usato 2 volte in mapping: agenti collegati; complilatore --> 	<!-- in SIA ci sono diversi valori per il ruolo dell'agente --> <!-- part obbligatorio in Ead, non previsto in mapping -->
-				
-				<ref href="RisorsaDigitaleCollegata" arcrole="è rappresentazione di">http://www.asbolzano.beniculturali.it/MW/mediaArchive/Pdf/invent/asbz_intend_finanz_danni_guerra_l593_1981.pdf</ref> <!-- modificare valore di arcrole? è un risorsa SIA o una URL? -->
-			</bibref>
-		</otherfindaid>
-		
-		<odd localtype="Osservazioni">
-			<odd localtype="StrumentoDiRicerca"> <!-- in mapping dice Osservazioni non mappabile. Non può essere così? -->
-				<p></p>	<!-- CONTENUTO -->
-			</odd>
-		</odd>
-		
-		<processinfo localtype="StatusScheda">
-			<p>pubblicata</p> 
-		</processinfo>
-		
-		<!-- in mapping non ci sono informazioni di Compilazione -->
+
+		<!-- in mapping non ci sono informazioni di Compilazione. Bisogna aggiungerle? -->
 		
 		<!--<processinfo localtype="Compilazione">
 			<processinfo localtype="StrumentoDiRicerca">
