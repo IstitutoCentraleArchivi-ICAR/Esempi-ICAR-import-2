@@ -63,10 +63,6 @@
 				</localDescription> 
 			</localDescriptions>
 			<places>
-				<place localType="luogoEnte">
-					<placeName id="ICAR-TOP-2019232"/>
-					<placeRole>Sede</placeRole>
-				</place>
 				<place localType="Contatti">
 					<contact>
 						<contactLine contactLineType="email">as-to@beniculturali.it</contactLine>
