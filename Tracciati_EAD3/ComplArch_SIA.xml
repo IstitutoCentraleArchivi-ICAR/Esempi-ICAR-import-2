@@ -202,19 +202,21 @@
 			</relation>	
 		</relations>
 		<bibliography> 
-			<bibliography localtype="RiferimentoBibliografico">
+			<bibliography localtype="LinkRiferimentoBibliografico">
 				<bibref>
 					<ref>ICAR-RB-1992347</ref>
 					<footnote><p>Pp. 55-102.</p></footnote>
 				</bibref>
 			</bibliography>
-			<archref><ref>ICAR-FA-20200312</ref></archref>
-			<bibliography localtype="FonteNormativa">
+			<archref altrender="LinkFonteArchivistica">
+				<ref>ICAR-FA-20200312</ref>
+			</archref>
+			<bibliography localtype="LinkFonteNormativa">
 				<bibref>
 					<ref>ICAR-FN-2109923</ref>
 				</bibref>
 			</bibliography>
-			<bibliography localtype="RiferimentoWeb">
+			<bibliography localtype="LinkRiferimentoWeb">
 				<bibref>
 					<ref>SIA-RW-3025911</ref>
 				</bibref>
@@ -478,19 +480,21 @@
 						<famname><part identifier="SIA-FA-2419443"/></famname>
 					</controlaccess>
 					<bibliography> 
-						<bibliography localtype="RiferimentoBibliografico">
+						<bibliography localtype="LinkRiferimentoBibliografico">
 							<bibref>
 								<ref>ICAR-RB-1992347</ref>
 								<footnote><p>Pp. 55-102.</p></footnote>
 							</bibref>
 						</bibliography>
-						<archref><ref>ICAR-FA-20200312</ref></archref>
-						<bibliography localtype="FonteNormativa">
+						<archref altrender="LinkFonteArchivistica">
+							<ref>ICAR-FA-20200312</ref>
+						</archref>
+						<bibliography localtype="LinkFonteNormativa">
 							<bibref>
 								<ref>ICAR-FN-2109923</ref>
 							</bibref>
 						</bibliography>
-						<bibliography localtype="RiferimentoWeb">
+						<bibliography localtype="LinkRiferimentoWeb">
 							<bibref>
 								<ref>SIA-RW-3025911</ref>
 							</bibref>
@@ -709,19 +713,21 @@
 							<geogname>Barbiano</geogname>
 						</controlaccess>
 						<bibliography> 
-							<bibliography localtype="RiferimentoBibliografico">
+							<bibliography localtype="LinkRiferimentoBibliografico">
 								<bibref>
 									<ref>ICAR-RB-1992347</ref>
 									<footnote><p>Pp. 55-102.</p></footnote>
 								</bibref>
 							</bibliography>
-							<archref><ref>ICAR-FA-20200312</ref></archref>
-							<bibliography localtype="FonteNormativa">
+							<archref altrender="LinkFonteArchivistica">
+								<ref>ICAR-FA-20200312</ref>
+							</archref>
+							<bibliography localtype="LinkFonteNormativa">
 								<bibref>
 									<ref>ICAR-FN-2109923</ref>
 								</bibref>
 							</bibliography>
-							<bibliography localtype="RiferimentoWeb">
+							<bibliography localtype="LinkRiferimentoWeb">
 								<bibref>
 									<ref>SIA-RW-3025911</ref>
 								</bibref>

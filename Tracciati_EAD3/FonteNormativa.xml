@@ -54,10 +54,15 @@
 				</bibref>
 			</bibliography>
 			<bibliography localtype="LinkRiferimentoWeb"> 
-				<bibref id="SIA-RW-3025911"/>
+				<bibref>
+					<ref>SIA-RW-3025911</ref>
+				</bibref>
 			</bibliography>
 			<bibliography localtype="LinkRiferimentoBibliografico"> 
-				<bibref id="SIA-RB-2023899"/>
+				<bibref>
+					<ref>SIA-RB-2023899</ref>
+					<footnote><p>Pp. 55-102.</p></footnote>
+				</bibref>
 			</bibliography>
 		</bibliography>
 		<odd localtype="Osservazioni">

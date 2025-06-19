@@ -90,7 +90,8 @@
 			<physdesc localtype="Risoluzione">300 dpi</physdesc>
 			<physdesc localtype="GestioneColore">RGB a 24 bits</physdesc>
 			<daoset>
-				<dao href="xxx" daotype="derived"/> <!-- ..IN SOSPESO..  ID SIA TECA -->
+				<dao href="TE-2418399" daotype="derived"/> 
+				<dao href="TE-2418259" daotype="derived"/> 
 			</daoset>
 			<langmaterial>
 				<language lang="ita"/>
@@ -137,16 +138,25 @@
 			</relation>
 		</relations>
 		<bibliography>
-			<bibliography localtype="LinkRiferimentoBibliografico">
-				<bibref id="SIA-RB-3025641"> <!-- contenuto indicazioni specifiche --></bibref>
+			<bibliography localtype="LinkRiferimentoBibliografico"> 
+				<bibref>
+					<ref>SIA-RB-2023899</ref>
+					<footnote><p>Pp. 55-102.</p></footnote>
+				</bibref>
 			</bibliography>
 			<bibliography localtype="LinkFonteNormativa">
-				<bibref id="SIA-FN-3025677"/>
+				<bibref>
+					<ref>SIA-FN-3025677</ref>
+				</bibref>
 			</bibliography>
-			<bibliography localtype="LinkRiferimentoWeb">
-				<bibref id="SIA-RW-3025911"/>
+			<bibliography localtype="LinkRiferimentoWeb"> 
+				<bibref>
+					<ref>SIA-RW-3025911</ref>
+				</bibref>
 			</bibliography>
-			<archref id="SIA-FA-3023657"/>
+			<archref altrender="LinkFonteArchivistica">
+				<ref>SIA-FA-3023657</ref>
+			</archref>
 		</bibliography>
 		<odd localtype="Osservazioni">
 			<odd localtype="Progetti">
