@@ -5,7 +5,7 @@
 		<recordid>..ID record contenitore..</recordid>
 		<filedesc>
 			<titlestmt>
-				<titleproper>Carteggio particolare della Segreteria di Stato</titleproper>
+				<titleproper/>
 			</titlestmt>
 		</filedesc>
 		<maintenancestatus value="derived"/>
@@ -37,18 +37,21 @@
 		</did>
 		
 		<controlaccess>
-			<subject localtype="Tematismo" lang="ita" id="SIA-TE-2419131">
-				<part localtype="Denominazione">Storia economica</part>
-				<part localtype="Descrizione">La storia economica studia e analizza i fenomeni economici passati e presenti, inserendoli nel loro contesto sociale, politico e culturale. La storia economica utilizza metodi qualitativi (storiografici) e quantitativi (statistici ed econometrici). La storia economica che fa ampio uso di modelli econometrici, spesso accompagnati da ipotesi controfattuali, è nota come cliometria.</part>
+			<subject localtype="Tematismo" lang="ita" id="SIA_TE_8782869">
+				<part localtype="Denominazione">Enti pubblici locali e territoriali</part>
+				<part localtype="Descrizione">Sono enti territoriali le regioni e gli enti locali, per i quali il territorio della circoscrizione non è solo limite della competenza degli organi, ma anche elemento costitutivo dell'ente stesso, i cui organi di governo sono rappresentativi della popolazione residente.</part>
 				<part localtype="PercorsoRicercaNo"/>
 				<part localtype="StatusScheda">Bozza</part>
 			</subject>
 		</controlaccess>
 		<odd localtype="Osservazioni">
 			<odd localtype="Tematismo">
-				<p>Materie affini, ma talvolta tenute distinte, sono la business history (storia dell'impresa) e la financial history (storia della moneta e degli intermediari finanziari).</p>
+				<p>Gli enti territoriali curano gli interessi (e sono, quindi, enti esponenziali) di una collettività costituita da tutti coloro che risiedono nel loro territorio (che può essere l'intero territorio nazionale o una sua parte, ossia una circoscrizione), vale a dire di comunità territoriale nella sua interezza, il che conferisce loro il carattere della politicità. Lo Stato è ente sovrano, mentre gli enti territoriali locali sono enti autonomi, in quanto curano gli interessi di una collettività in posizione di più o meno ampia autonomia dallo Stato e da altri enti pubblici.</p>
 			</odd>
 		</odd>
+		<processinfo localtype="StatusScheda"> <!-- status della scheda contenitore -->
+			<p>pubblicata</p> 
+		</processinfo>
 		<processinfo localtype="Compilazione">
 			<processinfo localtype="Tematismo">
 				<chronlist>

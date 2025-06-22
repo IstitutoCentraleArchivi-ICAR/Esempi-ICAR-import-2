@@ -119,9 +119,6 @@
 				<p>Non si sono restrizioni all'utilizzo dei documenti.</p>
 			</userestrict>
 		</userestrict>
-		<processinfo localtype="StatusScheda">
-			<p>pubblicata</p> 
-		</processinfo>
 		<originalsloc>
 			<head>Agenzia delle entrate di Bolzano</head>
 			<p>Sono presenti alcuni fascicoli in copia. Gli originali sono conservati nel fondo dell'Agenzia delle entrate di Bolzano.</p>
@@ -710,7 +707,7 @@
 							<corpname><part identifier="SIA-AG-2419933"/></corpname>
 							<famname><part identifier="SIA-FA-2419443"/></famname>
 							<geogname><part identifier="SIA-LG-2418324"/></geogname>
-							<geogname>Barbiano</geogname>
+							<geogname><part>Barbiano</part></geogname>
 						</controlaccess>
 						<bibliography> 
 							<bibliography localtype="LinkRiferimentoBibliografico">

@@ -5,7 +5,7 @@
 		<recordid>..ID record contenitore..</recordid>
 		<filedesc>
 			<titlestmt>
-				<titleproper>Carteggio particolare della Segreteria di Stato</titleproper>
+				<titleproper/>
 			</titlestmt>
 		</filedesc>
 		<maintenancestatus value="derived"/>
@@ -54,6 +54,9 @@
 				<p>Questa pagina è stata modificata per l'ultima volta il 13 mar 2025 alle 16:17.</p>
 			</odd>
 		</odd>
+		<processinfo localtype="StatusScheda"> <!-- status della scheda contenitore -->
+			<p>pubblicata</p> 
+		</processinfo>
 		<processinfo localtype="Compilazione">
 			<processinfo localtype="RiferimentoWeb">
 				<chronlist>

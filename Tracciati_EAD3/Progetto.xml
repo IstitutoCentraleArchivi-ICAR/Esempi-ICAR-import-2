@@ -22,7 +22,7 @@
 			</titlestmt>
 			<notestmt>
 				<controlnote localtype="TipologiaProgetto">
-					<p>ProgettoDigitalizzazione</p>
+					<p>Progetto di digitalizzazione</p>
 				</controlnote>
 				<controlnote localtype="FinalitaProgetto">
 					<p>Riproduzione di serie/fondi archivistici</p>
@@ -116,6 +116,11 @@
 			<p>
 				<corpname><part></part></corpname>  <!-- contenuto -->
 			</p>  
+		</accessrestrict>
+		<accessrestrict>
+			<accessrestrict localtype="VisibilitaFE">
+				<p>Completa</p>
+			</accessrestrict>
 		</accessrestrict>
 		<scopecontent localtype="NoteProgetto">
 			<p>Il progetto trae origine dall'attività di schedatura e inventariazione delle pergamene del fondo Cacciapiatti, effettuata nel 2021 dalla dott.ssa Sara Sarselli, che ha prestato attività di servizio volontario presso l'Archivio di Stato di Novara ai sensi dell'art. 55 del DPR 1409/1963. Successivamente, Patrizio Zamborlin si è occupato della digitalizzazione delle preziose raccolte membranacee pervenute nel Fondo manoscritti della Biblioteca Civica di Novara: Azzati, Canetta, Cattaneo-Brambilla, Giannoni, Mirabelli, Olina, San Giulio d'Orta, Società archeologica di Novara, Tarella. Nell'ambito del tirocinio "Fondo giovani per la cultura", promosso dalla Direzione Generale Educazione, Ricerca e Istituti culturali, svolto dalla dott.ssa Ilaria Crespi nel corso del 2023, le dette raccolte sono state schedate sia su Archimista sia sulla piattaforma Metafad, con l'importazione dei relativi oggetti digitali nel DAM.</p>

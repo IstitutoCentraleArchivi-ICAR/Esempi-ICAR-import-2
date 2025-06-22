@@ -63,7 +63,7 @@
 			</maintenanceevent>
 		</maintenancehistory>
 		
-		<sources>
+		<sources> <!-- queste sono indicate come relazioni in arrivo. Di solito non inseriamo elementi per le relazioni in arrivo. In questo caso è necessario? -->
 			<source linkrole="RiferimentoBibliografico">
 				<sourceentry>ICAR-RB-1992347</sourceentry>
 			</source>
@@ -74,32 +74,9 @@
 		</sources>
 	</control>
 	
-	<archdesc level="item">
+	<archdesc level="otherlevel" otherlevel="StrumentoDiRicerca">
 		<did>
-			<unitid>SIA-SR-2013011</unitid><!--
-			<unittitle localtype="Denominazione">Inventario della serie Danni di guerra, Intendenza di finanza di Bolzano</unittitle>-->
+			<unitid/>
 		</did>
-		
-
-		<!-- in mapping non ci sono informazioni di Compilazione. Bisogna aggiungerle? -->
-		
-		<!--<processinfo localtype="Compilazione">
-			<processinfo localtype="StrumentoDiRicerca">
-				<chronlist>
-					<chronitem>
-						<datesingle>20250222</datesingle>
-						<event>
-							<name>
-								<part>Importazione</part>
-							</name>
-							<corpname relator="Compilatore">
-								<part localtype="Denominazione">ICAR-CP-1988029</part>
-							</corpname>
-						</event>
-					</chronitem>
-				</chronlist>
-				<p> ..Note redazionali.. </p> 
-			</processinfo>
-		</processinfo>-->
 	</archdesc>
 </ead>

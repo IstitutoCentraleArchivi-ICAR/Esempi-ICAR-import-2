@@ -5,7 +5,7 @@
 		<recordid>..ID record contenitore..</recordid>
 		<filedesc>
 			<titlestmt>
-				<titleproper>Carteggio particolare della Segreteria di Stato</titleproper>
+				<titleproper/>
 			</titlestmt>
 		</filedesc>
 		<maintenancestatus value="derived"/>
@@ -70,6 +70,9 @@
 				<p>Pubblicato in GU n.100 del 29-04-1930</p>
 			</odd>
 		</odd>
+		<processinfo localtype="StatusScheda"> <!-- status della scheda contenitore -->
+			<p>pubblicata</p> 
+		</processinfo>
 		<processinfo localtype="Compilazione">
 			<processinfo localtype="FonteNormativa">
 				<chronlist>

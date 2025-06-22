@@ -5,7 +5,7 @@
 		<recordid>..ID record contenitore..</recordid>
 		<filedesc>
 			<titlestmt>
-				<titleproper>Carteggio particolare della Segreteria di Stato</titleproper>
+				<titleproper/>
 			</titlestmt>
 		</filedesc>
 		<maintenancestatus value="derived"/>
@@ -58,6 +58,9 @@
 				<p>Una parte dei documenti è stata sottoposta a processi di restaurazione.</p>
 			</odd>
 		</odd>
+		<processinfo localtype="StatusScheda"> <!-- status della scheda contenitore -->
+			<p>pubblicata</p> 
+		</processinfo>
 		<processinfo localtype="Compilazione">
 			<processinfo localtype="FonteArchivistica">
 				<chronlist>
