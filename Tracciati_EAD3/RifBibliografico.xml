@@ -50,6 +50,7 @@
 						<part localtype="SiglaCitazione">00000009</part>
 						<part localtype="Volume"></part>
 						<part localtype="Pagine">pp. 65-91</part>
+						<part localtype="Specifiche">LXVI, VI, n.11</part>
 						<part localtype="StatusScheda">Bozza</part>
 					</title>
 					<geogname localtype="LuogoPubblicazione"><part>Modena</part></geogname>
@@ -58,7 +59,6 @@
 					<geogname localtype="LuogoEdizione"><part>Modena</part></geogname>
 					<date localtype="AnnoEdizione">1990</date>
 					<num localtype="NumEdizione"></num>
-					<num localtype="Specifiche">LXVI, VI, n.11</num>
 					<subject localtype="Abstract"><part>Il mondo che ruota attorno alle funzioni, alla produzione e alla ricerca del testo sta oggi subendo una trasformazione redicale di cui molti parlano (perchè il fenomeno è sotto gli occhi di tutti) ma di cui pochi sono in grado di apprezzare compiutamente le origini e l'esatto significato, e dunque le possibili conseguenze.</part></subject>
 				</bibref>
 				<bibref>

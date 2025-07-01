@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.san.beniculturali.it/tracciato/ead3.xsd" xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<control repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" scriptencoding="iso15924" langencoding="iso639-3">
+
+		<recordid>..ID contenitore..</recordid>
+		<filedesc>
+			<titlestmt>
+				<titleproper/>
+			</titlestmt>
+		</filedesc>
+		<maintenancestatus value="derived"/>
+		<maintenanceagency>
+			<agencyname>...</agencyname>
+		</maintenanceagency>
+		
+		<localcontrol localtype="AcronimoDiSistema"> 
+			<term>SIA</term>
+		</localcontrol>
+		<localcontrol localtype="IdentificativoDiSistema"> 
+			<term>...</term>
+		</localcontrol>
+		
+		<maintenancehistory>
+			<maintenanceevent>
+				<eventtype value="derived"/>
+				<eventdatetime>2025-02-21</eventdatetime>
+				<agenttype value="human"/>
+				<agent>Gruppo di lavoro ICAR</agent>
+			</maintenanceevent>
+		</maintenancehistory>
+		
+	</control>
+	<archdesc level="fonds">
+		<did>
+			<unitid>..ID contenitore..</unitid> 
+			<unittitle localtype="Denominazione">..Denominazione contenitore..</unittitle> 
+			<unitdatestructured>
+				<dateset>
+					<datesingle localtype="DataTestuale" standarddate="1941/1984" altrender="Intervallo di date">1941-1984</datesingle>
+					<daterange>
+						<fromdate standarddate="1941">1941</fromdate>
+						<todate standarddate="1984">1984</todate>
+					</daterange>
+				</dateset>
+			</unitdatestructured>
+			<langmaterial label="LinguaDescrizione">
+				<language lang="ita"/>
+			</langmaterial>
+		</did>
+		<accessrestrict localtype="VisibilitaFE">
+			<p>Completa</p>
+		</accessrestrict>
+		<processinfo localtype="StatusScheda">
+			<p>Bozza</p>
+		</processinfo>
+		<processinfo localtype="Compilazione">
+			<processinfo localtype="ComplessoArchivistico">
+				<chronlist>
+					<chronitem>
+						<datesingle>20250222</datesingle>
+						<event>
+							<corpname relator="Compilatore">
+								<part localtype="Denominazione">ICAR-CP-1988029</part>
+							</corpname>
+							<name>
+								<part>Importazione</part>
+							</name>
+						</event>
+					</chronitem>
+				</chronlist>
+				<p> Note redazionali </p>
+			</processinfo>
+		</processinfo>
+		<dsc>
+			<c level="item">
+				<did>
+						<unitid>SIA-UD-2013111</unitid>
+						<unitid localtype="AltroId" label="SIAS">IT-ASBZ-F230003563</unitid>
+						<unitid localtype="IdPrecedente">SIcod1132</unitid> 
+						<unitid localtype="NumeroSequenza">189</unitid> <!-- presente 2 volte nel mapping: linea 55 e 98-->
+						<unitid localtype="NumOrdinamentoProvvisorio">03556</unitid> <!-- presente 2 volte nel mapping: linea 55 e 98-->
+						<unitid localtype="NumOrdinamentoDefinitivo">5</unitid> <!-- presente 2 volte nel mapping: linea 55 e 98-->
+						<unitid label="Segnatura">b.97 fasc.12</unitid> 
+						<unitid label="SegnaturaPrecedente" localtype="SIAS">SI-ITBZ-00162</unitid>
+						<unittitle localtype="TitoloOriginale">Winston Leonard Spencer Churchill</unittitle> 
+						<unittitle label="IntegrazioneTitolo">Intervista</unittitle> 
+						<unittitle localtype="TitoloAttributo">Intervista a Winston Leonard Spencer Churchill (1874-1965)</unittitle>
+						<unitdatestructured>
+							<dateset>
+								<datesingle localtype="DataTestuale" standarddate="19560115" altrender="Data singola">1956 gen. 15</datesingle>
+								<datesingle localtype="DataSingola" standarddate="19560115">1956 gen. 15</datesingle>
+							</dateset>
+						</unitdatestructured>
+						<physdescstructured physdescstructuredtype="materialtype" coverage="part">
+							<quantity>1</quantity> 
+							<unittype>CD-ROM</unittype>
+							<physfacet localtype="TipologiaDocumentaria">
+								<genreform>
+									<part>Intervista</part>
+									<part localtype="TracciatoSpecifico">Audiovisivo</part>
+								</genreform>
+							</physfacet>
+							<physfacet> <!-- manca @localtype (linea 46 mapping) + part è obbligatorio in genreform (in mapping usa @relator -->
+								<!--<genreform relator="Intervista"/>-->
+								<genreform>									
+									<part>Intervista</part>
+								</genreform>
+							</physfacet>
+							<physfacet localtype="Tecnica">..</physfacet> <!-- contenuto? -->
+							<physfacet localtype="Supporto"></physfacet> <!-- contenuto? -->
+							<dimensions localtype="Altezza">12 cm</dimensions>
+							<dimensions localtype="Larghezza">12 cm</dimensions>
+							<dimensions localtype="Spessore">0,12 cm</dimensions>
+						</physdescstructured>
+						<materialspec label="Colore">8 bits</materialspec>
+						<materialspec label="Formato">WAW</materialspec>
+						<container localtype="Busta">
+							<ref>
+								<num>5</num>
+								<title><part>xxxx</part></title> <!-- contenuto? Titolo unità di condizionamento -->
+							</ref> 
+						</container>
+						<langmaterial label="LinguaDocumentazione">
+								<language lang="eng"/>
+						</langmaterial>
+						<langmaterial label="LinguaDescrizione">
+							<language lang="ita"/>
+						</langmaterial>
+				</did>
+					<accessrestrict localtype="VisibilitaFE">
+						<p>Completa</p>
+					</accessrestrict>
+					<accessrestrict localtype="CondizioniAccesso">
+						<p>Liberamente accessibile</p>
+						<accessrestrict localtype="NoteCondizioniAccesso">
+							<p>Non ci sono restrizioni all'accesso.</p>
+						</accessrestrict>
+					</accessrestrict>
+					<userestrict>
+						<p>Riproduzione libera</p>
+						<userestrict localtype="NoteCondizioniUtilizzo">
+							<p>Non si sono restrizioni all'utilizzo del documento.</p>
+						</userestrict>
+					</userestrict>
+					<relations>
+						<relation relationtype="resourcerelation">
+							<relationentry localtype="LivelloSuperiore">SIA-UA-2013166</relationentry>
+						</relation>
+						<relation relationtype="cpfrelation" arcrole="Detentore dei diritti">
+							<relationentry>SIA-AG-1021244</relationentry>
+						</relation>
+					</relations>
+					<controlaccess>
+						<subject><part>Storia contemporanea</part></subject>
+						<subject><part identifier="TE-412245"/></subject>
+						<persname><part identifier="SIA-PE-2422175"/></persname>
+						<corpname><part identifier="SIA-AG-2422933"/></corpname>
+						<famname><part identifier="SIA-FA-2422443"/></famname>
+						<geogname><part identifier="SIA-LG-2423324"/></geogname>
+						<geogname><part>Londra</part></geogname>
+					</controlaccess>
+					<processinfo localtype="StatusScheda">
+						<p>pubblicata</p> 
+					</processinfo>
+					<processinfo localtype="Compilazione">
+						<processinfo localtype="UnitaDocumentale">
+							<chronlist>
+								<chronitem>
+									<datesingle>20250222</datesingle>
+									<event>
+										<corpname relator="Compilatore">
+											<part localtype="Denominazione">ICAR-CP-1988029</part>
+										</corpname>
+										<name>
+											<part>Importazione</part>
+										</name>
+									</event>
+								</chronitem>
+							</chronlist>
+							<p> Note redazionali </p>
+						</processinfo>
+					</processinfo>
+					
+			</c>
+		</dsc>
+	</archdesc>
+</ead>

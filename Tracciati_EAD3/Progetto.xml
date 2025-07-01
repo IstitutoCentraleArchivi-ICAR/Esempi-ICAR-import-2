@@ -77,7 +77,7 @@
 			<unitid>SIA-PR-15134566</unitid>
 			<unitdatestructured> 
 				<dateset>
-					<datesingle localtype="dataTestuale" standarddate="2021/2023" altrender="Intervallo di date">2021-2023</datesingle>
+					<datesingle localtype="DataTestuale" standarddate="2021/2023" altrender="Intervallo di date">2021-2023</datesingle>
 					<daterange>
 						<fromdate standarddate="2021">2021</fromdate>
 						<todate standarddate="2023">2023</todate>
@@ -164,7 +164,7 @@
 			</archref>
 		</bibliography>
 		<odd localtype="Osservazioni">
-			<odd localtype="Progetti">
+			<odd localtype="Progetto">
 				<p></p>	<!--  CONTENUTO  -->
 			</odd>
 		</odd>

@@ -25,8 +25,8 @@
 	<cpfDescription>
 		<identity>
 			<entityType value="corporateBody" eac-sia:tipoLocale="Evento"/>
-			<nameEntry>
-				<part localType="denominazioneEvento">Strage di Ustica</part>
+			<nameEntry localType="DenominazioneEvento">
+				<part>Strage di Ustica</part>
 			</nameEntry>
 			<otherEntityTypes>
 				<otherEntityType localType="Evento">

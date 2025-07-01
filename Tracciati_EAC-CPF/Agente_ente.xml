@@ -194,7 +194,7 @@
 	<targetRole>Progetto</targetRole>
    </relation> 
    <relation>
-    <targetEntity targetType="resource" id="SIA-EV-7719132">
+    <targetEntity targetType="function" id="SIA-EV-7719132"> <!-- targetType="function" o "resource"? -->
 		<part>...</part><!-- contenuto -->
 	</targetEntity>
     <relationType>Finanziatore</relationType>
