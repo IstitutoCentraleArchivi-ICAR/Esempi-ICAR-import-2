@@ -2,7 +2,7 @@
 <ead xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.san.beniculturali.it/tracciato/ead3.xsd" xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" audience="external">
 	<control repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" scriptencoding="iso15924" langencoding="iso639-2b">
 		
-		<recordid>SIA-SR-2013011</recordid>
+		<recordid>SIA-SR-2013011</recordid> <!-- errore in path mapping (campo Identificativo per lo strumento) -->
 		<otherrecordid localtype="SIA">S-55A12</otherrecordid>
 		<otherrecordid localtype="IdPrecedente">SI_115SR</otherrecordid>
 		
@@ -35,7 +35,7 @@
 				<controlnote localtype="DescrizioneIntrinseca"><p></p></controlnote> <!-- CONTENUTO -->
 				<controlnote localtype="TipoSupporto"><p>Analogico</p></controlnote>
 				<controlnote localtype="ModalitaRedazione"><p>Stampa da computer</p></controlnote>
-				<controlnote localtype="DescrizioneEstrinseca"><p>I titoli delle unità archivistiche sono individuati dalla colonna denominata "Descrizione del bene", che nelle sottocolonne definisce i beni immobili danneggiati secondo il comune catastale, la/le particelle edificiali, quella/e fondiarie e la/le partite tavolari. Le pratiche relative ai beni mobili danneggiati – ai quali è stata assegnata una posizione diversa (e di solito consecutiva) rispetto all'immobile di pertinenza – sono comprese nel medesimo fascicolo, che in questo caso, dunque, comprende una o più pratiche, o sottofascicoli, ognuna individuata da una posizione.</p></controlnote> <!-- errore valore @ in mapping -->
+				<controlnote localtype="DescrizioneEstrinseca"><p>I titoli delle unità archivistiche sono individuati dalla colonna denominata "Descrizione del bene", che nelle sottocolonne definisce i beni immobili danneggiati secondo il comune catastale, la/le particelle edificiali, quella/e fondiarie e la/le partite tavolari. Le pratiche relative ai beni mobili danneggiati – ai quali è stata assegnata una posizione diversa (e di solito consecutiva) rispetto all'immobile di pertinenza – sono comprese nel medesimo fascicolo, che in questo caso, dunque, comprende una o più pratiche, o sottofascicoli, ognuna individuata da una posizione.</p></controlnote>
 				
 				<controlnote localtype="Osservazioni"><p></p></controlnote> <!-- CONTENUTO -->
 			</notestmt>

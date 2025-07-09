@@ -39,7 +39,7 @@
 		<otherRecordId localType="SIAS">IT-CC23644</otherRecordId> 
 	</control>
 	<cpfDescription>
-		<identity localType="soggettoProduttore">
+		<identity>
 			<entityType value="person"/>
 			<nameEntry localType="denominazionePersona" languageOfElement="ita">
 				<part localType="intestazionePersona">Antonioli, Francesco Maria, militante anarchico (sec. XX inizio - 1981 apr. 1)</part>

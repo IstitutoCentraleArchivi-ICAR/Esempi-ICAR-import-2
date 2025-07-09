@@ -309,10 +309,10 @@
 						<unittitle localtype="TitoloAttributo">Richiesta risarcimento di guerra 113 - 104/II - Barbiano</unittitle> 
 						<unitdatestructured>
 							<dateset>
-								<datesingle localtype="DataTestuale" standarddate="19461015/19830419" altrender="Intervallo di date">1946 ott. 15 - 1983 apr. 19 (con documenti in copia del 1943)</datesingle>
+								<datesingle localtype="DataTestuale" standarddate="1946-10-15/1983-04-19" altrender="Intervallo di date">1946 ott. 15 - 1983 apr. 19 (con documenti in copia del 1943)</datesingle>
 								<daterange>
-									<fromdate standarddate="19461015">1946 ott. 15</fromdate>
-									<todate standarddate="19830419">1983 apr. 19</todate>
+									<fromdate standarddate="1946-10-15">1946 ott. 15</fromdate>
+									<todate standarddate="1983-04-19">1983 apr. 19</todate>
 								</daterange>
 								<datesingle localtype="NoteAllaDatazione">con documenti in copia del 1943</datesingle>
 							</dateset>
@@ -442,10 +442,10 @@
 						<relation relationtype="cpfrelation" arcrole="Detentore dei diritti">
 							<relationentry>SIA-AG-1021243</relationentry>
 							<dateset>
-								<datesingle localtype="DataTestuale" standarddate="19461015/19830419" altrender="Intervallo di date">1946 ott. 15 - 1983 apr. 19</datesingle>
+								<datesingle localtype="DataTestuale" standarddate="1946-10-15/1983-04-19" altrender="Intervallo di date">1946 ott. 15 - 1983 apr. 19</datesingle>
 								<daterange>
-									<fromdate standarddate="19461015">1946 ott. 15</fromdate>
-									<todate standarddate="19830419">1983 apr. 19</todate>
+									<fromdate standarddate="1946-10-15">1946 ott. 15</fromdate>
+									<todate standarddate="1983-04-19">1983 apr. 19</todate>
 								</daterange>
 							</dateset>
 							<descriptivenote>
@@ -539,8 +539,8 @@
 							<unittitle localtype="TitoloAttributo">Lettera di richiesta risarcimento di guerra 113 - 104/II - Barbiano</unittitle>
 							<unitdatestructured>
 								<dateset>
-									<datesingle localtype="DataTestuale" standarddate="19461015" altrender="Data singola">1946 ott. 15</datesingle>
-									<datesingle localtype="DataSingola" standarddate="19461015">1946 ott. 15</datesingle>
+									<datesingle localtype="DataTestuale" standarddate="1946-10-15" altrender="Data singola">1946 ott. 15</datesingle>
+									<datesingle localtype="DataSingola" standarddate="1946-10-15">1946 ott. 15</datesingle>
 								</dateset>
 							</unitdatestructured>
 							<physdescstructured physdescstructuredtype="materialtype" coverage="part">

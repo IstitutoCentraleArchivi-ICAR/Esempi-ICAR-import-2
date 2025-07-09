@@ -87,8 +87,8 @@
 						<unittitle localtype="TitoloAttributo">Intervista a Winston Leonard Spencer Churchill (1874-1965)</unittitle>
 						<unitdatestructured>
 							<dateset>
-								<datesingle localtype="DataTestuale" standarddate="19560115" altrender="Data singola">1956 gen. 15</datesingle>
-								<datesingle localtype="DataSingola" standarddate="19560115">1956 gen. 15</datesingle>
+								<datesingle localtype="DataTestuale" standarddate="1956-01-15" altrender="Data singola">1956 gen. 15</datesingle>
+								<datesingle localtype="DataSingola" standarddate="1956-01-15">1956 gen. 15</datesingle>
 							</dateset>
 						</unitdatestructured>
 						<physdescstructured physdescstructuredtype="materialtype" coverage="part">

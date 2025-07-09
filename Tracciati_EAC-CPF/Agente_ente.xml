@@ -40,7 +40,7 @@
   <otherRecordId localType="SIAS">IT-ASBZ-CC236400094</otherRecordId> 
  </control>
  <cpfDescription>
-  <identity localType="soggettoProduttore">
+  <identity>
    <entityType value="corporateBody"/>
    <nameEntry localType="denominazioneEnte" languageOfElement="ita">
     <part localType="intestazionePrincipaleEnte">Intendenza di finanza di Bolzano, Bolzano (1927 - 1991)</part>
@@ -56,7 +56,7 @@
      </dateSet>
     </useDates>
    </nameEntry>
-   <nameEntry localType="denominazioneParallela" languageOfElement="deu" status="alternative">
+   <nameEntry localType="altraDenominazioneEnte" languageOfElement="deu" status="alternative">
     <part localType="intestazione">Finanzintendanz Bozen, Bozen (1927 - 1991)</part>
     <part localType="denominazione">Finanzintendanz Bozen</part>
     <part localType="acronimo">FIBZ</part>
@@ -150,7 +150,7 @@
      </dateRange>
     </dateSet>
     <relationType>Soggetto produttore</relationType>
-    <targetRole>Complesso archivistico</targetRole>
+    <targetRole>Complesso Archivistico</targetRole>
    </relation>
    <relation>
     <targetEntity targetType="resource" id="SIA-UA-2021315">
@@ -164,7 +164,7 @@
      </dateRange>
     </dateSet>
     <relationType>Mittente</relationType>
-	<targetRole>Unità archivistica</targetRole>
+	<targetRole>Unita Archivistica</targetRole>
     <descriptiveNote><p>Documentazione</p></descriptiveNote> <!-- ha senso questo valore? -->
    </relation>
    <relation>
@@ -176,7 +176,7 @@
 		<date standardDate="19510310">10 mar. 1951</date>
     </dateSet>
 	<relationType>Destinatario</relationType>
-    <targetRole>Unità documentaria</targetRole>
+    <targetRole>Unita Documentaria</targetRole>
     <descriptiveNote><p>Documentazione</p></descriptiveNote> <!-- ha senso questo valore? -->
    </relation>
    <relation>
@@ -191,14 +191,14 @@
 		<part>...</part><!-- contenuto -->
 	</targetEntity>
     <relationType>Finanziatore</relationType>
-	<targetRole>Progetto</targetRole>
+	<targetRole>progetto</targetRole>
    </relation> 
    <relation>
     <targetEntity targetType="function" id="SIA-EV-7719132"> <!-- targetType="function" o "resource"? -->
 		<part>...</part><!-- contenuto -->
 	</targetEntity>
     <relationType>Finanziatore</relationType>
-	<targetRole>Evento</targetRole>
+	<targetRole>evento</targetRole>
    </relation> 
    <relation>
     <targetEntity targetType="agent" id="SIA-CS-1922132">
@@ -214,10 +214,10 @@
     <targetRole>Contesto storico istituzionale collegato</targetRole>
    </relation>
    <relation>
-    <targetEntity targetType="resource" id="SIA-TE-2419131">
+    <targetEntity targetType="resource" id="SIA-TE-2419131"> <!-- in mapping eliminare @valueURI + aggiungere nota per spiegare uso di <part> (come nelle righe sotto) -->
 		<part>Storia economica</part>
 	</targetEntity>
-    <relationType>tematismo</relationType>
+    <targetRole>tematismo</targetRole>
    </relation>
    <relation>
     <targetEntity targetType="corporateBody" id="SIA-AG-1021246">

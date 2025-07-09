@@ -195,21 +195,21 @@
 				<targetEntity targetType="resource" id="SIA-CA-2013163">
 					<part>Abbazia di Santo Stefano di Prarolo</part>
 				</targetEntity>
-				<targetRole>complessoArchivistico</targetRole>
+				<targetRole>Complesso Archivistico</targetRole>
 				<relationType>Soggetto conservatore</relationType>
 			</relation>
 			<relation>
 				<targetEntity targetType="resource" id="SIA-CA-2014263">
 					<part>Ferrero d'Ormea (Famiglia)</part>
 				</targetEntity>
-				<targetRole>complessoArchivistico</targetRole>
+				<targetRole>Complesso Archivistico</targetRole>
 				<relationType>Soggetto conservatore</relationType>
 			</relation>
 			<relation>
 				<targetEntity targetType="resource" id="SIA-CA-2014239">
 					<part>Vittorio Pozzo</part>
 				</targetEntity>
-				<targetRole>complessoArchivistico</targetRole>
+				<targetRole>Complesso Archivistico</targetRole>
 				<relationType>Soggetto conservatore</relationType>
 			</relation>
 			<relation>
