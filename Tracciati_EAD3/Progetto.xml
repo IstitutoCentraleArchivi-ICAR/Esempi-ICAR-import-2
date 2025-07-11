@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.san.beniculturali.it/tracciato/ead3.xsd" xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<control repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" scriptencoding="iso15924" langencoding="iso639-3">
-	
-		 <!-- https://archiviodigitale-icar.cultura.gov.it/it/186/esplora/digitalproject/653374?exploreType=progetti
-		 -->		 
-		 
+
 		<recordid>SIA-PR-15134566</recordid>
 		<filedesc>
 			<titlestmt>
@@ -28,19 +25,19 @@
 					<p>Riproduzione di serie/fondi archivistici</p>
 				</controlnote>
 				<controlnote localtype="ObiettiviProgetto">
-					<p></p>  <!-- contenuto -->
+					<p>Rendere disponibili in formato digitale le pergamene conservate nell'Archivio di Stato di Novara.</p>
 				</controlnote>
 				<controlnote localtype="CriteriSelezioneMateriale"> 
-					<p></p>  <!-- contenuto -->
+					<p>Tutte le pergamene.</p>
 				</controlnote>
 				<controlnote localtype="CriteriRiproduzioneMateriale"> 
-					<p></p>  <!-- contenuto -->
+					<p>Alta qualità.</p>
 				</controlnote>
 				<controlnote localtype="CoperturaSpazialeMateriale"> 
-					<p></p>  <!-- contenuto -->
+					<p>Provincia di Novara.</p>
 				</controlnote>
 				<controlnote localtype="CoperturaTemporaleMateriale"> 
-					<p></p>  <!-- contenuto -->
+					<p>Secoli XII-XVI.</p>
 				</controlnote>
 			</notestmt>
 		</filedesc>
@@ -84,7 +81,7 @@
 					</daterange>
 				</dateset>
 			</unitdatestructured>
-			<physdesc localtype="Dimensioni"></physdesc>  <!-- contenuto -->
+			<physdesc localtype="Dimensioni">2 GB</physdesc>
 			<physdesc localtype="FormatoImmaginiOnline">JPG</physdesc>
 			<physdesc localtype="FormatoRiproduzione">TIFF, JPEG, PDF</physdesc>
 			<physdesc localtype="Risoluzione">300 dpi</physdesc>
@@ -104,17 +101,17 @@
 			<p></p>  <!-- contenuto -->
 		</phystech>
 		<phystech localtype="StrumentazioneRipresa">
-			<p></p>  <!-- contenuto -->
+			<p>Scanner</p>
 		</phystech>
 		<phystech localtype="StandardAdottati">
 			<p></p>  <!-- contenuto -->
 		</phystech>
 		<accessrestrict localtype="AccessoOriginaliAnalogici">
-			<p></p>  <!-- contenuto -->
+			<p>Gli originali sono consultabili presso l'Archivio di Stato di Novara previa autorizzazione.</p>
 		</accessrestrict>
 		<accessrestrict localtype="DetentoreDiritti">
 			<p>
-				<corpname><part></part></corpname>  <!-- contenuto -->
+				<corpname><part>Archivio di Stato di Novara</part></corpname>
 			</p>  
 		</accessrestrict>
 		<accessrestrict>
@@ -165,11 +162,11 @@
 		</bibliography>
 		<odd localtype="Osservazioni">
 			<odd localtype="Progetto">
-				<p></p>	<!--  CONTENUTO  -->
+				<p>Progetto realizzato in due parti.</p>
 			</odd>
 		</odd>
 		<processinfo>
-			<p></p>  <!-- campo Informazioni sommarie sullo stato di avanzamento. contenuto -->
+			<p>Progetto termintao.</p>
 		</processinfo>
 		<processinfo localtype="Compilazione">
 			<processinfo localtype="Progetto">

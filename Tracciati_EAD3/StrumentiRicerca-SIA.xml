@@ -27,10 +27,10 @@
 				<date normal="20110101-20111231" localtype="EstremoRemoto">2011</date> <!-- nel mapping non si spiega come si codifica una data singola -->
 				
 				<date encodinganalog="QualificaData"></date> <!-- contenuto -->
-				<date encodinganalog="NoteAllaData"></date> <!-- contenuto -->
+				<date encodinganalog="NoteAllaData">Data della stampa.</date> 
 			</publicationstmt>
 			<notestmt>
-				<controlnote localtype="NoteStoricoRedazionali"><p></p></controlnote> <!-- CONTENUTO --> <!-- in mapping manca <p> obbligatorio in Ead (anche negli altri controlnote -->
+				<controlnote localtype="NoteStoricoRedazionali"><p>Inventario elaborato da funcionari dell'Archivio.</p></controlnote> <!-- in mapping manca <p> obbligatorio in Ead (anche negli altri controlnote -->
 				
 				<controlnote localtype="DescrizioneIntrinseca"><p></p></controlnote> <!-- CONTENUTO -->
 				<controlnote localtype="TipoSupporto"><p>Analogico</p></controlnote>

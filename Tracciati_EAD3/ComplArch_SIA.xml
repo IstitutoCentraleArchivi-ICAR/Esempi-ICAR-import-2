@@ -61,7 +61,7 @@
 				<unittype>buste</unittype>
 			</physdescstructured>
 			<physdesc localtype="ConsistenzaTotale">10 volumi e 400 buste</physdesc>
-			<physdesc localtype="NoteAllaConsistenza"></physdesc> <!-- contenuto -->
+			<physdesc localtype="NoteAllaConsistenza">Con alcuni salti nella numerazione delle buste.</physdesc>
 			<physloc>
 				<ptr id="xxx" linkrole="Internal"/>
 				<ref arcrole="DaPezzo"></ref>
@@ -135,8 +135,7 @@
 		</altformavail>
 		<relatedmaterial localtype="DocumentazioneEsterna">
 			<archref>
-				<title><part>Archivio storico della Città di Bolzano</part></title>
-				<!-- contenuto descrizione -->
+				<title><part>Archivio storico della Città di Bolzano</part></title>Nell'Archivio storico della Città di Bolzano si trova carteggio tra il comune e l'Intendenza di finanza.
 				<ref href="https://opencity.comune.bolzano.it/Argomenti/Istruzione-cultura-e-sport/Cultura/Archivio-Storico" arcrole="xx qualifica del collegamento xx"><!-- contenuto campo Localizzazione --></ref>
 			</archref>
 		</relatedmaterial>
@@ -144,7 +143,7 @@
 		<relatedmaterial localtype="DocumentazioneInterna">
 			<archref>
 				<title><part>Agenzia delle entrate di Bolzano</part></title>
-				<!-- Descrizione -->
+				Per il periodo successivo al 1984 consultare il fondo dell'Agenzia delle entrate di Bolzano.
 				<ref linktitle="RelazioneConCA" arcrole="xx qualifica della relazione xx">ICAR-BZ-1500021</ref>
 			</archref> 
 			<archref>
@@ -221,7 +220,7 @@
 		</bibliography>
 		<odd localtype="Osservazioni">
 			<odd localtype="ComplessoArchivistico">
-				<p></p>	<!--  CONTENUTO  -->
+				<p>Su molti documenti del fondo si trovano diversi timbri.</p>
 			</odd>
 		</odd>
 		<processinfo localtype="StatusScheda">
@@ -325,8 +324,8 @@
 									<part localtype="Tipologia"></part> <!-- contenuto? -->
 								</genreform>
 							</physfacet>
-							<physfacet localtype="Supporto"></physfacet> <!-- contenuto? -->
-							<physfacet localtype="Legatura"></physfacet> <!-- contenuto? -->
+							<physfacet localtype="Supporto">Carta</physfacet>
+							<physfacet localtype="Legatura">Senza legatura.</physfacet>
 							<dimensions localtype="Altezza">21 cm</dimensions>
 							<dimensions localtype="Larghezza">29 cm</dimensions>
 							<dimensions localtype="Spessore">0,1 cm</dimensions>
@@ -398,15 +397,15 @@
 						</userestrict>
 					</userestrict>
 					<originalsloc>
-						<head></head> <!-- contenuto -->
-						<p></p> <!-- contenuto -->
+						<head>Agenzia delle entrate di Bolzano</head>
+						<p>Alcuni documenti originali sono conservati nel fondo dell'Agenzia delle entrate di Bolzano.</p>
 						<p><ref arcrole="Localizzazione"></ref></p>
 						<p><ref arcrole="Segnatura"></ref></p>
 						<p><ref href=""/></p>
 					</originalsloc>
 					<altformavail>
-						<head></head> <!-- contenuto -->
-						<p></p> <!-- contenuto -->
+						<head>Free University of Bozen-Bolzano</head>
+						<p>Fascicolo disponibile in copia nella biblioteca della Free University of Bozen-Bolzano.</p>
 						<p><ref arcrole="Localizzazione"></ref></p>
 						<p><ref arcrole="Segnatura"></ref></p>
 						<p><ref href=""/></p>
@@ -499,7 +498,7 @@
 					</bibliography>
 					<odd localtype="Osservazioni">
 						<odd localtype="UnitaArchivistica">
-							<p></p>	<!--  CONTENUTO  -->
+							<p>Sui documenti si trovano diversi timbri.</p>
 						</odd>
 					</odd>
 					<processinfo localtype="StatusScheda">
@@ -559,11 +558,11 @@
 										<part localtype="Natura">Sigillo a una faccia</part>
 										<part localtype="Materiale">Cera</part>
 										<part localtype="ModoApposizione">Aderente</part>
-										<part localtype="Descrizione"></part> <!-- contenuto? -->
+										<part localtype="Descrizione">Sigillo circolare</part>
 									</genreform>
 								</physfacet>
-								<physfacet localtype="Supporto"></physfacet> <!-- contenuto? -->
-								<physfacet localtype="Legatura"></physfacet> <!-- contenuto? -->
+								<physfacet localtype="Supporto">Carta</physfacet>
+								<physfacet localtype="Legatura">Senza legatura.</physfacet>
 								<dimensions localtype="Altezza">29 cm</dimensions>
 								<dimensions localtype="Larghezza">21 cm</dimensions>
 								<dimensions localtype="Spessore">0,1 cm</dimensions>
@@ -610,7 +609,7 @@
 							</p>
 						</fileplan>
 						<scopecontent localtype="DescrizioneContenuto">
-							<p></p> <!-- contenuto -->
+							<p>Lettera di richiesta risarcimento relativo al comune di Barbiano.</p>
 						</scopecontent>
 						<scopecontent localtype="Regesto">
 							<p></p> <!-- contenuto -->
@@ -637,15 +636,15 @@
 							</userestrict>
 						</userestrict>
 						<originalsloc> 
-							<head></head> <!-- contenuto -->
-							<p></p> <!-- contenuto -->
+							<head>Agenzia delle entrate di Bolzano</head>
+							<p>L'originale del documento è conservato nel fondo dell'Agenzia delle entrate di Bolzano.</p>
 							<p><ref arcrole="Localizzazione"></ref></p>
 							<p><ref arcrole="Segnatura"></ref></p>
 							<p><ref href=""/></p>
 						</originalsloc>
 						<altformavail> 
-							<head></head> <!-- contenuto -->
-							<p></p> <!-- contenuto -->
+							<head>Free University of Bozen-Bolzano</head>
+							<p>Documento disponibile in copia nella biblioteca della Free University of Bozen-Bolzano.</p>
 							<p><ref arcrole="Localizzazione"></ref></p>
 							<p><ref arcrole="Segnatura"></ref></p>
 							<p><ref href=""/></p>
@@ -732,7 +731,7 @@
 						</bibliography>
 						<odd localtype="Osservazioni">
 							<odd localtype="UnitaDocumentaria">
-								<p></p>	<!--  CONTENUTO  -->
+								<p>Sul documento si trovano diversi timbri.</p>
 							</odd>
 						</odd>
 						<processinfo localtype="StatusScheda">
