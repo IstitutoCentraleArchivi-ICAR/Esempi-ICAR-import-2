@@ -3,7 +3,7 @@
  xmlns="https://archivists.org/ns/eac/v2"
  xmlns:eac-sia="http://www.san.beniculturali.it/eac-sia"
  audience="external">
- <control maintenanceStatus="derived" eac-sia:status="bozza">
+ <control maintenanceStatus="derived" eac-sia:status="Bozza">
   <recordId>1922132</recordId>
   <maintenanceAgency>
    <agencyCode>IT-ICAR</agencyCode>
@@ -56,7 +56,7 @@
    </localDescriptions>
    <existDates localType="dateEsistenzaEnte">
     <dateSet>
-     <date localType="estremoCronologicoTestuale" standardDate="1861-1946" eac-sia:tipologiaData="intervallo di date" eac-sia:qualificaData="Date di esistenza"></date>
+     <date localType="estremoCronologicoTestuale" standardDate="1861-1946" eac-sia:tipologiaData="Intervallo di date" eac-sia:qualificaData="Date di esistenza"></date>
      <dateRange>
       <fromDate standardDate="1861">1861</fromDate>
       <toDate standardDate="1946">1946</toDate>
@@ -73,7 +73,7 @@
      <part>Intendenza di finanza di Bolzano, Bolzano (1927 - 1991)</part>
     </targetEntity>
      <dateSet>
-      <date localType="estremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="intervallo di date">1927-1991</date>
+      <date localType="estremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="Intervallo di date">1927-1991</date>
       <dateRange>
        <fromDate standardDate="1927">1927</fromDate>
        <toDate standardDate="1991">1991</toDate>
@@ -87,7 +87,7 @@
      <part>Direzioni compartimentali (1862-1869) poi Intendenza  di finanza (1869-1991)</part>
     </targetEntity>
     <dateSet>
-     <date localType="estremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="intervallo di date">1927-1991</date>
+     <date localType="estremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="Intervallo di date">1927-1991</date>
      <dateRange>
       <fromDate standardDate="1927">1927</fromDate>
       <toDate standardDate="1991">1991</toDate>
@@ -96,11 +96,11 @@
     <targetRole>Profilo istituzionale collegato</targetRole>
    </relation> 
    <relation>
-    <targetEntity targetType="agent" id="SIA-CS-1922144">
+    <targetEntity targetType="corporateBody" id="SIA-CS-1922144">
 		<part>Regno di Sardegna</part>
 	</targetEntity>
     <dateSet>
-     <date localType="estremoCronologicoTestuale" standardDate="1297-1861" eac-sia:tipologiaData="intervallo di date">1297-1861</date>
+     <date localType="estremoCronologicoTestuale" standardDate="1297-1861" eac-sia:tipologiaData="Intervallo di date">1297-1861</date>
      <dateRange>
       <fromDate standardDate="1297">1297</fromDate>
       <toDate standardDate="1861">1861</toDate>
@@ -110,11 +110,11 @@
 	<relationType>Collegato</relationType>
    </relation>
 	<relation>
-    <targetEntity targetType="agent" id="SIA-CS-192534"> 
+    <targetEntity targetType="corporateBody" id="SIA-CS-192534"> 
 		<part>Regno delle Due Sicilie</part>
 	</targetEntity>
     <dateSet>
-     <date localType="estremoCronologicoTestuale" standardDate="1816-1861" eac-sia:tipologiaData="intervallo di date">1816-1861</date>
+     <date localType="estremoCronologicoTestuale" standardDate="1816-1861" eac-sia:tipologiaData="Intervallo di date">1816-1861</date>
      <dateRange>
       <fromDate standardDate="1816">1816</fromDate>
       <toDate standardDate="1861">1861</toDate>

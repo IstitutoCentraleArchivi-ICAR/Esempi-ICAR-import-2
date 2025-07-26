@@ -4,7 +4,7 @@
  xmlns:eac-sia="http://www.san.beniculturali.it/eac-sia"
  audience="external">
 <!-- Descrizione dell'agente solo come soggetto conservatore -->
-	<control maintenanceStatus="derived" eac-sia:status="bozza">
+	<control maintenanceStatus="derived" eac-sia:status="Bozza">
 		<recordId>1021259</recordId>
 		<maintenanceAgency>
 			<agencyCode>IT-ICAR</agencyCode>
@@ -27,7 +27,7 @@
 		<otherRecordId localType="ISIL">IT-TO0879</otherRecordId>	
 	</control>
 	<cpfDescription>
-		<identity localType="soggettoConservatore">
+		<identity>
 			<entityType value="corporateBody"/>
 			<nameEntry localType="denominazioneEnte" languageOfElement="ita">
 				<part localType="intestazionePrincipaleEnte">Archivio di Stato di Torino, Torino (1870 - )</part>
@@ -36,7 +36,7 @@
 			</nameEntry>
 			<otherEntityTypes>
 				<otherEntityType localType="ente">
-					<term>organo e ufficio statale periferico di periodo postunitario</term>
+					<term>Organo e ufficio statale periferico del periodo postunitario</term>
 				</otherEntityType>
 				<otherEntityType localType="qualifica">
 					<term>Archivio</term>
@@ -89,8 +89,8 @@
 						<addressLine addressLineType="street">piazza Castello</addressLine>
 						<addressLine addressLineType="postBox">209</addressLine>
 						<addressLine addressLineType="postalCode">10124</addressLine>
-						<addressLine localType="indirizzoTestuale">piazza Castello, 209, 10124, Torino (TO)</addressLine>
-						<addressLine localType="noteIndirizzo">...</addressLine>  <!-- .. contenuto .. -->
+						<addressLine localType="IndirizzoTestuale">piazza Castello, 209, 10124, Torino (TO)</addressLine>
+						<addressLine localType="NoteIndirizzo">...</addressLine>  <!-- .. contenuto .. -->
 					</address>
 					<geographicCoordinates coordinateSystem="WGS84" eac-sia:tipoCoordinata="latitudine">45.13333</geographicCoordinates>
 					<geographicCoordinates coordinateSystem="WGS84" eac-sia:tipoCoordinata="longitudine">7.36667</geographicCoordinates>
@@ -139,10 +139,10 @@
 						<addressLine addressLineType="street">via Piave</addressLine>
 						<addressLine addressLineType="postBox">21</addressLine>
 						<addressLine addressLineType="postalCode">10122</addressLine>
-						<addressLine localType="indirizzoTestuale">via Piave, 21, 10122, Torino (TO)</addressLine>
-						<addressLine localType="noteIndirizzo"></addressLine>  <!-- .. contenuto .. -->
-						<addressLine localType="accessoDisabili">SI</addressLine>
-						<addressLine localType="condizioniDiAccesso">L'accesso ai documenti è libero. Per l'accesso a le serie che contengono documenti con dati sensibili è richiesta la firma di una dichiarazione da parte degli utenti.</addressLine>
+						<addressLine localType="IndirizzoTestuale">via Piave, 21, 10122, Torino (TO)</addressLine>
+						<addressLine localType="NoteIndirizzo"></addressLine>  <!-- .. contenuto .. -->
+						<addressLine localType="AccessoDisabili">SI</addressLine>
+						<addressLine localType="CondizioniDiAccesso">L'accesso ai documenti è libero. Per l'accesso a le serie che contengono documenti con dati sensibili è richiesta la firma di una dichiarazione da parte degli utenti.</addressLine>
 						<addressLine localType="servizi">Sala Mappe. Lunedì-Venerdi 8,30-13,00; Sabato 10,00-12,00.</addressLine>
 						<addressLine localType="servizi">Fotocopie</addressLine>
 					</address>
@@ -176,7 +176,7 @@
 			</places>
 			<existDates localType="dateEsistenzaEnte">
 				<dateSet>
-					<date eac-sia:qualificaData="Date di esistenza" localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="18700101-99991231">1870 - </date>
+					<date eac-sia:qualificaData="Date di esistenza" localType="estremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)" standardDate="18700101-99991231">1870 - </date>
 					<dateRange>
 						<fromDate standardDate="18700101">1870</fromDate>
 						<toDate standardDate="99991231"/>
@@ -217,7 +217,7 @@
 					<part>Archivio Centrale dello Stato</part>
 				</targetEntity>
 				<dateSet>
-					<date localType="estremoCronologicoTestuale" standardDate="19530101-99991231" eac-sia:tipologiaData="data aperta">1953 - </date>
+					<date localType="estremoCronologicoTestuale" standardDate="19530101-99991231" eac-sia:tipologiaData="Data aperta (a partire da)">1953 - </date>
 					<dateRange>
 						<fromDate standardDate="19530101">1953</fromDate>
 						<toDate standardDate="99991231"/>

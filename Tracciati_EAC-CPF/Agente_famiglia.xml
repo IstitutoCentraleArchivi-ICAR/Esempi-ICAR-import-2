@@ -3,7 +3,7 @@
  xmlns="https://archivists.org/ns/eac/v2"
  xmlns:eac-sia="http://www.san.beniculturali.it/eac-sia"
  audience="external">
-	<control maintenanceStatus="derived" eac-sia:status="bozza">
+	<control maintenanceStatus="derived" eac-sia:status="Bozza">
 		<recordId>1021256</recordId>
 		<maintenanceAgency>
 			<agencyCode>IT-ICAR</agencyCode>
@@ -46,26 +46,26 @@
 				<part localType="denominazionePrincipaleFamiglia">Cruciani Fabozzi</part>
 				<useDates>
 					<dateSet>
-						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="17910101-99991231">sec. XVIII fine - </date> 
+						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)" standardDate="17910101-99991231">sec. XVIII fine - </date> 
 						<dateRange>
-							<fromDate certainty="dataApprossimativa" localType="secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
+							<fromDate certainty="DataApprossimativa" localType="secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
 							<toDate standardDate="99991231"/>
 						</dateRange>
-						<date localType="notaAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
+						<date localType="NoteAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
 					</dateSet> 
 				</useDates>
 			</nameEntry>
-			<nameEntry localType="altraDenominazioneFamiglia" languageOfElement="ita">
+			<nameEntry localType="AltraDenominazioneFamiglia" languageOfElement="ita" status="alternative">
 				<part localType="intestazione">Cruciani F., Amandola (Fermo), sec. XVIII fine - </part>
 				<part localType="denominazione">Cruciani F.</part>
 				<useDates>
 					<dateSet> 
-						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="17910101-99991231">sec. XVIII fine - </date> 
+						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)" standardDate="17910101-99991231">sec. XVIII fine - </date> 
 						<dateRange>
-							<fromDate certainty="dataApprossimativa" localType="secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
+							<fromDate certainty="DataApprossimativa" localType="secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
 							<toDate standardDate="99991231"/>
 						</dateRange>
-						<date localType="notaAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
+						<date localType="NoteAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
 					</dateSet> 
 				</useDates>
 			</nameEntry>
@@ -76,7 +76,7 @@
 				<localDescription localType="titoloFamiglia">
 					<term>Nobile</term>
 					<dateSet>
-						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="1825-99991231">1825 - </date>
+						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)" standardDate="1825-99991231">1825 - </date>
 						<dateRange>
 							<fromDate standardDate="1825">1825</fromDate>
 							<toDate standardDate="99991231"/>
@@ -89,23 +89,23 @@
 					<placeName id="ICAR-TOP-2019314"/>
 					<placeRole>Residenza</placeRole>
 					<dateSet>
-						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="17910101-99991231">sec. XVIII fine - </date> 
+						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)" standardDate="17910101-99991231">sec. XVIII fine - </date> 
 						<dateRange>
-							<fromDate certainty="dataApprossimativa" localType="secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
+							<fromDate certainty="DataApprossimativa" localType="secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
 							<toDate standardDate="99991231"/>
 						</dateRange>
-						<date localType="notaAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
+						<date localType="NoteAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
 					</dateSet>
 				</place>
 			</places>
 			<existDates localType="dateEsistenzaFamiglia">
 				<dateSet>
-					<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="17910101-99991231" eac-sia:qualificaData="data di estinzione">sec. XVIII fine - </date> 
+					<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)" standardDate="17910101-99991231" eac-sia:qualificaData="Data di estinzione">sec. XVIII fine - </date> 
 					<dateRange>
-						<fromDate certainty="dataApprossimativa" localType="secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
+						<fromDate certainty="DataApprossimativa" localType="secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
 						<toDate standardDate="99991231"/>
 					</dateRange>
-					<date localType="notaAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
+					<date localType="NoteAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
 				</dateSet>
 			</existDates>
 			<biogHist> 
@@ -125,9 +125,9 @@
 					<part>Famiglia Cruciani Fabozzi</part>
 				</targetEntity>
 				<dateSet>
-					<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="data aperta" standardDate="17910101-99991231">sec. XVIII fine - </date> 
+					<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)" standardDate="17910101-99991231">sec. XVIII fine - </date> 
 					<dateRange>
-						<fromDate certainty="dataApprossimativa" localType="secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
+						<fromDate certainty="DataApprossimativa" localType="secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
 						<toDate standardDate="99991231"/>
 					</dateRange>
 				</dateSet>
@@ -138,14 +138,14 @@
 				<targetEntity targetType="resource" id="SIA-TE-2412156">
 					<part>Storia locale</part>
 				</targetEntity>
-				<relationType>tematismo</relationType>
+				<targetRole>Tematismo</targetRole>
 			</relation>
 			<relation>
 				<targetEntity targetType="person" id="SIA-AG-1021445">
 					<part>Giuseppe Cruciani Fabozzi</part>
 				</targetEntity>
 				<dateSet>	
-					<date localType="estremoCronologicoTestuale" standardDate="19450101-20231231" eac-sia:tipologiaData="intervallo di date">1945-2023</date>
+					<date localType="estremoCronologicoTestuale" standardDate="19450101-20231231" eac-sia:tipologiaData="Intervallo di date">1945-2023</date>
 					<dateRange>
 						<fromDate standardDate="19450101">1945</fromDate>
 						<toDate standardDate="20231231">2023</toDate>
@@ -159,7 +159,7 @@
 					<part>Regno d'Italia</part>
 				</targetEntity>
 				<dateSet>
-					<date localType="estremoCronologicoTestuale" standardDate="1862-1946" eac-sia:tipologiaData="intervallo di date">1862-1946</date>
+					<date localType="estremoCronologicoTestuale" standardDate="1862-1946" eac-sia:tipologiaData="Intervallo di date">1862-1946</date>
 					<dateRange>
 						<fromDate standardDate="1862">1862</fromDate>
 						<toDate standardDate="1946">1946</toDate>
@@ -178,7 +178,7 @@
 				<targetEntity targetType="resource" id="SIA-RR-122057">
 					<part>...</part> <!-- contenuto -->
 				</targetEntity>
-				<relationType>è documentazione</relationType>
+				<relationType>È documentazione</relationType>
 				<targetRole>Risorsa digitale collegata</targetRole>
 			</relation>
 			<!-- Mancano alcune relazioni. È necessario crearle tutte, o basta con quelle che sono presenti nella scheda dell'agente ente? -->
