@@ -15,36 +15,36 @@
     <eventDateTime standardDateTime="20250421"/>
     <eventDescription>
      <span localType="Azione">Importazione</span>
-     <span localType="noteRedazionali">Registro creato per sistema di test</span>
+     <span localType="NoteRedazionali">Registro creato per sistema di test</span>
     </eventDescription>
    </maintenanceEvent>
   </maintenanceHistory>
   <sources>
    <source>
-    <reference linkRole="riferimentoBibliografico" id="SIA-RB-1942341"/>
+    <reference linkRole="RiferimentoBibliografico" id="SIA-RB-1942341"/>
     <descriptiveNote><p>...</p></descriptiveNote> <!-- contenuto -->
    </source>
    <source>
-    <reference linkRole="fonteArchivistica" id="SIA-FA-20230342"/>
+    <reference linkRole="FonteArchivistica" id="SIA-FA-20230342"/>
    </source>
    <source>
-    <reference linkRole="fonteNormativa" id="ICAR-FN-2103929"/>
+    <reference linkRole="FonteNormativa" id="ICAR-FN-2103929"/>
    </source>
    <source>
-    <reference linkRole="riferimentoWeb" id="wiki_Intendenza_di_finanza"/>
+    <reference linkRole="RiferimentoWeb" id="wiki_Intendenza_di_finanza"/>
    </source>
   </sources>
   <localControl localType="Visibilita_FE"><term>Completa</term></localControl>
-  <localControl localType="acronimoSistema"><term>SIA</term></localControl>
+  <localControl localType="AcronimoSistema"><term>SIA</term></localControl>
   <otherRecordId localType="SIAS">IT-PS1122</otherRecordId>
   <otherRecordId localType="GGASI">IT-PI002416</otherRecordId>
  </control>
  <cpfDescription>
-  <identity localType="profiloIstituzionale">
+  <identity localType="ProfiloIstituzionale">
    <entityType value="corporateBody"/>
-   <nameEntry localType="denominazioneProfilo" languageOfElement="ita">
-    <part localType="intestazioneProfilo">Direzioni compartimentali (1862-1869) poi Intendenza  di finanza (1869-1991)</part>
-    <part localType="acronimoProfilo">IF</part>
+   <nameEntry localType="DenominazioneProfilo" languageOfElement="ita">
+    <part localType="IntestazioneProfilo">Direzioni compartimentali (1862-1869) poi Intendenza  di finanza (1869-1991)</part>
+    <part localType="AcronimoProfilo">IF</part>
    </nameEntry>
    <identityId>SIA-PI-19256155</identityId>
   </identity>
@@ -55,9 +55,9 @@
      <descriptiveNote><p>...</p></descriptiveNote> <!-- contenuto -->
     </localDescription>
    </localDescriptions>
-   <existDates localType="dateEsistenzaEnte">
+   <existDates localType="DateEsistenzaEnte">
     <dateSet>
-     <date localType="estremoCronologicoTestuale" standardDate="1862-1991" eac-sia:tipologiaData="Intervallo di date" eac-sia:qualificaData="Date di esistenza">1862-1991</date>
+     <date localType="EstremoCronologicoTestuale" standardDate="1862-1991" eac-sia:tipologiaData="Intervallo di date" eac-sia:qualificaData="Date di esistenza">1862-1991</date>
      <dateRange>
       <fromDate standardDate="1862">1862</fromDate>
       <toDate standardDate="1991">1991</toDate>
@@ -74,7 +74,7 @@
      <part>Intendenza di finanza di Bolzano, Bolzano (1927 - 1991)</part>
     </targetEntity>
 	<dateSet>
-      <date localType="estremoCronologicoTestuale" standardDate="19270101-19911231" eac-sia:tipologiaData="Intervallo di date">1927 - 1991</date>
+      <date localType="EstremoCronologicoTestuale" standardDate="19270101-19911231" eac-sia:tipologiaData="Intervallo di date">1927 - 1991</date>
       <dateRange>
        <fromDate standardDate="19270101">1927</fromDate>
        <toDate standardDate="19911231">1991</toDate>
@@ -87,7 +87,7 @@
      <part>Direzione regionale delle entrate e Direzione compartimentale del territorio (1991 - )</part>
     </targetEntity>
     <dateSet> 	
-		<date localType="estremoCronologicoTestuale" standardDate="1991" eac-sia:tipologiaData="Data singola">1991</date>
+		<date localType="EstremoCronologicoTestuale" standardDate="1991" eac-sia:tipologiaData="Data singola">1991</date>
 		<date standardDate="1991">1991</date>
     </dateSet>
     <targetRole>Profilo istituzionale collegato</targetRole>
@@ -98,7 +98,7 @@
      <part>Ufficio delle entrate (1991-1999) poi Ufficio locale dell’Agenzia delle entrate (1999-)</part>
     </targetEntity>
     <dateSet> 	
-		<date localType="estremoCronologicoTestuale" standardDate="1991" eac-sia:tipologiaData="Data singola">1991</date>
+		<date localType="EstremoCronologicoTestuale" standardDate="1991" eac-sia:tipologiaData="Data singola">1991</date>
 		<date standardDate="1991">1991</date>
     </dateSet>
     <targetRole>Relazione in arrivo - Profilo istituzionale a cui è collegato</targetRole>
@@ -109,7 +109,7 @@
 		<part>Regno d'Italia</part>
 	</targetEntity>
     <dateSet>
-     <date localType="estremoCronologicoTestuale" standardDate="1862-1946" eac-sia:tipologiaData="Intervallo di date">1862-1946</date>
+     <date localType="EstremoCronologicoTestuale" standardDate="1862-1946" eac-sia:tipologiaData="Intervallo di date">1862-1946</date>
      <dateRange>
       <fromDate standardDate="1862">1862</fromDate>
       <toDate standardDate="1946">1946</toDate>

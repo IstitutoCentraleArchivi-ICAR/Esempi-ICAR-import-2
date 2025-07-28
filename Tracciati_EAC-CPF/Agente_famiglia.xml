@@ -15,40 +15,40 @@
 			<eventDateTime standardDateTime="20250321"/>
 			<eventDescription>
 				<span localType="Azione">Importazione</span>
-				<span localType="noteRedazionali">Registro creato per sistema di test</span>
+				<span localType="NoteRedazionali">Registro creato per sistema di test</span>
 			</eventDescription>
 			</maintenanceEvent>
 		</maintenanceHistory>
 		<sources>
 			<source>
-				<reference linkRole="riferimentoBibliografico" id="SIA-RB-1992359"/>
+				<reference linkRole="RiferimentoBibliografico" id="SIA-RB-1992359"/>
 				<descriptiveNote><p>...</p></descriptiveNote> <!-- contenuto -->
 			</source>
 			<source>
-				<reference linkRole="fonteArchivistica" id="SIA-FA-20200462"/>
+				<reference linkRole="FonteArchivistica" id="SIA-FA-20200462"/>
 			</source>
 			<source>
-				<reference linkRole="fonteNormativa" id="ICAR-FN-2109955"/>
+				<reference linkRole="FonteNormativa" id="ICAR-FN-2109955"/>
 			</source>
 			<source>
-				<reference linkRole="riferimentoWeb" id="wiki_Cruciani_Fabozzi"/>
+				<reference linkRole="RiferimentoWeb" id="wiki_Cruciani_Fabozzi"/>
 			</source>
 		</sources>
 		<localControl localType="Visibilita_FE"><term>Completa</term></localControl>
-		<localControl localType="acronimoSistema"><term>SIA</term></localControl>
+		<localControl localType="AcronimoSistema"><term>SIA</term></localControl>
 		<otherRecordId localType="SIAS">IT-ASAN-CC236400</otherRecordId>
 	</control>
 	<cpfDescription>
 		<identity>
 			<entityType value="family"/>
-			<nameEntry localType="denominazioneFamiglia" languageOfElement="ita">
-				<part localType="intestazionePrincipaleFamiglia">Cruciani Fabozzi, Amandola (Fermo), sec. XVIII fine - </part>
-				<part localType="denominazionePrincipaleFamiglia">Cruciani Fabozzi</part>
+			<nameEntry localType="DenominazioneFamiglia" languageOfElement="ita">
+				<part localType="IntestazionePrincipaleFamiglia">Cruciani Fabozzi, Amandola (Fermo), sec. XVIII fine - </part>
+				<part localType="DenominazionePrincipaleFamiglia">Cruciani Fabozzi</part>
 				<useDates>
 					<dateSet>
-						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)" standardDate="17910101-99991231">sec. XVIII fine - </date> 
+						<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)" standardDate="17910101-99991231">sec. XVIII fine - </date> 
 						<dateRange>
-							<fromDate certainty="DataApprossimativa" localType="secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
+							<fromDate certainty="DataApprossimativa" localType="Secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
 							<toDate standardDate="99991231"/>
 						</dateRange>
 						<date localType="NoteAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
@@ -56,13 +56,13 @@
 				</useDates>
 			</nameEntry>
 			<nameEntry localType="AltraDenominazioneFamiglia" languageOfElement="ita" status="alternative">
-				<part localType="intestazione">Cruciani F., Amandola (Fermo), sec. XVIII fine - </part>
-				<part localType="denominazione">Cruciani F.</part>
+				<part localType="Intestazione">Cruciani F., Amandola (Fermo), sec. XVIII fine - </part>
+				<part localType="Denominazione">Cruciani F.</part>
 				<useDates>
 					<dateSet> 
-						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)" standardDate="17910101-99991231">sec. XVIII fine - </date> 
+						<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)" standardDate="17910101-99991231">sec. XVIII fine - </date> 
 						<dateRange>
-							<fromDate certainty="DataApprossimativa" localType="secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
+							<fromDate certainty="DataApprossimativa" localType="Secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
 							<toDate standardDate="99991231"/>
 						</dateRange>
 						<date localType="NoteAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
@@ -73,10 +73,10 @@
 		</identity>
 		<description>
 			<localDescriptions>
-				<localDescription localType="titoloFamiglia">
+				<localDescription localType="TitoloFamiglia">
 					<term>Nobile</term>
 					<dateSet>
-						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)" standardDate="1825-99991231">1825 - </date>
+						<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)" standardDate="1825-99991231">1825 - </date>
 						<dateRange>
 							<fromDate standardDate="1825">1825</fromDate>
 							<toDate standardDate="99991231"/>
@@ -85,24 +85,24 @@
 				</localDescription>
 			</localDescriptions>
 			<places>
-				<place localType="luogoFamiglia">
+				<place localType="LuogoFamiglia">
 					<placeName id="ICAR-TOP-2019314"/>
 					<placeRole>Residenza</placeRole>
 					<dateSet>
-						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)" standardDate="17910101-99991231">sec. XVIII fine - </date> 
+						<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)" standardDate="17910101-99991231">sec. XVIII fine - </date> 
 						<dateRange>
-							<fromDate certainty="DataApprossimativa" localType="secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
+							<fromDate certainty="DataApprossimativa" localType="Secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
 							<toDate standardDate="99991231"/>
 						</dateRange>
 						<date localType="NoteAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
 					</dateSet>
 				</place>
 			</places>
-			<existDates localType="dateEsistenzaFamiglia">
+			<existDates localType="DateEsistenzaFamiglia">
 				<dateSet>
-					<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)" standardDate="17910101-99991231" eac-sia:qualificaData="Data di estinzione">sec. XVIII fine - </date> 
+					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)" standardDate="17910101-99991231" eac-sia:qualificaData="Data di estinzione">sec. XVIII fine - </date> 
 					<dateRange>
-						<fromDate certainty="DataApprossimativa" localType="secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
+						<fromDate certainty="DataApprossimativa" localType="Secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
 						<toDate standardDate="99991231"/>
 					</dateRange>
 					<date localType="NoteAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
@@ -125,9 +125,9 @@
 					<part>Famiglia Cruciani Fabozzi</part>
 				</targetEntity>
 				<dateSet>
-					<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)" standardDate="17910101-99991231">sec. XVIII fine - </date> 
+					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)" standardDate="17910101-99991231">sec. XVIII fine - </date> 
 					<dateRange>
-						<fromDate certainty="DataApprossimativa" localType="secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
+						<fromDate certainty="DataApprossimativa" localType="Secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
 						<toDate standardDate="99991231"/>
 					</dateRange>
 				</dateSet>
@@ -145,7 +145,7 @@
 					<part>Giuseppe Cruciani Fabozzi</part>
 				</targetEntity>
 				<dateSet>	
-					<date localType="estremoCronologicoTestuale" standardDate="19450101-20231231" eac-sia:tipologiaData="Intervallo di date">1945-2023</date>
+					<date localType="EstremoCronologicoTestuale" standardDate="19450101-20231231" eac-sia:tipologiaData="Intervallo di date">1945-2023</date>
 					<dateRange>
 						<fromDate standardDate="19450101">1945</fromDate>
 						<toDate standardDate="20231231">2023</toDate>
@@ -159,7 +159,7 @@
 					<part>Regno d'Italia</part>
 				</targetEntity>
 				<dateSet>
-					<date localType="estremoCronologicoTestuale" standardDate="1862-1946" eac-sia:tipologiaData="Intervallo di date">1862-1946</date>
+					<date localType="EstremoCronologicoTestuale" standardDate="1862-1946" eac-sia:tipologiaData="Intervallo di date">1862-1946</date>
 					<dateRange>
 						<fromDate standardDate="1862">1862</fromDate>
 						<toDate standardDate="1946">1946</toDate>

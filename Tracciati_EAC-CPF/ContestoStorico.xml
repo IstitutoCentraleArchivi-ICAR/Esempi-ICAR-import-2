@@ -15,35 +15,35 @@
     <eventDateTime standardDateTime="20250421"/>
     <eventDescription>
      <span localType="Azione">Importazione</span>
-     <span localType="noteRedazionali">Registro creato per sistema di test</span>
+     <span localType="NoteRedazionali">Registro creato per sistema di test</span>
     </eventDescription>
    </maintenanceEvent>
   </maintenanceHistory>
   <sources>
    <source>
-    <reference linkRole="riferimentoBibliografico" id="SIA-RB-1992347"/>
+    <reference linkRole="RiferimentoBibliografico" id="SIA-RB-1992347"/>
     <descriptiveNote><p>...</p></descriptiveNote> <!-- contenuto -->
    </source>
    <source>
-    <reference linkRole="fonteArchivistica" id="SIA-FA-20200312"/>
+    <reference linkRole="FonteArchivistica" id="SIA-FA-20200312"/>
    </source>
    <source>
-    <reference linkRole="fonteNormativa" id="ICAR-FN-2109923"/>
+    <reference linkRole="FonteNormativa" id="ICAR-FN-2109923"/>
    </source>
    <source>
-    <reference linkRole="riferimentoWeb" id="wiki_Regno_d_Italia"/>
+    <reference linkRole="RiferimentoWeb" id="wiki_Regno_d_Italia"/>
    </source>
   </sources>
   <localControl localType="Visibilita_FE"><term>Completa</term></localControl>
-  <localControl localType="acronimoSistema"><term>SIA</term></localControl>
+  <localControl localType="AcronimoSistema"><term>SIA</term></localControl>
   <otherRecordId localType="ISIL">IT-CS0341</otherRecordId>
   <otherRecordId localType="SIAS">IT-RI002566</otherRecordId>
  </control>
  <cpfDescription>
-  <identity localType="contestoStoricoIstituzionale">
+  <identity localType="ContestoStoricoIstituzionale">
    <entityType value="corporateBody"/>
-   <nameEntry localType="denominazioneCSI" languageOfElement="ita">
-    <part localType="intestazioneCSI">Regno d'Italia (1861 - 1946)</part>
+   <nameEntry localType="DenominazioneCSI" languageOfElement="ita">
+    <part localType="IntestazioneCSI">Regno d'Italia (1861 - 1946)</part>
    </nameEntry>
    <identityId>SIA-CS-1922132</identityId>
   </identity>
@@ -54,16 +54,16 @@
      <descriptiveNote><p>...</p></descriptiveNote> <!-- contenuto -->
     </localDescription>
    </localDescriptions>
-   <existDates localType="dateEsistenzaEnte">
+   <existDates localType="DateEsistenzaEnte">
     <dateSet>
-     <date localType="estremoCronologicoTestuale" standardDate="1861-1946" eac-sia:tipologiaData="Intervallo di date" eac-sia:qualificaData="Date di esistenza"></date>
+     <date localType="EstremoCronologicoTestuale" standardDate="1861-1946" eac-sia:tipologiaData="Intervallo di date" eac-sia:qualificaData="Date di esistenza"></date>
      <dateRange>
       <fromDate standardDate="1861">1861</fromDate>
       <toDate standardDate="1946">1946</toDate>
      </dateRange>
     </dateSet>
    </existDates>
-   <generalContext localType="descrizioneCSI">
+   <generalContext localType="DescrizioneCSI">
 		<p>Il 17 marzo Vittorio Emanuele II viene proclamato re d'Italia. Il 18 febbraio 1861 si inaugura a Torino il primo Parlamento italiano: lo Statuto albertino, concesso da Carlo Alberto nel 1848, diventa la carta fondamentale del nuovo Stato. Il dibattito sull'organizzazione dello Stato, che includeva posizioni centralistiche e posizioni federative e regionalistiche, vede l'affermarsi della soluzione centralistica, nella linea risorgimentale dell'unità e indipendenza nazionale. Il nuovo Stato si modella sulla legge cavouriana del 1853 in un ordinamento per ministeri e si incardina a livello territoriale sulla figura del prefetto, sul modello dei dipartimenti francesi, ancorché derivante dalla figura dell'intendente, che rappresenta in ogni provincia il governo centrale ed esercita il controllo politico ed economico sulle amministrazioni provinciali e comunali e su tutte le amministrazioni periferiche dello Stato. Dopo una prima fase in cui rimangono in vigore alcune norme di Stati preunitari e operano varie amministrazioni stralcio, viene affrontata la complessa questione dell'unificazione amministrativa e giudiziaria che ha in un complesso di norme del 1865 il risultato più rilevante...</p>
    </generalContext>
   </description>
@@ -73,7 +73,7 @@
      <part>Intendenza di finanza di Bolzano, Bolzano (1927 - 1991)</part>
     </targetEntity>
      <dateSet>
-      <date localType="estremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="Intervallo di date">1927-1991</date>
+      <date localType="EstremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="Intervallo di date">1927-1991</date>
       <dateRange>
        <fromDate standardDate="1927">1927</fromDate>
        <toDate standardDate="1991">1991</toDate>
@@ -87,7 +87,7 @@
      <part>Direzioni compartimentali (1862-1869) poi Intendenza  di finanza (1869-1991)</part>
     </targetEntity>
     <dateSet>
-     <date localType="estremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="Intervallo di date">1927-1991</date>
+     <date localType="EstremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="Intervallo di date">1927-1991</date>
      <dateRange>
       <fromDate standardDate="1927">1927</fromDate>
       <toDate standardDate="1991">1991</toDate>
@@ -100,7 +100,7 @@
 		<part>Regno di Sardegna</part>
 	</targetEntity>
     <dateSet>
-     <date localType="estremoCronologicoTestuale" standardDate="1297-1861" eac-sia:tipologiaData="Intervallo di date">1297-1861</date>
+     <date localType="EstremoCronologicoTestuale" standardDate="1297-1861" eac-sia:tipologiaData="Intervallo di date">1297-1861</date>
      <dateRange>
       <fromDate standardDate="1297">1297</fromDate>
       <toDate standardDate="1861">1861</toDate>
@@ -114,7 +114,7 @@
 		<part>Regno delle Due Sicilie</part>
 	</targetEntity>
     <dateSet>
-     <date localType="estremoCronologicoTestuale" standardDate="1816-1861" eac-sia:tipologiaData="Intervallo di date">1816-1861</date>
+     <date localType="EstremoCronologicoTestuale" standardDate="1816-1861" eac-sia:tipologiaData="Intervallo di date">1816-1861</date>
      <dateRange>
       <fromDate standardDate="1816">1816</fromDate>
       <toDate standardDate="1861">1861</toDate>

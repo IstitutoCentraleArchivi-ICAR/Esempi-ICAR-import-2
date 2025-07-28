@@ -3,7 +3,7 @@
  xmlns="https://archivists.org/ns/eac/v2"
  xmlns:eac-sia="http://www.san.beniculturali.it/eac-sia"
  audience="external">
-	<control maintenanceStatus="derived" eac-sia:status="bozza"> 
+	<control maintenanceStatus="derived" eac-sia:status="Bozza"> 
 		<recordId>3221199</recordId>
 		<maintenanceAgency>
 			<agencyCode>IT-ICAR</agencyCode>
@@ -15,12 +15,12 @@
 				<eventDateTime standardDateTime="20250401"/>
 				<eventDescription>
 					<span localType="Azione">Importazione</span>
-					<span localType="noteRedazionali">Registro creato per sistema di test</span>
+					<span localType="NoteRedazionali">Registro creato per sistema di test</span>
 				</eventDescription>
 			</maintenanceEvent>
 		</maintenanceHistory>
 		<localControl localType="Visibilita_FE"><term>Completa</term></localControl>
-		<localControl localType="acronimoSistema"><term>SIA</term></localControl>
+		<localControl localType="AcronimoSistema"><term>SIA</term></localControl>
 	</control>
 	<cpfDescription>
 		<identity>
@@ -29,7 +29,7 @@
 				<part>Strage di Ustica</part>
 			</nameEntry>
 			<otherEntityTypes>
-				<otherEntityType localType="Evento">
+				<otherEntityType localType="TipoEvento">
 					<term>Evento storico</term>
 				</otherEntityType>
 			</otherEntityTypes>
@@ -43,14 +43,14 @@
 				</localDescription>
 			</localDescriptions>
 			<places>
-				<place>
+				<place localType="LuogoEvento">
 					<placeName id="ICAR-TOP-2021032"/>
 					<placeRole>Luogo evento</placeRole>
 				</place>
 			</places>
 			<existDates>
 				<dateSet>
-					<date localType="estremoCronologicoTestuale" standardDate="19800627" eac-sia:tipologiaData="data singola">1980 giu. 27</date>
+					<date localType="EstremoCronologicoTestuale" standardDate="19800627" eac-sia:tipologiaData="Data singola">1980 giu. 27</date>
 					<date standardDate="19800627">1980 giu. 27</date>
 				</dateSet>
 			</existDates>

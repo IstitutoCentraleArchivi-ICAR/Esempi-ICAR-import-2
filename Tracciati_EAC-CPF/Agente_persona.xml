@@ -15,54 +15,54 @@
 				<eventDateTime standardDateTime="20250401"/>
 				<eventDescription>
 					<span localType="Azione">Importazione</span>
-					<span localType="noteRedazionali">Registro creato per sistema di test</span>
+					<span localType="NoteRedazionali">Registro creato per sistema di test</span>
 				</eventDescription>
 			</maintenanceEvent>
 		</maintenanceHistory>
 		<sources>
 			<source>
-				<reference linkRole="riferimentoBibliografico" id="SIA-RB-1992381"/>
+				<reference linkRole="RiferimentoBibliografico" id="SIA-RB-1992381"/>
 				<descriptiveNote><p>...</p></descriptiveNote> <!-- contenuto -->
 			</source>
 			<source>
-				<reference linkRole="fonteArchivistica" id="SIA-FA-20200442"/>
+				<reference linkRole="FonteArchivistica" id="SIA-FA-20200442"/>
 			</source>
 			<source>
-				<reference linkRole="fonteNormativa" id="ICAR-FN-2109825"/>
+				<reference linkRole="FonteNormativa" id="ICAR-FN-2109825"/>
 			</source>
 			<source>
-				<reference linkRole="riferimentoWeb" id="wiki_Antonioli_25X"/>
+				<reference linkRole="RiferimentoWeb" id="wiki_Antonioli_25X"/>
 			</source>
 		</sources>
 		<localControl localType="Visibilita_FE"><term>Completa</term></localControl>
-		<localControl localType="acronimoSistema"><term>SIA</term></localControl>
+		<localControl localType="AcronimoSistema"><term>SIA</term></localControl>
 		<otherRecordId localType="SIAS">IT-CC23644</otherRecordId> 
 	</control>
 	<cpfDescription>
 		<identity>
 			<entityType value="person"/>
-			<nameEntry localType="denominazionePersona" languageOfElement="ita">
-				<part localType="intestazionePersona">Antonioli, Francesco Maria, militante anarchico (sec. XX inizio - 1981 apr. 1)</part>
-				<part localType="nomePersona">Francesco Maria</part>
-				<part localType="cognomePersona">Antonioli</part>
-				<part localType="patronimico">...</part> <!-- contenuto -->
-				<part localType="origine-provenienzaPersona">...</part>  <!-- contenuto -->				
-				<part localType="pseudonimo">Furio Villani</part>
-				<part localType="soprannomePersona">Gagìn</part>
+			<nameEntry localType="DenominazionePersona" languageOfElement="ita">
+				<part localType="IntestazionePersona">Antonioli, Francesco Maria, militante anarchico (sec. XX inizio - 1981 apr. 1)</part>
+				<part localType="NomePersona">Francesco Maria</part>
+				<part localType="CognomePersona">Antonioli</part>
+				<part localType="Patronimico">...</part> <!-- contenuto -->
+				<part localType="Origine-provenienzaPersona">...</part>  <!-- contenuto -->				
+				<part localType="Pseudonimo">Furio Villani</part>
+				<part localType="SoprannomePersona">Gagìn</part>
 				<useDates>
 				<dateSet>
-					<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date" standardDate="19010101-19810401">sec. XX inizio - 1981 apr. 1</date>
+					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date" standardDate="19010101-19810401">sec. XX inizio - 1981 apr. 1</date>
 					<dateRange>
-						<fromDate certainty="DataApprossimativa" localType="secolo" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate> 
+						<fromDate certainty="DataApprossimativa" localType="Secolo" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate> 
 						<toDate standardDate="19810401">1981 apr. 1</toDate>
 					</dateRange>
 				</dateSet>
 				</useDates>
 			</nameEntry>
-			<nameEntry localType="altraDenominazionePersona" languageOfElement="ita" status="alternative"> 
-				<part localType="intestazione">Antonioli, Francesco, militante anarchico (sec. XX inizio - 1981 apr. 1)</part>
-				<part localType="nome">Francesco</part>
-				<part localType="cognome">Antonioli</part>
+			<nameEntry localType="AltraDenominazionePersona" languageOfElement="ita" status="alternative"> 
+				<part localType="Intestazione">Antonioli, Francesco, militante anarchico (sec. XX inizio - 1981 apr. 1)</part>
+				<part localType="Nome">Francesco</part>
+				<part localType="Cognome">Antonioli</part>
 			</nameEntry>
 			<otherEntityTypes>
 				<otherEntityType><term>maschile</term></otherEntityType>
@@ -71,17 +71,17 @@
 		</identity>
 		<description>
 			<functions>
-				<function localType="qualifica">
+				<function localType="Qualifica">
 					<term>....</term><!-- contenuto -->
 				</function> 
 			</functions>
 			<localDescriptions>
-				<localDescription localType="titoloPersona">
+				<localDescription localType="TitoloPersona">
 					<term>Nobile</term> 
 					<dateSet>
-					<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date" standardDate="19010101-19810401">sec. XX inizio - 1981 apr. 1</date>
+					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date" standardDate="19010101-19810401">sec. XX inizio - 1981 apr. 1</date>
 					<dateRange>
-						<fromDate certainty="DataApprossimativa" localType="secolo" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate> 
+						<fromDate certainty="DataApprossimativa" localType="Secolo" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate> 
 						<toDate standardDate="19810401">1981 apr. 1</toDate>
 					</dateRange>
 					</dateSet>
@@ -91,7 +91,7 @@
 				<occupation>
 					<term>Regioniere</term>
 					<dateSet>
-						<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date" standardDate="1935-1955">1935 - 1955</date>
+						<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date" standardDate="1935-1955">1935 - 1955</date>
 						<dateRange>
 							<fromDate certainty="DataApprossimativa" standardDate="1935">1935</fromDate>
 							<toDate standardDate="1955">1955</toDate>
@@ -100,28 +100,28 @@
 				</occupation>
 			</occupations>
 			<places>
-				<place localType="luogoPersona">
+				<place localType="LuogoPersona">
 					<placeName id="ICAR-TOP-2019524"/>
 					<placeRole>Nascita</placeRole>
 					<dateSet> 	
-						<date localType="estremoCronologicoTestuale" standardDate="19010101-19101231" eac-sia:tipologiaData="Data singola">sec. XX inizio</date>
-						<date certainty="DataApprossimativa" localType="secolo" notBefore="19010101" notAfter="19101231">sec. XX inizio</date>
+						<date localType="EstremoCronologicoTestuale" standardDate="19010101-19101231" eac-sia:tipologiaData="Data singola">sec. XX inizio</date>
+						<date certainty="DataApprossimativa" localType="Secolo" notBefore="19010101" notAfter="19101231">sec. XX inizio</date>
 					</dateSet>
 				</place>
-				<place localType="luogoPersona">
+				<place localType="LuogoPersona">
 					<placeName id="ICAR-TOP-2019611"/>
 					<placeRole>Morte</placeRole>
 					<dateSet>
-						<date localType="estremoCronologicoTestuale" standardDate="19810401" eac-sia:tipologiaData="Data singola">1981 apr. 1</date>
+						<date localType="EstremoCronologicoTestuale" standardDate="19810401" eac-sia:tipologiaData="Data singola">1981 apr. 1</date>
 						<date standardDate="19810401">1981 apr. 1</date>
 					</dateSet>
 				</place>
 			</places>
-			<existDates localType="dateEsistenzaPersona">
+			<existDates localType="DateEsistenzaPersona">
 			<dateSet>
-				<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date" standardDate="19010101-19810401" eac-sia:qualificaData="Date di esistenza">sec. XX inizio - 1981 apr. 1</date>
+				<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date" standardDate="19010101-19810401" eac-sia:qualificaData="Date di esistenza">sec. XX inizio - 1981 apr. 1</date>
 				<dateRange>
-					<fromDate certainty="DataApprossimativa" localType="secolo" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate> 
+					<fromDate certainty="DataApprossimativa" localType="Secolo" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate> 
 					<toDate standardDate="19810401">1981 apr. 1</toDate>
 				</dateRange>
 			</dateSet>
@@ -155,7 +155,7 @@
 					<part>Regno d'Italia</part>
 				</targetEntity>
 				<dateSet>
-					<date localType="estremoCronologicoTestuale" standardDate="1901-1946" eac-sia:tipologiaData="Intervallo di date">sec. XX inizio-1946</date>
+					<date localType="EstremoCronologicoTestuale" standardDate="1901-1946" eac-sia:tipologiaData="Intervallo di date">sec. XX inizio-1946</date>
 					<dateRange>
 						<fromDate standardDate="1901">sec. XX inizio</fromDate>
 						<toDate standardDate="1946">1946</toDate>
@@ -168,7 +168,7 @@
 					<part>Giuseppe Malaguti</part>
 				</targetEntity>
 				<dateSet>
-					<date localType="estremoCronologicoTestuale" standardDate="19450101-19711231" eac-sia:tipologiaData="Intervallo di date">1945-1971</date>
+					<date localType="EstremoCronologicoTestuale" standardDate="19450101-19711231" eac-sia:tipologiaData="Intervallo di date">1945-1971</date>
 					<dateRange>
 						<fromDate standardDate="19450101">1945</fromDate>
 						<toDate standardDate="19711231">1971</toDate>
@@ -182,9 +182,9 @@
 					<part>Piero Antonioli</part>
 				</targetEntity>
 				<dateSet>
-					<date localType="estremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date" standardDate="19010101-19810401">sec. XX inizio - 1942 mag. 20</date>
+					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date" standardDate="19010101-19810401">sec. XX inizio - 1942 mag. 20</date>
 					<dateRange>
-						<fromDate certainty="DataApprossimativa" localType="secolo" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate> 
+						<fromDate certainty="DataApprossimativa" localType="Secolo" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate> 
 						<toDate standardDate="19420520">1942 mag. 20</toDate>
 					</dateRange>
 				</dateSet>

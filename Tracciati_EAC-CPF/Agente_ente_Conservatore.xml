@@ -16,12 +16,12 @@
 			<eventDateTime standardDateTime="20250321"/>
 			<eventDescription>
 				<span localType="Azione">Importazione</span>
-				<span localType="noteRedazionali">Registro creato per sistema di test</span>
+				<span localType="NoteRedazionali">Registro creato per sistema di test</span>
 			</eventDescription>
 			</maintenanceEvent>
 		</maintenanceHistory>
 		<localControl localType="Visibilita_FE"><term>Completa</term></localControl>
-		<localControl localType="acronimoSistema"><term>SIA</term></localControl>
+		<localControl localType="AcronimoSistema"><term>SIA</term></localControl>
 		<localControl><term>luogo della cultura</term></localControl>
 		<localControl><term>Sala studio</term></localControl>
 		<otherRecordId localType="ISIL">IT-TO0879</otherRecordId>	
@@ -29,16 +29,16 @@
 	<cpfDescription>
 		<identity>
 			<entityType value="corporateBody"/>
-			<nameEntry localType="denominazioneEnte" languageOfElement="ita">
-				<part localType="intestazionePrincipaleEnte">Archivio di Stato di Torino, Torino (1870 - )</part>
-				<part localType="denominazionePrincipaleEnte">Archivio di Stato di Torino</part>
-				<part localType="acronimoEnte">ASTO</part>
+			<nameEntry localType="DenominazioneEnte" languageOfElement="ita">
+				<part localType="IntestazionePrincipaleEnte">Archivio di Stato di Torino, Torino (1870 - )</part>
+				<part localType="DenominazionePrincipaleEnte">Archivio di Stato di Torino</part>
+				<part localType="AcronimoEnte">ASTO</part>
 			</nameEntry>
 			<otherEntityTypes>
-				<otherEntityType localType="ente">
+				<otherEntityType localType="Ente">
 					<term>Organo e ufficio statale periferico del periodo postunitario</term>
 				</otherEntityType>
-				<otherEntityType localType="qualifica">
+				<otherEntityType localType="Qualifica">
 					<term>Archivio</term>
 				</otherEntityType>
 			</otherEntityTypes> 
@@ -92,34 +92,34 @@
 						<addressLine localType="IndirizzoTestuale">piazza Castello, 209, 10124, Torino (TO)</addressLine>
 						<addressLine localType="NoteIndirizzo">...</addressLine>  <!-- .. contenuto .. -->
 					</address>
-					<geographicCoordinates coordinateSystem="WGS84" eac-sia:tipoCoordinata="latitudine">45.13333</geographicCoordinates>
-					<geographicCoordinates coordinateSystem="WGS84" eac-sia:tipoCoordinata="longitudine">7.36667</geographicCoordinates>
-					<dateSet localType="giorniDiApertura">
+					<geographicCoordinates coordinateSystem="WGS84" eac-sia:tipoCoordinata="Latitudine">45.13333</geographicCoordinates>
+					<geographicCoordinates coordinateSystem="WGS84" eac-sia:tipoCoordinata="Longitudine">7.36667</geographicCoordinates>
+					<dateSet localType="GiorniDiApertura">
 						<dateRange localType="lunedì">
-							<fromDate localType="orarioInizio">8:30</fromDate>
-							<toDate localType="orarioFine">18:30</toDate>
+							<fromDate localType="OrarioInizio">8:30</fromDate>
+							<toDate localType="OrarioFine">18:30</toDate>
 						</dateRange>
 						<dateRange localType="martedì">
-							<fromDate localType="orarioInizio">8:30</fromDate>
-							<toDate localType="orarioFine">18:30</toDate>
+							<fromDate localType="OrarioInizio">8:30</fromDate>
+							<toDate localType="OrarioFine">18:30</toDate>
 						</dateRange>
 						<dateRange localType="mercoledì">
-							<fromDate localType="orarioInizio">8:30</fromDate>
-							<toDate localType="orarioFine">18:30</toDate>
+							<fromDate localType="OrarioInizio">8:30</fromDate>
+							<toDate localType="OrarioFine">18:30</toDate>
 						</dateRange>
 						<dateRange localType="giovedì">
-							<fromDate localType="orarioInizio">8:30</fromDate>
-							<toDate localType="orarioFine">18:30</toDate>
+							<fromDate localType="OrarioInizio">8:30</fromDate>
+							<toDate localType="OrarioFine">18:30</toDate>
 						</dateRange>
 						<dateRange localType="venerdì">
-							<fromDate localType="orarioInizio">8:30</fromDate>
-							<toDate localType="orarioFine">18:30</toDate>
+							<fromDate localType="OrarioInizio">8:30</fromDate>
+							<toDate localType="OrarioFine">18:30</toDate>
 						</dateRange>
 						<dateRange localType="sabato">
-							<fromDate localType="orarioInizio">8:30</fromDate>
-							<toDate localType="orarioFine">13:30</toDate>
+							<fromDate localType="OrarioInizio">8:30</fromDate>
+							<toDate localType="OrarioFine">13:30</toDate>
 						</dateRange>
-						<date localType="periodoDiChiusura">24 giugno. Dal 24 al 31 di dicembre.</date>
+						<date localType="PeriodoDiChiusura">24 giugno. Dal 24 al 31 di dicembre.</date>
 					</dateSet>
 				</place>
 				<place localType="Sedi">
@@ -143,40 +143,40 @@
 						<addressLine localType="NoteIndirizzo"></addressLine>  <!-- .. contenuto .. -->
 						<addressLine localType="AccessoDisabili">SI</addressLine>
 						<addressLine localType="CondizioniDiAccesso">L'accesso ai documenti è libero. Per l'accesso a le serie che contengono documenti con dati sensibili è richiesta la firma di una dichiarazione da parte degli utenti.</addressLine>
-						<addressLine localType="servizi">Sala Mappe. Lunedì-Venerdi 8,30-13,00; Sabato 10,00-12,00.</addressLine>
-						<addressLine localType="servizi">Fotocopie</addressLine>
+						<addressLine localType="Servizi">Sala Mappe. Lunedì-Venerdi 8,30-13,00; Sabato 10,00-12,00.</addressLine>
+						<addressLine localType="Servizi">Fotocopie</addressLine>
 					</address>
-					<geographicCoordinates coordinateSystem="WGS84" eac-sia:tipoCoordinata="latitudine">45.13333</geographicCoordinates>
-					<geographicCoordinates coordinateSystem="WGS84" eac-sia:tipoCoordinata="longitudine">7.36667</geographicCoordinates>
-					<dateSet localType="giorniDiApertura">
+					<geographicCoordinates coordinateSystem="WGS84" eac-sia:tipoCoordinata="Latitudine">45.13333</geographicCoordinates>
+					<geographicCoordinates coordinateSystem="WGS84" eac-sia:tipoCoordinata="Longitudine">7.36667</geographicCoordinates>
+					<dateSet localType="GiorniDiApertura">
 						<dateRange localType="lunedì">
-							<fromDate localType="orarioInizio">8:30</fromDate>
-							<toDate localType="orarioFine">18:30</toDate>
+							<fromDate localType="OrarioInizio">8:30</fromDate>
+							<toDate localType="OrarioFine">18:30</toDate>
 						</dateRange>
 						<dateRange localType="martedì">
-							<fromDate localType="orarioInizio">8:30</fromDate>
-							<toDate localType="orarioFine">18:30</toDate>
+							<fromDate localType="OrarioInizio">8:30</fromDate>
+							<toDate localType="OrarioFine">18:30</toDate>
 						</dateRange>
 						<dateRange localType="mercoledì">
-							<fromDate localType="orarioInizio">8:30</fromDate>
-							<toDate localType="orarioFine">18:30</toDate>
+							<fromDate localType="OrarioInizio">8:30</fromDate>
+							<toDate localType="OrarioFine">18:30</toDate>
 						</dateRange>
 						<dateRange localType="giovedì">
-							<fromDate localType="orarioInizio">8:30</fromDate>
-							<toDate localType="orarioFine">18:30</toDate>
+							<fromDate localType="OrarioInizio">8:30</fromDate>
+							<toDate localType="OrarioFine">18:30</toDate>
 						</dateRange>
 						<dateRange localType="venerdì">
-							<fromDate localType="orarioInizio">8:30</fromDate>
-							<toDate localType="orarioFine">18:30</toDate>
+							<fromDate localType="OrarioInizio">8:30</fromDate>
+							<toDate localType="OrarioFine">18:30</toDate>
 						</dateRange>
-						<date localType="periodoDiChiusura">24 giugno. Dal 24 al 31 di dicembre.</date>
+						<date localType="PeriodoDiChiusura">24 giugno. Dal 24 al 31 di dicembre.</date>
 					</dateSet>
 					<descriptiveNote><p>Si segnala che l'ultima richiesta di materiale si realizza alle ore 16:00.</p></descriptiveNote>
 				</place>
 			</places>
-			<existDates localType="dateEsistenzaEnte">
+			<existDates localType="DateEsistenzaEnte">
 				<dateSet>
-					<date eac-sia:qualificaData="Date di esistenza" localType="estremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)" standardDate="18700101-99991231">1870 - </date>
+					<date eac-sia:qualificaData="Date di esistenza" localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)" standardDate="18700101-99991231">1870 - </date>
 					<dateRange>
 						<fromDate standardDate="18700101">1870</fromDate>
 						<toDate standardDate="99991231"/>
@@ -186,7 +186,7 @@
 			<biogHist>
 				<p>L'emanazione dello Statuto Albertino (4 marzo 1848) comportò il cambiamento di denominazione dei Regi Archivi di Corte, divenuti Archivi Generali del Regno con il compito di coordinare le attività di tutti gli archivi provinciali dello Stato. Con la nascita dello Stato italiano unitario, l'Archivio torinese divenne nel 1862 Direzione generale e Archivio centrale, mantenendo funzioni di coordinamento dell'intera amministrazione archivistica nazionale. Il trasferimento della capitale a Firenze e Roma significò per Torino la perdita progressiva di tali funzioni e l'assunzione di competenze prima regionali, poi provinciali: tappe di tale processo sono la soppressione della Direzione Generale degli Archivi del Regno nel 1870, la nuova denominazione data all'Archivio, posto alle dipendenze del Ministero degli Interni come tutta l'amministrazione archivistica, di Sovrintendenza degli archivi piemontesi nel 1874, e la soppressione delle Soprintendenze regionali del 1891, con l'attribuzione di tutte le competenze provinciali alle Direzioni di ciascun Archivio di Stato.</p>
 			</biogHist>
-			<generalContext localType="politicheGestioneAcquisizione">
+			<generalContext localType="PoliticheGestioneAcquisizione">
 				<p>L'archivio riceve annualmente i versamenti dai soggetti produttori.</p>
 			</generalContext>
 		</description>
@@ -217,7 +217,7 @@
 					<part>Archivio Centrale dello Stato</part>
 				</targetEntity>
 				<dateSet>
-					<date localType="estremoCronologicoTestuale" standardDate="19530101-99991231" eac-sia:tipologiaData="Data aperta (a partire da)">1953 - </date>
+					<date localType="EstremoCronologicoTestuale" standardDate="19530101-99991231" eac-sia:tipologiaData="Data aperta (a partire da)">1953 - </date>
 					<dateRange>
 						<fromDate standardDate="19530101">1953</fromDate>
 						<toDate standardDate="99991231"/>

@@ -15,40 +15,40 @@
     <eventDateTime standardDateTime="20250321"/>
     <eventDescription>
      <span localType="Azione">Importazione</span>
-     <span localType="noteRedazionali">Registro creato per sistema di test</span>
+     <span localType="NoteRedazionali">Registro creato per sistema di test</span>
     </eventDescription>
    </maintenanceEvent>
   </maintenanceHistory>
   <sources>
    <source>
-    <reference linkRole="riferimentoBibliografico" id="SIA-RB-1992347"/>
+    <reference linkRole="RiferimentoBibliografico" id="SIA-RB-1992347"/>
     <descriptiveNote><p>...</p></descriptiveNote> <!-- contenuto -->
    </source>
    <source>
-    <reference linkRole="fonteArchivistica" id="SIA-FA-20200312"/>
+    <reference linkRole="FonteArchivistica" id="SIA-FA-20200312"/>
    </source>
    <source>
-    <reference linkRole="fonteNormativa" id="ICAR-FN-2109923"/>
+    <reference linkRole="FonteNormativa" id="ICAR-FN-2109923"/>
    </source>
    <source>
-    <reference linkRole="riferimentoWeb" id="wiki_Intendenza_di_finanza"/>
+    <reference linkRole="RiferimentoWeb" id="wiki_Intendenza_di_finanza"/>
    </source>
   </sources>
   <localControl localType="Visibilita_FE"><term>Completa</term></localControl>
-  <localControl localType="acronimoSistema"><term>SIA</term></localControl>
+  <localControl localType="AcronimoSistema"><term>SIA</term></localControl>
   <otherRecordId localType="ISIL">IT-BZ0331</otherRecordId>
   <otherRecordId localType="SIAS">IT-ASBZ-CC236400094</otherRecordId> 
  </control>
  <cpfDescription>
   <identity>
    <entityType value="corporateBody"/>
-   <nameEntry localType="denominazioneEnte" languageOfElement="ita">
-    <part localType="intestazionePrincipaleEnte">Intendenza di finanza di Bolzano, Bolzano (1927 - 1991)</part>
-    <part localType="denominazionePrincipaleEnte">Intendenza di finanza di Bolzano</part>
-    <part localType="acronimoEnte">IFBZ</part>
+   <nameEntry localType="DenominazioneEnte" languageOfElement="ita">
+    <part localType="IntestazionePrincipaleEnte">Intendenza di finanza di Bolzano, Bolzano (1927 - 1991)</part>
+    <part localType="DenominazionePrincipaleEnte">Intendenza di finanza di Bolzano</part>
+    <part localType="AcronimoEnte">IFBZ</part>
     <useDates>
      <dateSet>
-      <date localType="estremoCronologicoTestuale" standardDate="1927" eac-sia:tipologiaData="Intervallo di date">1927-1991</date>
+      <date localType="EstremoCronologicoTestuale" standardDate="1927" eac-sia:tipologiaData="Intervallo di date">1927-1991</date>
       <dateRange>
        <fromDate standardDate="1927">1927</fromDate>
        <toDate standardDate="1991">1991</toDate>
@@ -56,13 +56,13 @@
      </dateSet>
     </useDates>
    </nameEntry>
-   <nameEntry localType="altraDenominazioneEnte" languageOfElement="deu" status="alternative">
+   <nameEntry localType="AltraDenominazioneEnte" languageOfElement="deu" status="alternative">
     <part localType="AltraIntestazione">Finanzintendanz Bozen, Bozen (1927 - 1991)</part>
     <part localType="AltraDenominazione">Finanzintendanz Bozen</part>
     <part localType="AltroAcronimo">FIBZ</part>
     <useDates>
      <dateSet>
-      <date localType="estremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="Intervallo di date">1927-1991</date>
+      <date localType="EstremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="Intervallo di date">1927-1991</date>
       <dateRange>
        <fromDate standardDate="1927">1927</fromDate>
        <toDate standardDate="1991">1991</toDate>
@@ -74,7 +74,7 @@
     <otherEntityType localType="Ente">
      <term>Organo e ufficio statale periferico del periodo postunitario</term>
      <dateSet>
-      <date localType="estremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="Intervallo di date">1927-1991</date>
+      <date localType="EstremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="Intervallo di date">1927-1991</date>
       <dateRange>
        <fromDate standardDate="1927">1927</fromDate>
        <toDate standardDate="1991">1991</toDate>
@@ -89,7 +89,7 @@
     <legalStatus>
      <term>Ente pubblico</term>
      <dateSet>
-      <date localType="estremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="Intervallo di date">1927-1991</date>
+      <date localType="EstremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="Intervallo di date">1927-1991</date>
       <dateRange>
        <fromDate standardDate="1927">1927</fromDate>
        <toDate standardDate="1991">1991</toDate>
@@ -104,11 +104,11 @@
     </localDescription>
    </localDescriptions>
    <places>
-    <place localType="luogoEnte">
+    <place localType="LuogoEnte">
      <placeName id="ICAR-TOP-2019011"/>
      <placeRole>Sede</placeRole>
      <dateSet>
-      <date localType="estremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="Intervallo di date">1927-1991</date>
+      <date localType="EstremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="Intervallo di date">1927-1991</date>
       <dateRange>
        <fromDate standardDate="1927">1927</fromDate>
        <toDate standardDate="1991">1991</toDate>
@@ -116,9 +116,9 @@
      </dateSet>
     </place>
    </places>
-   <existDates localType="dateEsistenzaEnte">
+   <existDates localType="DateEsistenzaEnte">
     <dateSet>
-     <date localType="estremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="Intervallo di date" eac-sia:qualificaData="Date di esistenza">1927-1991</date>
+     <date localType="EstremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="Intervallo di date" eac-sia:qualificaData="Date di esistenza">1927-1991</date>
      <dateRange>
       <fromDate standardDate="1927">1927</fromDate>
       <toDate standardDate="1991">1991</toDate>
@@ -143,7 +143,7 @@
 		<part>Intendenza di finanza di Bolzano</part>
 	</targetEntity>
     <dateSet>
-     <date localType="estremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="Intervallo di date">1927-1991</date>
+     <date localType="EstremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="Intervallo di date">1927-1991</date>
      <dateRange>
       <fromDate standardDate="1927">1927</fromDate>
       <toDate standardDate="1991">1991</toDate>
@@ -157,7 +157,7 @@
 		<part>Ristrutturazione facciata sede principale</part>
 	</targetEntity>
     <dateSet>
-     <date localType="estremoCronologicoTestuale" standardDate="19300215-19321001" eac-sia:tipologiaData="Intervallo di date">15 feb. 1930 - 1 ott. 1932</date>
+     <date localType="EstremoCronologicoTestuale" standardDate="19300215-19321001" eac-sia:tipologiaData="Intervallo di date">15 feb. 1930 - 1 ott. 1932</date>
      <dateRange>
       <fromDate standardDate="19300215">15 feb. 1930</fromDate>
       <toDate standardDate="19321001">1 ott. 1932</toDate>
@@ -172,7 +172,7 @@
 		<part>Circolare N.3/1951</part>
 	</targetEntity>
 	<dateSet> 	
-		<date localType="estremoCronologicoTestuale" standardDate="19510310" eac-sia:tipologiaData="Data singola">10 mar. 1951</date>
+		<date localType="EstremoCronologicoTestuale" standardDate="19510310" eac-sia:tipologiaData="Data singola">10 mar. 1951</date>
 		<date standardDate="19510310">10 mar. 1951</date>
     </dateSet>
 	<relationType>Destinatario</relationType>
@@ -205,7 +205,7 @@
 		<part>Regno d'Italia</part>
 	</targetEntity>
     <dateSet>
-     <date localType="estremoCronologicoTestuale" standardDate="1927-1946" eac-sia:tipologiaData="Intervallo di date">1927-1946</date>
+     <date localType="EstremoCronologicoTestuale" standardDate="1927-1946" eac-sia:tipologiaData="Intervallo di date">1927-1946</date>
      <dateRange>
       <fromDate standardDate="1927">1927</fromDate>
       <toDate standardDate="1946">1946</toDate>
@@ -224,7 +224,7 @@
      <part>Direzione provinciale di Bolzano del Ministero delle finanze</part>
     </targetEntity>
 	<dateSet>
-     <date localType="estremoCronologicoTestuale" standardDate="1994" eac-sia:tipologiaData="Data singola">1994</date>
+     <date localType="EstremoCronologicoTestuale" standardDate="1994" eac-sia:tipologiaData="Data singola">1994</date>
 	 <date standardDate="1994">1994</date>
     </dateSet>
     <targetRole>Soggetto produttore collegato</targetRole>
@@ -242,7 +242,7 @@
      <part>Direzioni compartimentali (1862-1869) poi Intendenza  di finanza (1869-1991)</part>
     </targetEntity>
     <dateSet>
-     <date localType="estremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="Intervallo di date">1927-1991</date>
+     <date localType="EstremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="Intervallo di date">1927-1991</date>
      <dateRange>
       <fromDate standardDate="1927">1927</fromDate>
       <toDate standardDate="1991">1991</toDate>
