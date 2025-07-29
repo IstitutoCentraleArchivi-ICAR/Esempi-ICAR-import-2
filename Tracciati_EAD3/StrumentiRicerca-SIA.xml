@@ -43,7 +43,7 @@
 			
 		</filedesc>
 		<maintenancestatus value="new"/>
-		<publicationstatus value="published">pubblicata</publicationstatus> <!-- in mapping c'è @value="Status", però non è un valore ammesso + valore di value deve essere in linea con valore dell'elemento + serve lista controllata? -->
+		<publicationstatus value="published"/>
 		
 		<maintenanceagency>
 			<agencyname>ICAR</agencyname>
@@ -54,6 +54,29 @@
 			<script></script> <!-- elemento obbligatorio, non previsto in mapping + valore -->
 		</languagedeclaration>
 		
+		<localcontrol localtype="AcronimoDiSistema"> 
+			<term>..Acronimo di sistema record contenitore..</term> <!-- o dello strumento?? -->
+		</localcontrol>
+		<localcontrol localtype="IdentificativoDiSistema"> 
+			<term>..Identificativo di sistema record contenitore..</term> <!-- o dello strumento?? -->
+		</localcontrol>
+		
+		<localcontrol localtype="ComplessoArchivisticoCollegato"> <!-- in Progetto si usano forme abbreviate UA, UD, ComplArch.. per i collegamenti -->
+			<term identifier="SIA-CA-13637874"/>
+		</localcontrol>
+		<localcontrol localtype="UnitaArchivisticaCollegata"> 
+			<term identifier="SIA-UA-2013122"/>
+		</localcontrol>
+		<localcontrol localtype="UnitaDocumentariaCollegata"> 
+			<term identifier="SIA-UD-2013129"/>
+		</localcontrol>
+		<localcontrol localtype="ProgettoCollegato"> 
+			<term identifier="SIA-PR-15134566"/>
+		</localcontrol>
+		<localcontrol localtype="TematismoCollegato"> 
+			<term identifier="SIA-TE-2413133"/>
+		</localcontrol>
+		
 		<maintenancehistory>
 			<maintenanceevent>
 				<eventtype value="derived"/>
@@ -61,16 +84,16 @@
 				<agenttype value="human"/>
 				<agent>Gruppo di lavoro ICAR</agent>
 			</maintenanceevent>
-		</maintenancehistory>
+		</maintenancehistory> <!-- in mapping mancano alcuni elementi. Si spiega nella nota, ma xpath non è completo ed è un po' confuso -->
 		
-		<sources> <!-- queste sono indicate come relazioni in arrivo. Di solito non inseriamo elementi per le relazioni in arrivo. In questo caso è necessario? -->
+		<sources>
 			<source linkrole="RiferimentoBibliografico">
 				<sourceentry>ICAR-RB-1992347</sourceentry>
 			</source>
 			<source linkrole="FonteArchivistica">
 				<sourceentry>ICAR-FA-20200312</sourceentry>
 			</source>
-			<source linkrole="RiferimentoWeb" href="SIA-RW-3025911"/> <!-- in ComplArch per RiferimentoWeb usiamo un ID SIA. Perchè qui si una @href e non sourceentry come sopra? -->
+			<source linkrole="RiferimentoWeb" href="SIA-RW-3025911"/> <!-- Perchè qui si una @href e non sourceentry come sopra? -->
 		</sources>
 	</control>
 	

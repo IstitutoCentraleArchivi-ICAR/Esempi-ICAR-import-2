@@ -165,7 +165,7 @@
 				<p>Progetto realizzato in due parti.</p>
 			</odd>
 		</odd>
-		<processinfo>
+		<processinfo localtype="StatoAvanzamento">
 			<p>Progetto termintao.</p>
 		</processinfo>
 		<processinfo localtype="Compilazione">
@@ -174,7 +174,7 @@
 					<chronitem>
 						<datesingle>20250222</datesingle>
 						<event>
-							<name>
+							<name localtype="TipoAzione">
 								<part>Importazione</part>
 							</name>
 							<corpname relator="Compilatore">

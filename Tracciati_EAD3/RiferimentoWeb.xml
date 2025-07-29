@@ -63,7 +63,7 @@
 					<chronitem>
 						<datesingle>20250222</datesingle>
 						<event>
-							<name>
+							<name localtype="TipoAzione">
 								<part>Importazione</part>
 							</name>
 							<corpname relator="Compilatore">
