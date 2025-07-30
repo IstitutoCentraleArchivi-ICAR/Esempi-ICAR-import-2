@@ -85,7 +85,7 @@
 						<addressLine addressLineType="region">Piemonte</addressLine>
 						<addressLine addressLineType="district">Torino</addressLine>
 						<addressLine addressLineType="municipality">Torino</addressLine>
-						<addressLine localType="localita-frazione">Centro</addressLine>
+						<addressLine localType="Localita/Frazione">Centro</addressLine>
 						<addressLine addressLineType="street">piazza Castello</addressLine>
 						<addressLine addressLineType="postBox">209</addressLine>
 						<addressLine addressLineType="postalCode">10124</addressLine>
@@ -135,7 +135,7 @@
 						<addressLine addressLineType="region">Piemonte</addressLine>
 						<addressLine addressLineType="district">Torino</addressLine>
 						<addressLine addressLineType="municipality">Torino</addressLine>
-						<addressLine localType="localita/frazione">Centro</addressLine>
+						<addressLine localType="Localita/Frazione">Centro</addressLine>
 						<addressLine addressLineType="street">via Piave</addressLine>
 						<addressLine addressLineType="postBox">21</addressLine>
 						<addressLine addressLineType="postalCode">10122</addressLine>

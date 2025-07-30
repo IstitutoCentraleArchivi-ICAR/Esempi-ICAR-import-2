@@ -97,17 +97,17 @@
 							<physfacet localtype="TipologiaDocumentaria">
 								<genreform>
 									<part>Intervista</part>
-									<part localtype="TracciatoSpecifico">Audiovisivo</part>
+									<part localtype="TracciatoSpecifico">Audiovisivo</part> <!-- problema posizione localtype? -->
 								</genreform>
 							</physfacet>
-							<physfacet> <!-- manca @localtype (linea 46 mapping) + part è obbligatorio in genreform (in mapping usa @relator -->
-								<!--<genreform relator="Intervista"/>-->
-								<genreform>									
-									<part>Intervista</part>
+							<physfacet> 
+								<genreform localtype="TipologiaSpecifica">			
+									<part>Intervista</part> <!-- part è obbligatorio in genreform (in mapping usa @relator) (linea 46 e altre linee) -->
 								</genreform>
 							</physfacet>
 							<physfacet localtype="Tecnica">..</physfacet> <!-- contenuto? -->
-							<physfacet localtype="Supporto"></physfacet> <!-- contenuto? -->
+							<physfacet localtype="Tipologia">..</physfacet> <!-- contenuto? -->
+							<physfacet localtype="Supporto">..</physfacet> <!-- contenuto? -->
 							<dimensions localtype="Altezza">12 cm</dimensions>
 							<dimensions localtype="Larghezza">12 cm</dimensions>
 							<dimensions localtype="Spessore">0,12 cm</dimensions>
@@ -121,12 +121,19 @@
 							</ref> 
 						</container>
 						<langmaterial label="LinguaDocumentazione">
-								<language lang="eng"/>
+							<language lang="eng"/>
 						</langmaterial>
 						<langmaterial label="LinguaDescrizione">
 							<language lang="ita"/>
 						</langmaterial>
 				</did>
+				<fileplan>
+					<p>
+						<subject localtype="CodiceClassificazione" identifier="VII.11.12">
+							<part localtype="Qualifica"></part> <!-- contenuto? -->
+						</subject>
+					</p>
+				</fileplan>
 					<accessrestrict localtype="VisibilitaFE">
 						<p>Completa</p>
 					</accessrestrict>
@@ -171,7 +178,7 @@
 										<corpname relator="Compilatore">
 											<part localtype="Denominazione">ICAR-CP-1988029</part>
 										</corpname>
-										<name>
+										<name localtype="TipoAzione">
 											<part>Importazione</part>
 										</name>
 									</event>

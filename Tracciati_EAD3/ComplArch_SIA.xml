@@ -37,7 +37,7 @@
 			<unitid localtype="IdPrecedente">SIcod001</unitid> 
 			<unittitle localtype="Denominazione">Intendenza di finanza di Bolzano</unittitle> 
 			<unittitle label="AltraDenominazione">Delegazione di finanza di Bolzano</unittitle> 
-			<unittitle label="AnnotazioniAltraDenominazione"></unittitle>  <!-- contenuto -->
+			<unittitle localtype="AnnotazioniAltraDenominazione"></unittitle>  <!-- contenuto -->
 			<unitdatestructured>
 				<dateset>
 					<datesingle localtype="DataTestuale" standarddate="1941/1984" altrender="Intervallo di date">1941-1984 (con documentazione dal 1915)</datesingle>
@@ -101,7 +101,7 @@
 		<arrangement localtype="Numerazione">
 			<p><num localtype="Numeri arabi">401-410 (numerazione dei volumi)</num></p>
 		</arrangement>
-		<odd localtype="AltreInfo">
+		<odd localtype="AltreInfo"> <!-- così o dentro un altro odd? (in mapping è dentro altro odd) -->
 			<p>Parte del fondo é stato digitalizzato.</p>
 		</odd>
 		<accessrestrict localtype="VisibilitaFE">
@@ -124,14 +124,14 @@
 			<p>Sono presenti alcuni fascicoli in copia. Gli originali sono conservati nel fondo dell'Agenzia delle entrate di Bolzano.</p>
 			<p><ref arcrole="Localizzazione"></ref></p>
 			<p><ref arcrole="Segnatura"></ref></p>
-			<p><ref href=""/></p>
+			<p><ref arcrole="RiferimentoWeb" href=""/></p>
 		</originalsloc>
 		<altformavail>
 			<head>Free University of Bozen-Bolzano</head>
 			<p>Una parte della serie Danni di guerra è disponibile in copia nella biblioteca della Free University of Bozen-Bolzano.</p>
 			<p><ref arcrole="Localizzazione"></ref></p>
 			<p><ref arcrole="Segnatura"></ref></p>
-			<p><ref href=""/></p>
+			<p><ref arcrole="RiferimentoWeb" href=""/></p>
 		</altformavail>
 		<relatedmaterial localtype="DocumentazioneEsterna">
 			<archref>
@@ -139,7 +139,6 @@
 				<ref href="https://opencity.comune.bolzano.it/Argomenti/Istruzione-cultura-e-sport/Cultura/Archivio-Storico" arcrole="xx qualifica del collegamento xx"><!-- contenuto campo Localizzazione --></ref>
 			</archref>
 		</relatedmaterial>
-		
 		<relatedmaterial localtype="DocumentazioneInterna">
 			<archref>
 				<title><part>Agenzia delle entrate di Bolzano</part></title>
@@ -147,12 +146,12 @@
 				<ref linktitle="RelazioneConCA" arcrole="xx qualifica della relazione xx">ICAR-BZ-1500021</ref>
 			</archref> 
 			<archref>
-				<title><part></part></title>
+				<title><part>Fascicolo 13</part></title>
 				<!-- Descrizione -->
 				<ref linktitle="RelazioneConUA" arcrole="xx">ICAR-UA-1500025</ref>
 			</archref>
 			<archref> 
-				<title><part></part></title>
+				<title><part>Intervista 51.2</part></title>
 				<!-- Descrizione -->
 				<ref linktitle="RelazioneConUD" arcrole="xxx">ICAR-UD-1500121</ref>
 			</archref>
@@ -160,7 +159,7 @@
 		
 		<relations>
 			<relation relationtype="cpfrelation">
-				<relationentry localtype="Soggetto produttore">SIA-AG-1021243</relationentry>
+				<relationentry localtype="Soggetto produttore">SIA-AG-1021243</relationentry> <!-- in linea 134 del mapping lista controllata c'è "Soggetto produttore" (con spazio). In linea 57 senza spazio (validatore accetta solo con spazio -->
 				<dateset>
 					<datesingle localtype="DataTestuale" standarddate="1941/1984" altrender="Intervallo di date">1941-1984</datesingle>
 					<daterange>
@@ -235,7 +234,7 @@
 							<corpname relator="Compilatore">
 								<part localtype="Denominazione">ICAR-CP-1988029</part>
 							</corpname>
-							<name>
+							<name localtype="TipoAzione">
 								<part>Importazione</part>
 							</name>
 						</event>
@@ -283,7 +282,7 @@
 									<corpname relator="Compilatore">
 										<part localtype="Denominazione">ICAR-CP-1988029</part>
 									</corpname>
-									<name>
+									<name localtype="TipoAzione">
 										<part>Importazione</part>
 									</name>
 								</event>
@@ -319,11 +318,7 @@
 						<physdescstructured physdescstructuredtype="materialtype" coverage="part">
 							<quantity>1</quantity> 
 							<unittype>fascicolo</unittype>
-							<physfacet>
-								<genreform>
-									<part localtype="Tipologia"></part> <!-- contenuto? -->
-								</genreform>
-							</physfacet>
+							<physfacet localtype="Tipologia"></physfacet><!-- contenuto? -->
 							<physfacet localtype="Supporto">Carta</physfacet>
 							<physfacet localtype="Legatura">Senza legatura.</physfacet>
 							<dimensions localtype="Altezza">21 cm</dimensions>
@@ -347,7 +342,7 @@
 						<didnote localtype="StatoDiConservazione">Discreto</didnote>
 						<didnote localtype="CondizioniDelMateriale">Le condizioni del materiale sono stabili e non presenta particolari problemi di conservazione.</didnote>
 						<didnote localtype="RestauroOAltriInterventi">Fascicolo non restaurato.</didnote>
-						<daoset>
+						<daoset> <!-- in mapping non c'è daoset -->
 							<dao href="TE-2418399" daotype="derived"/> 
 							<dao href="TE-2418259" daotype="derived"/> 
 						</daoset>
@@ -401,18 +396,18 @@
 						<p>Alcuni documenti originali sono conservati nel fondo dell'Agenzia delle entrate di Bolzano.</p>
 						<p><ref arcrole="Localizzazione"></ref></p>
 						<p><ref arcrole="Segnatura"></ref></p>
-						<p><ref href=""/></p>
+						<p><ref arcrole="RiferimentoWeb" href=""/></p>
 					</originalsloc>
 					<altformavail>
 						<head>Free University of Bozen-Bolzano</head>
 						<p>Fascicolo disponibile in copia nella biblioteca della Free University of Bozen-Bolzano.</p>
 						<p><ref arcrole="Localizzazione"></ref></p>
 						<p><ref arcrole="Segnatura"></ref></p>
-						<p><ref href=""/></p>
+						<p><ref arcrole="RiferimentoWeb" href=""/></p>
 					</altformavail>
 					<relatedmaterial localtype="DocumentazioneEsterna">
 						<archref>
-							<title><part>Archivio storico della Città di Bolzano</part></title>
+							<title><part>Archivio storico della Città di Bolzano</part></title> <!-- in mapping manca part (obbligatorio in Ead) -->
 						<!-- contenuto descrizione -->
 							<ref href="https://opencity.comune.bolzano.it/Argomenti/Istruzione-cultura-e-sport/Cultura/Archivio-Storico" arcrole="xx qualifica del collegamento xx"><!-- contenuto campo Localizzazione --></ref>
 						</archref>
@@ -420,7 +415,7 @@
 					<relatedmaterial localtype="DocumentazioneInterna">
 						<archref>
 							<title><part>Agenzia delle entrate di Bolzano</part></title>
-						<!-- Descrizione -->
+						<!-- Descrizione --><!-- in mapping manca part (obbligatorio in Ead) -->
 							<ref linktitle="RelazioneConCA" arcrole="xx qualifica della relazione xx">ICAR-BZ-1500021</ref>
 						</archref>
 						<archref>
@@ -513,7 +508,7 @@
 										<corpname relator="Compilatore">
 											<part localtype="Denominazione">ICAR-CP-1988029</part>
 										</corpname>
-										<name>
+										<name localtype="TipoAzione">
 											<part>Importazione</part>
 										</name>
 									</event>
@@ -531,7 +526,7 @@
 							<unitid localtype="NumeroSequenza">1876</unitid> 
 							<unitid localtype="NumOrdinamentoProvvisorio">01156</unitid> 
 							<unitid localtype="NumOrdinamentoDefinitivo">2</unitid> 
-							<unitid label="Segnatura">b.1 fasc.2</unitid> 
+							<unitid label="Segnatura">b.1, fasc.2</unitid> 
 							<unitid label="SegnaturaPrecedente" localtype="SIAS">SI-ITBZ-00062</unitid>
 							<unittitle localtype="TitoloOriginale">Risarcimento di guerra 113 - 104/II</unittitle> 
 							<unittitle label="IntegrazioneTitolo">Barbiano</unittitle> 
@@ -549,12 +544,14 @@
 								<physfacet localtype="TipologiaDocumentaria">
 									<genreform>
 										<part>Lettera</part>
-										<part localtype="TracciatoSpecifico">Carteggio</part>
+										<part localtype="TracciatoSpecifico">Carteggio</part> <!-- nel mapping @localtype è in genreform (linea 16-17)-->
 									</genreform>
 								</physfacet>
 								<physfacet localtype="Sigillo">
-									<genreform>  
-										<part localtype="PresenzaSigillo">SI</part> 
+									<genreform localtype="PresenzaSigillo">  
+										<part>SI</part> 
+									</genreform>
+									<genreform localtype="DescrizioneSigillo">  
 										<part localtype="Natura">Sigillo a una faccia</part>
 										<part localtype="Materiale">Cera</part>
 										<part localtype="ModoApposizione">Aderente</part>
@@ -596,7 +593,7 @@
 							<didnote localtype="StatoDiConservazione">Discreto</didnote>
 							<didnote localtype="CondizioniDelMateriale">Le condizioni del materiale sono stabili e non presenta particolari problemi di conservazione.</didnote>
 							<didnote localtype="RestauroOAltriInterventi">Documento non restaurato.</didnote>
-							<daoset>
+							<daoset> <!-- in mapping non c'è daoset -->
 								<dao href="TE-2418399" daotype="derived"/> 
 								<dao href="TE-2418259" daotype="derived"/> 
 							</daoset>
@@ -640,14 +637,14 @@
 							<p>L'originale del documento è conservato nel fondo dell'Agenzia delle entrate di Bolzano.</p>
 							<p><ref arcrole="Localizzazione"></ref></p>
 							<p><ref arcrole="Segnatura"></ref></p>
-							<p><ref href=""/></p>
+							<p><ref arcrole="RiferimentoWeb" href=""/></p>
 						</originalsloc>
 						<altformavail> 
 							<head>Free University of Bozen-Bolzano</head>
 							<p>Documento disponibile in copia nella biblioteca della Free University of Bozen-Bolzano.</p>
 							<p><ref arcrole="Localizzazione"></ref></p>
 							<p><ref arcrole="Segnatura"></ref></p>
-							<p><ref href=""/></p>
+							<p><ref arcrole="RiferimentoWeb" href=""/></p>
 						</altformavail>
 						<relatedmaterial localtype="DocumentazioneEsterna">
 							<archref>
@@ -680,7 +677,8 @@
 							<relation relationtype="cpfrelation" arcrole="Detentore dei diritti">
 								<relationentry>SIA-AG-1021243</relationentry>
 								<descriptivenote>
-									<p></p> <!-- contenuto. Motivo dell'attribuzione -->
+									<p altrender="MotivoAttribuzione"></p> <!-- contenuto -->
+									<p altrender="Note"></p> <!-- contenuto -->
 								</descriptivenote>
 							</relation>
 							<relation relationtype="otherrelationtype" otherrelationtype="ProgettoCollegato">
@@ -746,7 +744,7 @@
 											<corpname relator="Compilatore">
 												<part localtype="Denominazione">ICAR-CP-1988029</part>
 											</corpname>
-											<name>
+											<name localtype="TipoAzione">
 												<part>Importazione</part>
 											</name>
 										</event>
