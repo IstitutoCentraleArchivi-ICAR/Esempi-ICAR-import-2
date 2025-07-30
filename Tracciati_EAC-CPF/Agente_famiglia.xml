@@ -46,7 +46,7 @@
 				<part localType="DenominazionePrincipaleFamiglia">Cruciani Fabozzi</part>
 				<useDates>
 					<dateSet>
-						<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)" standardDate="17910101-99991231">sec. XVIII fine - </date> 
+						<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)">sec. XVIII fine - </date> 
 						<dateRange>
 							<fromDate certainty="DataApprossimativa" localType="Secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
 							<toDate standardDate="99991231"/>
@@ -60,7 +60,7 @@
 				<part localType="Denominazione">Cruciani F.</part>
 				<useDates>
 					<dateSet> 
-						<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)" standardDate="17910101-99991231">sec. XVIII fine - </date> 
+						<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)">sec. XVIII fine - </date> 
 						<dateRange>
 							<fromDate certainty="DataApprossimativa" localType="Secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
 							<toDate standardDate="99991231"/>
@@ -76,7 +76,7 @@
 				<localDescription localType="TitoloFamiglia">
 					<term>Nobile</term>
 					<dateSet>
-						<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)" standardDate="1825-99991231">1825 - </date>
+						<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)">1825 - </date>
 						<dateRange>
 							<fromDate standardDate="1825">1825</fromDate>
 							<toDate standardDate="99991231"/>
@@ -89,7 +89,7 @@
 					<placeName id="ICAR-TOP-2019314"/>
 					<placeRole>Residenza</placeRole>
 					<dateSet>
-						<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)" standardDate="17910101-99991231">sec. XVIII fine - </date> 
+						<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)">sec. XVIII fine - </date> 
 						<dateRange>
 							<fromDate certainty="DataApprossimativa" localType="Secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
 							<toDate standardDate="99991231"/>
@@ -100,7 +100,7 @@
 			</places>
 			<existDates localType="DateEsistenzaFamiglia">
 				<dateSet>
-					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)" standardDate="17910101-99991231" eac-sia:qualificaData="Data di estinzione">sec. XVIII fine - </date> 
+					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)" eac-sia:qualificaData="Data di estinzione">sec. XVIII fine - </date> 
 					<dateRange>
 						<fromDate certainty="DataApprossimativa" localType="Secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
 						<toDate standardDate="99991231"/>
@@ -125,7 +125,7 @@
 					<part>Famiglia Cruciani Fabozzi</part>
 				</targetEntity>
 				<dateSet>
-					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)" standardDate="17910101-99991231">sec. XVIII fine - </date> 
+					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)">sec. XVIII fine - </date> 
 					<dateRange>
 						<fromDate certainty="DataApprossimativa" localType="Secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
 						<toDate standardDate="99991231"/>
@@ -145,7 +145,7 @@
 					<part>Giuseppe Cruciani Fabozzi</part>
 				</targetEntity>
 				<dateSet>	
-					<date localType="EstremoCronologicoTestuale" standardDate="19450101-20231231" eac-sia:tipologiaData="Intervallo di date">1945-2023</date>
+					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1945-2023</date>
 					<dateRange>
 						<fromDate standardDate="19450101">1945</fromDate>
 						<toDate standardDate="20231231">2023</toDate>
@@ -159,7 +159,7 @@
 					<part>Regno d'Italia</part>
 				</targetEntity>
 				<dateSet>
-					<date localType="EstremoCronologicoTestuale" standardDate="1862-1946" eac-sia:tipologiaData="Intervallo di date">1862-1946</date>
+					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1862-1946</date>
 					<dateRange>
 						<fromDate standardDate="1862">1862</fromDate>
 						<toDate standardDate="1946">1946</toDate>

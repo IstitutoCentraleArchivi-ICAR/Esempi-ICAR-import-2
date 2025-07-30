@@ -57,7 +57,7 @@
    </localDescriptions>
    <existDates localType="DateEsistenzaEnte">
     <dateSet>
-     <date localType="EstremoCronologicoTestuale" standardDate="1862-1991" eac-sia:tipologiaData="Intervallo di date" eac-sia:qualificaData="Date di esistenza">1862-1991</date>
+     <date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date" eac-sia:qualificaData="Date di esistenza">1862-1991</date>
      <dateRange>
       <fromDate standardDate="1862">1862</fromDate>
       <toDate standardDate="1991">1991</toDate>
@@ -74,7 +74,7 @@
      <part>Intendenza di finanza di Bolzano, Bolzano (1927 - 1991)</part>
     </targetEntity>
 	<dateSet>
-      <date localType="EstremoCronologicoTestuale" standardDate="19270101-19911231" eac-sia:tipologiaData="Intervallo di date">1927 - 1991</date>
+      <date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1927 - 1991</date>
       <dateRange>
        <fromDate standardDate="19270101">1927</fromDate>
        <toDate standardDate="19911231">1991</toDate>
@@ -87,7 +87,7 @@
      <part>Direzione regionale delle entrate e Direzione compartimentale del territorio (1991 - )</part>
     </targetEntity>
     <dateSet> 	
-		<date localType="EstremoCronologicoTestuale" standardDate="1991" eac-sia:tipologiaData="Data singola">1991</date>
+		<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data singola">1991</date>
 		<date standardDate="1991">1991</date>
     </dateSet>
     <targetRole>Profilo istituzionale collegato</targetRole>
@@ -98,7 +98,7 @@
      <part>Ufficio delle entrate (1991-1999) poi Ufficio locale dell’Agenzia delle entrate (1999-)</part>
     </targetEntity>
     <dateSet> 	
-		<date localType="EstremoCronologicoTestuale" standardDate="1991" eac-sia:tipologiaData="Data singola">1991</date>
+		<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data singola">1991</date>
 		<date standardDate="1991">1991</date>
     </dateSet>
     <targetRole>Relazione in arrivo - Profilo istituzionale a cui è collegato</targetRole>
@@ -109,7 +109,7 @@
 		<part>Regno d'Italia</part>
 	</targetEntity>
     <dateSet>
-     <date localType="EstremoCronologicoTestuale" standardDate="1862-1946" eac-sia:tipologiaData="Intervallo di date">1862-1946</date>
+     <date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1862-1946</date>
      <dateRange>
       <fromDate standardDate="1862">1862</fromDate>
       <toDate standardDate="1946">1946</toDate>

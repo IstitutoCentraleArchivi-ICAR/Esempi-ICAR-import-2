@@ -51,7 +51,7 @@
 				<part localType="SoprannomePersona">Gagìn</part>
 				<useDates>
 				<dateSet>
-					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date" standardDate="19010101-19810401">sec. XX inizio - 1981 apr. 1</date>
+					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">sec. XX inizio - 1981 apr. 1</date>
 					<dateRange>
 						<fromDate certainty="DataApprossimativa" localType="Secolo" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate> 
 						<toDate standardDate="19810401">1981 apr. 1</toDate>
@@ -79,7 +79,7 @@
 				<localDescription localType="TitoloPersona">
 					<term>Nobile</term> 
 					<dateSet>
-					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date" standardDate="19010101-19810401">sec. XX inizio - 1981 apr. 1</date>
+					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">sec. XX inizio - 1981 apr. 1</date>
 					<dateRange>
 						<fromDate certainty="DataApprossimativa" localType="Secolo" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate> 
 						<toDate standardDate="19810401">1981 apr. 1</toDate>
@@ -91,7 +91,7 @@
 				<occupation>
 					<term>Regioniere</term>
 					<dateSet>
-						<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date" standardDate="1935-1955">1935 - 1955</date>
+						<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1935 - 1955</date>
 						<dateRange>
 							<fromDate certainty="DataApprossimativa" standardDate="1935">1935</fromDate>
 							<toDate standardDate="1955">1955</toDate>
@@ -104,7 +104,7 @@
 					<placeName id="ICAR-TOP-2019524"/>
 					<placeRole>Nascita</placeRole>
 					<dateSet> 	
-						<date localType="EstremoCronologicoTestuale" standardDate="19010101-19101231" eac-sia:tipologiaData="Data singola">sec. XX inizio</date>
+						<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data singola">sec. XX inizio</date>
 						<date certainty="DataApprossimativa" localType="Secolo" notBefore="19010101" notAfter="19101231">sec. XX inizio</date>
 					</dateSet>
 				</place>
@@ -112,14 +112,14 @@
 					<placeName id="ICAR-TOP-2019611"/>
 					<placeRole>Morte</placeRole>
 					<dateSet>
-						<date localType="EstremoCronologicoTestuale" standardDate="19810401" eac-sia:tipologiaData="Data singola">1981 apr. 1</date>
+						<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data singola">1981 apr. 1</date>
 						<date standardDate="19810401">1981 apr. 1</date>
 					</dateSet>
 				</place>
 			</places>
 			<existDates localType="DateEsistenzaPersona">
 			<dateSet>
-				<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date" standardDate="19010101-19810401" eac-sia:qualificaData="Date di esistenza">sec. XX inizio - 1981 apr. 1</date>
+				<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date" eac-sia:qualificaData="Date di esistenza">sec. XX inizio - 1981 apr. 1</date>
 				<dateRange>
 					<fromDate certainty="DataApprossimativa" localType="Secolo" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate> 
 					<toDate standardDate="19810401">1981 apr. 1</toDate>
@@ -155,7 +155,7 @@
 					<part>Regno d'Italia</part>
 				</targetEntity>
 				<dateSet>
-					<date localType="EstremoCronologicoTestuale" standardDate="1901-1946" eac-sia:tipologiaData="Intervallo di date">sec. XX inizio-1946</date>
+					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">sec. XX inizio-1946</date>
 					<dateRange>
 						<fromDate standardDate="1901">sec. XX inizio</fromDate>
 						<toDate standardDate="1946">1946</toDate>
@@ -168,7 +168,7 @@
 					<part>Giuseppe Malaguti</part>
 				</targetEntity>
 				<dateSet>
-					<date localType="EstremoCronologicoTestuale" standardDate="19450101-19711231" eac-sia:tipologiaData="Intervallo di date">1945-1971</date>
+					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1945-1971</date>
 					<dateRange>
 						<fromDate standardDate="19450101">1945</fromDate>
 						<toDate standardDate="19711231">1971</toDate>
@@ -182,7 +182,7 @@
 					<part>Piero Antonioli</part>
 				</targetEntity>
 				<dateSet>
-					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date" standardDate="19010101-19810401">sec. XX inizio - 1942 mag. 20</date>
+					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">sec. XX inizio - 1942 mag. 20</date>
 					<dateRange>
 						<fromDate certainty="DataApprossimativa" localType="Secolo" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate> 
 						<toDate standardDate="19420520">1942 mag. 20</toDate>

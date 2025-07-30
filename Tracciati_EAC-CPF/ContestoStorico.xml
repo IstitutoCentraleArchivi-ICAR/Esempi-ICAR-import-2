@@ -56,7 +56,7 @@
    </localDescriptions>
    <existDates localType="DateEsistenzaEnte">
     <dateSet>
-     <date localType="EstremoCronologicoTestuale" standardDate="1861-1946" eac-sia:tipologiaData="Intervallo di date" eac-sia:qualificaData="Date di esistenza"></date>
+     <date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date" eac-sia:qualificaData="Date di esistenza"></date>
      <dateRange>
       <fromDate standardDate="1861">1861</fromDate>
       <toDate standardDate="1946">1946</toDate>
@@ -73,7 +73,7 @@
      <part>Intendenza di finanza di Bolzano, Bolzano (1927 - 1991)</part>
     </targetEntity>
      <dateSet>
-      <date localType="EstremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="Intervallo di date">1927-1991</date>
+      <date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1927-1991</date>
       <dateRange>
        <fromDate standardDate="1927">1927</fromDate>
        <toDate standardDate="1991">1991</toDate>
@@ -87,7 +87,7 @@
      <part>Direzioni compartimentali (1862-1869) poi Intendenza  di finanza (1869-1991)</part>
     </targetEntity>
     <dateSet>
-     <date localType="EstremoCronologicoTestuale" standardDate="1927-1991" eac-sia:tipologiaData="Intervallo di date">1927-1991</date>
+     <date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1927-1991</date>
      <dateRange>
       <fromDate standardDate="1927">1927</fromDate>
       <toDate standardDate="1991">1991</toDate>
@@ -100,7 +100,7 @@
 		<part>Regno di Sardegna</part>
 	</targetEntity>
     <dateSet>
-     <date localType="EstremoCronologicoTestuale" standardDate="1297-1861" eac-sia:tipologiaData="Intervallo di date">1297-1861</date>
+     <date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1297-1861</date>
      <dateRange>
       <fromDate standardDate="1297">1297</fromDate>
       <toDate standardDate="1861">1861</toDate>
@@ -114,7 +114,7 @@
 		<part>Regno delle Due Sicilie</part>
 	</targetEntity>
     <dateSet>
-     <date localType="EstremoCronologicoTestuale" standardDate="1816-1861" eac-sia:tipologiaData="Intervallo di date">1816-1861</date>
+     <date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1816-1861</date>
      <dateRange>
       <fromDate standardDate="1816">1816</fromDate>
       <toDate standardDate="1861">1861</toDate>

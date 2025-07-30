@@ -176,7 +176,7 @@
 			</places>
 			<existDates localType="DateEsistenzaEnte">
 				<dateSet>
-					<date eac-sia:qualificaData="Date di esistenza" localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)" standardDate="18700101-99991231">1870 - </date>
+					<date eac-sia:qualificaData="Date di esistenza" localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)">1870 - </date>
 					<dateRange>
 						<fromDate standardDate="18700101">1870</fromDate>
 						<toDate standardDate="99991231"/>
@@ -217,7 +217,7 @@
 					<part>Archivio Centrale dello Stato</part>
 				</targetEntity>
 				<dateSet>
-					<date localType="EstremoCronologicoTestuale" standardDate="19530101-99991231" eac-sia:tipologiaData="Data aperta (a partire da)">1953 - </date>
+					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)">1953 - </date>
 					<dateRange>
 						<fromDate standardDate="19530101">1953</fromDate>
 						<toDate standardDate="99991231"/>

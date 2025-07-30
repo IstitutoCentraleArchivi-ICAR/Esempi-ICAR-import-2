@@ -50,7 +50,7 @@
 			</places>
 			<existDates>
 				<dateSet>
-					<date localType="EstremoCronologicoTestuale" standardDate="19800627" eac-sia:tipologiaData="Data singola">1980 giu. 27</date>
+					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data singola">1980 giu. 27</date>
 					<date standardDate="19800627">1980 giu. 27</date>
 				</dateSet>
 			</existDates>
