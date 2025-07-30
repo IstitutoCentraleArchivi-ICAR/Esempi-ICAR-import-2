@@ -191,14 +191,14 @@
 		<part>...</part><!-- contenuto -->
 	</targetEntity>
     <relationType>Finanziatore</relationType>
-	<targetRole>progetto</targetRole>
+	<targetRole>Progetto</targetRole>
    </relation> 
    <relation>
-    <targetEntity targetType="function" id="SIA-EV-7719132"> <!-- targetType="function" o "resource"? -->
+    <targetEntity targetType="function" id="SIA-EV-7719132">
 		<part>...</part><!-- contenuto -->
 	</targetEntity>
     <relationType>Finanziatore</relationType>
-	<targetRole>evento</targetRole>
+	<targetRole>Evento</targetRole>
    </relation> 
    <relation>
     <targetEntity targetType="agent" id="SIA-CS-1922132">
@@ -214,10 +214,10 @@
     <targetRole>Contesto storico istituzionale collegato</targetRole>
    </relation>
    <relation>
-    <targetEntity targetType="resource" id="SIA-TE-2419131"> <!-- in mapping eliminare @valueURI + aggiungere nota per spiegare uso di <part> (come nelle righe sotto) -->
+    <targetEntity targetType="resource" id="SIA-TE-2419131">
 		<part>Storia economica</part>
 	</targetEntity>
-    <targetRole>tematismo</targetRole>
+    <targetRole>Tematismo</targetRole>
    </relation>
    <relation>
     <targetEntity targetType="corporateBody" id="SIA-AG-1021246">
