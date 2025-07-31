@@ -23,7 +23,7 @@
 				<edition localtype="online">sì</edition>
 			</editionstmt>
 			<publicationstmt>
-				<date localtype="DataTestuale" normal="20110101-20111231">2011</date> <!-- in  mapping @localtype è usato 2 volte. Usare @altrender? + In mapping manca indicazione valori di Tipologia data -->
+				<date localtype="DataTestuale">2011</date> <!-- in  mapping @localtype è usato 2 volte. Usare @altrender? + In mapping manca indicazione valori di Tipologia data -->
 				<date normal="20110101-20111231" localtype="EstremoRemoto">2011</date> <!-- nel mapping non si spiega come si codifica una data singola -->
 				
 				<date encodinganalog="QualificaData"></date> <!-- contenuto -->

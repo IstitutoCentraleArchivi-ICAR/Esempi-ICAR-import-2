@@ -40,7 +40,7 @@
 			<unittitle localtype="AnnotazioniAltraDenominazione"></unittitle>  <!-- contenuto -->
 			<unitdatestructured>
 				<dateset>
-					<datesingle localtype="DataTestuale" standarddate="1941/1984" altrender="Intervallo di date">1941-1984 (con documentazione dal 1915)</datesingle>
+					<datesingle localtype="DataTestuale" altrender="Intervallo di date">1941-1984 (con documentazione dal 1915)</datesingle>
 					<daterange>
 						<fromdate standarddate="1941">1941</fromdate>
 						<todate standarddate="1984">1984</todate>
@@ -161,7 +161,7 @@
 			<relation relationtype="cpfrelation">
 				<relationentry localtype="Soggetto produttore">SIA-AG-1021243</relationentry> <!-- in linea 134 del mapping lista controllata c'è "Soggetto produttore" (con spazio). In linea 57 senza spazio (validatore accetta solo con spazio -->
 				<dateset>
-					<datesingle localtype="DataTestuale" standarddate="1941/1984" altrender="Intervallo di date">1941-1984</datesingle>
+					<datesingle localtype="DataTestuale" altrender="Intervallo di date">1941-1984</datesingle>
 					<daterange>
 						<fromdate standarddate="1941">1941</fromdate>
 						<todate standarddate="1984">1984</todate>
@@ -171,9 +171,10 @@
 			<relation relationtype="cpfrelation">
 				<relationentry localtype="Soggetto conservatore">SIA-AG-1033245</relationentry>
 				<dateset>
-					<datesingle localtype="DataTestuale" standarddate="1991" altrender="Data aperta (a partire da)">1991-</datesingle>
+					<datesingle localtype="DataTestuale" altrender="Data aperta (a partire da)">1991-</datesingle>
 					<daterange>
 						<fromdate standarddate="1991">1991</fromdate>
+						<!--<todate  standarddate="99999999"/>--> <!-- M171 dice che non si deve usare todate in data aperta -->
 					</daterange>
 				</dateset>
 			</relation>
@@ -250,7 +251,7 @@
 					<unittitle localtype="Denominazione">Danni di Guerra</unittitle>
 					<unitdatestructured>
 						<dateset>
-							<datesingle localtype="DataTestuale" standarddate="1941/1983" altrender="Intervallo di date">1941-1983</datesingle>
+							<datesingle localtype="DataTestuale" altrender="Intervallo di date">1941-1983</datesingle>
 							<daterange>
 								<fromdate standarddate="1941">1941</fromdate>
 								<todate standarddate="1983">1983</todate>
@@ -307,7 +308,7 @@
 						<unittitle localtype="TitoloAttributo">Richiesta risarcimento di guerra 113 - 104/II - Barbiano</unittitle> 
 						<unitdatestructured>
 							<dateset>
-								<datesingle localtype="DataTestuale" standarddate="1946-10-15/1983-04-19" altrender="Intervallo di date">1946 ott. 15 - 1983 apr. 19 (con documenti in copia del 1943)</datesingle>
+								<datesingle localtype="DataTestuale" altrender="Intervallo di date">1946 ott. 15 - 1983 apr. 19 (con documenti in copia del 1943)</datesingle>
 								<daterange>
 									<fromdate standarddate="1946-10-15">1946 ott. 15</fromdate>
 									<todate standarddate="1983-04-19">1983 apr. 19</todate>
@@ -436,7 +437,7 @@
 						<relation relationtype="cpfrelation" arcrole="Detentore dei diritti">
 							<relationentry>SIA-AG-1021243</relationentry>
 							<dateset>
-								<datesingle localtype="DataTestuale" standarddate="1946-10-15/1983-04-19" altrender="Intervallo di date">1946 ott. 15 - 1983 apr. 19</datesingle>
+								<datesingle localtype="DataTestuale" altrender="Intervallo di date">1946 ott. 15 - 1983 apr. 19</datesingle>
 								<daterange>
 									<fromdate standarddate="1946-10-15">1946 ott. 15</fromdate>
 									<todate standarddate="1983-04-19">1983 apr. 19</todate>
@@ -533,7 +534,7 @@
 							<unittitle localtype="TitoloAttributo">Lettera di richiesta risarcimento di guerra 113 - 104/II - Barbiano</unittitle>
 							<unitdatestructured>
 								<dateset>
-									<datesingle localtype="DataTestuale" standarddate="1946-10-15" altrender="Data singola">1946 ott. 15</datesingle>
+									<datesingle localtype="DataTestuale" altrender="Data singola">1946 ott. 15</datesingle>
 									<datesingle localtype="DataSingola" standarddate="1946-10-15">1946 ott. 15</datesingle>
 								</dateset>
 							</unitdatestructured>

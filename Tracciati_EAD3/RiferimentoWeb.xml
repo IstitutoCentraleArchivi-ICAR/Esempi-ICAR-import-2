@@ -13,7 +13,7 @@
 			<agencyname>ICAR</agencyname>
 		</maintenanceagency>
 		
-		<localcontrol localtype="AcronimoDiSistema"> <!-- im mapping acronimo con minuscola -->
+		<localcontrol localtype="AcronimoDiSistema">
 			<term>..Acronimo di sistema record contenitore..</term>
 		</localcontrol>
 		<localcontrol localtype="IdentificativoDiSistema"> 

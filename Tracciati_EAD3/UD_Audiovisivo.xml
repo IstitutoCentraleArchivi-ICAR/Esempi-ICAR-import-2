@@ -36,7 +36,7 @@
 			<unittitle localtype="Denominazione">..Denominazione contenitore..</unittitle> 
 			<unitdatestructured>
 				<dateset>
-					<datesingle localtype="DataTestuale" standarddate="1941/1984" altrender="Intervallo di date">1941-1984</datesingle>
+					<datesingle localtype="DataTestuale" altrender="Intervallo di date">1941-1984</datesingle>
 					<daterange>
 						<fromdate standarddate="1941">1941</fromdate>
 						<todate standarddate="1984">1984</todate>
@@ -87,7 +87,7 @@
 						<unittitle localtype="TitoloAttributo">Intervista a Winston Leonard Spencer Churchill (1874-1965)</unittitle>
 						<unitdatestructured>
 							<dateset>
-								<datesingle localtype="DataTestuale" standarddate="1956-01-15" altrender="Data singola">1956 gen. 15</datesingle>
+								<datesingle localtype="DataTestuale" altrender="Data singola">1956 gen. 15</datesingle>
 								<datesingle localtype="DataSingola" standarddate="1956-01-15">1956 gen. 15</datesingle>
 							</dateset>
 						</unitdatestructured>
