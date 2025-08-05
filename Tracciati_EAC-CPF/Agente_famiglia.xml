@@ -168,13 +168,6 @@
 				<targetRole>Contesto storico istituzionale collegato</targetRole>
 			</relation>
 			<relation>
-				<targetEntity targetType="family" id="SIA-AG-1021716">
-					<part>Cruciani Barella, Rimini, sec. XIX - </part>
-				</targetEntity>
-				<targetRole>Relazione in arrivo - Soggetto produttore a cui è collegato</targetRole>
-				<relationType>Associativa</relationType>
-			</relation> 
-			<relation>
 				<targetEntity targetType="resource" id="SIA-RR-122057">
 					<part>...</part> <!-- contenuto -->
 				</targetEntity>

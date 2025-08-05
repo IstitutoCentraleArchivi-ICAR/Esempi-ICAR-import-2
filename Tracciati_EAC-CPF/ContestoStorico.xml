@@ -109,20 +109,6 @@
     <targetRole>Contesto storico istituzionale collegato</targetRole>
 	<relationType>Collegato</relationType>
    </relation>
-	<relation>
-    <targetEntity targetType="corporateBody" id="SIA-CS-192534"> 
-		<part>Regno delle Due Sicilie</part>
-	</targetEntity>
-    <dateSet>
-     <date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1816-1861</date>
-     <dateRange>
-      <fromDate standardDate="1816">1816</fromDate>
-      <toDate standardDate="1861">1861</toDate>
-     </dateRange>
-    </dateSet>
-    <targetRole>Relazione in arrivo - Contesto storico istituzionale a cui è collegato</targetRole>
-	<relationType>Collegato</relationType>
-   </relation> 
    </relations>
  </cpfDescription>
 </eac>

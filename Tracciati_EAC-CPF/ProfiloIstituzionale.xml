@@ -94,17 +94,6 @@
 	<relationType>Successore</relationType>
    </relation>
    <relation>
-    <targetEntity targetType="corporateBody" id="SIA-PI-1921345">
-     <part>Ufficio delle entrate (1991-1999) poi Ufficio locale dell’Agenzia delle entrate (1999-)</part>
-    </targetEntity>
-    <dateSet> 	
-		<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data singola">1991</date>
-		<date standardDate="1991">1991</date>
-    </dateSet>
-    <targetRole>Relazione in arrivo - Profilo istituzionale a cui è collegato</targetRole>
-	<relationType>Predecessore</relationType>
-   </relation>
-   <relation>
     <targetEntity targetType="corporateBody" id="SIA-CS-1922132">
 		<part>Regno d'Italia</part>
 	</targetEntity>

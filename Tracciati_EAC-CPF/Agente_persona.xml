@@ -177,20 +177,6 @@
 				<targetRole>Soggetto produttore collegato</targetRole>
 				<relationType>Associativa</relationType>
 			</relation>
-			<relation>
-				<targetEntity targetType="person" id="SIA-AG-1022427">
-					<part>Piero Antonioli</part>
-				</targetEntity>
-				<dateSet>
-					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">sec. XX inizio - 1942 mag. 20</date>
-					<dateRange>
-						<fromDate certainty="DataApprossimativa" localType="Secolo" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate> 
-						<toDate standardDate="19420520">1942 mag. 20</toDate>
-					</dateRange>
-				</dateSet>
-				<targetRole>Relazione in arrivo - Soggetto produttore a cui è collegato</targetRole>
-				<relationType>GerarchicaFiglio</relationType>
-			</relation>
 			<!-- Mancano alcune relazioni. È necessario crearle tutte, o basta con quelle che sono presenti nella scheda dell'agente ente? -->
 		</relations>
 	</cpfDescription>
