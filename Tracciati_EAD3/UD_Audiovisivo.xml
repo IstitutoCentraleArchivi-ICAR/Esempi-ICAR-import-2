@@ -22,7 +22,7 @@
 		
 		<maintenancehistory>
 			<maintenanceevent>
-				<eventtype value="derived"/>
+				<eventtype value="created"/>
 				<eventdatetime>2025-02-21</eventdatetime>
 				<agenttype value="human"/>
 				<agent>Gruppo di lavoro ICAR</agent>
@@ -77,9 +77,9 @@
 						<unitid>SIA-UD-2013111</unitid>
 						<unitid localtype="AltroId" label="SIAS">IT-ASBZ-F230003563</unitid>
 						<unitid localtype="IdPrecedente">SIcod1132</unitid> 
-						<unitid localtype="NumeroSequenza">189</unitid> <!-- presente 2 volte nel mapping: linea 55 e 98-->
-						<unitid localtype="NumOrdinamentoProvvisorio">03556</unitid> <!-- presente 2 volte nel mapping: linea 55 e 98-->
-						<unitid localtype="NumOrdinamentoDefinitivo">5</unitid> <!-- presente 2 volte nel mapping: linea 55 e 98-->
+						<unitid localtype="NumeroSequenza">189</unitid>
+						<unitid localtype="NumOrdinamentoProvvisorio">03556</unitid>
+						<unitid localtype="NumOrdinamentoDefinitivo">5</unitid>
 						<unitid label="Segnatura">b.97 fasc.12</unitid> 
 						<unitid label="SegnaturaPrecedente" localtype="SIAS">SI-ITBZ-00162</unitid>
 						<unittitle localtype="TitoloOriginale">Winston Leonard Spencer Churchill</unittitle> 
@@ -97,12 +97,12 @@
 							<physfacet localtype="TipologiaDocumentaria">
 								<genreform>
 									<part>Intervista</part>
-									<part localtype="TracciatoSpecifico">Audiovisivo</part> <!-- problema posizione localtype? -->
+									<part localtype="TracciatoSpecifico">Audiovisivo</part> 
 								</genreform>
 							</physfacet>
-							<physfacet> 
-								<genreform localtype="TipologiaSpecifica">			
-									<part>Intervista</part> <!-- part è obbligatorio in genreform (in mapping usa @relator) (linea 46 e altre linee) -->
+							<physfacet localtype="TipologiaSpecifica"> 
+								<genreform>			
+									<part>Intervista</part> 
 								</genreform>
 							</physfacet>
 							<physfacet localtype="Tecnica">..</physfacet> <!-- contenuto? -->

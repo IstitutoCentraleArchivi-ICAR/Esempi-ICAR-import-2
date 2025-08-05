@@ -2,11 +2,11 @@
 <ead xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.san.beniculturali.it/tracciato/ead3.xsd" xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" audience="external">
 	<control repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" scriptencoding="iso15924" langencoding="iso639-2b">
 		
-		<recordid>SIA-SR-2013011</recordid> <!-- errore in path mapping (campo Identificativo per lo strumento) -->
+		<recordid>SIA-SR-2013011</recordid>
 		<otherrecordid localtype="SIA">S-55A12</otherrecordid>
 		<otherrecordid localtype="IdPrecedente">SI_115SR</otherrecordid>
 		
-		<representation href="http://www.asbolzano.beniculturali.it/MW/mediaArchive/Pdf/invent/asbz_intend_finanz_danni_guerra_l593_1981.pdf" arcrole="è rappresentazione di"/> <!-- perchè in mapping ci sono 2 linee per un solo campo? + mapping correggere attributo in href -->
+		<representation href="http://www.asbolzano.beniculturali.it/MW/mediaArchive/Pdf/invent/asbz_intend_finanz_danni_guerra_l593_1981.pdf" arcrole="è rappresentazione di"/> 
 		
 		<filedesc>
 			<titlestmt>
@@ -18,30 +18,26 @@
 				<edition localtype="Tipologia">Inventario analitico</edition>
 				<edition localtype="Specificazione"> ? ? </edition> <!-- CONTENUTO -->
 			
-				<edition localtype="published">sì</edition> <!-- meglio usare valore "Pubblicato" invece si "published"? -->
+				<edition localtype="Pubblicato">sì</edition>
 			
-				<edition localtype="online">sì</edition>
+				<edition localtype="Online">sì</edition>
 			</editionstmt>
 			<publicationstmt>
-				<date localtype="DataTestuale">2011</date> <!-- in  mapping @localtype è usato 2 volte. Usare @altrender? + In mapping manca indicazione valori di Tipologia data -->
-				<date normal="20110101-20111231" localtype="EstremoRemoto">2011</date> <!-- nel mapping non si spiega come si codifica una data singola -->
-				
+				<date localtype="DataTestuale" altrender="..">2011</date> <!-- In mapping manca indicazione valori di Tipologia data -->
+				<date normal="2011" localtype="DataSingola">2011</date>	<!-- In mapping manca indicazione valori di Validità -->			
 				<date encodinganalog="QualificaData"></date> <!-- contenuto -->
 				<date encodinganalog="NoteAllaData">Data della stampa.</date> 
 			</publicationstmt>
 			<notestmt>
-				<controlnote localtype="NoteStoricoRedazionali"><p>Inventario elaborato da funcionari dell'Archivio.</p></controlnote> <!-- in mapping manca <p> obbligatorio in Ead (anche negli altri controlnote -->
-				
+				<controlnote localtype="NoteStoricoRedazionali"><p>Inventario elaborato da funcionari dell'Archivio.</p></controlnote>
 				<controlnote localtype="DescrizioneIntrinseca"><p></p></controlnote> <!-- CONTENUTO -->
 				<controlnote localtype="TipoSupporto"><p>Analogico</p></controlnote>
 				<controlnote localtype="ModalitaRedazione"><p>Stampa da computer</p></controlnote>
 				<controlnote localtype="DescrizioneEstrinseca"><p>I titoli delle unità archivistiche sono individuati dalla colonna denominata "Descrizione del bene", che nelle sottocolonne definisce i beni immobili danneggiati secondo il comune catastale, la/le particelle edificiali, quella/e fondiarie e la/le partite tavolari. Le pratiche relative ai beni mobili danneggiati – ai quali è stata assegnata una posizione diversa (e di solito consecutiva) rispetto all'immobile di pertinenza – sono comprese nel medesimo fascicolo, che in questo caso, dunque, comprende una o più pratiche, o sottofascicoli, ognuna individuata da una posizione.</p></controlnote>
-				
 				<controlnote localtype="Osservazioni"><p></p></controlnote> <!-- CONTENUTO -->
 			</notestmt>
-			
-			
 		</filedesc>
+		
 		<maintenancestatus value="new"/>
 		<publicationstatus value="published"/>
 		
@@ -49,19 +45,19 @@
 			<agencyname>ICAR</agencyname>
 		</maintenanceagency>
 		
-		<languagedeclaration> <!-- perchè in mapping ci sono due possibilità? -->
+		<languagedeclaration> 
 			<language langcode="ita"/>
-			<script></script> <!-- elemento obbligatorio, non previsto in mapping + valore -->
+			<script scriptcode="Latn">Latin</script>
 		</languagedeclaration>
 		
 		<localcontrol localtype="AcronimoDiSistema"> 
-			<term>..Acronimo di sistema record contenitore..</term> <!-- o dello strumento?? -->
+			<term>..Acronimo di sistema SIA..</term>
 		</localcontrol>
 		<localcontrol localtype="IdentificativoDiSistema"> 
-			<term>..Identificativo di sistema record contenitore..</term> <!-- o dello strumento?? -->
+			<term>..Identificativo di sistema SIA..</term>
 		</localcontrol>
 		
-		<localcontrol localtype="ComplessoArchivisticoCollegato"> <!-- in Progetto si usano forme abbreviate UA, UD, ComplArch.. per i collegamenti -->
+		<localcontrol localtype="ComplessoArchivisticoCollegato">
 			<term identifier="SIA-CA-13637874"/>
 		</localcontrol>
 		<localcontrol localtype="UnitaArchivisticaCollegata"> 
@@ -79,12 +75,12 @@
 		
 		<maintenancehistory>
 			<maintenanceevent>
-				<eventtype value="derived"/>
+				<eventtype value="created"/>
 				<eventdatetime>2025-02-21</eventdatetime>
 				<agenttype value="human"/>
-				<agent>Gruppo di lavoro ICAR</agent>
+				<agent>Chiaretti, Alessandro</agent>
 			</maintenanceevent>
-		</maintenancehistory> <!-- in mapping mancano alcuni elementi. Si spiega nella nota, ma xpath non è completo ed è un po' confuso -->
+		</maintenancehistory>
 		
 		<sources>
 			<source linkrole="RiferimentoBibliografico">
@@ -93,7 +89,9 @@
 			<source linkrole="FonteArchivistica">
 				<sourceentry>ICAR-FA-20200312</sourceentry>
 			</source>
-			<source linkrole="RiferimentoWeb" href="SIA-RW-3025911"/> <!-- Perchè qui si una @href e non sourceentry come sopra? -->
+			<source linkrole="RiferimentoWeb">
+				<sourceentry>SIA-RW-3025911</sourceentry>
+			</source>
 		</sources>
 	</control>
 	

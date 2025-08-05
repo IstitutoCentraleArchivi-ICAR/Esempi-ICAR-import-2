@@ -22,7 +22,7 @@
 		
 		<maintenancehistory>
 			<maintenanceevent>
-				<eventtype value="derived"/>
+				<eventtype value="created"/>
 				<eventdatetime>2025-02-21</eventdatetime>
 				<agenttype value="human"/>
 				<agent>Gruppo di lavoro ICAR</agent>
@@ -350,7 +350,7 @@
 						<langmaterial label="LinguaDocumentazione">
 							<languageset> 
 								<language lang="ita"/>
-								<script>italian</script>
+								<script scriptcode="Latn">Latin</script>
 							</languageset>
 							<descriptivenote>
 								<p>Parte dei documenti scritti in tedesco.</p> <!-- Descrizione tipo scrittura. va bene contenuto? -->
@@ -545,7 +545,7 @@
 								<physfacet localtype="TipologiaDocumentaria">
 									<genreform>
 										<part>Lettera</part>
-										<part localtype="TracciatoSpecifico">Carteggio</part> <!-- nel mapping @localtype è in genreform (linea 16-17)-->
+										<part localtype="TracciatoSpecifico">Carteggio</part>
 									</genreform>
 								</physfacet>
 								<physfacet localtype="Sigillo">
@@ -582,7 +582,7 @@
 							<langmaterial label="LinguaDocumentazione">
 								<languageset> 
 									<language lang="ita"/>
-									<script>italian</script>
+									<script scriptcode="Latn">Latin</script>
 								</languageset>
 								<descriptivenote>
 									<p></p> <!-- Descrizione tipo scrittura. contenuto -->
