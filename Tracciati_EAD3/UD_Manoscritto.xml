@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.san.beniculturali.it/tracciato/ead3.xsd" xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<control repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" scriptencoding="iso15924" langencoding="iso639-3">
+
+		<recordid>..ID contenitore..</recordid>
+		<filedesc>
+			<titlestmt>
+				<titleproper/>
+			</titlestmt>
+		</filedesc>
+		<maintenancestatus value="derived"/>
+		<maintenanceagency>
+			<agencyname>...</agencyname>
+		</maintenanceagency>
+		
+		<localcontrol localtype="AcronimoDiSistema"> 
+			<term>SIA</term>
+		</localcontrol>
+		<localcontrol localtype="IdentificativoDiSistema"> 
+			<term>...</term>
+		</localcontrol>
+		
+		<maintenancehistory>
+			<maintenanceevent>
+				<eventtype value="created"/>
+				<eventdatetime>2025-02-21</eventdatetime>
+				<agenttype value="human"/>
+				<agent>Gruppo di lavoro ICAR</agent>
+			</maintenanceevent>
+		</maintenancehistory>
+		
+	</control>
+	<archdesc level="fonds">
+		<did>
+			<unitid>..ID contenitore..</unitid> 
+			<unittitle localtype="Denominazione">..Denominazione contenitore..</unittitle> 
+			<unitdatestructured>
+				<dateset>
+					<datesingle localtype="DataTestuale" altrender="Intervallo di date">1941-1984</datesingle>
+					<daterange>
+						<fromdate standarddate="1941">1941</fromdate>
+						<todate standarddate="1984">1984</todate>
+					</daterange>
+				</dateset>
+			</unitdatestructured>
+			<langmaterial label="LinguaDescrizione">
+				<language lang="ita"/>
+			</langmaterial>
+		</did>
+		<accessrestrict localtype="VisibilitaFE">
+			<p>Completa</p>
+		</accessrestrict>
+		<processinfo localtype="StatusScheda">
+			<p>Bozza</p>
+		</processinfo>
+		<processinfo localtype="Compilazione">
+			<processinfo localtype="ComplessoArchivistico">
+				<chronlist>
+					<chronitem>
+						<datesingle>20250222</datesingle>
+						<event>
+							<corpname relator="Compilatore">
+								<part localtype="Denominazione">ICAR-CP-1988029</part>
+							</corpname>
+							<name>
+								<part>Importazione</part>
+							</name>
+						</event>
+					</chronitem>
+				</chronlist>
+				<p> Note redazionali </p>
+			</processinfo>
+		</processinfo>
+		<dsc>
+			<c level="item">
+				<did>
+						<unitid>SIA-UD-2014112</unitid>
+						<unitid localtype="AltroId" label="SIAS">IT-AS-0003363</unitid>
+						<unitid localtype="IdPrecedente">SIcod1135</unitid> 
+						<unitid localtype="NumeroSequenza">198</unitid>
+						<unitid localtype="NumOrdinamentoProvvisorio">03756</unitid>
+						<unitid localtype="NumOrdinamentoDefinitivo">6</unitid>
+						<unitid label="Segnatura">MS.141</unitid> 
+						<unitid label="SegnaturaPrecedente" localtype="SIAS">SI-00152</unitid>
+						<unittitle localtype="TitoloOriginale">De significatione verborum</unittitle>  
+						<unittitle localtype="TitoloAttributo">De significatione verborum</unittitle>
+						<unitdatestructured>
+							<dateset>
+								<datesingle localtype="DataTestuale" altrender="Intervallo di date" standarddate="1436-01-01/1445-12-31">post 1436 - ante 1445</datesingle>
+								<daterange>
+									<fromdate altrender="DataAttribuita" standarddate="1436-01-01">post 1436</fromdate>
+									<todate altrender="DataAttribuita" standarddate="1445-12-31">ante 1445</todate>
+								</daterange>
+							</dateset>
+						</unitdatestructured>
+						<physdescstructured physdescstructuredtype="materialtype" coverage="part">
+							<quantity>1</quantity> 
+							<unittype>Codice</unittype>
+							<physfacet localtype="TipologiaDocumentaria">
+								<genreform>
+									<part localtype="TracciatoSpecifico">Manoscritto</part> 
+								</genreform>
+							</physfacet>
+							<physfacet localtype="StadioDocumento"> <!-- muovere @localtype da genreform a physfacet (per uniformare con gli altri physfacet) -->
+								<genreform>
+									<part>Originale</part>
+								</genreform>
+							</physfacet>
+							<dimensions localtype="Altezza">22 cm</dimensions>
+							<dimensions localtype="Larghezza">15 cm</dimensions>
+							<descriptivenote>
+								<p>
+									<quote localtype="Incipit">Aderant, denotat celeritatem temporis</quote>
+									<quote localtype="Explicit">Nemo ad homines tantum pertinet, nullus ad universa.</quote>
+								</p>
+							</descriptivenote>
+						</physdescstructured>
+						<langmaterial label="LinguaDescrizione">
+							<language lang="ita"/>
+						</langmaterial>
+				</did>
+					<scopecontent localtype="NotaArchivisticoCodicologica"> <!-- mapping non dice se è ripetibile -->
+						<p>Scritto prevalentemente da Guarnerio nei primi anni della sua attività di copista, il codice completa la trascrizione del Guarner. 140. Figura nell'Inventario del 1461, dove può essere identificato con il n° 145: «Liber vocabulorum Guirini et exordia Gasparini Pergamensis, et quedam alia in papiro». É il n° CXLIX del Coluta, la cui segnatura si conserva nel cartellino all'interno del piatto anteriore ed è trascritta a penna a c. 1r. Sull'etichetta incollata sul recto del piatto anteriore compare inoltre il n° 117, che non corrisponde però a nessuna segnatura nota.</p>
+					</scopecontent>
+					<accessrestrict localtype="VisibilitaFE">
+						<p>Completa</p>
+					</accessrestrict>
+					<accessrestrict localtype="CondizioniAccesso">
+						<p>Liberamente accessibile</p>
+						<accessrestrict localtype="NoteCondizioniAccesso">
+							<p>Non ci sono restrizioni all'accesso.</p>
+						</accessrestrict>
+					</accessrestrict>
+					<userestrict>
+						<p>Riproduzione libera</p>
+						<userestrict localtype="NoteCondizioniUtilizzo">
+							<p>Non si sono restrizioni all'utilizzo del documento.</p>
+						</userestrict>
+					</userestrict>
+					<relations>
+						<relation relationtype="resourcerelation">
+							<relationentry localtype="LivelloSuperiore">SIA-UA-2013166</relationentry>
+						</relation>
+						<relation relationtype="cpfrelation" arcrole="Autore">
+							<relationentry>SIA-AG-1021311</relationentry>
+						</relation>
+					</relations>
+					<controlaccess>
+						<subject><part identifier="TE-412245"/></subject>
+						<persname><part identifier="SIA-PE-2422175"/></persname>
+						<corpname><part identifier="SIA-AG-2422933"/></corpname>
+						<famname><part identifier="SIA-FA-2422443"/></famname>
+						<geogname><part identifier="SIA-LG-2423324"/></geogname>
+						<geogname><part>San Daniele Del Friuli</part></geogname>
+					</controlaccess>
+					<processinfo localtype="StatusScheda">
+						<p>pubblicata</p> 
+					</processinfo>
+					<processinfo localtype="Compilazione">
+						<processinfo localtype="UnitaDocumentale">
+							<chronlist>
+								<chronitem>
+									<datesingle>20250805</datesingle>
+									<event>
+										<corpname relator="Compilatore">
+											<part localtype="Denominazione">ICAR-CP-1988029</part>
+										</corpname>
+										<name localtype="TipoAzione">
+											<part>Importazione</part>
+										</name>
+									</event>
+								</chronitem>
+							</chronlist>
+							<p> Note redazionali </p>
+						</processinfo>
+					</processinfo>
+			</c>
+		</dsc>
+	</archdesc>
+</ead>

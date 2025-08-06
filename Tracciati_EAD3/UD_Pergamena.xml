@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.san.beniculturali.it/tracciato/ead3.xsd" xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<control repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" scriptencoding="iso15924" langencoding="iso639-3">
+
+		<recordid>..ID contenitore..</recordid>
+		<filedesc>
+			<titlestmt>
+				<titleproper/>
+			</titlestmt>
+		</filedesc>
+		<maintenancestatus value="derived"/>
+		<maintenanceagency>
+			<agencyname>...</agencyname>
+		</maintenanceagency>
+		
+		<localcontrol localtype="AcronimoDiSistema"> 
+			<term>SIA</term>
+		</localcontrol>
+		<localcontrol localtype="IdentificativoDiSistema"> 
+			<term>...</term>
+		</localcontrol>
+		
+		<maintenancehistory>
+			<maintenanceevent>
+				<eventtype value="created"/>
+				<eventdatetime>2025-02-21</eventdatetime>
+				<agenttype value="human"/>
+				<agent>Gruppo di lavoro ICAR</agent>
+			</maintenanceevent>
+		</maintenancehistory>
+		
+	</control>
+	<archdesc level="fonds">
+		<did>
+			<unitid>..ID contenitore..</unitid> 
+			<unittitle localtype="Denominazione">..Denominazione contenitore..</unittitle> 
+			<unitdatestructured>
+				<dateset>
+					<datesingle localtype="DataTestuale" altrender="Intervallo di date">1941-1984</datesingle>
+					<daterange>
+						<fromdate standarddate="1941">1941</fromdate>
+						<todate standarddate="1984">1984</todate>
+					</daterange>
+				</dateset>
+			</unitdatestructured>
+			<langmaterial label="LinguaDescrizione">
+				<language lang="ita"/>
+			</langmaterial>
+		</did>
+		<accessrestrict localtype="VisibilitaFE">
+			<p>Completa</p>
+		</accessrestrict>
+		<processinfo localtype="StatusScheda">
+			<p>Bozza</p>
+		</processinfo>
+		<processinfo localtype="Compilazione">
+			<processinfo localtype="ComplessoArchivistico">
+				<chronlist>
+					<chronitem>
+						<datesingle>20250222</datesingle>
+						<event>
+							<corpname relator="Compilatore">
+								<part localtype="Denominazione">ICAR-CP-1988029</part>
+							</corpname>
+							<name>
+								<part>Importazione</part>
+							</name>
+						</event>
+					</chronitem>
+				</chronlist>
+				<p> Note redazionali </p>
+			</processinfo>
+		</processinfo>
+		<dsc>
+			<c level="item">
+				<did>
+						<unitid>SIA-UD-2013112</unitid>
+						<unitid localtype="AltroId" label="SIAS">IT-ASBZ-F230003363</unitid>
+						<unitid localtype="IdPrecedente">SIcod1135</unitid> 
+						<unitid localtype="NumeroSequenza">198</unitid>
+						<unitid localtype="NumOrdinamentoProvvisorio">03756</unitid>
+						<unitid localtype="NumOrdinamentoDefinitivo">6</unitid>
+						<unitid label="Segnatura">b.91 fasc.12</unitid> 
+						<unitid label="SegnaturaPrecedente" localtype="SIAS">SI-ITBZ-00152</unitid>
+						<unittitle localtype="TitoloOriginale">Canonichesse regolari Lateranensi (Rocchettine) dello Spirito S</unittitle> 
+						<unittitle label="IntegrazioneTitolo">in S. Pudenziana</unittitle> 
+						<unittitle localtype="TitoloAttributo">Canonichesse regolari Lateranensi (Rocchettine) dello Spirito S in S. Pudenziana, b. 4229/17 (15 apr. 1721)</unittitle>
+						<unitdatestructured>
+							<dateset>
+								<datesingle localtype="DataTestuale" altrender="Data singola">1721 apr. 15</datesingle>
+								<datesingle localtype="DataSingola" standarddate="1721-04-15">1721 apr. 15</datesingle>
+							</dateset>
+						</unitdatestructured>
+						<physdescstructured physdescstructuredtype="materialtype" coverage="part">
+							<quantity>1</quantity> 
+							<unittype>Pergamena</unittype>
+							<physfacet localtype="TipologiaDocumentaria">
+								<genreform>
+									<part>Professione di fede perpetua</part>
+									<part localtype="TracciatoSpecifico">Pergamena</part> 
+								</genreform>
+							</physfacet>
+							<physfacet localtype="StadioDocumento"> <!-- muovere @localtype da genreform a physfacet (per uniformare con gli altri physfacet) -->
+								<genreform>
+									<part>Originale</part>
+								</genreform>
+							</physfacet>
+							<dimensions localtype="Altezza">20 cm</dimensions>
+							<dimensions localtype="Larghezza">12 cm</dimensions>
+						</physdescstructured>
+						<container localtype="Busta">
+							<ref>
+								<num>4299</num>
+							</ref> 
+						</container>
+						<langmaterial label="LinguaDescrizione">
+							<language lang="ita"/>
+						</langmaterial>
+						<didnote localtype="NoteDorsali">Senza contenuto sul dorso della pergamena.</didnote>
+				</did>
+					<scopecontent localtype="NotaArchivisticoDiplomatica">
+						<p>Rogatario: Albertus notarius.</p>
+					</scopecontent>
+					<scopecontent localtype="Regesto">
+						<p>Suor Giacinta, al secolo Costantina del Cotti, figlia di Gerolamo e di Giovanna Paola Napolioni, pronuncia e legge la professione di fede perpetua, in presenza del canonico Giovanni Battista Bella, decano della collegiata di Sant’Angelo in Pescheria, in rappresentanza di Giovan Domenico Parracciani, cardinale del titolo di Sant’Anastasia e vicario di Roma e di Barbara Maria Brogi, madre badessa del monastero dello Spirito Santo di Roma.</p>
+					</scopecontent>
+					<accessrestrict localtype="VisibilitaFE">
+						<p>Completa</p>
+					</accessrestrict>
+					<accessrestrict localtype="CondizioniAccesso">
+						<p>Liberamente accessibile</p>
+						<accessrestrict localtype="NoteCondizioniAccesso">
+							<p>Non ci sono restrizioni all'accesso.</p>
+						</accessrestrict>
+					</accessrestrict>
+					<userestrict>
+						<p>Riproduzione libera</p>
+						<userestrict localtype="NoteCondizioniUtilizzo">
+							<p>Non si sono restrizioni all'utilizzo del documento.</p>
+						</userestrict>
+					</userestrict>
+					<relations>
+						<relation relationtype="resourcerelation">
+							<relationentry localtype="LivelloSuperiore">SIA-UA-2013166</relationentry>
+						</relation>
+						<relation relationtype="cpfrelation" arcrole="Detentore dei diritti">
+							<relationentry>SIA-AG-1021244</relationentry>
+						</relation>
+					</relations>
+					<controlaccess>
+						<subject><part>Congregazioni religiose</part></subject>
+						<subject><part identifier="TE-412245"/></subject>
+						<persname><part identifier="SIA-PE-2422175"/></persname>
+						<corpname><part identifier="SIA-AG-2422933"/></corpname>
+						<famname><part identifier="SIA-FA-2422443"/></famname>
+						<geogname><part identifier="SIA-LG-2423324"/></geogname>
+						<geogname><part>Roma</part></geogname>
+					</controlaccess>
+					<processinfo localtype="StatusScheda">
+						<p>pubblicata</p> 
+					</processinfo>
+					<processinfo localtype="Compilazione">
+						<processinfo localtype="UnitaDocumentale">
+							<chronlist>
+								<chronitem>
+									<datesingle>20250805</datesingle>
+									<event>
+										<corpname relator="Compilatore">
+											<part localtype="Denominazione">ICAR-CP-1988029</part>
+										</corpname>
+										<name localtype="TipoAzione">
+											<part>Importazione</part>
+										</name>
+									</event>
+								</chronitem>
+							</chronlist>
+							<p> Note redazionali </p>
+						</processinfo>
+					</processinfo>
+			</c>
+		</dsc>
+	</archdesc>
+</ead>
