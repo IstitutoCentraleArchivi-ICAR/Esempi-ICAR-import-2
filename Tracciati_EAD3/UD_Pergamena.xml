@@ -84,7 +84,7 @@
 						<unitid label="SegnaturaPrecedente" localtype="SIAS">SI-ITBZ-00152</unitid>
 						<unittitle localtype="TitoloOriginale">Canonichesse regolari Lateranensi (Rocchettine) dello Spirito S</unittitle> 
 						<unittitle label="IntegrazioneTitolo">in S. Pudenziana</unittitle> 
-						<unittitle localtype="TitoloAttributo">Canonichesse regolari Lateranensi (Rocchettine) dello Spirito S in S. Pudenziana, b. 4229/17 (15 apr. 1721)</unittitle>
+						<unittitle localtype="TitoloAttribuito">Canonichesse regolari Lateranensi (Rocchettine) dello Spirito S in S. Pudenziana, b. 4229/17 (15 apr. 1721)</unittitle>
 						<unitdatestructured>
 							<dateset>
 								<datesingle localtype="DataTestuale" altrender="Data singola">1721 apr. 15</datesingle>

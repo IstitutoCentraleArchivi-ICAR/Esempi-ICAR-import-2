@@ -83,7 +83,7 @@
 						<unitid label="Segnatura">MS.141</unitid> 
 						<unitid label="SegnaturaPrecedente" localtype="SIAS">SI-00152</unitid>
 						<unittitle localtype="TitoloOriginale">De significatione verborum</unittitle>  
-						<unittitle localtype="TitoloAttributo">De significatione verborum</unittitle>
+						<unittitle localtype="TitoloAttribuito">De significatione verborum</unittitle>
 						<unitdatestructured>
 							<dateset>
 								<datesingle localtype="DataTestuale" altrender="Intervallo di date" standarddate="1436-01-01/1445-12-31">post 1436 - ante 1445</datesingle>

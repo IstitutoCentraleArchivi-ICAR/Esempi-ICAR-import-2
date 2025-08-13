@@ -74,66 +74,58 @@
 		<dsc>
 			<c level="item">
 				<did>
-						<unitid>SIA-UD-2013111</unitid>
-						<unitid localtype="AltroId" label="SIAS">IT-ASBZ-F230003563</unitid>
-						<unitid localtype="IdPrecedente">SIcod1132</unitid> 
-						<unitid localtype="NumeroSequenza">189</unitid>
-						<unitid localtype="NumOrdinamentoProvvisorio">03556</unitid>
-						<unitid localtype="NumOrdinamentoDefinitivo">5</unitid>
-						<unitid label="Segnatura">b.97 fasc.12</unitid> 
-						<unitid label="SegnaturaPrecedente" localtype="SIAS">SI-ITBZ-00162</unitid>
-						<unittitle localtype="TitoloOriginale">Winston Leonard Spencer Churchill</unittitle> 
-						<unittitle label="IntegrazioneTitolo">Intervista</unittitle> 
-						<unittitle localtype="TitoloAttribuito">Intervista a Winston Leonard Spencer Churchill (1874-1965)</unittitle>
+						<unitid>SIA-UD-2013151</unitid>
+						<unitid localtype="AltroId" label="SIAS">IT-ASBO-F230011563</unitid>
+						<unitid localtype="IdPrecedente">ZE1155</unitid> 
+						<unitid localtype="NumeroSequenza">1598</unitid>
+						<unitid localtype="NumOrdinamentoProvvisorio">03126</unitid>
+						<unitid localtype="NumOrdinamentoDefinitivo">2002</unitid>
+						<unitid label="Segnatura">EK015984</unitid> 
+						<unitid label="SegnaturaPrecedente" localtype="SIAS">ITBO-001599</unitid>		
+						<unittitle localtype="TitoloAttribuito">Bologna - Chiesa di S. Domenico - Cappella dell' Arca - Arca di S. Domenico - Fianco destro del sarcofago: particolare con la cena dei frati servita dagli angeli - Marmo</unittitle>
 						<unitdatestructured>
 							<dateset>
-								<datesingle localtype="DataTestuale" altrender="Data singola">1956 gen. 15</datesingle>
-								<datesingle localtype="DataSingola" standarddate="1956-01-15">1956 gen. 15</datesingle>
+								<datesingle localtype="DataTestuale" altrender="Data singola">1996</datesingle>
+								<datesingle localtype="DataSingola" standarddate="1996">1996</datesingle>
+								<datesingle localtype="DataRipresa">1996</datesingle> <!-- non serve @standarddate? In xpath manca dateset  -->
 							</dateset>
+							
 						</unitdatestructured>
 						<physdescstructured physdescstructuredtype="materialtype" coverage="part">
 							<quantity>1</quantity> 
-							<unittype>CD-ROM</unittype>
+							<unittype>fotografia</unittype>
 							<physfacet localtype="TipologiaDocumentaria">
 								<genreform>
-									<part>Intervista</part>
-									<part localtype="TracciatoSpecifico">Audiovisivo</part> 
+									<part localtype="TracciatoSpecifico">Fotografia</part> 
 								</genreform>
 							</physfacet>
 							<physfacet localtype="TipologiaSpecifica"> 
 								<genreform>			
-									<part>Intervista</part> 
+									<part>Diapositiva</part> 
 								</genreform>
 							</physfacet>
-							<physfacet localtype="Tecnica">..</physfacet> <!-- contenuto? -->
-							<physfacet localtype="Tipologia">..</physfacet> <!-- contenuto? -->
-							<physfacet localtype="Supporto">..</physfacet> <!-- contenuto? -->
-							<dimensions localtype="Altezza">12 cm</dimensions>
+							<physfacet localtype="Tecnica">Gelatina ai sali d'argento / pellicola</physfacet>
+							<dimensions localtype="Altezza">9 cm</dimensions>
 							<dimensions localtype="Larghezza">12 cm</dimensions>
-							<dimensions localtype="Spessore">0,12 cm</dimensions>
+							<descriptivenote>
+								<p>
+									<subject localtype="Occasione"><part>Campagna fotografica</part>	</subject>
+									<geogname><part localtype="LuogoRappresentato">SIA-LG-2423324</part></geogname> <!-- non è meglio usare part/@identifier visto che si tratta di una relazione? @identifier si usa in controlaccess -->
+								</p>
+							</descriptivenote>
 						</physdescstructured>
-						<materialspec label="Colore">8 bits</materialspec>
-						<materialspec label="Formato">WAW</materialspec>
-						<container localtype="Busta">
-							<ref>
-								<num>5</num>
-								<title><part>xxxx</part></title> <!-- contenuto? Titolo unità di condizionamento -->
-							</ref> 
-						</container>
-						<langmaterial label="LinguaDocumentazione">
-							<language lang="eng"/>
-						</langmaterial>
 						<langmaterial label="LinguaDescrizione">
 							<language lang="ita"/>
 						</langmaterial>
 				</did>
-				<fileplan>
-					<p>
-						<subject localtype="CodiceClassificazione" identifier="VII.11.12">
-							<part localtype="Qualifica"></part> <!-- contenuto? -->
-						</subject>
-					</p>
-				</fileplan>
+					<scopecontent localtype="SoggettoIdentificato"><!-- mapping non è chiaro (linea 63-66), due linee con stesso xpath e uso di subject in due elementi -->
+						<p>
+						<subject><part>Chiesa di S. Domenico</part></subject>
+						<subject><part>Arca di S. Domenico</part></subject>
+						<geogname><part>Bologna</part></geogname>
+						</p>
+						<p>Arca di S. Domenico - Fianco destro del sarcofago</p> <!-- va bene 2 <p> separati? Va bene contenuto? -->
+					</scopecontent>
 					<accessrestrict localtype="VisibilitaFE">
 						<p>Completa</p>
 					</accessrestrict>
@@ -153,18 +145,10 @@
 						<relation relationtype="resourcerelation">
 							<relationentry localtype="LivelloSuperiore">SIA-UA-2013166</relationentry>
 						</relation>
-						<relation relationtype="cpfrelation" arcrole="Detentore dei diritti">
-							<relationentry>SIA-AG-1021244</relationentry>
-						</relation>
 					</relations>
 					<controlaccess>
-						<subject><part>Storia contemporanea</part></subject>
-						<subject><part identifier="TE-412245"/></subject>
 						<persname><part identifier="SIA-PE-2422175"/></persname>
 						<corpname><part identifier="SIA-AG-2422933"/></corpname>
-						<famname><part identifier="SIA-FA-2422443"/></famname>
-						<geogname><part identifier="SIA-LG-2423324"/></geogname>
-						<geogname><part>Londra</part></geogname>
 					</controlaccess>
 					<processinfo localtype="StatusScheda">
 						<p>pubblicata</p> 

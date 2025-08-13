@@ -305,7 +305,7 @@
 						<unitid label="SegnaturaPrecedente" localtype="SIAS">SI-ITBZ-00031</unitid>
 						<unittitle localtype="TitoloOriginale">113 - 104/II</unittitle> 
 						<unittitle label="IntegrazioneTitolo">Barbiano</unittitle> 
-						<unittitle localtype="TitoloAttributo">Richiesta risarcimento di guerra 113 - 104/II - Barbiano</unittitle> 
+						<unittitle localtype="TitoloAttribuito">Richiesta risarcimento di guerra 113 - 104/II - Barbiano</unittitle> 
 						<unitdatestructured>
 							<dateset>
 								<datesingle localtype="DataTestuale" altrender="Intervallo di date">1946 ott. 15 - 1983 apr. 19 (con documenti in copia del 1943)</datesingle>
