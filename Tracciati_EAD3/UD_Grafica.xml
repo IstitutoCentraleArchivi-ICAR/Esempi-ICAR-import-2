@@ -2,6 +2,10 @@
 <ead xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.san.beniculturali.it/tracciato/ead3.xsd" xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<control repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" scriptencoding="iso15924" langencoding="iso639-3">
 
+
+<!-- NUOVO. FARE TUTTE LE MODIFICHE -->
+
+
 		<recordid>..ID contenitore..</recordid>
 		<filedesc>
 			<titlestmt>
@@ -23,7 +27,7 @@
 		<maintenancehistory>
 			<maintenanceevent>
 				<eventtype value="created"/>
-				<eventdatetime>2025-02-21</eventdatetime>
+				<eventdatetime>2025-08-21</eventdatetime>
 				<agenttype value="human"/>
 				<agent>Gruppo di lavoro ICAR</agent>
 			</maintenanceevent>
@@ -57,7 +61,7 @@
 			<processinfo localtype="ComplessoArchivistico">
 				<chronlist>
 					<chronitem>
-						<datesingle>20250222</datesingle>
+						<datesingle>20250822</datesingle>
 						<event>
 							<corpname relator="Compilatore">
 								<part localtype="Denominazione">ICAR-CP-1988029</part>
@@ -74,57 +78,52 @@
 		<dsc>
 			<c level="item">
 				<did>
-						<unitid>SIA-UD-2013151</unitid>
-						<unitid localtype="AltroId" label="SIAS">IT-ASBO-F230011563</unitid>
-						<unitid localtype="IdPrecedente">ZE1155</unitid> 
-						<unitid localtype="NumeroSequenza">1598</unitid>
-						<unitid localtype="NumOrdinamentoProvvisorio">03126</unitid>
-						<unitid localtype="NumOrdinamentoDefinitivo">2002</unitid>
-						<unitid label="Segnatura">EK015984</unitid> 
-						<unitid label="SegnaturaPrecedente" localtype="SIAS">ITBO-001599</unitid>		
-						<unittitle localtype="TitoloAttribuito">Bologna - Chiesa di S. Domenico - Cappella dell' Arca - Arca di S. Domenico - Fianco destro del sarcofago: particolare con la cena dei frati servita dagli angeli - Marmo</unittitle>
+						<unitid>SIA-UD-2013122</unitid>
+						<unitid localtype="AltroId" label="SIAS">IT-ASBO-0002139</unitid>
+						<unitid localtype="IdPrecedente">SIcod1151</unitid> 
+						<unitid localtype="NumeroSequenza">199</unitid>
+						<unitid localtype="NumOrdinamentoProvvisorio">041561</unitid>
+						<unitid localtype="NumOrdinamentoDefinitivo">7-55</unitid>
+						<unitid label="Segnatura">b.2 fasc.3</unitid> 
+						<unitid label="SegnaturaPrecedente" localtype="SIAS">SI-ASBO-0002</unitid>
+						<unittitle localtype="TitoloOriginale">Stazione Bologna Centrale</unittitle>
 						<unitdatestructured>
 							<dateset>
-								<datesingle localtype="DataTestuale" altrender="Data singola">1996</datesingle>
-								<datesingle localtype="DataSingola" standarddate="1996">1996</datesingle>
-								<datesingle localtype="DataRipresa">1996</datesingle> <!-- non serve @standarddate? In xpath manca dateset  -->
+								<datesingle localtype="DataTestuale" altrender="Data singola">1914</datesingle>
+								<datesingle localtype="DataSingola" standarddate="1914">1914</datesingle>
 							</dateset>
-							
 						</unitdatestructured>
 						<physdescstructured physdescstructuredtype="materialtype" coverage="part">
 							<quantity>1</quantity> 
-							<unittype>fotografia</unittype>
+							<unittype></unittype>
 							<physfacet localtype="TipologiaDocumentaria">
 								<genreform>
-									<part localtype="TracciatoSpecifico">Fotografia</part> 
+									<part localtype="TracciatoSpecifico">Grafica</part> 
 								</genreform>
 							</physfacet>
-							<physfacet localtype="TipologiaSpecifica"> 
-								<genreform>			
-									<part>Diapositiva</part> 
+							<physfacet localtype="TipologiaSpecifica">
+								<genreform>
+									<part>Disegno tecnico</part> 
 								</genreform>
 							</physfacet>
-							<physfacet localtype="Tecnica">Gelatina ai sali d'argento / pellicola</physfacet>
-							<dimensions localtype="Altezza">9 cm</dimensions>
-							<dimensions localtype="Larghezza">12 cm</dimensions>
+							<physfacet localtype="Materia">Carta</physfacet>
+							<physfacet localtype="Tecnica">Chiaroscuro</physfacet>
+							<physfacet localtype="Esecuzione">Mano libera</physfacet>
+							<dimensions localtype="Altezza">30 cm</dimensions>
+							<dimensions localtype="Larghezza">100 cm</dimensions>
 							<descriptivenote>
 								<p>
-									<subject localtype="Occasione"><part>Campagna fotografica</part>	</subject>
-									<geogname><part localtype="LuogoRappresentato">SIA-LG-2423324</part></geogname>
+									<geogname localtype="LuogoRappresentato">
+										<part>SIA-LG-2423324</part>
+									</geogname>
 								</p>
 							</descriptivenote>
 						</physdescstructured>
-						<langmaterial label="LinguaDescrizione">
-							<language lang="ita"/>
-						</langmaterial>
+						<materialspec label="Colore">Colorato a mano</materialspec>
+						<materialspec label="Lineare">1:2000</materialspec>
 				</did>
-					<scopecontent localtype="SoggettoIdentificato"><!-- mapping non è chiaro (linea 63-66), due linee con stesso xpath e uso di subject in due elementi -->
-						<p>
-						<subject><part>Chiesa di S. Domenico</part></subject>
-						<subject><part>Arca di S. Domenico</part></subject>
-						<geogname><part>Bologna</part></geogname>
-						</p>
-						<p>Arca di S. Domenico - Fianco destro del sarcofago</p> <!-- va bene 2 <p> separati? Va bene contenuto? -->
+					<scopecontent localtype="DescrizioneContenuto">
+						<p>Piante, prospetti, sezioni, particolari costruttivi delle coperture metalliche, disegno relativo alla sopraelevazione; pubblicazione "Nuovo progetto di ampliamento della stazione di Bologna" (1914)</p>
 					</scopecontent>
 					<accessrestrict localtype="VisibilitaFE">
 						<p>Completa</p>
@@ -145,10 +144,18 @@
 						<relation relationtype="resourcerelation">
 							<relationentry localtype="LivelloSuperiore">SIA-UA-2013166</relationentry>
 						</relation>
+						<relation relationtype="cpfrelation" arcrole="Detentore dei diritti">
+							<relationentry>SIA-AG-1021244</relationentry>
+						</relation>
 					</relations>
 					<controlaccess>
+						<subject><part>Trasporti</part></subject>
+						<subject><part identifier="TE-412245"/></subject>
 						<persname><part identifier="SIA-PE-2422175"/></persname>
 						<corpname><part identifier="SIA-AG-2422933"/></corpname>
+						<famname><part identifier="SIA-FA-2422443"/></famname>
+						<geogname><part identifier="SIA-LG-2423324"/></geogname>
+						<geogname><part>Stazione Centrale</part></geogname>
 					</controlaccess>
 					<processinfo localtype="StatusScheda">
 						<p>pubblicata</p> 
@@ -157,7 +164,7 @@
 						<processinfo localtype="UnitaDocumentale">
 							<chronlist>
 								<chronitem>
-									<datesingle>20250222</datesingle>
+									<datesingle>20250825</datesingle>
 									<event>
 										<corpname relator="Compilatore">
 											<part localtype="Denominazione">ICAR-CP-1988029</part>
@@ -171,7 +178,6 @@
 							<p> Note redazionali </p>
 						</processinfo>
 					</processinfo>
-					
 			</c>
 		</dsc>
 	</archdesc>

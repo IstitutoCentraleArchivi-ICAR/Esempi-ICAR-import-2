@@ -36,10 +36,10 @@
 			<unittitle localtype="Denominazione">..Denominazione contenitore..</unittitle> 
 			<unitdatestructured>
 				<dateset>
-					<datesingle localtype="DataTestuale" altrender="Intervallo di date">1941-1984</datesingle>
+					<datesingle localtype="DataTestuale" altrender="Intervallo di date">1741-1884</datesingle>
 					<daterange>
-						<fromdate standarddate="1941">1941</fromdate>
-						<todate standarddate="1984">1984</todate>
+						<fromdate standarddate="1741">1741</fromdate>
+						<todate standarddate="1884">1884</todate>
 					</daterange>
 				</dateset>
 			</unitdatestructured>
@@ -74,57 +74,69 @@
 		<dsc>
 			<c level="item">
 				<did>
-						<unitid>SIA-UD-2013151</unitid>
-						<unitid localtype="AltroId" label="SIAS">IT-ASBO-F230011563</unitid>
-						<unitid localtype="IdPrecedente">ZE1155</unitid> 
-						<unitid localtype="NumeroSequenza">1598</unitid>
-						<unitid localtype="NumOrdinamentoProvvisorio">03126</unitid>
-						<unitid localtype="NumOrdinamentoDefinitivo">2002</unitid>
-						<unitid label="Segnatura">EK015984</unitid> 
-						<unitid label="SegnaturaPrecedente" localtype="SIAS">ITBO-001599</unitid>		
-						<unittitle localtype="TitoloAttribuito">Bologna - Chiesa di S. Domenico - Cappella dell' Arca - Arca di S. Domenico - Fianco destro del sarcofago: particolare con la cena dei frati servita dagli angeli - Marmo</unittitle>
+						<unitid>SIA-UD-2013356</unitid>
+						<unitid localtype="AltroId" label="SIAS">IT-ASCB-F28-0000339</unitid>
+						<unitid localtype="IdPrecedente">SIcod1151</unitid> 
+						<unitid localtype="NumeroSequenza">99</unitid>
+						<unitid localtype="NumOrdinamentoProvvisorio">04156</unitid>
+						<unitid localtype="NumOrdinamentoDefinitivo">8-81</unitid>
+						<unitid label="Segnatura">b.6 fasc.13</unitid> 
+						<unitid label="SegnaturaPrecedente" localtype="SIAS">SI-ITCB-21152</unitid>
+						<unitid localtype="NumeroTavola">4</unitid>
+						<unittitle localtype="TitoloOriginale">Atti demaniali. Mafalda</unittitle>
 						<unitdatestructured>
 							<dateset>
-								<datesingle localtype="DataTestuale" altrender="Data singola">1996</datesingle>
-								<datesingle localtype="DataSingola" standarddate="1996">1996</datesingle>
-								<datesingle localtype="DataRipresa">1996</datesingle> <!-- non serve @standarddate? In xpath manca dateset  -->
+								<datesingle localtype="DataTestuale" altrender="Data singola">1877 apr. 17</datesingle>
+								<datesingle localtype="DataSingola" standarddate="1877-04-17">1877 apr. 17</datesingle>
 							</dateset>
-							
 						</unitdatestructured>
 						<physdescstructured physdescstructuredtype="materialtype" coverage="part">
 							<quantity>1</quantity> 
-							<unittype>fotografia</unittype>
+							<unittype></unittype>
 							<physfacet localtype="TipologiaDocumentaria">
 								<genreform>
-									<part localtype="TracciatoSpecifico">Fotografia</part> 
+									<part localtype="TracciatoSpecifico">Cartografia</part> 
 								</genreform>
 							</physfacet>
-							<physfacet localtype="TipologiaSpecifica"> 
-								<genreform>			
-									<part>Diapositiva</part> 
+							<physfacet localtype="TipologiaSpecifica">
+								<genreform>
+									<part>Pianta</part> 
 								</genreform>
 							</physfacet>
-							<physfacet localtype="Tecnica">Gelatina ai sali d'argento / pellicola</physfacet>
-							<dimensions localtype="Altezza">9 cm</dimensions>
-							<dimensions localtype="Larghezza">12 cm</dimensions>
+							<physfacet localtype="RappresentazioneTematica">Carta topografica</physfacet>
+							<physfacet localtype="AStampa">NO</physfacet>
+							<physfacet localtype="StatoRedazione">
+								<genreform>
+									<part>Originale</part> 
+								</genreform>
+							</physfacet>
+							<physfacet localtype="Tecnica">Manoscritto</physfacet>
+							<physfacet localtype="MediazioniGrafiche">Tecnica mista</physfacet>
+							<dimensions localtype="Altezza">45 cm</dimensions>
+							<dimensions localtype="Larghezza">33 cm</dimensions>
+							<physfacet>
+								<geogname>
+									<part></part> <!-- obbligatorio in Ead, però può rimanere vuoto -->
+									<geographiccoordinates coordinatesystem="WGS84" altrender="Latitudine">41°57′N</geographiccoordinates>
+									<geographiccoordinates coordinatesystem="WGS84" altrender="Longitudine">14°43′E</geographiccoordinates>
+									<!--<geographiccoordinates coordinatesystem="WGS84" altrender="Reticolo"></geographiccoordinates>-->
+									<geographiccoordinates coordinatesystem="WGS84" altrender="Proiezione">Proiezione azimutale</geographiccoordinates>
+								</geogname>
+							</physfacet>
 							<descriptivenote>
 								<p>
-									<subject localtype="Occasione"><part>Campagna fotografica</part>	</subject>
-									<geogname><part localtype="LuogoRappresentato">SIA-LG-2423324</part></geogname>
+									<geogname localtype="LuogoRappresentato">
+										<part>SIA-LG-2423324</part>
+									</geogname>
 								</p>
 							</descriptivenote>
 						</physdescstructured>
-						<langmaterial label="LinguaDescrizione">
-							<language lang="ita"/>
-						</langmaterial>
+						<materialspec label="Colore">Misto</materialspec>
+						<materialspec label="Orientamento">Nord</materialspec>
+						<materialspec label="Lineare">1:2000</materialspec>
 				</did>
-					<scopecontent localtype="SoggettoIdentificato"><!-- mapping non è chiaro (linea 63-66), due linee con stesso xpath e uso di subject in due elementi -->
-						<p>
-						<subject><part>Chiesa di S. Domenico</part></subject>
-						<subject><part>Arca di S. Domenico</part></subject>
-						<geogname><part>Bologna</part></geogname>
-						</p>
-						<p>Arca di S. Domenico - Fianco destro del sarcofago</p> <!-- va bene 2 <p> separati? Va bene contenuto? -->
+					<scopecontent localtype="DescrizioneContenuto">
+						<p>Pianta di una parte del Bosco di Ripalda dichiarata dissodabile.</p>
 					</scopecontent>
 					<accessrestrict localtype="VisibilitaFE">
 						<p>Completa</p>
@@ -145,10 +157,18 @@
 						<relation relationtype="resourcerelation">
 							<relationentry localtype="LivelloSuperiore">SIA-UA-2013166</relationentry>
 						</relation>
+						<relation relationtype="cpfrelation" arcrole="Detentore dei diritti">
+							<relationentry>SIA-AG-1021244</relationentry>
+						</relation>
 					</relations>
 					<controlaccess>
+						<subject><part>Congregazioni religiose</part></subject>
+						<subject><part identifier="TE-412245"/></subject>
 						<persname><part identifier="SIA-PE-2422175"/></persname>
 						<corpname><part identifier="SIA-AG-2422933"/></corpname>
+						<famname><part identifier="SIA-FA-2422443"/></famname>
+						<geogname><part identifier="SIA-LG-2423324"/></geogname>
+						<geogname><part>Mafalda</part></geogname>
 					</controlaccess>
 					<processinfo localtype="StatusScheda">
 						<p>pubblicata</p> 
@@ -157,7 +177,7 @@
 						<processinfo localtype="UnitaDocumentale">
 							<chronlist>
 								<chronitem>
-									<datesingle>20250222</datesingle>
+									<datesingle>20250805</datesingle>
 									<event>
 										<corpname relator="Compilatore">
 											<part localtype="Denominazione">ICAR-CP-1988029</part>
@@ -171,7 +191,6 @@
 							<p> Note redazionali </p>
 						</processinfo>
 					</processinfo>
-					
 			</c>
 		</dsc>
 	</archdesc>
