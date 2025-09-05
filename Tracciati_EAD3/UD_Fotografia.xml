@@ -87,7 +87,7 @@
 							<dateset>
 								<datesingle localtype="DataTestuale" altrender="Data singola">1996</datesingle>
 								<datesingle localtype="DataSingola" standarddate="1996">1996</datesingle>
-								<datesingle localtype="DataRipresa">1996</datesingle> <!-- non serve @standarddate? In xpath manca dateset  -->
+								<datesingle localtype="DataRipresa">1996</datesingle>
 							</dateset>
 							
 						</unitdatestructured>
@@ -118,13 +118,24 @@
 							<language lang="ita"/>
 						</langmaterial>
 				</did>
-					<scopecontent localtype="SoggettoIdentificato"><!-- mapping non è chiaro (linea 63-66), due linee con stesso xpath e uso di subject in due elementi -->
+					<scopecontent localtype="SoggettoIdentificato">
 						<p>
-						<subject><part>Chiesa di S. Domenico</part></subject>
-						<subject><part>Arca di S. Domenico</part></subject>
-						<geogname><part>Bologna</part></geogname>
+							<subject><part>Chiesa di S. Domenico</part></subject>
 						</p>
-						<p>Arca di S. Domenico - Fianco destro del sarcofago</p> <!-- va bene 2 <p> separati? Va bene contenuto? -->
+						<p>
+							<subject>
+								<part>Arca di S. Domenico</part>
+							</subject>
+							<footnote localtype="IndicazioniSoggetto">
+								<p>Arca di S. Domenico - Fianco destro del sarcofago</p>
+							</footnote>
+							<subject localtype="Descrittore">
+								<part><!-- contenuto --></part>
+							</subject>
+						</p>
+						<p>
+							<geogname><part>Bologna</part></geogname>
+						</p>
 					</scopecontent>
 					<accessrestrict localtype="VisibilitaFE">
 						<p>Completa</p>

@@ -101,7 +101,7 @@
 									<part localtype="TracciatoSpecifico">Manoscritto</part> 
 								</genreform>
 							</physfacet>
-							<physfacet localtype="StadioDocumento"> <!-- muovere @localtype da genreform a physfacet (per uniformare con gli altri physfacet) -->
+							<physfacet localtype="StadioDocumento">
 								<genreform>
 									<part>Originale</part>
 								</genreform>
@@ -119,7 +119,7 @@
 							<language lang="ita"/>
 						</langmaterial>
 				</did>
-					<scopecontent localtype="NotaArchivisticoCodicologica"> <!-- mapping non dice se è ripetibile -->
+					<scopecontent localtype="NotaArchivisticoCodicologica">
 						<p>Scritto prevalentemente da Guarnerio nei primi anni della sua attività di copista, il codice completa la trascrizione del Guarner. 140. Figura nell'Inventario del 1461, dove può essere identificato con il n° 145: «Liber vocabulorum Guirini et exordia Gasparini Pergamensis, et quedam alia in papiro». É il n° CXLIX del Coluta, la cui segnatura si conserva nel cartellino all'interno del piatto anteriore ed è trascritta a penna a c. 1r. Sull'etichetta incollata sul recto del piatto anteriore compare inoltre il n° 117, che non corrisponde però a nessuna segnatura nota.</p>
 					</scopecontent>
 					<accessrestrict localtype="VisibilitaFE">

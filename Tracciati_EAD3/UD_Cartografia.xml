@@ -116,10 +116,10 @@
 							<dimensions localtype="Larghezza">33 cm</dimensions>
 							<physfacet>
 								<geogname>
-									<part></part> <!-- obbligatorio in Ead, però può rimanere vuoto -->
+									<part></part>
 									<geographiccoordinates coordinatesystem="WGS84" altrender="Latitudine">41°57′N</geographiccoordinates>
 									<geographiccoordinates coordinatesystem="WGS84" altrender="Longitudine">14°43′E</geographiccoordinates>
-									<!--<geographiccoordinates coordinatesystem="WGS84" altrender="Reticolo"></geographiccoordinates>-->
+									<!--<geographiccoordinates coordinatesystem="WGS84" altrender="Reticolo"> VALORE </geographiccoordinates>-->
 									<geographiccoordinates coordinatesystem="WGS84" altrender="Proiezione">Proiezione azimutale</geographiccoordinates>
 								</geogname>
 							</physfacet>

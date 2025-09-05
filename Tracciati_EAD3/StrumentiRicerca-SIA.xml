@@ -23,8 +23,8 @@
 				<edition localtype="Online">sì</edition>
 			</editionstmt>
 			<publicationstmt>
-				<date localtype="DataTestuale" altrender="..">2011</date> <!-- In mapping manca indicazione valori di Tipologia data -->
-				<date normal="2011" localtype="DataSingola">2011</date>	<!-- In mapping manca indicazione valori di Validità -->			
+				<date localtype="DataTestuale" altrender="Data singola">2011</date>
+				<date normal="2011" localtype="DataSingola">2011</date>
 				<date encodinganalog="QualificaData"></date> <!-- contenuto -->
 				<date encodinganalog="NoteAllaData">Data della stampa.</date> 
 			</publicationstmt>

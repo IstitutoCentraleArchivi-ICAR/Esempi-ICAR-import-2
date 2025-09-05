@@ -174,7 +174,6 @@
 					<datesingle localtype="DataTestuale" altrender="Data aperta (a partire da)">1991-</datesingle>
 					<daterange>
 						<fromdate standarddate="1991">1991</fromdate>
-						<!--<todate  standarddate="99999999"/>--> <!-- M171 dice che non si deve usare todate in data aperta -->
 					</daterange>
 				</dateset>
 			</relation>

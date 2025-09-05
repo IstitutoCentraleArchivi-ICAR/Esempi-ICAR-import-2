@@ -100,7 +100,7 @@
 									<part localtype="TracciatoSpecifico">Pergamena</part> 
 								</genreform>
 							</physfacet>
-							<physfacet localtype="StadioDocumento"> <!-- muovere @localtype da genreform a physfacet (per uniformare con gli altri physfacet) -->
+							<physfacet localtype="StadioDocumento">
 								<genreform>
 									<part>Originale</part>
 								</genreform>
