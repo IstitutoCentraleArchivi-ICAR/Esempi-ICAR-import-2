@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.san.beniculturali.it/tracciato/ead3.xsd" xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<control repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" scriptencoding="iso15924" langencoding="iso639-3">
+		 
+		<recordid>..ID record contenitore..</recordid>
+		<filedesc>
+			<titlestmt>
+				<titleproper/>
+			</titlestmt>
+		</filedesc>
+		<maintenancestatus value="derived"/>
+		<maintenanceagency>
+			<agencyname>ICAR</agencyname>
+		</maintenanceagency>
+		
+		<localcontrol localtype="AcronimoDiSistema"> 
+			<term>..Acronimo di sistema record contenitore..</term>
+		</localcontrol>
+		<localcontrol localtype="IdentificativoDiSistema"> 
+			<term>..Identificativo di sistema record contenitore..</term>
+		</localcontrol>
+		
+		<maintenancehistory>
+			<maintenanceevent>
+				<eventtype value="derived"/>
+				<eventdatetime>2025-09-21</eventdatetime>
+				<agenttype value="human"/>
+				<agent>Gruppo di lavoro ICAR</agent>
+			</maintenanceevent>
+		</maintenancehistory>
+		
+	</control>
+	<archdesc level="item">
+		<did>
+			<unitid>..ID record contenitore..</unitid>
+			<unittitle localtype="Denominazione">..Denominazione record contenitore..</unittitle>
+		</did>
+		
+		<controlaccess localtype="Authority">
+			<geogname lang="ita" id="SIA_TO_1182862" altrender="Completa">
+				<part localtype="AltroAuthority" identifier="IS3356" source="ISNI"/>
+				<part altrender="StatusScheda">Bozza</part>
+				<part localtype="Intestazione">Agrigento, Sicilia, Italia</part> <!-- verificare con Stella -->
+				<part localtype="Toponimo">Agrigento</part>
+				<part localtype="ToponimoStorico">Girgenti</part>
+				<part localtype="Stato">Italia</part>
+				<part localtype="Annotazioni">Nel 1927 Girgenti fu rinominata con il toponimo attuale.</part>
+				<part localtype="AltroCodice" identifier="TP66012" source="ASI"/> <!-- verificare con Stella -->
+				<part>
+					<ref arcrole="Compilatore" target="ICAR"> <!-- target è IDREF, meglio non usarlo -->
+						<name localtype="Azione"><part>Prima redazione</part></name> <!-- parte è obbligatorio. Non presente in mapping -->
+						<footnote localtype="NoteRedazionali"><p>...</p></footnote> <!-- contenuto. p obbligatorio, non presente in mapping -->
+						<date localtype="DataCompilazione">20250921</date> <!-- restrizioni sul formato della data? -->
+					</ref>
+					<ref arcrole="Osservazioni">
+						<footnote localtype="NoteLavoro"><p>Verificare formato intestazione.</p></footnote>
+					</ref>
+					<ref arcrole="GradoElaborazione">
+						<footnote localtype="StatoCompilazione"><p>pubblicazione locale</p></footnote>
+					</ref>
+				</part>
+				<geographiccoordinates altrender="Latitudine" coordinatesystem="">37°18′45″N</geographiccoordinates> <!-- coordinatesystem è obbligatorio in Ead. si lascia vuoto? -->
+				<geographiccoordinates altrender="Longitudine"  coordinatesystem="">13°34′30″E</geographiccoordinates>
+			</geogname>
+		</controlaccess>
+		<processinfo localtype="StatusScheda"> <!-- status della scheda contenitore -->
+			<p>pubblicata</p> 
+		</processinfo>
+	</archdesc>
+</ead>

@@ -86,7 +86,7 @@
 						<unittitle localtype="TitoloAttribuito">De significatione verborum</unittitle>
 						<unitdatestructured>
 							<dateset>
-								<datesingle localtype="DataTestuale" altrender="Intervallo di date" standarddate="1436-01-01/1445-12-31">post 1436 - ante 1445</datesingle>
+								<datesingle localtype="DataTestuale" altrender="Intervallo di date">post 1436 - ante 1445</datesingle>
 								<daterange>
 									<fromdate altrender="DataAttribuita" standarddate="1436-01-01">post 1436</fromdate>
 									<todate altrender="DataAttribuita" standarddate="1445-12-31">ante 1445</todate>
