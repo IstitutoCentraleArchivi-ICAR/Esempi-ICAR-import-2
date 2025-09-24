@@ -70,9 +70,6 @@
 			<didnote localtype="StatoDiConservazione">Discreto</didnote>
 			<didnote localtype="CondizioniDelMateriale">Le condizioni del materiale sono stabili e non presenta particolari problemi di conservazione.</didnote>
 			<didnote localtype="RestauroOAltriInterventi">Parte del fondo é stato soggetto a interventi di restauro.</didnote>
-			
-			<dao href="TE-245501" daotype="derived"/>
-			
 			<langmaterial label="LinguaDescrizione">
 				<language lang="ita"/>
 			</langmaterial>
@@ -159,7 +156,7 @@
 		
 		<relations>
 			<relation relationtype="cpfrelation">
-				<relationentry localtype="Soggetto produttore">SIA-AG-1021243</relationentry> <!-- in linea 134 del mapping lista controllata c'è "Soggetto produttore" (con spazio). In linea 57 senza spazio (validatore accetta solo con spazio -->
+				<relationentry localtype="Soggetto produttore">SIA-AG-1021243</relationentry>
 				<dateset>
 					<datesingle localtype="DataTestuale" altrender="Intervallo di date">1941-1984</datesingle>
 					<daterange>
@@ -342,10 +339,6 @@
 						<didnote localtype="StatoDiConservazione">Discreto</didnote>
 						<didnote localtype="CondizioniDelMateriale">Le condizioni del materiale sono stabili e non presenta particolari problemi di conservazione.</didnote>
 						<didnote localtype="RestauroOAltriInterventi">Fascicolo non restaurato.</didnote>
-						<daoset> <!-- in mapping non c'è daoset -->
-							<dao href="TE-2418399" daotype="derived"/> 
-							<dao href="TE-2418259" daotype="derived"/> 
-						</daoset>
 						<langmaterial label="LinguaDocumentazione">
 							<languageset> 
 								<language lang="ita"/>
@@ -407,7 +400,7 @@
 					</altformavail>
 					<relatedmaterial localtype="DocumentazioneEsterna">
 						<archref>
-							<title><part>Archivio storico della Città di Bolzano</part></title> <!-- in mapping manca part (obbligatorio in Ead) -->
+							<title><part>Archivio storico della Città di Bolzano</part></title>
 						<!-- contenuto descrizione -->
 							<ref href="https://opencity.comune.bolzano.it/Argomenti/Istruzione-cultura-e-sport/Cultura/Archivio-Storico" arcrole="xx qualifica del collegamento xx"><!-- contenuto campo Localizzazione --></ref>
 						</archref>
@@ -415,7 +408,7 @@
 					<relatedmaterial localtype="DocumentazioneInterna">
 						<archref>
 							<title><part>Agenzia delle entrate di Bolzano</part></title>
-						<!-- Descrizione --><!-- in mapping manca part (obbligatorio in Ead) -->
+						<!-- Descrizione -->
 							<ref linktitle="RelazioneConCA" arcrole="xx qualifica della relazione xx">ICAR-BZ-1500021</ref>
 						</archref>
 						<archref>
@@ -593,10 +586,6 @@
 							<didnote localtype="StatoDiConservazione">Discreto</didnote>
 							<didnote localtype="CondizioniDelMateriale">Le condizioni del materiale sono stabili e non presenta particolari problemi di conservazione.</didnote>
 							<didnote localtype="RestauroOAltriInterventi">Documento non restaurato.</didnote>
-							<daoset> <!-- in mapping non c'è daoset -->
-								<dao href="TE-2418399" daotype="derived"/> 
-								<dao href="TE-2418259" daotype="derived"/> 
-							</daoset>
 						</did>
 						<fileplan>
 							<p>

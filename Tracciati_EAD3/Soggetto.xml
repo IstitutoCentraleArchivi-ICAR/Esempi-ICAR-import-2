@@ -35,36 +35,34 @@
 			<unitid>..ID record contenitore..</unitid>
 			<unittitle localtype="Denominazione">..Denominazione record contenitore..</unittitle>
 		</did>
-		
 		<controlaccess localtype="Authority">
-			<geogname lang="ita" id="SIA_TO_1182862" altrender="Completa">
-				<part localtype="AltroAuthority" identifier="IS3356" source="ISNI"/>
+			<subject lang="ita" id="SIA_SOG_172853" altrender="Completa" source="SIAS">
+				<part localtype="AltroAuthority" identifier="IS4316" source="ISNI"/>
 				<part altrender="StatusScheda">Bozza</part>
-				<part localtype="Intestazione">Agrigento (Agrigento)</part> <!-- verificare con Stella -->
-				<part localtype="Toponimo">Agrigento</part>
-				<part localtype="ToponimoStorico">Girgenti</part>
-				<part localtype="Stato">Italia</part>
-				<part localtype="Annotazioni">Nel 1927 Girgenti fu rinominata con il toponimo attuale.</part>
-				<part localtype="AltroCodice" identifier="TP66012" source="ASI"/> <!-- verificare con Stella -->
-				<part>
+				<part localtype="Lemma">Affari risoluti</part>
+				<part localtype="Definizione">Si tratta principalmente di buste contenenti i fascicoli degli affari risolti a livello governativo. Gli affari potevano essere risolti e spediti secondo diverse modalità: - all'interno del Consiglio in presenza del Granduca. - dal Granduca fuori dal Consiglio. - dal Consiglio con le facoltà attribuitegli dal Granduca. - dai Direttori delle Segreterie con le facoltà attribuite loro dal Granduca come nel caso precedente.</part>
+				<part localtype="AltroCodice" identifier="SS56322" source="ASI"/> <!-- verificare con Stella -->
+				<part>				
+					<ref arcrole="SoggettoCorrelato" target="SIA_SOG_173312" linkrole="Associativo"/>
+					<ref arcrole="SoggettoCorrelato" target="SIA_SOG_173466" linkrole="Associativo"/>
 					<ref arcrole="Compilatore" target="ICAR"> <!-- target è IDREF, meglio non usarlo -->
 						<name localtype="Azione"><part>Prima redazione</part></name> <!-- part è obbligatorio. Non presente in mapping -->
 						<footnote localtype="NoteRedazionali"><p>...</p></footnote> <!-- contenuto. p obbligatorio, non presente in mapping -->
 						<date localtype="DataCompilazione">20250921</date> <!-- restrizioni sul formato della data? -->
 					</ref>
 					<ref arcrole="Osservazioni">
-						<footnote localtype="NoteLavoro"><p>Verificare formato intestazione.</p></footnote>
+						<footnote localtype="NoteLavoro"><p>Completare definizione.</p></footnote>
 					</ref>
 					<ref arcrole="GradoElaborazione">
 						<footnote localtype="StatoCompilazione"><p>pubblicazione locale</p></footnote>
 					</ref>
 				</part>
-				<geographiccoordinates altrender="Latitudine" coordinatesystem="">37°18′45″N</geographiccoordinates> <!-- coordinatesystem è obbligatorio in Ead. si lascia vuoto? -->
-				<geographiccoordinates altrender="Longitudine"  coordinatesystem="">13°34′30″E</geographiccoordinates>
-			</geogname>
+			</subject>	
 		</controlaccess>
+		
 		<processinfo localtype="StatusScheda"> <!-- status della scheda contenitore -->
 			<p>pubblicata</p> 
 		</processinfo>
+		
 	</archdesc>
 </ead>
