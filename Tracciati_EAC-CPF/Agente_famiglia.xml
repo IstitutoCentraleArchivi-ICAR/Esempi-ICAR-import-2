@@ -48,7 +48,7 @@
 					<dateSet>
 						<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)">sec. XVIII fine - </date> 
 						<dateRange>
-							<fromDate certainty="DataApprossimativa" localType="Secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
+							<fromDate certainty="DataApprossimativa" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
 							<toDate standardDate="99991231"/>
 						</dateRange>
 						<date localType="NoteAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
@@ -62,7 +62,7 @@
 					<dateSet> 
 						<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)">sec. XVIII fine - </date> 
 						<dateRange>
-							<fromDate certainty="DataApprossimativa" localType="Secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
+							<fromDate certainty="DataApprossimativa" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
 							<toDate standardDate="99991231"/>
 						</dateRange>
 						<date localType="NoteAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
@@ -91,7 +91,7 @@
 					<dateSet>
 						<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)">sec. XVIII fine - </date> 
 						<dateRange>
-							<fromDate certainty="DataApprossimativa" localType="Secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
+							<fromDate certainty="DataApprossimativa" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
 							<toDate standardDate="99991231"/>
 						</dateRange>
 						<date localType="NoteAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
@@ -102,7 +102,7 @@
 				<dateSet>
 					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)" eac-sia:qualificaData="Data di estinzione">sec. XVIII fine - </date> 
 					<dateRange>
-						<fromDate certainty="DataApprossimativa" localType="Secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
+						<fromDate certainty="DataApprossimativa" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
 						<toDate standardDate="99991231"/>
 					</dateRange>
 					<date localType="NoteAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
@@ -127,7 +127,7 @@
 				<dateSet>
 					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)">sec. XVIII fine - </date> 
 					<dateRange>
-						<fromDate certainty="DataApprossimativa" localType="Secolo" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
+						<fromDate certainty="DataApprossimativa" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
 						<toDate standardDate="99991231"/>
 					</dateRange>
 				</dateSet>

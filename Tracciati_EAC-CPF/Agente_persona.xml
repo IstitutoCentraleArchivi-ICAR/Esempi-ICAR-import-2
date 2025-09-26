@@ -53,7 +53,7 @@
 				<dateSet>
 					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">sec. XX inizio - 1981 apr. 1</date>
 					<dateRange>
-						<fromDate certainty="DataApprossimativa" localType="Secolo" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate> 
+						<fromDate certainty="DataApprossimativa" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate> 
 						<toDate standardDate="19810401">1981 apr. 1</toDate>
 					</dateRange>
 				</dateSet>
@@ -81,7 +81,7 @@
 					<dateSet>
 					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">sec. XX inizio - 1981 apr. 1</date>
 					<dateRange>
-						<fromDate certainty="DataApprossimativa" localType="Secolo" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate> 
+						<fromDate certainty="DataApprossimativa" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate> 
 						<toDate standardDate="19810401">1981 apr. 1</toDate>
 					</dateRange>
 					</dateSet>
@@ -105,7 +105,7 @@
 					<placeRole>Nascita</placeRole>
 					<dateSet> 	
 						<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data singola">sec. XX inizio</date>
-						<date certainty="DataApprossimativa" localType="Secolo" notBefore="19010101" notAfter="19101231">sec. XX inizio</date>
+						<date certainty="DataApprossimativa" notBefore="19010101" notAfter="19101231">sec. XX inizio</date>
 					</dateSet>
 				</place>
 				<place localType="LuogoPersona">
@@ -121,7 +121,7 @@
 			<dateSet>
 				<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date" eac-sia:qualificaData="Date di esistenza">sec. XX inizio - 1981 apr. 1</date>
 				<dateRange>
-					<fromDate certainty="DataApprossimativa" localType="Secolo" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate> 
+					<fromDate certainty="DataApprossimativa" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate> 
 					<toDate standardDate="19810401">1981 apr. 1</toDate>
 				</dateRange>
 			</dateSet>
@@ -157,7 +157,7 @@
 				<dateSet>
 					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">sec. XX inizio-1946</date>
 					<dateRange>
-						<fromDate standardDate="1901">sec. XX inizio</fromDate>
+						<fromDate certainty="DataApprossimativa" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate>
 						<toDate standardDate="1946">1946</toDate>
 					</dateRange>
 				</dateSet>
