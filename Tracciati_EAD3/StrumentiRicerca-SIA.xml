@@ -24,9 +24,9 @@
 			</editionstmt>
 			<publicationstmt>
 				<date localtype="DataTestuale" altrender="Data singola">2011</date>
-				<date normal="2011" localtype="DataSingola">2011</date>
-				<date encodinganalog="QualificaData"></date> <!-- contenuto -->
-				<date encodinganalog="NoteAllaData">Data della stampa.</date> 
+				<date localtype="QualificaData">...</date> <!-- contenuto -->
+				<date localtype="DataSingola" normal="2011">2011</date>
+				<date localtype="NoteAllaDatazione">Data della stampa.</date> 
 			</publicationstmt>
 			<notestmt>
 				<controlnote localtype="NoteStoricoRedazionali"><p>Inventario elaborato da funcionari dell'Archivio.</p></controlnote>

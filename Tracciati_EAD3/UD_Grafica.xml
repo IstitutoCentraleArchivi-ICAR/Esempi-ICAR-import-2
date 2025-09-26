@@ -57,7 +57,7 @@
 			<processinfo localtype="ComplessoArchivistico">
 				<chronlist>
 					<chronitem>
-						<datesingle>20250822</datesingle>
+						<datesingle>2025/08/22</datesingle>
 						<event>
 							<corpname relator="Compilatore">
 								<part localtype="Denominazione">ICAR-CP-1988029</part>
@@ -160,7 +160,7 @@
 						<processinfo localtype="UnitaDocumentale">
 							<chronlist>
 								<chronitem>
-									<datesingle>20250825</datesingle>
+									<datesingle>2025/08/25</datesingle>
 									<event>
 										<corpname relator="Compilatore">
 											<part localtype="Denominazione">ICAR-CP-1988029</part>

@@ -40,17 +40,20 @@
 			<geogname lang="ita" id="SIA_TO_1182862" altrender="Completa">
 				<part localtype="AltroAuthority" identifier="IS3356" source="ISNI"/>
 				<part altrender="StatusScheda">Bozza</part>
-				<part localtype="Intestazione">Agrigento (Agrigento)</part> <!-- verificare con Stella -->
+				<part localtype="Intestazione">Agrigento (Agrigento)</part>
 				<part localtype="Toponimo">Agrigento</part>
 				<part localtype="ToponimoStorico">Girgenti</part>
 				<part localtype="Stato">Italia</part>
 				<part localtype="Annotazioni">Nel 1927 Girgenti fu rinominata con il toponimo attuale.</part>
-				<part localtype="AltroCodice" identifier="TP66012" source="ASI"/> <!-- verificare con Stella -->
+				<part localtype="AltroCodice" identifier="TP66012" source="ASI"/>
 				<part>
-					<ref arcrole="Compilatore" target="ICAR"> <!-- target è IDREF, meglio non usarlo -->
-						<name localtype="Azione"><part>Prima redazione</part></name> <!-- part è obbligatorio. Non presente in mapping -->
-						<footnote localtype="NoteRedazionali"><p>...</p></footnote> <!-- contenuto. p obbligatorio, non presente in mapping -->
-						<date localtype="DataCompilazione">20250921</date> <!-- restrizioni sul formato della data? -->
+					<ref arcrole="Compilatore">
+						<corpname>
+							<part>ICAR-CP-1988029</part>
+						</corpname>
+						<name localtype="Azione"><part>Prima redazione</part></name>
+						<footnote localtype="NoteRedazionali"><p>...</p></footnote>
+						<date localtype="DataCompilazione">2025/09/21</date>
 					</ref>
 					<ref arcrole="Osservazioni">
 						<footnote localtype="NoteLavoro"><p>Verificare formato intestazione.</p></footnote>
@@ -59,8 +62,8 @@
 						<footnote localtype="StatoCompilazione"><p>pubblicazione locale</p></footnote>
 					</ref>
 				</part>
-				<geographiccoordinates altrender="Latitudine" coordinatesystem="">37°18′45″N</geographiccoordinates> <!-- coordinatesystem è obbligatorio in Ead. si lascia vuoto? -->
-				<geographiccoordinates altrender="Longitudine"  coordinatesystem="">13°34′30″E</geographiccoordinates>
+				<geographiccoordinates altrender="Latitudine" coordinatesystem="WGS84">37.311199</geographiccoordinates> 
+				<geographiccoordinates altrender="Longitudine"  coordinatesystem="WGS84">13.586655</geographiccoordinates>
 			</geogname>
 		</controlaccess>
 		<processinfo localtype="StatusScheda"> <!-- status della scheda contenitore -->

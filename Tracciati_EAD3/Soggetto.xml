@@ -41,14 +41,19 @@
 				<part altrender="StatusScheda">Bozza</part>
 				<part localtype="Lemma">Affari risoluti</part>
 				<part localtype="Definizione">Si tratta principalmente di buste contenenti i fascicoli degli affari risolti a livello governativo. Gli affari potevano essere risolti e spediti secondo diverse modalità: - all'interno del Consiglio in presenza del Granduca. - dal Granduca fuori dal Consiglio. - dal Consiglio con le facoltà attribuitegli dal Granduca. - dai Direttori delle Segreterie con le facoltà attribuite loro dal Granduca come nel caso precedente.</part>
-				<part localtype="AltroCodice" identifier="SS56322" source="ASI"/> <!-- verificare con Stella -->
+				<part localtype="AltroCodice" identifier="SS56322" source="ASI"/>
 				<part>				
-					<ref arcrole="SoggettoCorrelato" target="SIA_SOG_173312" linkrole="Associativo"/>
-					<ref arcrole="SoggettoCorrelato" target="SIA_SOG_173466" linkrole="Associativo"/>
-					<ref arcrole="Compilatore" target="ICAR"> <!-- target è IDREF, meglio non usarlo -->
-						<name localtype="Azione"><part>Prima redazione</part></name> <!-- part è obbligatorio. Non presente in mapping -->
-						<footnote localtype="NoteRedazionali"><p>...</p></footnote> <!-- contenuto. p obbligatorio, non presente in mapping -->
-						<date localtype="DataCompilazione">20250921</date> <!-- restrizioni sul formato della data? -->
+					<ref arcrole="SoggettoCorrelato" linkrole="Associativo">SIA_SOG_173312</ref> <!-- errore in M528, dice che @source è obbligatorio -->
+					<ref arcrole="SoggettoCorrelato" linkrole="Associativo">SIA_SOG_173466</ref>
+					
+					
+					<ref arcrole="Compilatore">
+						<corpname>
+							<part>ICAR-CP-1988029</part>
+						</corpname>
+						<name localtype="Azione"><part>Prima redazione</part></name>
+						<footnote localtype="NoteRedazionali"><p>...</p></footnote>
+						<date localtype="DataCompilazione">2025/09/21</date> 
 					</ref>
 					<ref arcrole="Osservazioni">
 						<footnote localtype="NoteLavoro"><p>Completare definizione.</p></footnote>
