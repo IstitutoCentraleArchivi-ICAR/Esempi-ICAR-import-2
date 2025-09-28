@@ -36,9 +36,9 @@
 			<unittitle localtype="Denominazione">..Denominazione contenitore..</unittitle> 
 			<unitdatestructured>
 				<dateset>
-					<datesingle localtype="DataTestuale" altrender="Intervallo di date">1941-1984</datesingle>
+					<datesingle localtype="DataTestuale" altrender="Intervallo di date">1600-1984</datesingle>
 					<daterange>
-						<fromdate standarddate="1941">1941</fromdate>
+						<fromdate standarddate="1600">1600</fromdate>
 						<todate standarddate="1984">1984</todate>
 					</daterange>
 				</dateset>
@@ -87,8 +87,8 @@
 						<unittitle localtype="TitoloAttribuito">Canonichesse regolari Lateranensi (Rocchettine) dello Spirito S in S. Pudenziana, b. 4229/17 (15 apr. 1721)</unittitle>
 						<unitdatestructured>
 							<dateset>
-								<datesingle localtype="DataTestuale" altrender="Data singola">1721 apr. 15</datesingle>
-								<datesingle localtype="DataSingola" standarddate="1721-04-15">1721 apr. 15</datesingle>
+								<datesingle localtype="DataTestuale" altrender="Data singola">sec. XVII inizio</datesingle>
+								<datesingle localtype="DataSingola" altrender="DataAttribuita" notbefore="1601-01-01" notafter="1610-12-31"/>
 							</dateset>
 						</unitdatestructured>
 						<physdescstructured physdescstructuredtype="materialtype" coverage="part">
@@ -157,7 +157,7 @@
 						<geogname><part>Roma</part></geogname>
 					</controlaccess>
 					<processinfo localtype="StatusScheda">
-						<p>pubblicata</p> 
+						<p>Pubblicata</p> 
 					</processinfo>
 					<processinfo localtype="Compilazione">
 						<processinfo localtype="UnitaDocumentale">
