@@ -75,8 +75,10 @@
 				<p>In appendice: I concetti dell'informatica, dello stesso autore</p>
 			</odd>
 		</odd>
-		<accessrestrict localtype="VisibilitaFE"> <!-- VisibilitaFE della scheda contenitore -->
-			<p>Completa</p>
+		<accessrestrict>
+			<accessrestrict localtype="VisibilitaFE">  <!-- VisibilitaFE della scheda contenitore -->
+				<p>Completa</p>
+			</accessrestrict>
 		</accessrestrict>
 		<processinfo localtype="StatusScheda"> <!-- status della scheda contenitore -->
 			<p>Pubblicata</p> 

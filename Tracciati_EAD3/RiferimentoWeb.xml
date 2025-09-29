@@ -47,8 +47,11 @@
 				<p>Questa pagina è stata modificata per l'ultima volta il 13 mar 2025 alle 16:17.</p>
 			</odd>
 		</odd>
-		<accessrestrict localtype="VisibilitaFE"> <!-- VisibilitaFE della scheda contenitore -->
-			<p>Completa</p>
+		
+		<accessrestrict>
+			<accessrestrict localtype="VisibilitaFE">  <!-- VisibilitaFE della scheda contenitore -->
+				<p>Completa</p>
+			</accessrestrict>
 		</accessrestrict>
 		<processinfo localtype="StatusScheda"> <!-- status della scheda contenitore -->
 			<p>Pubblicata</p> 

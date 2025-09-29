@@ -40,8 +40,10 @@
 				<language lang="ita"/>
 			</langmaterial>
 		</did>
-		<accessrestrict localtype="VisibilitaFE">
-			<p>Completa</p>
+		<accessrestrict>
+			<accessrestrict localtype="VisibilitaFE">
+				<p>Completa</p>
+			</accessrestrict>
 		</accessrestrict>
 		<processinfo localtype="StatusScheda">
 			<p>Bozza</p>
@@ -82,7 +84,7 @@
 							<dateset>
 								<datesingle localtype="DataTestuale" altrender="Data singola">1956 gen. 15</datesingle>
 								<datesingle localtype="DataSingola" standarddate="1956-01-15">1956 gen. 15</datesingle>
-								<datesingle localtype="dataTopica">
+								<datesingle localtype="DataTopica">
 									<ref>
 										<geogname><part>SIA-LG-2423324</part></geogname>
 									</ref>
@@ -132,8 +134,10 @@
 						</subject>
 					</p>
 				</fileplan>
-					<accessrestrict localtype="VisibilitaFE">
-						<p>Completa</p>
+					<accessrestrict>
+						<accessrestrict localtype="VisibilitaFE">
+							<p>Completa</p>
+						</accessrestrict>
 					</accessrestrict>
 					<accessrestrict localtype="CondizioniAccesso">
 						<p>Liberamente accessibile</p>

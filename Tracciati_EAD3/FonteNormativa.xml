@@ -63,6 +63,12 @@
 				<p>Pubblicato in GU n.100 del 29-04-1930</p>
 			</odd>
 		</odd>
+		
+		<accessrestrict>
+			<accessrestrict localtype="VisibilitaFE">  <!-- VisibilitaFE della scheda contenitore -->
+				<p>Completa</p>
+			</accessrestrict>
+		</accessrestrict>
 		<processinfo localtype="StatusScheda"> <!-- status della scheda contenitore -->
 			<p>Pubblicata</p> 
 		</processinfo>

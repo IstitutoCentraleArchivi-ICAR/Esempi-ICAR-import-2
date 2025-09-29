@@ -95,8 +95,10 @@
 		<odd localtype="AltreInfo"> <!-- così o dentro un altro odd? (in mapping è dentro altro odd) -->
 			<p>Parte del fondo é stato digitalizzato.</p>
 		</odd>
-		<accessrestrict localtype="VisibilitaFE">
-			<p>Completa</p>
+		<accessrestrict>
+			<accessrestrict localtype="VisibilitaFE">
+				<p>Completa</p>
+			</accessrestrict>
 		</accessrestrict>
 		<accessrestrict localtype="CondizioniAccesso">
 			<p>Liberamente accessibile</p>
@@ -253,8 +255,10 @@
 				<custodhist>
 					<p>La serie Danni di guerra fu consegnata dall'Intendenza di Finanza di Bolzano all'Archivio di Stato mediante vari versamenti tra il 30 giugno 1987 e l'8 marzo 1988.</p>
 				</custodhist>
-				<accessrestrict localtype="VisibilitaFE">
-					<p>Completa</p>
+				<accessrestrict>
+					<accessrestrict localtype="VisibilitaFE">
+						<p>Completa</p>
+					</accessrestrict>
 				</accessrestrict>
 				<relations>
 					<relation relationtype="resourcerelation">
@@ -363,8 +367,10 @@
 					<arrangement localtype="Numerazione">
 						<p><num localtype="Numeri arabi">2 (numerazione del fascicolo)</num></p>
 					</arrangement>
-					<accessrestrict localtype="VisibilitaFE">
-						<p>Completa</p>
+					<accessrestrict>
+						<accessrestrict localtype="VisibilitaFE">
+							<p>Completa</p>
+						</accessrestrict>
 					</accessrestrict>
 					<accessrestrict localtype="CondizioniAccesso">
 						<p>Liberamente accessibile</p>
@@ -522,7 +528,7 @@
 								<dateset>
 									<datesingle localtype="DataTestuale" altrender="Data singola">1946 ott. 15</datesingle>
 									<datesingle localtype="DataSingola" standarddate="1946-10-15">1946 ott. 15</datesingle>
-									<datesingle localtype="dataTopica">
+									<datesingle localtype="DataTopica">
 										<ref>
 											<geogname><part>SIA-LG-2418324</part></geogname>
 										</ref>
@@ -605,8 +611,10 @@
 						<arrangement localtype="CriteriOrdinamento">
 							<p></p>
 						</arrangement>
-						<accessrestrict localtype="VisibilitaFE">
-							<p>Completa</p>
+						<accessrestrict>
+							<accessrestrict localtype="VisibilitaFE">
+								<p>Completa</p>
+							</accessrestrict>
 						</accessrestrict>
 						<accessrestrict localtype="CondizioniAccesso">
 							<p>Liberamente accessibile</p>

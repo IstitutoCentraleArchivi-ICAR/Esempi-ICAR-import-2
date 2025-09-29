@@ -12,14 +12,7 @@
 		<maintenanceagency>
 			<agencyname>...</agencyname>
 		</maintenanceagency>
-		
-		<localcontrol localtype="AcronimoDiSistema"> 
-			<term>SIA</term>
-		</localcontrol>
-		<localcontrol localtype="IdentificativoDiSistema"> 
-			<term>...</term>
-		</localcontrol>
-		
+
 		<maintenancehistory>
 			<maintenanceevent>
 				<eventtype value="created"/>
@@ -32,7 +25,7 @@
 	</control>
 	<archdesc level="fonds">
 		<did>
-			<unitid>..ID contenitore..</unitid> 
+			<unitid label="..AcronimoDiSistema contenitore.." identifier="..IdentificativoDiSistema contenitore..">..ID record contenitore..</unitid>
 			<unittitle localtype="Denominazione">..Denominazione contenitore..</unittitle> 
 			<unitdatestructured>
 				<dateset>
@@ -47,8 +40,10 @@
 				<language lang="ita"/>
 			</langmaterial>
 		</did>
-		<accessrestrict localtype="VisibilitaFE">
-			<p>Completa</p>
+		<accessrestrict>
+			<accessrestrict localtype="VisibilitaFE">
+				<p>Completa</p>
+			</accessrestrict>
 		</accessrestrict>
 		<processinfo localtype="StatusScheda">
 			<p>Bozza</p>
@@ -74,7 +69,7 @@
 		<dsc>
 			<c level="item">
 				<did>
-						<unitid>SIA-UD-2013122</unitid>
+						<unitid label="SIA" identifier="2013122">SIA-UD-2013122</unitid>
 						<unitid localtype="AltroId" label="SIAS">IT-ASBO-0002139</unitid>
 						<unitid localtype="IdPrecedente">SIcod1151</unitid> 
 						<unitid localtype="NumeroSequenza">199</unitid>
@@ -121,8 +116,10 @@
 					<scopecontent localtype="DescrizioneContenuto">
 						<p>Piante, prospetti, sezioni, particolari costruttivi delle coperture metalliche, disegno relativo alla sopraelevazione; pubblicazione "Nuovo progetto di ampliamento della stazione di Bologna" (1914)</p>
 					</scopecontent>
-					<accessrestrict localtype="VisibilitaFE">
-						<p>Completa</p>
+					<accessrestrict>
+						<accessrestrict localtype="VisibilitaFE">
+							<p>Completa</p>
+						</accessrestrict>
 					</accessrestrict>
 					<accessrestrict localtype="CondizioniAccesso">
 						<p>Liberamente accessibile</p>
@@ -130,7 +127,7 @@
 							<p>Non ci sono restrizioni all'accesso.</p>
 						</accessrestrict>
 					</accessrestrict>
-					<userestrict>
+					<userestrict localtype="Riproduzione">
 						<p>Riproduzione libera</p>
 						<userestrict localtype="NoteCondizioniUtilizzo">
 							<p>Non si sono restrizioni all'utilizzo del documento.</p>
@@ -154,7 +151,7 @@
 						<geogname><part>Stazione Centrale</part></geogname>
 					</controlaccess>
 					<processinfo localtype="StatusScheda">
-						<p>pubblicata</p> 
+						<p>Pubblicata</p> 
 					</processinfo>
 					<processinfo localtype="Compilazione">
 						<processinfo localtype="UnitaDocumentaria">

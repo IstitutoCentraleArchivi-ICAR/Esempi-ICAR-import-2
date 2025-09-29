@@ -13,13 +13,6 @@
 			<agencyname>...</agencyname>
 		</maintenanceagency>
 		
-		<localcontrol localtype="AcronimoDiSistema"> 
-			<term>SIA</term>
-		</localcontrol>
-		<localcontrol localtype="IdentificativoDiSistema"> 
-			<term>...</term>
-		</localcontrol>
-		
 		<maintenancehistory>
 			<maintenanceevent>
 				<eventtype value="created"/>
@@ -32,7 +25,7 @@
 	</control>
 	<archdesc level="fonds">
 		<did>
-			<unitid>..ID contenitore..</unitid> 
+			<unitid label="..AcronimoDiSistema contenitore.." identifier="..IdentificativoDiSistema contenitore..">..ID record contenitore..</unitid>
 			<unittitle localtype="Denominazione">..Denominazione contenitore..</unittitle> 
 			<unitdatestructured>
 				<dateset>
@@ -47,8 +40,10 @@
 				<language lang="ita"/>
 			</langmaterial>
 		</did>
-		<accessrestrict localtype="VisibilitaFE">
-			<p>Completa</p>
+		<accessrestrict>
+			<accessrestrict localtype="VisibilitaFE">
+				<p>Completa</p>
+			</accessrestrict>
 		</accessrestrict>
 		<processinfo localtype="StatusScheda">
 			<p>Bozza</p>
@@ -74,7 +69,7 @@
 		<dsc>
 			<c level="item">
 				<did>
-						<unitid>SIA-UD-2013112</unitid>
+						<unitid label="SIA" identifier="2013112">SIA-UD-2013112</unitid>
 						<unitid localtype="AltroId" label="SIAS">IT-ASBZ-F230003363</unitid>
 						<unitid localtype="IdPrecedente">SIcod1135</unitid> 
 						<unitid localtype="NumeroSequenza">198</unitid>
@@ -84,11 +79,16 @@
 						<unitid label="SegnaturaPrecedente" localtype="SIAS">SI-ITBZ-00152</unitid>
 						<unittitle localtype="TitoloOriginale">Canonichesse regolari Lateranensi (Rocchettine) dello Spirito S</unittitle> 
 						<unittitle label="IntegrazioneTitolo">in S. Pudenziana</unittitle> 
-						<unittitle localtype="TitoloAttribuito">Canonichesse regolari Lateranensi (Rocchettine) dello Spirito S in S. Pudenziana, b. 4229/17 (15 apr. 1721)</unittitle>
+						<unittitle localtype="TitoloAttribuito">Canonichesse regolari Lateranensi (Rocchettine) dello Spirito S in S. Pudenziana, b. 4229/17 (sec. XVII inizio)</unittitle>
 						<unitdatestructured>
 							<dateset>
 								<datesingle localtype="DataTestuale" altrender="Data singola">sec. XVII inizio</datesingle>
 								<datesingle localtype="DataSingola" altrender="DataAttribuita" notbefore="1601-01-01" notafter="1610-12-31"/>
+								<datesingle localtype="DataTopica">
+									<ref>
+										<geogname><part>SIA-LG-2421668</part></geogname>
+									</ref>
+								</datesingle>
 							</dateset>
 						</unitdatestructured>
 						<physdescstructured physdescstructuredtype="materialtype" coverage="part">
@@ -124,8 +124,10 @@
 					<scopecontent localtype="Regesto">
 						<p>Suor Giacinta, al secolo Costantina del Cotti, figlia di Gerolamo e di Giovanna Paola Napolioni, pronuncia e legge la professione di fede perpetua, in presenza del canonico Giovanni Battista Bella, decano della collegiata di Sant’Angelo in Pescheria, in rappresentanza di Giovan Domenico Parracciani, cardinale del titolo di Sant’Anastasia e vicario di Roma e di Barbara Maria Brogi, madre badessa del monastero dello Spirito Santo di Roma.</p>
 					</scopecontent>
-					<accessrestrict localtype="VisibilitaFE">
-						<p>Completa</p>
+					<accessrestrict>
+						<accessrestrict localtype="VisibilitaFE">
+							<p>Completa</p>
+						</accessrestrict>
 					</accessrestrict>
 					<accessrestrict localtype="CondizioniAccesso">
 						<p>Liberamente accessibile</p>
@@ -133,7 +135,7 @@
 							<p>Non ci sono restrizioni all'accesso.</p>
 						</accessrestrict>
 					</accessrestrict>
-					<userestrict>
+					<userestrict localtype="Riproduzione">
 						<p>Riproduzione libera</p>
 						<userestrict localtype="NoteCondizioniUtilizzo">
 							<p>Non si sono restrizioni all'utilizzo del documento.</p>
