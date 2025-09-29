@@ -23,7 +23,7 @@
 		</maintenancehistory>
 		
 	</control>
-	<archdesc level="item">
+	<archdesc level="fonds">
 		<did>
 			<unitid label="..AcronimoDiSistema contenitore.." identifier="..IdentificativoDiSistema contenitore..">..ID record contenitore..</unitid>
 			<unittitle localtype="Denominazione">..Denominazione record contenitore..</unittitle>

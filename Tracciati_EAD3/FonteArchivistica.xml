@@ -13,13 +13,6 @@
 			<agencyname>ICAR</agencyname>
 		</maintenanceagency>
 		
-		<localcontrol localtype="AcronimoDiSistema"> 
-			<term>..Acronimo di sistema record contenitore..</term>
-		</localcontrol>
-		<localcontrol localtype="IdentificativoDiSistema"> 
-			<term>..Identificativo di sistema record contenitore..</term>
-		</localcontrol>
-		
 		<maintenancehistory>
 			<maintenanceevent>
 				<eventtype value="derived"/>
@@ -30,9 +23,9 @@
 		</maintenancehistory>
 		
 	</control>
-	<archdesc level="item"> 
+	<archdesc level="fonds"> 
 		<did>
-			<unitid>..ID record contenitore..</unitid>
+			<unitid label="..AcronimoDiSistema contenitore.." identifier="..IdentificativoDiSistema contenitore..">..ID record contenitore..</unitid>
 			<unittitle localtype="Denominazione">..Denominazione record contenitore..</unittitle>
 		</did> 
 		
@@ -58,8 +51,11 @@
 				<p>Una parte dei documenti è stata sottoposta a processi di restaurazione.</p>
 			</odd>
 		</odd>
+		<accessrestrict localtype="VisibilitaFE"> <!-- VisibilitaFE della scheda contenitore -->
+			<p>Completa</p>
+		</accessrestrict>
 		<processinfo localtype="StatusScheda"> <!-- status della scheda contenitore -->
-			<p>pubblicata</p> 
+			<p>Pubblicata</p> 
 		</processinfo>
 		<processinfo localtype="Compilazione">
 			<processinfo localtype="FonteArchivistica">

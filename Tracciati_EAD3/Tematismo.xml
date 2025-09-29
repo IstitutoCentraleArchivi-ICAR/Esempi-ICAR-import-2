@@ -13,13 +13,6 @@
 			<agencyname>ICAR</agencyname>
 		</maintenanceagency>
 		
-		<localcontrol localtype="AcronimoDiSistema"> 
-			<term>..Acronimo di sistema record contenitore..</term>
-		</localcontrol>
-		<localcontrol localtype="IdentificativoDiSistema"> 
-			<term>..Identificativo di sistema record contenitore..</term>
-		</localcontrol>
-		
 		<maintenancehistory>
 			<maintenanceevent>
 				<eventtype value="derived"/>
@@ -30,9 +23,9 @@
 		</maintenancehistory>
 		
 	</control>
-	<archdesc level="item">
+	<archdesc level="fonds">
 		<did>
-			<unitid>..ID record contenitore..</unitid>
+			<unitid label="..AcronimoDiSistema contenitore.." identifier="..IdentificativoDiSistema contenitore..">..ID record contenitore..</unitid>
 			<unittitle localtype="Denominazione">..Denominazione record contenitore..</unittitle>
 		</did>
 		
@@ -49,8 +42,11 @@
 				<p>Gli enti territoriali curano gli interessi (e sono, quindi, enti esponenziali) di una collettività costituita da tutti coloro che risiedono nel loro territorio (che può essere l'intero territorio nazionale o una sua parte, ossia una circoscrizione), vale a dire di comunità territoriale nella sua interezza, il che conferisce loro il carattere della politicità. Lo Stato è ente sovrano, mentre gli enti territoriali locali sono enti autonomi, in quanto curano gli interessi di una collettività in posizione di più o meno ampia autonomia dallo Stato e da altri enti pubblici.</p>
 			</odd>
 		</odd>
+		<accessrestrict localtype="VisibilitaFE"> <!-- VisibilitaFE della scheda contenitore -->
+			<p>Completa</p>
+		</accessrestrict>
 		<processinfo localtype="StatusScheda"> <!-- status della scheda contenitore -->
-			<p>pubblicata</p> 
+			<p>Pubblicata</p> 
 		</processinfo>
 		<processinfo localtype="Compilazione">
 			<processinfo localtype="Tematismo">

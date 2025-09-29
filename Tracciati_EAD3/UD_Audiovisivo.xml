@@ -12,14 +12,7 @@
 		<maintenanceagency>
 			<agencyname>...</agencyname>
 		</maintenanceagency>
-		
-		<localcontrol localtype="AcronimoDiSistema"> 
-			<term>SIA</term>
-		</localcontrol>
-		<localcontrol localtype="IdentificativoDiSistema"> 
-			<term>...</term>
-		</localcontrol>
-		
+
 		<maintenancehistory>
 			<maintenanceevent>
 				<eventtype value="created"/>
@@ -32,7 +25,7 @@
 	</control>
 	<archdesc level="fonds">
 		<did>
-			<unitid>..ID contenitore..</unitid> 
+			<unitid label="..AcronimoDiSistema contenitore.." identifier="..IdentificativoDiSistema contenitore..">..ID record contenitore..</unitid>
 			<unittitle localtype="Denominazione">..Denominazione contenitore..</unittitle> 
 			<unitdatestructured>
 				<dateset>
@@ -74,7 +67,7 @@
 		<dsc>
 			<c level="item">
 				<did>
-						<unitid>SIA-UD-2013111</unitid>
+						<unitid label="SIA" identifier="2013111">SIA-UD-2013111</unitid>
 						<unitid localtype="AltroId" label="SIAS">IT-ASBZ-F230003563</unitid>
 						<unitid localtype="IdPrecedente">SIcod1132</unitid> 
 						<unitid localtype="NumeroSequenza">189</unitid>
@@ -89,6 +82,11 @@
 							<dateset>
 								<datesingle localtype="DataTestuale" altrender="Data singola">1956 gen. 15</datesingle>
 								<datesingle localtype="DataSingola" standarddate="1956-01-15">1956 gen. 15</datesingle>
+								<datesingle localtype="dataTopica">
+									<ref>
+										<geogname><part>SIA-LG-2423324</part></geogname>
+									</ref>
+								</datesingle>
 							</dateset>
 						</unitdatestructured>
 						<physdescstructured physdescstructuredtype="materialtype" coverage="part">
@@ -143,7 +141,7 @@
 							<p>Non ci sono restrizioni all'accesso.</p>
 						</accessrestrict>
 					</accessrestrict>
-					<userestrict>
+					<userestrict localtype="Riproduzione">
 						<p>Riproduzione libera</p>
 						<userestrict localtype="NoteCondizioniUtilizzo">
 							<p>Non si sono restrizioni all'utilizzo del documento.</p>
@@ -167,10 +165,10 @@
 						<geogname><part>Londra</part></geogname>
 					</controlaccess>
 					<processinfo localtype="StatusScheda">
-						<p>pubblicata</p> 
+						<p>Pubblicata</p> 
 					</processinfo>
 					<processinfo localtype="Compilazione">
-						<processinfo localtype="UnitaDocumentale">
+						<processinfo localtype="UnitaDocumentaria">
 							<chronlist>
 								<chronitem>
 									<datesingle>2025/02/22</datesingle>

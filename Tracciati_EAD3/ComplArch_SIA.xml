@@ -12,14 +12,7 @@
 		<maintenanceagency>
 			<agencyname>Archivio di Stato di Bolzano</agencyname>
 		</maintenanceagency>
-		<!--
-		<localcontrol localtype="AcronimoDiSistema"> 
-			<term>SIA</term>
-		</localcontrol>
-		<localcontrol localtype="IdentificativoDiSistema"> 
-			<term>2013153</term>
-		</localcontrol>
-		-->
+
 		<maintenancehistory>
 			<maintenanceevent>
 				<eventtype value="created"/>
@@ -70,6 +63,7 @@
 			<didnote localtype="StatoDiConservazione">Discreto</didnote>
 			<didnote localtype="CondizioniDelMateriale">Le condizioni del materiale sono stabili e non presenta particolari problemi di conservazione.</didnote>
 			<didnote localtype="RestauroOAltriInterventi">Parte del fondo é stato soggetto a interventi di restauro.</didnote>
+			<didnote localtype="PeriodizzazioneOTipologia"></didnote> <!-- contenuto -->
 			<langmaterial label="LinguaDescrizione">
 				<language lang="ita"/>
 			</langmaterial>
@@ -110,7 +104,7 @@
 				<p>Non ci sono restrizioni all'accesso.</p>
 			</accessrestrict>
 		</accessrestrict>
-		<userestrict>
+		<userestrict localtype="Riproduzione">
 			<p>Riproduzione libera</p>
 			<userestrict localtype="NoteCondizioniUtilizzo">
 				<p>Non si sono restrizioni all'utilizzo dei documenti.</p>
@@ -243,7 +237,7 @@
 		<dsc>
 			<c level="series"> 					
 				<did>
-					<unitid>SIA-CA-2013153</unitid> 
+					<unitid label="SIA" identifier="2013155">SIA-CA-2013155</unitid> 
 					<unittitle localtype="Denominazione">Danni di Guerra</unittitle>
 					<unitdatestructured>
 						<dateset>
@@ -268,7 +262,7 @@
 					</relation>
 				</relations>
 				<processinfo localtype="StatusScheda">
-					<p>pubblicata</p> 
+					<p>Pubblicata</p> 
 				</processinfo>
 				<processinfo localtype="Compilazione">
 					<processinfo localtype="ComplessoArchivistico">
@@ -291,7 +285,7 @@
 				
 				<c level="file">
 					<did>
-						<unitid>SIA-UA-2013159</unitid>
+						<unitid label="SIA" identifier="2013159">SIA-UA-2013159</unitid>
 						<unitid localtype="AltroId" label="SIAS">IT-ASBZ-F230000251</unitid>
 						<unitid localtype="IdPrecedente">SIcod055</unitid> 
 						<unitid localtype="NumeroSequenza">1556</unitid> 
@@ -378,7 +372,7 @@
 							<p>Non ci sono restrizioni all'accesso.</p>
 						</accessrestrict>
 					</accessrestrict>
-					<userestrict>
+					<userestrict localtype="Riproduzione">
 						<p>Riproduzione libera</p>
 						<userestrict localtype="NoteCondizioniUtilizzo">
 							<p>Non si sono restrizioni all'utilizzo dei documenti.</p>
@@ -490,7 +484,7 @@
 						</odd>
 					</odd>
 					<processinfo localtype="StatusScheda">
-						<p>pubblicata</p> 
+						<p>Pubblicata</p> 
 					</processinfo>
 					<processinfo localtype="Compilazione">
 						<processinfo localtype="UnitaArchivistica">
@@ -513,7 +507,7 @@
 					
 					<c level="item">
 						<did>
-							<unitid>SIA-UD-2013229</unitid>
+							<unitid label="SIA" identifier="2013229">SIA-UD-2013229</unitid>
 							<unitid localtype="AltroId" label="SIAS">IT-ASBZ-F230003577</unitid>
 							<unitid localtype="IdPrecedente">SIcod1131</unitid> 
 							<unitid localtype="NumeroSequenza">1876</unitid> 
@@ -528,6 +522,11 @@
 								<dateset>
 									<datesingle localtype="DataTestuale" altrender="Data singola">1946 ott. 15</datesingle>
 									<datesingle localtype="DataSingola" standarddate="1946-10-15">1946 ott. 15</datesingle>
+									<datesingle localtype="dataTopica">
+										<ref>
+											<geogname><part>SIA-LG-2418324</part></geogname>
+										</ref>
+									</datesingle>
 								</dateset>
 							</unitdatestructured>
 							<physdescstructured physdescstructuredtype="materialtype" coverage="part">
@@ -615,7 +614,7 @@
 								<p>Non ci sono restrizioni all'accesso.</p>
 							</accessrestrict>
 						</accessrestrict>
-						<userestrict>
+						<userestrict localtype="Riproduzione">
 							<p>Riproduzione libera</p>
 							<userestrict localtype="NoteCondizioniUtilizzo">
 								<p>Non si sono restrizioni all'utilizzo dei documenti.</p>
@@ -722,10 +721,10 @@
 							</odd>
 						</odd>
 						<processinfo localtype="StatusScheda">
-							<p>pubblicata</p> 
+							<p>Pubblicata</p> 
 						</processinfo>
 						<processinfo localtype="Compilazione">
-							<processinfo localtype="UnitaDocumentale">
+							<processinfo localtype="UnitaDocumentaria">
 								<chronlist>
 									<chronitem>
 										<datesingle>2025/02/22</datesingle>
