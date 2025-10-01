@@ -48,8 +48,7 @@
 					<dateSet>
 						<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)">sec. XVIII fine - </date> 
 						<dateRange>
-							<fromDate certainty="DataApprossimativa" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
-							<toDate standardDate="99991231"/>
+							<fromDate certainty="DataApprossimativa" notBefore="1791-01-01" notAfter="1800-12-31">sec. XVIII fine</fromDate>
 						</dateRange>
 						<date localType="NoteAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
 					</dateSet> 
@@ -97,7 +96,7 @@
 			</places>
 			<existDates localType="DateEsistenzaFamiglia">
 				<dateSet>
-					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)" eac-sia:qualificaData="Data di estinzione">sec. XVIII fine - </date> 
+					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)" eac-sia:qualificaData="Data di origine">sec. XVIII fine - </date> 
 					<dateRange>
 						<fromDate certainty="DataApprossimativa" notBefore="1791-01-01" notAfter="1800-12-31">sec. XVIII fine</fromDate>
 					</dateRange>
@@ -105,8 +104,7 @@
 				</dateSet>
 			</existDates>
 			<biogHist> 
-				<p>Dalla documentazione conservata in archivio, sappiamo che la famiglia era sicuramente esistente alla fine del sec. XVIII. Tra i suoi membri si segnalano Giuseppe Fabozzi (1799-1860), dal 1834 medico primario di Amandola ed in seguito gonfaloniere della città; l'avvocato Fernando Cruciani (1836-1898), giudice mandamentale a Cascia e dal 1862 pretore ad Amandola e Sarnano; Luigia Fabozzi (1839-1911).</p>
-				<p>Di particolare rilievo è Giuseppe Cruciani Fabozzi, figlio di Fernando Cruciani, nato ad Amandola nel 1865 e morto a Firenze nel 1952. Ingegnere, fu attivo professionalmente in Italia, Portogallo, Germania, Bulgaria, Paesi Bassi. Egli compì i primi studi a Spello (Perugia) presso i Padri Somaschi; conseguì la laurea in Ingegneria industriale a Milano nel 1888 e l'anno seguente in Ingegneria elettrotecnica a Liegi. Si spostò, poi, in vari paesi europei per progettare ed eseguire impianti industriali. Direttore dei lavori della prima centrale elettrica di Bruxelles, realizzò tra il 1894 ed il 1903, i sistemi di alimentazione e di distribuzione di energia per le esposizioni di Anversa e di Amsterdam e, nel 1898, il primo tronco tramviario a trazione elettrica in Napoli. Per la costruzione e la messa in esercizio degli impianti della rete tramviaria di Sofia ricevette nel 1903 un'onorificenza cavalleresca dal principe di Bulgaria Ferdinando di Coburgo-Gotha. Rientrato definitivamente in Italia, partecipò agli studi per lo sviluppo delle linee ferroviarie adriatiche e, nel 1908, venne chiamato a dirigere i servizi tecnici della Società belga "Les tramways florentins".</p>
+				<p>Dalla documentazione conservata in archivio, sappiamo che la famiglia era sicuramente esistente alla fine del sec. XVIII. Tra i suoi membri si segnalano Giuseppe Fabozzi (1799-1860), dal 1834 medico primario di Amandola ed in seguito gonfaloniere della città; l'avvocato Fernando Cruciani (1836-1898), giudice mandamentale a Cascia e dal 1862 pretore ad Amandola e Sarnano; Luigia Fabozzi (1839-1911). Di particolare rilievo è Giuseppe Cruciani Fabozzi, figlio di Fernando Cruciani, nato ad Amandola nel 1865 e morto a Firenze nel 1952. Ingegnere, fu attivo professionalmente in Italia, Portogallo, Germania, Bulgaria, Paesi Bassi. Egli compì i primi studi a Spello (Perugia) presso i Padri Somaschi; conseguì la laurea in Ingegneria industriale a Milano nel 1888 e l'anno seguente in Ingegneria elettrotecnica a Liegi. Si spostò, poi, in vari paesi europei per progettare ed eseguire impianti industriali. Direttore dei lavori della prima centrale elettrica di Bruxelles, realizzò tra il 1894 ed il 1903, i sistemi di alimentazione e di distribuzione di energia per le esposizioni di Anversa e di Amsterdam e, nel 1898, il primo tronco tramviario a trazione elettrica in Napoli. Per la costruzione e la messa in esercizio degli impianti della rete tramviaria di Sofia ricevette nel 1903 un'onorificenza cavalleresca dal principe di Bulgaria Ferdinando di Coburgo-Gotha. Rientrato definitivamente in Italia, partecipò agli studi per lo sviluppo delle linee ferroviarie adriatiche e, nel 1908, venne chiamato a dirigere i servizi tecnici della Società belga "Les tramways florentins".</p>
 			</biogHist>
 		</description>
 		<relations>
@@ -126,7 +124,7 @@
 						<fromDate certainty="DataApprossimativa" notBefore="1791-01-01" notAfter="1800-12-31">sec. XVIII fine</fromDate>
 					</dateRange>
 				</dateSet>
-				<targetRole>Complesso archivistico</targetRole>
+				<targetRole>Complesso Archivistico</targetRole>
 				<relationType>Soggetto produttore</relationType>
 			</relation>
 			<relation>

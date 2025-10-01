@@ -76,8 +76,8 @@
 	<dateSet>
       <date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1927 - 1991</date>
       <dateRange>
-       <fromDate standardDate="19270101">1927</fromDate>
-       <toDate standardDate="19911231">1991</toDate>
+       <fromDate standardDate="1927-01-01">1927</fromDate>
+       <toDate standardDate="1991-12-31">1991</toDate>
       </dateRange>
      </dateSet>
     <targetRole>Soggetto produttore collegato</targetRole>

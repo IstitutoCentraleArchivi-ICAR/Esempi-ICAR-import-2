@@ -60,12 +60,12 @@
 				</useDates>
 			</nameEntry>
 			<nameEntry localType="AltraDenominazionePersona" languageOfElement="ita" status="alternative"> 
-				<part localType="Intestazione">Antonioli, Francesco, militante anarchico (sec. XX inizio - 1981 apr. 1)</part>
-				<part localType="Nome">Francesco</part>
-				<part localType="Cognome">Antonioli</part>
+				<part localType="IntestazionePersona">Antonioli, Francesco, militante anarchico (sec. XX inizio - 1981 apr. 1)</part>
+				<part localType="NomePersona">Francesco</part>
+				<part localType="CognomePersona">Antonioli</part>
 			</nameEntry>
 			<otherEntityTypes>
-				<otherEntityType><term>maschile</term></otherEntityType>
+				<otherEntityType localType="Genere"><term>Maschile</term></otherEntityType>
 			</otherEntityTypes> 
 			<identityId>1021187</identityId>
 		</identity>
@@ -136,12 +136,12 @@
 					<part>Francesco Antonioli</part>
 				</targetEntity>
 				<relationType>sameAs</relationType>
-			</relation> 
+			</relation>
 			<relation>
 				<targetEntity targetType="resource" id="SIA-CA-2017123">
 					<part>Francesco Maria Antonioli</part>
 				</targetEntity>
-				<targetRole>Complesso archivistico</targetRole>
+				<targetRole>Complesso Archivistico</targetRole>
 				<relationType>Soggetto produttore</relationType>
 			</relation>
 			<relation>
