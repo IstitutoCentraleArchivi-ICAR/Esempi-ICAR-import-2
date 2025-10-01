@@ -4,7 +4,7 @@
  xmlns:eac-sia="http://www.san.beniculturali.it/eac-sia"
  audience="external">
 	<control maintenanceStatus="derived" eac-sia:status="Bozza">
-		<recordId>1021187</recordId>
+		<recordId>SIA-AG-1021187</recordId>
 		<maintenanceAgency>
 			<agencyCode>IT-ICAR</agencyCode>
 			<agencyName>ICAR</agencyName>
@@ -53,8 +53,8 @@
 				<dateSet>
 					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">sec. XX inizio - 1981 apr. 1</date>
 					<dateRange>
-						<fromDate certainty="DataApprossimativa" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate> 
-						<toDate standardDate="19810401">1981 apr. 1</toDate>
+						<fromDate certainty="DataApprossimativa" notBefore="1901-01-01" notAfter="1910-12-31">sec. XX inizio</fromDate> 
+						<toDate standardDate="1981-04-01">1981 apr. 1</toDate>
 					</dateRange>
 				</dateSet>
 				</useDates>
@@ -67,7 +67,7 @@
 			<otherEntityTypes>
 				<otherEntityType><term>maschile</term></otherEntityType>
 			</otherEntityTypes> 
-			<identityId>SIA-AG-1021187</identityId>
+			<identityId>1021187</identityId>
 		</identity>
 		<description>
 			<functions>
@@ -81,8 +81,8 @@
 					<dateSet>
 					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">sec. XX inizio - 1981 apr. 1</date>
 					<dateRange>
-						<fromDate certainty="DataApprossimativa" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate> 
-						<toDate standardDate="19810401">1981 apr. 1</toDate>
+						<fromDate certainty="DataApprossimativa" notBefore="1901-01-01" notAfter="1910-12-31">sec. XX inizio</fromDate> 
+						<toDate standardDate="1981-04-01">1981 apr. 1</toDate>
 					</dateRange>
 					</dateSet>
 				</localDescription>
@@ -105,7 +105,7 @@
 					<placeRole>Nascita</placeRole>
 					<dateSet> 	
 						<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data singola">sec. XX inizio</date>
-						<date certainty="DataApprossimativa" notBefore="19010101" notAfter="19101231">sec. XX inizio</date>
+						<date certainty="DataApprossimativa" notBefore="1901-01-01" notAfter="1910-12-31">sec. XX inizio</date>
 					</dateSet>
 				</place>
 				<place localType="LuogoPersona">
@@ -113,7 +113,7 @@
 					<placeRole>Morte</placeRole>
 					<dateSet>
 						<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data singola">1981 apr. 1</date>
-						<date standardDate="19810401">1981 apr. 1</date>
+						<date standardDate="1981-04-01">1981 apr. 1</date>
 					</dateSet>
 				</place>
 			</places>
@@ -121,8 +121,8 @@
 			<dateSet>
 				<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date" eac-sia:qualificaData="Date di esistenza">sec. XX inizio - 1981 apr. 1</date>
 				<dateRange>
-					<fromDate certainty="DataApprossimativa" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate> 
-					<toDate standardDate="19810401">1981 apr. 1</toDate>
+					<fromDate certainty="DataApprossimativa" notBefore="1901-01-01" notAfter="1910-12-31">sec. XX inizio</fromDate> 
+					<toDate standardDate="1981-04-01">1981 apr. 1</toDate>
 				</dateRange>
 			</dateSet>
 			</existDates>
@@ -157,7 +157,7 @@
 				<dateSet>
 					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">sec. XX inizio-1946</date>
 					<dateRange>
-						<fromDate certainty="DataApprossimativa" notBefore="19010101" notAfter="19101231">sec. XX inizio</fromDate>
+						<fromDate certainty="DataApprossimativa" notBefore="1901-01-01" notAfter="1910-12-31">sec. XX inizio</fromDate>
 						<toDate standardDate="1946">1946</toDate>
 					</dateRange>
 				</dateSet>
@@ -170,8 +170,8 @@
 				<dateSet>
 					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1945-1971</date>
 					<dateRange>
-						<fromDate standardDate="19450101">1945</fromDate>
-						<toDate standardDate="19711231">1971</toDate>
+						<fromDate standardDate="1945-01-01">1945</fromDate>
+						<toDate standardDate="1971-12-31">1971</toDate>
 					</dateRange>
 				</dateSet>
 				<targetRole>Soggetto produttore collegato</targetRole>

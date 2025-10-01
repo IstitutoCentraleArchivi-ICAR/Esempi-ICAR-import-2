@@ -108,6 +108,7 @@
 							<physfacet localtype="Tecnica">..</physfacet> <!-- contenuto? -->
 							<physfacet localtype="Tipologia">..</physfacet> <!-- contenuto? -->
 							<physfacet localtype="Supporto">..</physfacet> <!-- contenuto? -->
+							<physfacet localtype="Durata">65 minuti</physfacet>
 							<dimensions localtype="Altezza">12 cm</dimensions>
 							<dimensions localtype="Larghezza">12 cm</dimensions>
 							<dimensions localtype="Spessore">0,12 cm</dimensions>

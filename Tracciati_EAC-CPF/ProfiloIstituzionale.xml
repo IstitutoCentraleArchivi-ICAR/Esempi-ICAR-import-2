@@ -4,7 +4,7 @@
  xmlns:eac-sia="http://www.san.beniculturali.it/eac-sia"
  audience="external">
  <control maintenanceStatus="derived" eac-sia:status="Bozza">
-  <recordId>19256155</recordId>
+  <recordId>SIA-PI-19256155</recordId>
   <maintenanceAgency>
    <agencyCode>IT-ICAR</agencyCode>
    <agencyName>ICAR</agencyName>
@@ -46,7 +46,7 @@
     <part localType="IntestazioneProfilo">Direzioni compartimentali (1862-1869) poi Intendenza  di finanza (1869-1991)</part>
     <part localType="AcronimoProfilo">IF</part>
    </nameEntry>
-   <identityId>SIA-PI-19256155</identityId>
+   <identityId>19256155</identityId>
   </identity>
   <description>
    <localDescriptions>

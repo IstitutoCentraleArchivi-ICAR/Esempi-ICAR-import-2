@@ -4,7 +4,7 @@
  xmlns:eac-sia="http://www.san.beniculturali.it/eac-sia"
  audience="external">
 	<control maintenanceStatus="derived" eac-sia:status="Bozza">
-		<recordId>1021256</recordId>
+		<recordId>ASI-AG-1021256</recordId>
 		<maintenanceAgency>
 			<agencyCode>IT-ICAR</agencyCode>
 			<agencyName>ICAR</agencyName>
@@ -62,14 +62,13 @@
 					<dateSet> 
 						<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)">sec. XVIII fine - </date> 
 						<dateRange>
-							<fromDate certainty="DataApprossimativa" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
-							<toDate standardDate="99991231"/>
+							<fromDate certainty="DataApprossimativa" notBefore="1791-01-01" notAfter="1800-12-31">sec. XVIII fine</fromDate>
 						</dateRange>
 						<date localType="NoteAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
 					</dateSet> 
 				</useDates>
 			</nameEntry>
-			<identityId>ASI-AG-1021256</identityId>
+			<identityId>1021256</identityId>
 		</identity>
 		<description>
 			<localDescriptions>
@@ -79,7 +78,6 @@
 						<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)">1825 - </date>
 						<dateRange>
 							<fromDate standardDate="1825">1825</fromDate>
-							<toDate standardDate="99991231"/>
 						</dateRange>
 					</dateSet>
 				</localDescription>
@@ -91,8 +89,7 @@
 					<dateSet>
 						<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)">sec. XVIII fine - </date> 
 						<dateRange>
-							<fromDate certainty="DataApprossimativa" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
-							<toDate standardDate="99991231"/>
+							<fromDate certainty="DataApprossimativa" notBefore="1791-01-01" notAfter="1800-12-31">sec. XVIII fine</fromDate>
 						</dateRange>
 						<date localType="NoteAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
 					</dateSet>
@@ -102,8 +99,7 @@
 				<dateSet>
 					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)" eac-sia:qualificaData="Data di estinzione">sec. XVIII fine - </date> 
 					<dateRange>
-						<fromDate certainty="DataApprossimativa" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
-						<toDate standardDate="99991231"/>
+						<fromDate certainty="DataApprossimativa" notBefore="1791-01-01" notAfter="1800-12-31">sec. XVIII fine</fromDate>
 					</dateRange>
 					<date localType="NoteAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</date>
 				</dateSet>
@@ -127,8 +123,7 @@
 				<dateSet>
 					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)">sec. XVIII fine - </date> 
 					<dateRange>
-						<fromDate certainty="DataApprossimativa" notBefore="17910101" notAfter="18001231">sec. XVIII fine</fromDate>
-						<toDate standardDate="99991231"/>
+						<fromDate certainty="DataApprossimativa" notBefore="1791-01-01" notAfter="1800-12-31">sec. XVIII fine</fromDate>
 					</dateRange>
 				</dateSet>
 				<targetRole>Complesso archivistico</targetRole>
@@ -147,8 +142,8 @@
 				<dateSet>	
 					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1945-2023</date>
 					<dateRange>
-						<fromDate standardDate="19450101">1945</fromDate>
-						<toDate standardDate="20231231">2023</toDate>
+						<fromDate standardDate="1945-01-01">1945</fromDate>
+						<toDate standardDate="2023-12-31">2023</toDate>
 					</dateRange>
 				</dateSet>
 				<targetRole>Soggetto produttore collegato</targetRole>

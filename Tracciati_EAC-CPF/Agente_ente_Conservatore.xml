@@ -5,7 +5,7 @@
  audience="external">
 <!-- Descrizione dell'agente solo come soggetto conservatore -->
 	<control maintenanceStatus="derived" eac-sia:status="Bozza">
-		<recordId>1021259</recordId>
+		<recordId>SIA-AG-1021259</recordId>
 		<maintenanceAgency>
 			<agencyCode>IT-ICAR</agencyCode>
 			<agencyName>ICAR</agencyName>
@@ -42,7 +42,7 @@
 					<term>Archivio</term>
 				</otherEntityType>
 			</otherEntityTypes> 
-			<identityId>SIA-AG-1021259</identityId>
+			<identityId>1021259</identityId>
 		</identity>
 		<description>
 			<functions>
@@ -178,8 +178,7 @@
 				<dateSet>
 					<date eac-sia:qualificaData="Date di esistenza" localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)">1870 - </date>
 					<dateRange>
-						<fromDate standardDate="18700101">1870</fromDate>
-						<toDate standardDate="99991231"/>
+						<fromDate standardDate="1870-01-01">1870</fromDate>
 					</dateRange>
 				</dateSet>
 			</existDates>
@@ -219,8 +218,7 @@
 				<dateSet>
 					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)">1953 - </date>
 					<dateRange>
-						<fromDate standardDate="19530101">1953</fromDate>
-						<toDate standardDate="99991231"/>
+						<fromDate standardDate="1953-01-01">1953</fromDate>
 					</dateRange>
 				</dateSet>
 				<targetRole>Soggetto conservatore collegato</targetRole>

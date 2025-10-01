@@ -4,7 +4,7 @@
  xmlns:eac-sia="http://www.san.beniculturali.it/eac-sia"
  audience="external">
  <control maintenanceStatus="derived" eac-sia:status="Bozza">
-  <recordId>1922132</recordId>
+  <recordId>SIA-CS-1922132</recordId>
   <maintenanceAgency>
    <agencyCode>IT-ICAR</agencyCode>
    <agencyName>ICAR</agencyName>
@@ -45,7 +45,7 @@
    <nameEntry localType="DenominazioneCSI" languageOfElement="ita">
     <part localType="IntestazioneCSI">Regno d'Italia (1861 - 1946)</part>
    </nameEntry>
-   <identityId>SIA-CS-1922132</identityId>
+   <identityId>1922132</identityId>
   </identity>
   <description>
    <localDescriptions>
@@ -56,7 +56,7 @@
    </localDescriptions>
    <existDates localType="DateEsistenzaEnte">
     <dateSet>
-     <date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date" eac-sia:qualificaData="Date di esistenza"></date>
+     <date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date" eac-sia:qualificaData="Date di esistenza">1861-1946</date>
      <dateRange>
       <fromDate standardDate="1861">1861</fromDate>
       <toDate standardDate="1946">1946</toDate>

@@ -4,7 +4,7 @@
  xmlns:eac-sia="http://www.san.beniculturali.it/eac-sia"
  audience="external">
 	<control maintenanceStatus="derived" eac-sia:status="Bozza"> 
-		<recordId>3221199</recordId>
+		<recordId>SIA-EV-3221199</recordId>
 		<maintenanceAgency>
 			<agencyCode>IT-ICAR</agencyCode>
 			<agencyName>ICAR</agencyName>
@@ -33,7 +33,7 @@
 					<term>Evento storico</term>
 				</otherEntityType>
 			</otherEntityTypes>
-			<identityId>SIA-EV-3221199</identityId>
+			<identityId>3221199</identityId>
 		</identity>
 		<description>
 			<localDescriptions>
@@ -51,7 +51,7 @@
 			<existDates>
 				<dateSet>
 					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data singola">1980 giu. 27</date>
-					<date standardDate="19800627">1980 giu. 27</date>
+					<date standardDate="1980-06-27">1980 giu. 27</date>
 				</dateSet>
 			</existDates>
 			<biogHist>
