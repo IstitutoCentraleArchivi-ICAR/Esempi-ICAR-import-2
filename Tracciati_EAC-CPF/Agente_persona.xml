@@ -22,7 +22,7 @@
 		<sources>
 			<source>
 				<reference linkRole="RiferimentoBibliografico" id="SIA-RB-1992381"/>
-				<descriptiveNote><p>...</p></descriptiveNote> <!-- contenuto -->
+				<descriptiveNote><p>pp. 34-46</p></descriptiveNote>
 			</source>
 			<source>
 				<reference linkRole="FonteArchivistica" id="SIA-FA-20200442"/>
@@ -47,7 +47,7 @@
 				<part localType="CognomePersona">Antonioli</part>
 				<part localType="Patronimico">...</part> <!-- contenuto -->
 				<part localType="Origine-provenienzaPersona">...</part>  <!-- contenuto -->				
-				<part localType="Pseudonimo">Furio Villani</part>
+				<part localType="Pseudonimo">Italo Svevo</part>
 				<part localType="SoprannomePersona">Gagìn</part>
 				<useDates>
 				<dateSet>
@@ -63,6 +63,7 @@
 				<part localType="IntestazionePersona">Antonioli, Francesco, militante anarchico (sec. XX inizio - 1981 apr. 1)</part>
 				<part localType="NomePersona">Francesco</part>
 				<part localType="CognomePersona">Antonioli</part>
+				<part localType="Qualifica">Altra denominazione</part>
 			</nameEntry>
 			<otherEntityTypes>
 				<otherEntityType localType="Genere"><term>Maschile</term></otherEntityType>
@@ -72,7 +73,7 @@
 		<description>
 			<functions>
 				<function localType="Qualifica">
-					<term>....</term><!-- contenuto -->
+					<term>Consigliere della Corte dei conti</term>
 				</function> 
 			</functions>
 			<localDescriptions>
@@ -141,7 +142,7 @@
 				<targetEntity targetType="resource" id="SIA-CA-2017123">
 					<part>Francesco Maria Antonioli</part>
 				</targetEntity>
-				<targetRole>Complesso Archivistico</targetRole>
+				<targetRole>Complesso archivistico</targetRole>
 				<relationType>Soggetto produttore</relationType>
 			</relation>
 			<relation>

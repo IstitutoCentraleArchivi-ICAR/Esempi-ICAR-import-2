@@ -22,7 +22,7 @@
 		<sources>
 			<source>
 				<reference linkRole="RiferimentoBibliografico" id="SIA-RB-1992359"/>
-				<descriptiveNote><p>...</p></descriptiveNote> <!-- contenuto -->
+				<descriptiveNote><p>pp. 34-46</p></descriptiveNote>
 			</source>
 			<source>
 				<reference linkRole="FonteArchivistica" id="SIA-FA-20200462"/>
@@ -37,6 +37,7 @@
 		<localControl localType="Visibilita_FE"><term>Completa</term></localControl>
 		<localControl localType="AcronimoSistema"><term>SIA</term></localControl>
 		<otherRecordId localType="SIAS">IT-ASAN-CC236400</otherRecordId>
+		<otherRecordId localType="IdPrecedente">ASAN-347112</otherRecordId>
 	</control>
 	<cpfDescription>
 		<identity>
@@ -57,6 +58,7 @@
 			<nameEntry localType="AltraDenominazioneFamiglia" languageOfElement="ita" status="alternative">
 				<part localType="Intestazione">Cruciani F., Amandola (Fermo), sec. XVIII fine - </part>
 				<part localType="Denominazione">Cruciani F.</part>
+				<part localType="Qualifica">Altra denominazione</part>
 				<useDates>
 					<dateSet> 
 						<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)">sec. XVIII fine - </date> 
@@ -124,7 +126,7 @@
 						<fromDate certainty="DataApprossimativa" notBefore="1791-01-01" notAfter="1800-12-31">sec. XVIII fine</fromDate>
 					</dateRange>
 				</dateSet>
-				<targetRole>Complesso Archivistico</targetRole>
+				<targetRole>Complesso archivistico</targetRole>
 				<relationType>Soggetto produttore</relationType>
 			</relation>
 			<relation>
@@ -167,7 +169,6 @@
 				<relationType>È documentazione</relationType>
 				<targetRole>Risorsa digitale collegata</targetRole>
 			</relation>
-			<!-- Mancano alcune relazioni. È necessario crearle tutte, o basta con quelle che sono presenti nella scheda dell'agente ente? -->
 		</relations>
 	</cpfDescription>
 </eac>

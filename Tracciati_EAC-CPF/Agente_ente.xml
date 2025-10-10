@@ -22,7 +22,7 @@
   <sources>
    <source>
     <reference linkRole="RiferimentoBibliografico" id="SIA-RB-1992347"/>
-    <descriptiveNote><p>...</p></descriptiveNote> <!-- contenuto -->
+    <descriptiveNote><p>pp. 34-46</p></descriptiveNote>
    </source>
    <source>
     <reference linkRole="FonteArchivistica" id="SIA-FA-20200312"/>
@@ -38,6 +38,7 @@
   <localControl localType="AcronimoSistema"><term>SIA</term></localControl>
   <otherRecordId localType="ISIL">IT-BZ0331</otherRecordId>
   <otherRecordId localType="SIAS">IT-ASBZ-CC236400094</otherRecordId> 
+  <otherRecordId localType="IdPrecedente">ASBZ-347856</otherRecordId>
  </control>
  <cpfDescription>
   <identity>
@@ -60,6 +61,7 @@
     <part localType="AltraIntestazione">Finanzintendanz Bozen, Bozen (1927 - 1991)</part>
     <part localType="AltraDenominazione">Finanzintendanz Bozen</part>
     <part localType="AltroAcronimo">FIBZ</part>
+	<part localType="Qualifica">Denominazione parallela - Intestazione parallela</part>
     <useDates>
      <dateSet>
       <date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1927-1991</date>
@@ -100,7 +102,7 @@
    <localDescriptions>
     <localDescription>
      <term>Osservazioni</term>
-     <descriptiveNote><p>...</p></descriptiveNote> <!-- contenuto -->
+     <descriptiveNote><p>La scheda deve essere integrata inserendo le fonti normative.</p></descriptiveNote>
     </localDescription>
    </localDescriptions>
    <places>
@@ -150,7 +152,7 @@
      </dateRange>
     </dateSet>
     <relationType>Soggetto produttore</relationType>
-    <targetRole>Complesso Archivistico</targetRole>
+    <targetRole>Complesso archivistico</targetRole>
    </relation>
    <relation>
     <targetEntity targetType="resource" id="SIA-UA-2021315">
@@ -164,8 +166,8 @@
      </dateRange>
     </dateSet>
     <relationType>Mittente</relationType>
-	<targetRole>Unita Archivistica</targetRole>
-    <descriptiveNote><p>Documentazione</p></descriptiveNote> <!-- ha senso questo valore? -->
+	<targetRole>Unità archivistica</targetRole>
+    <descriptiveNote><p>Timbro</p></descriptiveNote>
    </relation>
    <relation>
     <targetEntity targetType="resource" id="SIA-UD-2021425">
@@ -176,8 +178,8 @@
 		<date standardDate="1951-03-10">10 mar. 1951</date>
     </dateSet>
 	<relationType>Destinatario</relationType>
-    <targetRole>Unita Documentaria</targetRole>
-    <descriptiveNote><p>Documentazione</p></descriptiveNote> <!-- ha senso questo valore? -->
+    <targetRole>Unità documentaria</targetRole>
+    <descriptiveNote><p>Timbro</p></descriptiveNote>
    </relation>
    <relation>
     <targetEntity targetType="resource" id="SIA-SR-2013011">
@@ -188,7 +190,7 @@
    </relation> 
    <relation>
     <targetEntity targetType="resource" id="SIA-PR-6719131">
-		<part>...</part><!-- contenuto -->
+		<part>Progetto di digitalizzazione dei documenti più antichi delfondo Intendenza di finanza di Bolzano</part>
 	</targetEntity>
     <relationType>Finanziatore</relationType>
 	<targetRole>Progetto</targetRole>
