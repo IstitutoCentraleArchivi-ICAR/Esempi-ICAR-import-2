@@ -44,26 +44,26 @@
 			<physdesc localtype="MetriLineari">300 m.l.</physdesc>
 			<physdescstructured physdescstructuredtype="materialtype" coverage="part">
 				<quantity>10</quantity>
-				<unittype>volumi</unittype>
+				<unittype>Volume</unittype>
 				<descriptivenote>
 					<p>Volumi rilegati con posteriorità.</p>
 				</descriptivenote>
 			</physdescstructured>
 			<physdescstructured physdescstructuredtype="materialtype" coverage="part">
 				<quantity>400</quantity>
-				<unittype>buste</unittype>
+				<unittype>Busta</unittype>
 			</physdescstructured>
 			<physdesc localtype="ConsistenzaTotale">10 volumi e 400 buste</physdesc>
 			<physdesc localtype="NoteAllaConsistenza">Con alcuni salti nella numerazione delle buste.</physdesc>
 			<physloc>
-				<ptr id="xxx" linkrole="Internal"/>
-				<ref arcrole="DaPezzo"></ref>
-				<ref arcrole="APezzo"></ref>
+				<ptr id="SIA_CL_24451" linkrole="Internal"/>
+				<ref arcrole="DaPezzo">1</ref>
+				<ref arcrole="APezzo">1018</ref>
 			</physloc>
 			<didnote localtype="StatoDiConservazione">Discreto</didnote>
 			<didnote localtype="CondizioniDelMateriale">Le condizioni del materiale sono stabili e non presenta particolari problemi di conservazione.</didnote>
 			<didnote localtype="RestauroOAltriInterventi">Parte del fondo é stato soggetto a interventi di restauro.</didnote>
-			<didnote localtype="PeriodizzazioneOTipologia"></didnote> <!-- contenuto -->
+			<didnote localtype="PeriodizzazioneOTipologia">Regno d'Italia e Repubblica Italiana</didnote>
 			<langmaterial label="LinguaDescrizione">
 				<language lang="ita"/>
 			</langmaterial>
@@ -92,8 +92,10 @@
 		<arrangement localtype="Numerazione">
 			<p><num localtype="Numeri arabi">401-410 (numerazione dei volumi)</num></p>
 		</arrangement>
-		<odd localtype="AltreInfo"> <!-- così o dentro un altro odd? (in mapping è dentro altro odd) -->
-			<p>Parte del fondo é stato digitalizzato.</p>
+		<odd>
+			<odd localtype="AltreInfo">
+				<p>Parte del fondo é stato digitalizzato.</p>
+			</odd>
 		</odd>
 		<accessrestrict>
 			<accessrestrict localtype="VisibilitaFE">
@@ -115,38 +117,38 @@
 		<originalsloc>
 			<head>Agenzia delle entrate di Bolzano</head>
 			<p>Sono presenti alcuni fascicoli in copia. Gli originali sono conservati nel fondo dell'Agenzia delle entrate di Bolzano.</p>
-			<p><ref arcrole="Localizzazione"></ref></p>
-			<p><ref arcrole="Segnatura"></ref></p>
-			<p><ref arcrole="RiferimentoWeb" href=""/></p>
+			<p><ref arcrole="Localizzazione">...</ref></p>
+			<p><ref arcrole="Segnatura">...</ref></p>
+			<p><ref arcrole="RiferimentoWeb" href="http://..."/></p>
 		</originalsloc>
 		<altformavail>
 			<head>Free University of Bozen-Bolzano</head>
 			<p>Una parte della serie Danni di guerra è disponibile in copia nella biblioteca della Free University of Bozen-Bolzano.</p>
-			<p><ref arcrole="Localizzazione"></ref></p>
-			<p><ref arcrole="Segnatura"></ref></p>
-			<p><ref arcrole="RiferimentoWeb" href=""/></p>
+			<p><ref arcrole="Localizzazione">...</ref></p>
+			<p><ref arcrole="Segnatura">...</ref></p>
+			<p><ref arcrole="RiferimentoWeb" href="http://..."/></p>
 		</altformavail>
 		<relatedmaterial localtype="DocumentazioneEsterna">
 			<archref>
 				<title><part>Archivio storico della Città di Bolzano</part></title>Nell'Archivio storico della Città di Bolzano si trova carteggio tra il comune e l'Intendenza di finanza.
-				<ref href="https://opencity.comune.bolzano.it/Argomenti/Istruzione-cultura-e-sport/Cultura/Archivio-Storico" arcrole="xx qualifica del collegamento xx"><!-- contenuto campo Localizzazione --></ref>
+				<ref href="https://opencity.comune.bolzano.it/Argomenti/Istruzione-cultura-e-sport/Cultura/Archivio-Storico" arcrole="SIA"><!-- contenuto campo Localizzazione --></ref>
 			</archref>
 		</relatedmaterial>
 		<relatedmaterial localtype="DocumentazioneInterna">
 			<archref>
 				<title><part>Agenzia delle entrate di Bolzano</part></title>
 				Per il periodo successivo al 1984 consultare il fondo dell'Agenzia delle entrate di Bolzano.
-				<ref linktitle="RelazioneConCA" arcrole="xx qualifica della relazione xx">ICAR-BZ-1500021</ref>
+				<ref linktitle="RelazioneConCA" arcrole="SIA">ICAR-BZ-1500021</ref>
 			</archref> 
 			<archref>
 				<title><part>Fascicolo 13</part></title>
 				<!-- Descrizione -->
-				<ref linktitle="RelazioneConUA" arcrole="xx">ICAR-UA-1500025</ref>
+				<ref linktitle="RelazioneConUA" arcrole="SIA">ICAR-UA-1500025</ref>
 			</archref>
 			<archref> 
 				<title><part>Intervista 51.2</part></title>
 				<!-- Descrizione -->
-				<ref linktitle="RelazioneConUD" arcrole="xxx">ICAR-UD-1500121</ref>
+				<ref linktitle="RelazioneConUD" arcrole="SIA">ICAR-UD-1500121</ref>
 			</archref>
 		</relatedmaterial>
 		
@@ -179,7 +181,7 @@
 			<relation relationtype="otherrelationtype" otherrelationtype="StrumentoCollegato">
 				<relationentry>SIA-SR-2013011</relationentry>
 				<descriptivenote>
-					<p>Pp. 1-15.</p>
+					<p>Il fondo è descritto alle pp. 1-15.</p>
 				</descriptivenote>
 			</relation>
 			<relation relationtype="otherrelationtype" otherrelationtype="TematismoCollegato">
@@ -193,7 +195,7 @@
 			<bibliography localtype="LinkRiferimentoBibliografico">
 				<bibref>
 					<ref>ICAR-RB-1992347</ref>
-					<footnote><p>Pp. 55-102.</p></footnote>
+					<footnote><p>pp. 55-102.</p></footnote>
 				</bibref>
 			</bibliography>
 			<archref altrender="LinkFonteArchivistica">
@@ -312,7 +314,7 @@
 						</unitdatestructured>	
 						<physdescstructured physdescstructuredtype="materialtype" coverage="part">
 							<quantity>1</quantity> 
-							<unittype>fascicolo</unittype>
+							<unittype>Fascicolo</unittype>
 							<physfacet localtype="Tipologia"></physfacet><!-- contenuto? -->
 							<physfacet localtype="Supporto">Carta</physfacet>
 							<physfacet localtype="Legatura">Senza legatura.</physfacet>
@@ -326,12 +328,12 @@
 						<container localtype="Busta">
 							<ref>
 								<num>5</num>
-								<title><part>xxxx</part></title> <!-- contenuto? Titolo unità di condizionamento -->
+								<title><part>Richieste 1946</part></title>
 							</ref> 
 						</container>
 						<physloc> 
-							<ref>xxx <!-- contenuto di Collocazione -->
-								<num>xxxx</num><!-- contenuto? Numero di posizione -->
+							<ref>SIA_CL_15494262
+								<num>0024</num>
 							</ref> 
 						</physloc>
 						<didnote localtype="StatoDiConservazione">Discreto</didnote>
@@ -343,7 +345,7 @@
 								<script scriptcode="Latn">Latin</script>
 							</languageset>
 							<descriptivenote>
-								<p>Parte dei documenti scritti in tedesco.</p> <!-- Descrizione tipo scrittura. va bene contenuto? -->
+								<p>Parte dei documenti scritti in tedesco.</p>
 							</descriptivenote>
 						</langmaterial>
 						<langmaterial label="LinguaDescrizione">
@@ -354,10 +356,10 @@
 						<p>Richiedente: E.N.T.V. / Ministero del tesoro, uff. liquidazioni</p>
 					</scopecontent>
 					<fileplan> 
-						<p>Titolario xxx</p> 
+						<p>Titolario di classificazione</p> 
 						<p>
 							<subject localtype="IndiceClassificazione" identifier="VI.05.02">
-								<part localtype="Note"></part> <!-- contenuto? -->
+								<part localtype="Note">Si riferisce ai risarcimenti di guerra</part>
 							</subject>
 						</p>  
 					</fileplan>
@@ -387,39 +389,39 @@
 					<originalsloc>
 						<head>Agenzia delle entrate di Bolzano</head>
 						<p>Alcuni documenti originali sono conservati nel fondo dell'Agenzia delle entrate di Bolzano.</p>
-						<p><ref arcrole="Localizzazione"></ref></p>
-						<p><ref arcrole="Segnatura"></ref></p>
-						<p><ref arcrole="RiferimentoWeb" href=""/></p>
+						<p><ref arcrole="Localizzazione">...</ref></p>
+						<p><ref arcrole="Segnatura">...</ref></p>
+						<p><ref arcrole="RiferimentoWeb" href="http://..."/></p>
 					</originalsloc>
 					<altformavail>
 						<head>Free University of Bozen-Bolzano</head>
 						<p>Fascicolo disponibile in copia nella biblioteca della Free University of Bozen-Bolzano.</p>
-						<p><ref arcrole="Localizzazione"></ref></p>
-						<p><ref arcrole="Segnatura"></ref></p>
-						<p><ref arcrole="RiferimentoWeb" href=""/></p>
+						<p><ref arcrole="Localizzazione">...</ref></p>
+						<p><ref arcrole="Segnatura">...</ref></p>
+						<p><ref arcrole="RiferimentoWeb" href="http://..."/></p>
 					</altformavail>
 					<relatedmaterial localtype="DocumentazioneEsterna">
 						<archref>
 							<title><part>Archivio storico della Città di Bolzano</part></title>
 						<!-- contenuto descrizione -->
-							<ref href="https://opencity.comune.bolzano.it/Argomenti/Istruzione-cultura-e-sport/Cultura/Archivio-Storico" arcrole="xx qualifica del collegamento xx"><!-- contenuto campo Localizzazione --></ref>
+							<ref href="https://opencity.comune.bolzano.it/Argomenti/Istruzione-cultura-e-sport/Cultura/Archivio-Storico" arcrole="SIA">Archivio storico della Città di Bolzano, Fondo Città di Bolzano, vol. 3, fasc. 2</ref>
 						</archref>
 					</relatedmaterial>
 					<relatedmaterial localtype="DocumentazioneInterna">
 						<archref>
 							<title><part>Agenzia delle entrate di Bolzano</part></title>
 						<!-- Descrizione -->
-							<ref linktitle="RelazioneConCA" arcrole="xx qualifica della relazione xx">ICAR-BZ-1500021</ref>
+							<ref linktitle="RelazioneConCA" arcrole="SIA">ICAR-BZ-1500021</ref>
 						</archref>
 						<archref>
-							<title><part></part></title>
+							<title><part>...</part></title>
 							<!-- Descrizione -->
-							<ref linktitle="RelazioneConUA" arcrole="">ICAR-UA-1500025</ref>
+							<ref linktitle="RelazioneConUA" arcrole="SIA">ICAR-UA-1500025</ref>
 						</archref>
 						<archref> 
-							<title><part></part></title>
+							<title><part>...</part></title>
 							<!-- Descrizione -->
-							<ref linktitle="RelazioneConUD" arcrole="">ICAR-UD-1500121</ref>
+							<ref linktitle="RelazioneConUD" arcrole="SIA">ICAR-UD-1500121</ref>
 						</archref>
 					</relatedmaterial>
 					<relations>
@@ -436,7 +438,8 @@
 								</daterange>
 							</dateset>
 							<descriptivenote>
-								<p></p> <!-- contenuto. Motivo dell'attribuzione -->
+								<p altrender="MotivoAttribuzione">Simbolo</p>
+								<p altrender="Note">...</p>
 							</descriptivenote>
 						</relation>
 						<relation relationtype="otherrelationtype" otherrelationtype="ProgettoCollegato">
@@ -448,7 +451,7 @@
 						<relation relationtype="otherrelationtype" otherrelationtype="StrumentoCollegato">
 							<relationentry>SIA-SR-2013011</relationentry>
 							<descriptivenote>
-								<p>P. 5.</p>
+								<p>Il fascicolo è descritto alla p. 5.</p>
 							</descriptivenote>
 						</relation>
 						<relation relationtype="otherrelationtype" otherrelationtype="TematismoCollegato">
@@ -467,7 +470,7 @@
 						<bibliography localtype="LinkRiferimentoBibliografico">
 							<bibref>
 								<ref>ICAR-RB-1992347</ref>
-								<footnote><p>Pp. 55-102.</p></footnote>
+								<footnote><p>pp. 55-102.</p></footnote>
 							</bibref>
 						</bibliography>
 						<archref altrender="LinkFonteArchivistica">
@@ -537,7 +540,7 @@
 							</unitdatestructured>
 							<physdescstructured physdescstructuredtype="materialtype" coverage="part">
 								<quantity>1</quantity> 
-								<unittype>documento</unittype>
+								<unittype>Foglio</unittype>
 								<physfacet localtype="Tipologia"></physfacet><!-- contenuto? -->
 								<physfacet localtype="TipologiaDocumentaria">
 									<genreform>
@@ -568,13 +571,13 @@
 							<container localtype="Busta">
 								<ref>
 									<num>5</num>
-									<title><part>xxxx</part></title> <!-- contenuto? Titolo unità di condizionamento -->
+									<title><part>Richieste 1946</part></title>
 								</ref> 
 							</container>
 							<physloc> 
-								<ref> <!-- contenuto di Collocazione -->
-									<num></num> <!-- contenuto -->
-								</ref> 
+								<ref>SIA_CL_15494262
+									<num>0024</num>
+								</ref>  
 							</physloc>
 							<langmaterial label="LinguaDocumentazione">
 								<languageset> 
@@ -582,7 +585,7 @@
 									<script scriptcode="Latn">Latin</script>
 								</languageset>
 								<descriptivenote>
-									<p></p> <!-- Descrizione tipo scrittura. contenuto -->
+									<p>Parte del testo risulta scritto in gotica.</p>
 								</descriptivenote>
 							</langmaterial>
 							<langmaterial label="LinguaDescrizione">
@@ -595,7 +598,7 @@
 						<fileplan>
 							<p>
 								<subject localtype="CodiceClassificazione" identifier="VI.05.02">
-									<part localtype="Qualifica"></part> <!-- contenuto? -->
+									<part localtype="Qualifica">Qualifica in base al cuadro di classificazione</part>
 								</subject>
 							</p>
 						</fileplan>
@@ -631,39 +634,39 @@
 						<originalsloc> 
 							<head>Agenzia delle entrate di Bolzano</head>
 							<p>L'originale del documento è conservato nel fondo dell'Agenzia delle entrate di Bolzano.</p>
-							<p><ref arcrole="Localizzazione"></ref></p>
-							<p><ref arcrole="Segnatura"></ref></p>
-							<p><ref arcrole="RiferimentoWeb" href=""/></p>
+							<p><ref arcrole="Localizzazione">...</ref></p>
+							<p><ref arcrole="Segnatura">...</ref></p>
+							<p><ref arcrole="RiferimentoWeb" href="http://..."/></p>
 						</originalsloc>
 						<altformavail> 
 							<head>Free University of Bozen-Bolzano</head>
 							<p>Documento disponibile in copia nella biblioteca della Free University of Bozen-Bolzano.</p>
-							<p><ref arcrole="Localizzazione"></ref></p>
-							<p><ref arcrole="Segnatura"></ref></p>
-							<p><ref arcrole="RiferimentoWeb" href=""/></p>
+							<p><ref arcrole="Localizzazione">...</ref></p>
+							<p><ref arcrole="Segnatura">...</ref></p>
+							<p><ref arcrole="RiferimentoWeb" href="http://..."/></p>
 						</altformavail>
 						<relatedmaterial localtype="DocumentazioneEsterna">
 							<archref>
 								<title><part>Archivio storico della Città di Bolzano</part></title>
 							<!-- contenuto descrizione -->
-								<ref href="https://opencity.comune.bolzano.it/Argomenti/Istruzione-cultura-e-sport/Cultura/Archivio-Storico" arcrole="xx qualifica del collegamento xx"><!-- contenuto campo Localizzazione --></ref>
+								<ref href="https://opencity.comune.bolzano.it/Argomenti/Istruzione-cultura-e-sport/Cultura/Archivio-Storico" arcrole="SIA"><!-- contenuto campo Localizzazione --></ref>
 							</archref>
 						</relatedmaterial>
 						<relatedmaterial localtype="DocumentazioneInterna">
 							<archref>
 								<title><part>Agenzia delle entrate di Bolzano</part></title>
 							<!-- Descrizione -->
-								<ref linktitle="RelazioneConCA" arcrole="xx qualifica della relazione xx">ICAR-BZ-1500021</ref>
+								<ref linktitle="RelazioneConCA" arcrole="SIA">ICAR-BZ-1500021</ref>
 							</archref>
 							<archref>
 								<title><part></part></title>
 								<!-- Descrizione -->
-								<ref linktitle="RelazioneConUA" arcrole="">ICAR-UA-1500025</ref>
+								<ref linktitle="RelazioneConUA" arcrole="SIA">ICAR-UA-1500025</ref>
 							</archref>
 							<archref> 
 								<title><part></part></title>
 								<!-- Descrizione -->
-								<ref linktitle="RelazioneConUD" arcrole="">ICAR-UD-1500121</ref>
+								<ref linktitle="RelazioneConUD" arcrole="SIA">ICAR-UD-1500121</ref>
 							</archref>
 						</relatedmaterial>
 						<relations>
@@ -673,8 +676,8 @@
 							<relation relationtype="cpfrelation" arcrole="Detentore dei diritti">
 								<relationentry>SIA-AG-1021243</relationentry>
 								<descriptivenote>
-									<p altrender="MotivoAttribuzione"></p> <!-- contenuto -->
-									<p altrender="Note"></p> <!-- contenuto -->
+									<p altrender="MotivoAttribuzione">Simbolo</p>
+									<p altrender="Note">...</p>
 								</descriptivenote>
 							</relation>
 							<relation relationtype="otherrelationtype" otherrelationtype="ProgettoCollegato">
@@ -689,7 +692,7 @@
 							<relation relationtype="otherrelationtype" otherrelationtype="StrumentoCollegato">
 								<relationentry>SIA-SR-2013011</relationentry>
 								<descriptivenote>
-									<p>P. 5.</p>
+									<p>Il documento è descritto alla p. 5.</p>
 								</descriptivenote>
 							</relation>
 						</relations>
@@ -706,7 +709,7 @@
 							<bibliography localtype="LinkRiferimentoBibliografico">
 								<bibref>
 									<ref>ICAR-RB-1992347</ref>
-									<footnote><p>Pp. 55-102.</p></footnote>
+									<footnote><p>pp. 55-102.</p></footnote>
 								</bibref>
 							</bibliography>
 							<archref altrender="LinkFonteArchivistica">
