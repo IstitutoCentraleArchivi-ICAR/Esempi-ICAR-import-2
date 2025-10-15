@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.san.beniculturali.it/tracciato/ead3.xsd" xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" audience="external">
-	<control repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" scriptencoding="iso15924" langencoding="iso639-2b">
+	<control repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" scriptencoding="iso15924" langencoding="iso639-2b" id="2013011">
 		
 		<recordid>SIA-SR-2013011</recordid>
 		<otherrecordid localtype="SIA">S-55A12</otherrecordid>
@@ -16,25 +16,25 @@
 			</titlestmt>
 			<editionstmt>
 				<edition localtype="Tipologia">Inventario analitico</edition>
-				<edition localtype="Specificazione"> ? ? </edition> <!-- CONTENUTO -->
+				<edition localtype="Specificazione">...</edition>
 			
-				<edition localtype="Pubblicato">sì</edition>
+				<edition localtype="Pubblicato">Sì</edition>
 			
-				<edition localtype="Online">sì</edition>
+				<edition localtype="Online">Sì</edition>
 			</editionstmt>
 			<publicationstmt>
 				<date localtype="DataTestuale" altrender="Data singola">2011</date>
-				<date localtype="QualificaData">...</date> <!-- contenuto -->
+				<date localtype="QualificaData">...</date>
 				<date localtype="DataSingola" normal="2011">2011</date>
 				<date localtype="NoteAllaDatazione">Data della stampa.</date> 
 			</publicationstmt>
 			<notestmt>
-				<controlnote localtype="NoteStoricoRedazionali"><p>Inventario elaborato da funcionari dell'Archivio.</p></controlnote>
-				<controlnote localtype="DescrizioneIntrinseca"><p></p></controlnote> <!-- CONTENUTO -->
+				<controlnote localtype="NoteStoricoRedazionali"><p>Inventario elaborato da funzionari dell'Archivio.</p></controlnote>
+				<controlnote localtype="DescrizioneIntrinseca"><p>Per ciascuna busta è riportato il numero corda.</p></controlnote>
 				<controlnote localtype="TipoSupporto"><p>Analogico</p></controlnote>
 				<controlnote localtype="ModalitaRedazione"><p>Stampa da computer</p></controlnote>
 				<controlnote localtype="DescrizioneEstrinseca"><p>I titoli delle unità archivistiche sono individuati dalla colonna denominata "Descrizione del bene", che nelle sottocolonne definisce i beni immobili danneggiati secondo il comune catastale, la/le particelle edificiali, quella/e fondiarie e la/le partite tavolari. Le pratiche relative ai beni mobili danneggiati – ai quali è stata assegnata una posizione diversa (e di solito consecutiva) rispetto all'immobile di pertinenza – sono comprese nel medesimo fascicolo, che in questo caso, dunque, comprende una o più pratiche, o sottofascicoli, ognuna individuata da una posizione.</p></controlnote>
-				<controlnote localtype="Osservazioni"><p></p></controlnote> <!-- CONTENUTO -->
+				<controlnote localtype="Osservazioni"><p>...</p></controlnote> 
 			</notestmt>
 		</filedesc>
 		
@@ -79,6 +79,7 @@
 				<eventdatetime>2025-02-21</eventdatetime>
 				<agenttype value="human"/>
 				<agent>Chiaretti, Alessandro</agent>
+				<eventdescription localtype="TipoIntervento">Prima redazione</eventdescription>
 			</maintenanceevent>
 		</maintenancehistory>
 		

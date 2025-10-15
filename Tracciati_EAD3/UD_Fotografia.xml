@@ -104,7 +104,7 @@
 							<dimensions localtype="Larghezza">12 cm</dimensions>
 							<descriptivenote>
 								<p>
-									<subject localtype="Occasione"><part>Campagna fotografica</part>	</subject>
+									<subject localtype="Occasione"><part>Campagna fotografica</part></subject>
 									<geogname><part localtype="LuogoRappresentato">SIA-LG-2423324</part></geogname>
 								</p>
 							</descriptivenote>
@@ -125,7 +125,7 @@
 								<p>Arca di S. Domenico - Fianco destro del sarcofago</p>
 							</footnote>
 							<subject localtype="Descrittore">
-								<part><!-- contenuto --></part>
+								<part>...</part>
 							</subject>
 						</p>
 						<p>

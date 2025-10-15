@@ -114,7 +114,7 @@
 									<part></part>
 									<geographiccoordinates coordinatesystem="WGS84" altrender="Latitudine">41°57′N</geographiccoordinates>
 									<geographiccoordinates coordinatesystem="WGS84" altrender="Longitudine">14°43′E</geographiccoordinates>
-									<!--<geographiccoordinates coordinatesystem="WGS84" altrender="Reticolo"> VALORE </geographiccoordinates>-->
+									<geographiccoordinates coordinatesystem="WGS84" altrender="Reticolo">...</geographiccoordinates>
 									<geographiccoordinates coordinatesystem="WGS84" altrender="Proiezione">Proiezione azimutale</geographiccoordinates>
 								</geogname>
 							</physfacet>

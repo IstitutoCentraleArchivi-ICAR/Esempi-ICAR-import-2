@@ -105,9 +105,9 @@
 									<part>Intervista</part> 
 								</genreform>
 							</physfacet>
-							<physfacet localtype="Tecnica">..</physfacet> <!-- contenuto? -->
-							<physfacet localtype="Tipologia">..</physfacet> <!-- contenuto? -->
-							<physfacet localtype="Supporto">..</physfacet> <!-- contenuto? -->
+							<physfacet localtype="Tecnica">..</physfacet>
+							<physfacet localtype="Tipologia">..</physfacet>
+							<physfacet localtype="Supporto">..</physfacet>
 							<physfacet localtype="Durata">65 minuti</physfacet>
 							<dimensions localtype="Altezza">12 cm</dimensions>
 							<dimensions localtype="Larghezza">12 cm</dimensions>
@@ -118,7 +118,7 @@
 						<container localtype="Busta">
 							<ref>
 								<num>5</num>
-								<title><part>xxxx</part></title> <!-- contenuto? Titolo unità di condizionamento -->
+								<title><part>Interviste 1956</part></title>
 							</ref> 
 						</container>
 						<langmaterial label="LinguaDocumentazione">
@@ -131,7 +131,7 @@
 				<fileplan>
 					<p>
 						<subject localtype="CodiceClassificazione" identifier="VII.11.12">
-							<part localtype="Qualifica"></part> <!-- contenuto? -->
+							<part localtype="Qualifica">Qualifica in base al cuadro di classificazione</part>
 						</subject>
 					</p>
 				</fileplan>
