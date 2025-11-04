@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.san.beniculturali.it/tracciato/ead3.xsd" xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" audience="external">
-	<control repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" scriptencoding="iso15924" langencoding="iso639-2b" id="2013011">
+	<control repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" scriptencoding="iso15924" langencoding="iso639-2b" id="_2013011">
 		
 		<recordid>SIA-SR-2013011</recordid>
 		<otherrecordid localtype="SIA">S-55A12</otherrecordid>
@@ -24,7 +24,7 @@
 			</editionstmt>
 			<publicationstmt>
 				<date localtype="DataTestuale" altrender="Data singola">2011</date>
-				<date localtype="QualificaData">...</date>
+				<date localtype="QualificaData">Data di redazione dello strumento</date>
 				<date localtype="DataSingola" normal="2011">2011</date>
 				<date localtype="NoteAllaDatazione">Data della stampa.</date> 
 			</publicationstmt>
@@ -46,8 +46,7 @@
 		</maintenanceagency>
 		
 		<languagedeclaration> 
-			<language langcode="ita"/>
-			<script scriptcode="Latn">Latin</script>
+			<language lang="ita"/>
 		</languagedeclaration>
 		
 		<localcontrol localtype="AcronimoDiSistema"> 
@@ -80,6 +79,7 @@
 				<agenttype value="human"/>
 				<agent>Chiaretti, Alessandro</agent>
 				<eventdescription localtype="TipoIntervento">Prima redazione</eventdescription>
+				<eventdescription localtype="NoteRedazionali">...</eventdescription>
 			</maintenanceevent>
 		</maintenancehistory>
 		

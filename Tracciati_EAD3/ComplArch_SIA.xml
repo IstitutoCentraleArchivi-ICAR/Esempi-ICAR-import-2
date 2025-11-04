@@ -171,6 +171,12 @@
 						<fromdate standarddate="1991">1991</fromdate>
 					</daterange>
 				</dateset>
+				<descriptivenote>
+					<p localtype="ModalitaAcquisizione">Versamento</p>
+				</descriptivenote>
+				<descriptivenote>
+					<p localtype="ModalitaConsultazione">Consultazione senza restrizioni.</p>
+				</descriptivenote>
 			</relation>
 			<relation relationtype="otherrelationtype" otherrelationtype="ProgettoCollegato">
 				<relationentry>SIA-prg-A00011</relationentry>
@@ -191,6 +197,14 @@
 				<relationentry>SIA-TE-2419145</relationentry>
 			</relation>	
 		</relations>
+		<controlaccess>
+			<subject><part>Storia economica</part></subject>
+			<subject><part identifier="TE-419145"/></subject>
+			<persname><part identifier="SIA-PE-2419175"/></persname>
+			<corpname><part identifier="SIA-AG-2419933"/></corpname>
+			<geogname><part identifier="SIA-LG-2418324"/></geogname>
+			<famname><part identifier="SIA-FA-2419443"/></famname>
+		</controlaccess>
 		<bibliography> 
 			<bibliography localtype="LinkRiferimentoBibliografico">
 				<bibref>
@@ -315,7 +329,7 @@
 						<physdescstructured physdescstructuredtype="materialtype" coverage="part">
 							<quantity>1</quantity> 
 							<unittype>Fascicolo</unittype>
-							<physfacet localtype="Tipologia"></physfacet><!-- contenuto? -->
+							<physfacet localtype="Tipologia">Fascicolo</physfacet>
 							<physfacet localtype="Supporto">Carta</physfacet>
 							<physfacet localtype="Legatura">Senza legatura.</physfacet>
 							<dimensions localtype="Altezza">21 cm</dimensions>
@@ -325,6 +339,7 @@
 								<p>-Integrazione alla descrizione e alla consistenza.-</p>
 							</descriptivenote>
 						</physdescstructured>
+						<physdesc localtype="ConsistenzaTotale">1 fascicolo</physdesc>
 						<container localtype="Busta">
 							<ref>
 								<num>5</num>
@@ -541,7 +556,7 @@
 							<physdescstructured physdescstructuredtype="materialtype" coverage="part">
 								<quantity>1</quantity> 
 								<unittype>Foglio</unittype>
-								<physfacet localtype="Tipologia"></physfacet><!-- contenuto? -->
+								<physfacet localtype="Tipologia">Quaderno</physfacet>
 								<physfacet localtype="TipologiaDocumentaria">
 									<genreform>
 										<part>Lettera</part>
@@ -550,7 +565,7 @@
 								</physfacet>
 								<physfacet localtype="Sigillo">
 									<genreform localtype="PresenzaSigillo">  
-										<part>SI</part> 
+										<part>Si</part> 
 									</genreform>
 									<genreform localtype="DescrizioneSigillo">  
 										<part localtype="Natura">Sigillo a una faccia</part>
@@ -568,7 +583,8 @@
 									<p>-Integrazione alla descrizione e alla consistenza.-</p>
 								</descriptivenote>
 							</physdescstructured>
-							<container localtype="Busta">
+							<physdesc localtype="ConsistenzaTotale">1 foglio</physdesc>
+							<container localtype="Cartella">
 								<ref>
 									<num>5</num>
 									<title><part>Richieste 1946</part></title>
