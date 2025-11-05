@@ -172,10 +172,8 @@
 					</daterange>
 				</dateset>
 				<descriptivenote>
-					<p localtype="ModalitaAcquisizione">Versamento</p>
-				</descriptivenote>
-				<descriptivenote>
-					<p localtype="ModalitaConsultazione">Consultazione senza restrizioni.</p>
+					<p altrender="ModalitaAcquisizione">Versamento</p>
+					<p altrender="ModalitaConsultazione">Consultazione senza restrizioni.</p>
 				</descriptivenote>
 			</relation>
 			<relation relationtype="otherrelationtype" otherrelationtype="ProgettoCollegato">

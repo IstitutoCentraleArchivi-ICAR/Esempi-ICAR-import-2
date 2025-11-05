@@ -99,7 +99,7 @@
 								</genreform>
 							</physfacet>
 							<physfacet localtype="RappresentazioneTematica">Carta topografica</physfacet>
-							<physfacet localtype="AStampa">NO</physfacet>
+							<physfacet localtype="AStampa">No</physfacet>
 							<physfacet localtype="StatoRedazione">
 								<genreform>
 									<part>Originale</part> 

@@ -86,10 +86,6 @@
 			<physdesc localtype="FormatoRiproduzione">TIFF, JPEG, PDF</physdesc>
 			<physdesc localtype="Risoluzione">300 dpi</physdesc>
 			<physdesc localtype="GestioneColore">RGB a 24 bits</physdesc>
-			<daoset>
-				<dao href="TE-2418399" daotype="derived"/> 
-				<dao href="TE-2418259" daotype="derived"/> 
-			</daoset>
 			<langmaterial>
 				<language lang="ita"/>
 			</langmaterial>

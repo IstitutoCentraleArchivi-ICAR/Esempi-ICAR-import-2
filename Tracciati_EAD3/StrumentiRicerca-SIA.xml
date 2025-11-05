@@ -47,6 +47,7 @@
 		
 		<languagedeclaration> 
 			<language lang="ita"/>
+			<script/>
 		</languagedeclaration>
 		
 		<localcontrol localtype="AcronimoDiSistema"> 
