@@ -73,6 +73,10 @@
 			<term identifier="SIA-TE-2413133"/>
 		</localcontrol>
 		
+		<localcontrol localtype="VisibilitaFE"> 
+			<term>Completa</term>
+		</localcontrol>
+		
 		<maintenancehistory>
 			<maintenanceevent>
 				<eventtype value="created"/>

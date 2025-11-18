@@ -42,8 +42,8 @@
  <cpfDescription>
   <identity localType="ContestoStoricoIstituzionale">
    <entityType value="corporateBody"/>
-   <nameEntry localType="DenominazioneCSI" languageOfElement="ita">
-    <part localType="IntestazioneCSI">Regno d'Italia (1861 - 1946)</part>
+   <nameEntry localType="DenominazioneContesto" languageOfElement="ita">
+    <part localType="IntestazioneContesto">Regno d'Italia (1861 - 1946)</part>
    </nameEntry>
    <identityId>1922132</identityId>
   </identity>
@@ -54,7 +54,7 @@
      <descriptiveNote><p>...</p></descriptiveNote> <!-- contenuto -->
     </localDescription>
    </localDescriptions>
-   <existDates localType="DateEsistenzaEnte">
+   <existDates localType="DateEsistenzaContesto">
     <dateSet>
      <date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date" eac-sia:qualificaData="Date di esistenza">1861-1946</date>
      <dateRange>
@@ -63,7 +63,7 @@
      </dateRange>
     </dateSet>
    </existDates>
-   <generalContext localType="DescrizioneCSI">
+   <generalContext localType="DescrizioneContesto">
 		<p>Il 17 marzo Vittorio Emanuele II viene proclamato re d'Italia. Il 18 febbraio 1861 si inaugura a Torino il primo Parlamento italiano: lo Statuto albertino, concesso da Carlo Alberto nel 1848, diventa la carta fondamentale del nuovo Stato. Il dibattito sull'organizzazione dello Stato, che includeva posizioni centralistiche e posizioni federative e regionalistiche, vede l'affermarsi della soluzione centralistica, nella linea risorgimentale dell'unità e indipendenza nazionale. Il nuovo Stato si modella sulla legge cavouriana del 1853 in un ordinamento per ministeri e si incardina a livello territoriale sulla figura del prefetto, sul modello dei dipartimenti francesi, ancorché derivante dalla figura dell'intendente, che rappresenta in ogni provincia il governo centrale ed esercita il controllo politico ed economico sulle amministrazioni provinciali e comunali e su tutte le amministrazioni periferiche dello Stato. Dopo una prima fase in cui rimangono in vigore alcune norme di Stati preunitari e operano varie amministrazioni stralcio, viene affrontata la complessa questione dell'unificazione amministrativa e giudiziaria che ha in un complesso di norme del 1865 il risultato più rilevante...</p>
    </generalContext>
   </description>
