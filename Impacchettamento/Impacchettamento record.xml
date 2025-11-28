@@ -1,0 +1,2103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<icar-import:icar-import xmlns:icar-import="http://www.san.beniculturali.it/icar-import" xmlns:eac="https://archivists.org/ns/eac/v2" xmlns:eac-sia="http://www.san.beniculturali.it/eac-sia" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ead="http://ead3.archivists.org/schema/" xmlns:mix="http://www.loc.gov/mix/v20" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.san.beniculturali.it/icar-import http://www.san.beniculturali.it/tracciato/icar-import.xsd">
+<icar-import:header>
+<icar-import:systemId>ICAR-SIA</icar-import:systemId>
+<icar-import:systemTitle>ICAR-SIA</icar-import:systemTitle>
+<icar-import:event eventType="creation" eventDate="2025-11-16T14:16:27.088+02:00"><icar-import:agent agentType="human">admin</icar-import:agent></icar-import:event><icar-import:fileDesc><icar-import:title>Export esempio entità multiple ICAR-SIA</icar-import:title>
+<icar-import:abstract>Esempio di export di tutte le entità previste in SIA, codificate in Icar Import 2.</icar-import:abstract>
+<icar-import:date>2025-11-16T14:16:27.093+02:00</icar-import:date
+></icar-import:fileDesc></icar-import:header>
+<icar-import:listRecords>
+
+<icar-import:record>
+<icar-import:recordHeader action="insert" groupEad="single" type="ead3">
+<icar-import:id>SIA-SR-2013011</icar-import:id>
+<icar-import:lastUpdate>2025-11-17T14:16:27.093+02:00</icar-import:lastUpdate>
+</icar-import:recordHeader>
+<icar-import:recordBody>
+<ead:ead xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.san.beniculturali.it/tracciato/ead3.xsd" audience="external">
+	<ead:control repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" scriptencoding="iso15924" langencoding="iso639-2b" id="_2013011">
+		
+		<ead:recordid>SIA-SR-2013011</ead:recordid>
+		<ead:otherrecordid localtype="SIA">S-55A12</ead:otherrecordid>
+		<ead:otherrecordid localtype="IdPrecedente">SI_115SR</ead:otherrecordid>
+		
+		<ead:representation href="http://www.asbolzano.beniculturali.it/MW/mediaArchive/Pdf/invent/asbz_intend_finanz_danni_guerra_l593_1981.pdf" arcrole="è rappresentazione di"/> 
+		
+		<ead:filedesc>
+			<ead:titlestmt>
+				<ead:titleproper localtype="TitoloOriginale">Inventario della serie Danni di guerra, Intendenza di finanza di Bolzano</ead:titleproper>
+				<ead:titleproper localtype="TitoloNormalizzato">Intendenza di finanza di Bolzano, Danni di guerra. Risarcimenti di danni di guerra a norma della legge 22 ottobre 1981, n. 593: inventario</ead:titleproper>
+				<ead:author localtype="Autore">ICAR-AG-2034556</ead:author>
+			</ead:titlestmt>
+			<ead:editionstmt>
+				<ead:edition localtype="Tipologia">Inventario analitico</ead:edition>
+				<ead:edition localtype="Specificazione">...</ead:edition>
+			
+				<ead:edition localtype="Pubblicato">Sì</ead:edition>
+			
+				<ead:edition localtype="Online">Sì</ead:edition>
+			</ead:editionstmt>
+			<ead:publicationstmt>
+				<ead:date localtype="DataTestuale" altrender="Data singola">2011</ead:date>
+				<ead:date localtype="QualificaData">Data di redazione dello strumento</ead:date>
+				<ead:date localtype="DataSingola" normal="2011">2011</ead:date>
+				<ead:date localtype="NoteAllaDatazione">Data della stampa.</ead:date> 
+			</ead:publicationstmt>
+			<ead:notestmt>
+				<ead:controlnote localtype="NoteStoricoRedazionali"><ead:p>Inventario elaborato da funzionari dell'Archivio.</ead:p></ead:controlnote>
+				<ead:controlnote localtype="DescrizioneIntrinseca"><ead:p>Per ciascuna busta è riportato il numero corda.</ead:p></ead:controlnote>
+				<ead:controlnote localtype="TipoSupporto"><ead:p>Analogico</ead:p></ead:controlnote>
+				<ead:controlnote localtype="ModalitaRedazione"><ead:p>Stampa da computer</ead:p></ead:controlnote>
+				<ead:controlnote localtype="DescrizioneEstrinseca"><ead:p>I titoli delle unità archivistiche sono individuati dalla colonna denominata "Descrizione del bene", che nelle sottocolonne definisce i beni immobili danneggiati secondo il comune catastale, la/le particelle edificiali, quella/e fondiarie e la/le partite tavolari. Le pratiche relative ai beni mobili danneggiati – ai quali è stata assegnata una posizione diversa (e di solito consecutiva) rispetto all'immobile di pertinenza – sono comprese nel medesimo fascicolo, che in questo caso, dunque, comprende una o più pratiche, o sottofascicoli, ognuna individuata da una posizione.</ead:p></ead:controlnote>
+				<ead:controlnote localtype="Osservazioni"><ead:p>...</ead:p></ead:controlnote> 
+			</ead:notestmt>
+		</ead:filedesc>
+		
+		<ead:maintenancestatus value="new"/>
+		<ead:publicationstatus value="published"/>
+		
+		<ead:maintenanceagency>
+			<ead:agencyname>ICAR</ead:agencyname>
+		</ead:maintenanceagency>
+		
+		<ead:languagedeclaration> 
+			<ead:language lang="ita"/>
+			<ead:script/>
+		</ead:languagedeclaration>
+		
+		<ead:localcontrol localtype="AcronimoDiSistema"> 
+			<ead:term>..Acronimo di sistema SIA..</ead:term>
+		</ead:localcontrol>
+		<ead:localcontrol localtype="IdentificativoDiSistema"> 
+			<ead:term>..Identificativo di sistema SIA..</ead:term>
+		</ead:localcontrol>
+		
+		<ead:localcontrol localtype="ComplessoArchivisticoCollegato">
+			<ead:term identifier="SIA-CA-13637874"/>
+		</ead:localcontrol>
+		<ead:localcontrol localtype="UnitaArchivisticaCollegata"> 
+			<ead:term identifier="SIA-UA-2013122"/>
+		</ead:localcontrol>
+		<ead:localcontrol localtype="UnitaDocumentariaCollegata"> 
+			<ead:term identifier="SIA-UD-2013129"/>
+		</ead:localcontrol>
+		<ead:localcontrol localtype="ProgettoCollegato"> 
+			<ead:term identifier="SIA-PR-15134566"/>
+		</ead:localcontrol>
+		<ead:localcontrol localtype="TematismoCollegato"> 
+			<ead:term identifier="SIA-TE-2413133"/>
+		</ead:localcontrol>
+		
+		<ead:localcontrol localtype="VisibilitaFE"> 
+			<ead:term>Completa</ead:term>
+		</ead:localcontrol>
+		
+		<ead:maintenancehistory>
+			<ead:maintenanceevent>
+				<ead:eventtype value="created"/>
+				<ead:eventdatetime>2025-02-21</ead:eventdatetime>
+				<ead:agenttype value="human"/>
+				<ead:agent>Chiaretti, Alessandro</ead:agent>
+				<ead:eventdescription localtype="TipoIntervento">Prima redazione</ead:eventdescription>
+				<ead:eventdescription localtype="NoteRedazionali">...</ead:eventdescription>
+			</ead:maintenanceevent>
+		</ead:maintenancehistory>
+		
+		<ead:sources>
+			<ead:source linkrole="RiferimentoBibliografico">
+				<ead:sourceentry>ICAR-RB-1992347</ead:sourceentry>
+			</ead:source>
+			<ead:source linkrole="FonteArchivistica">
+				<ead:sourceentry>ICAR-FA-20200312</ead:sourceentry>
+			</ead:source>
+			<ead:source linkrole="RiferimentoWeb">
+				<ead:sourceentry>SIA-RW-3025911</ead:sourceentry>
+			</ead:source>
+		</ead:sources>
+	</ead:control>
+	
+	<ead:archdesc level="otherlevel" otherlevel="StrumentoDiRicerca">
+		<ead:did>
+			<ead:unitid/>
+		</ead:did>
+	</ead:archdesc>
+</ead:ead></icar-import:recordBody></icar-import:record><icar-import:record><icar-import:recordHeader action="insert" groupEad="multiple" type="ead3"><icar-import:id>SIA-CA-2013153</icar-import:id><icar-import:lastUpdate>2025-11-17T14:16:27.093+02:00</icar-import:lastUpdate></icar-import:recordHeader><icar-import:recordBody><ead:ead xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.san.beniculturali.it/tracciato/ead3.xsd">
+	<ead:control repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" scriptencoding="iso15924" langencoding="iso639-3">
+
+		<ead:recordid>SIA-CA-2013153</ead:recordid>
+		<ead:filedesc>
+			<ead:titlestmt>
+				<ead:titleproper>Intendenza di finanza di Bolzano</ead:titleproper>
+			</ead:titlestmt>
+		</ead:filedesc>
+		<ead:maintenancestatus value="derived"/>
+		<ead:maintenanceagency>
+			<ead:agencyname>Archivio di Stato di Bolzano</ead:agencyname>
+		</ead:maintenanceagency>
+
+		<ead:maintenancehistory>
+			<ead:maintenanceevent>
+				<ead:eventtype value="created"/>
+				<ead:eventdatetime>2025-02-21</ead:eventdatetime>
+				<ead:agenttype value="human"/>
+				<ead:agent>Gruppo di lavoro ICAR</ead:agent>
+			</ead:maintenanceevent>
+		</ead:maintenancehistory>
+		
+	</ead:control>
+	<ead:archdesc level="fonds">
+		<ead:did>
+			<ead:unitid label="SIA" identifier="2013153">SIA-CA-2013153</ead:unitid> 
+			<ead:unitid localtype="AltroId" label="SIAS">IT-ASBZ-F230000094</ead:unitid> 
+			<ead:unitid localtype="IdPrecedente">SIcod001</ead:unitid> 
+			<ead:unittitle localtype="Denominazione">Intendenza di finanza di Bolzano</ead:unittitle> 
+			<ead:unittitle label="AltraDenominazione">Delegazione di finanza di Bolzano</ead:unittitle> 
+			<ead:unittitle localtype="AnnotazioniAltraDenominazione"/>  
+			<ead:unitdatestructured>
+				<ead:dateset>
+					<ead:datesingle localtype="DataTestuale" altrender="Intervallo di date">1941-1984 (con documentazione dal 1915)</ead:datesingle>
+					<ead:daterange>
+						<ead:fromdate standarddate="1941">1941</ead:fromdate>
+						<ead:todate standarddate="1984">1984</ead:todate>
+					</ead:daterange>
+					<ead:datesingle localtype="NoteAllaDatazione">con documentazione dal 1915</ead:datesingle>
+				</ead:dateset>
+			</ead:unitdatestructured>
+			<ead:physdesc localtype="MetriLineari">300 m.l.</ead:physdesc>
+			<ead:physdescstructured physdescstructuredtype="materialtype" coverage="part">
+				<ead:quantity>10</ead:quantity>
+				<ead:unittype>Volume</ead:unittype>
+				<ead:descriptivenote>
+					<ead:p>Volumi rilegati con posteriorità.</ead:p>
+				</ead:descriptivenote>
+			</ead:physdescstructured>
+			<ead:physdescstructured physdescstructuredtype="materialtype" coverage="part">
+				<ead:quantity>400</ead:quantity>
+				<ead:unittype>Busta</ead:unittype>
+			</ead:physdescstructured>
+			<ead:physdesc localtype="ConsistenzaTotale">10 volumi e 400 buste</ead:physdesc>
+			<ead:physdesc localtype="NoteAllaConsistenza">Con alcuni salti nella numerazione delle buste.</ead:physdesc>
+			<ead:physloc localtype="Collocazione">SIA_CL_24451<ead:ref arcrole="DaPezzo">1</ead:ref><ead:ref arcrole="APezzo">1018</ead:ref>
+			</ead:physloc>
+			<ead:didnote localtype="StatoDiConservazione">Discreto</ead:didnote>
+			<ead:didnote localtype="CondizioniDelMateriale">Le condizioni del materiale sono stabili e non presenta particolari problemi di conservazione.</ead:didnote>
+			<ead:didnote localtype="RestauroOAltriInterventi">Parte del fondo é stato soggetto a interventi di restauro.</ead:didnote>
+			<ead:didnote localtype="PeriodizzazioneOTipologia">Regno d'Italia e Repubblica Italiana</ead:didnote>
+			<ead:langmaterial label="LinguaDescrizione">
+				<ead:language lang="ita"/>
+			</ead:langmaterial>
+		</ead:did>
+		<ead:scopecontent localtype="AmbitiEContenuto">
+			<ead:p>Il fondo è costituito dalle due serie Danni di guerra, corredata da uno schedario alfabetico coevo organizzato per richiedente, e Campionatura, contenente le carte dell'Intendenza di finanza versate dall'Agenzia delle entrate di Bolzano.</ead:p>
+		</ead:scopecontent>
+		<ead:custodhist>
+			<ead:p>La serie archivistica denominata "Danni di Guerra", corredata da schedario coevo, fu versata dall'Intendenza di Finanza di Bolzano all'Archivio di Stato mediante vari versamenti tra il 30 giugno 1987 e l'8 marzo 1988; una seconda serie costituita da una campionatura venne versata il 15 marzo 2002 dall'Agenzia delle entrate di Bolzano, cui era confluito l'archivio dell'Intendenza di Finanza, a seguito dell'assimilazione delle funzioni da parte della Direzione generale delle entrate di Bolzano nel 1991.</ead:p>
+		</ead:custodhist>
+		<ead:appraisal localtype="ProcedureScarto">
+			<ead:p>Il fondo non é stato soggetto a procedure di scarto.</ead:p>
+		</ead:appraisal>
+		<ead:accruals>
+			<ead:p>Fondo chiuso. Non sono previsti incrementi.</ead:p>
+		</ead:accruals>
+		<ead:acqinfo>
+			<ead:p>Fondo versato in parte dall'Intendenza di Finanza di Bolzano e in parte dall'Agenzia delle entrate di Bolzano.</ead:p>
+		</ead:acqinfo>
+		<ead:arrangement localtype="CriteriOrdinamento">
+			<ead:p>Fondo organizzato in due serie.</ead:p>
+		</ead:arrangement>
+		<ead:arrangement localtype="Numerazione">
+			<ead:p><ead:num localtype="Numeri arabi">1-400 (numerazione delle buste)</ead:num></ead:p>
+		</ead:arrangement>
+		<ead:arrangement localtype="Numerazione">
+			<ead:p><ead:num localtype="Numeri arabi">401-410 (numerazione dei volumi)</ead:num></ead:p>
+		</ead:arrangement>
+		<ead:odd>
+			<ead:odd localtype="AltreInfo">
+				<ead:p>Parte del fondo é stato digitalizzato.</ead:p>
+			</ead:odd>
+		</ead:odd>
+		<ead:accessrestrict>
+			<ead:accessrestrict localtype="VisibilitaFE">
+				<ead:p>Completa</ead:p>
+			</ead:accessrestrict>
+		</ead:accessrestrict>
+		<ead:accessrestrict localtype="CondizioniAccesso">
+			<ead:p>Liberamente accessibile</ead:p>
+			<ead:accessrestrict localtype="NoteCondizioniAccesso">
+				<ead:p>Non ci sono restrizioni all'accesso.</ead:p>
+			</ead:accessrestrict>
+		</ead:accessrestrict>
+		<ead:userestrict localtype="Riproduzione">
+			<ead:p>Riproduzione libera</ead:p>
+			<ead:userestrict localtype="NoteCondizioniUtilizzo">
+				<ead:p>Non si sono restrizioni all'utilizzo dei documenti.</ead:p>
+			</ead:userestrict>
+		</ead:userestrict>
+		<ead:originalsloc>
+			<ead:head>Agenzia delle entrate di Bolzano</ead:head>
+			<ead:p>Sono presenti alcuni fascicoli in copia. Gli originali sono conservati nel fondo dell'Agenzia delle entrate di Bolzano.</ead:p>
+			<ead:p><ead:ref arcrole="Localizzazione">...</ead:ref></ead:p>
+			<ead:p><ead:ref arcrole="Segnatura">...</ead:ref></ead:p>
+			<ead:p><ead:ref arcrole="RiferimentoWeb" href="http://..."/></ead:p>
+		</ead:originalsloc>
+		<ead:altformavail>
+			<ead:head>Free University of Bozen-Bolzano</ead:head>
+			<ead:p>Una parte della serie Danni di guerra è disponibile in copia nella biblioteca della Free University of Bozen-Bolzano.</ead:p>
+			<ead:p><ead:ref arcrole="Localizzazione">...</ead:ref></ead:p>
+			<ead:p><ead:ref arcrole="Segnatura">...</ead:ref></ead:p>
+			<ead:p><ead:ref arcrole="RiferimentoWeb" href="http://..."/></ead:p>
+		</ead:altformavail>
+		<ead:relatedmaterial localtype="DocumentazioneEsterna">
+			<ead:archref>
+				<ead:title><ead:part>Archivio storico della Città di Bolzano</ead:part></ead:title>Nell'Archivio storico della Città di Bolzano si trova carteggio tra il comune e l'Intendenza di finanza.
+				<ead:ref href="https://opencity.comune.bolzano.it/Argomenti/Istruzione-cultura-e-sport/Cultura/Archivio-Storico" arcrole="SIA"/>
+			</ead:archref>
+		</ead:relatedmaterial>
+		<ead:relatedmaterial localtype="DocumentazioneInterna">
+			<ead:archref>
+				<ead:title><ead:part>Agenzia delle entrate di Bolzano</ead:part></ead:title>
+				Per il periodo successivo al 1984 consultare il fondo dell'Agenzia delle entrate di Bolzano.
+				<ead:ref linktitle="RelazioneConCA" arcrole="SIA">ICAR-BZ-1500021</ead:ref>
+			</ead:archref> 
+			<ead:archref>
+				<ead:title><ead:part>Fascicolo 13</ead:part></ead:title>
+				
+				<ead:ref linktitle="RelazioneConUA" arcrole="SIA">ICAR-UA-1500025</ead:ref>
+			</ead:archref>
+			<ead:archref> 
+				<ead:title><ead:part>Intervista 51.2</ead:part></ead:title>
+				
+				<ead:ref linktitle="RelazioneConUD" arcrole="SIA">ICAR-UD-1500121</ead:ref>
+			</ead:archref>
+		</ead:relatedmaterial>
+		
+		<ead:relations>
+			<ead:relation relationtype="cpfrelation">
+				<ead:relationentry localtype="Soggetto produttore">SIA-AG-1021243</ead:relationentry>
+				<ead:dateset>
+					<ead:datesingle localtype="DataTestuale" altrender="Intervallo di date">1941-1984</ead:datesingle>
+					<ead:daterange>
+						<ead:fromdate standarddate="1941">1941</ead:fromdate>
+						<ead:todate standarddate="1984">1984</ead:todate>
+					</ead:daterange>
+				</ead:dateset>
+			</ead:relation>
+			<ead:relation relationtype="cpfrelation">
+				<ead:relationentry localtype="Soggetto conservatore">SIA-AG-1033245</ead:relationentry>
+				<ead:dateset>
+					<ead:datesingle localtype="DataTestuale" altrender="Data aperta (a partire da)">1991-</ead:datesingle>
+					<ead:daterange>
+						<ead:fromdate standarddate="1991">1991</ead:fromdate>
+					</ead:daterange>
+				</ead:dateset>
+				<ead:descriptivenote>
+					<ead:p altrender="ModalitaAcquisizione">Versamento</ead:p>
+					<ead:p altrender="ModalitaConsultazione">Consultazione senza restrizioni.</ead:p>
+				</ead:descriptivenote>
+			</ead:relation>
+			<ead:relation relationtype="otherrelationtype" otherrelationtype="ProgettoCollegato">
+				<ead:relationentry>SIA-prg-A00011</ead:relationentry>
+			</ead:relation>
+			<ead:relation relationtype="otherrelationtype" otherrelationtype="EventoCollegato">
+				<ead:relationentry>SIA-evn-C00032</ead:relationentry>
+			</ead:relation>
+			<ead:relation relationtype="otherrelationtype" otherrelationtype="StrumentoCollegato">
+				<ead:relationentry>SIA-SR-2013011</ead:relationentry>
+				<ead:descriptivenote>
+					<ead:p>Il fondo è descritto alle pp. 1-15.</ead:p>
+				</ead:descriptivenote>
+			</ead:relation>
+			<ead:relation relationtype="otherrelationtype" otherrelationtype="TematismoCollegato">
+				<ead:relationentry>SIA-TE-2419131</ead:relationentry>
+			</ead:relation>
+			<ead:relation relationtype="otherrelationtype" otherrelationtype="TematismoCollegato">
+				<ead:relationentry>SIA-TE-2419145</ead:relationentry>
+			</ead:relation>	
+		</ead:relations>
+		<ead:controlaccess>
+			<ead:subject><ead:part>Storia economica</ead:part></ead:subject>
+			<ead:subject><ead:part identifier="TE-419145"/></ead:subject>
+			<ead:persname><ead:part identifier="SIA-PE-2419175"/></ead:persname>
+			<ead:corpname><ead:part identifier="SIA-AG-2419933"/></ead:corpname>
+			<ead:geogname><ead:part identifier="SIA-LG-2418324"/></ead:geogname>
+			<ead:famname><ead:part identifier="SIA-FA-2419443"/></ead:famname>
+			
+			<!-- TEMATISMO -->
+			<subject localtype="Tematismo" lang="ita" id="SIA_TE_8782869">
+				<part localtype="Denominazione">Enti pubblici locali e territoriali</part>
+				<part localtype="Descrizione">Sono enti territoriali le regioni e gli enti locali, per i quali il territorio della circoscrizione non è solo limite della competenza degli organi, ma anche elemento costitutivo dell'ente stesso, i cui organi di governo sono rappresentativi della popolazione residente.</part>
+				<part localtype="PercorsoRicercaNo"/>
+				<part localtype="StatusScheda">Bozza</part>
+			</subject>
+			<!-- / TEMATISMO -->
+			
+		</ead:controlaccess>
+		<ead:bibliography> 
+			<ead:bibliography localtype="LinkRiferimentoBibliografico">
+				<ead:bibref>
+					<ead:ref>ICAR-RB-1992347</ead:ref>
+					<ead:footnote><ead:p>pp. 55-102.</ead:p></ead:footnote>
+				</ead:bibref>
+			</ead:bibliography>
+			<ead:archref altrender="LinkFonteArchivistica">
+				<ead:ref>ICAR-FA-20200312</ead:ref>
+			</ead:archref>
+			<ead:bibliography localtype="LinkFonteNormativa">
+				<ead:bibref>
+					<ead:ref>ICAR-FN-2109923</ead:ref>
+				</ead:bibref>
+			</ead:bibliography>
+			<ead:bibliography localtype="LinkRiferimentoWeb">
+				<ead:bibref>
+					<ead:ref>SIA-RW-3025911</ead:ref>
+				</ead:bibref>
+			</ead:bibliography>
+			
+			<!-- FONTE ARCHIVISTICA -->
+			<ead:archref  lang="ita" id="SIA-FA-2013027">
+				<ead:num localtype="CodicePrecedente">IT-ASCA-F346000090</ead:num>
+				<ead:ref>CA-424529</ead:ref>
+				<ead:title>
+					<ead:part localtype="TitoloBreve">Carteggio particolare della Segreteria di Stato</ead:part>
+					<ead:part localtype="Titolo">Carteggio particolare della Segreteria di Stato presso Sua Maestà in Cagliari con funzionari, particolari ed ecclesiastici dell'isola</ead:part>
+					<ead:part localtype="Descrizione">Registri copialettere contenenti il carteggio tra il viceré e i funzionari regi, ecclesiastici ed altre persone.</ead:part>
+					<ead:part localtype="StatusScheda">Bozza</ead:part>
+				</ead:title>
+			</ead:archref>
+			<!-- / FONTE ARCHIVISTICA -->
+			
+			<!-- FONTE NORMATIVA -->
+			<ead:bibliography localtype="FonteNormativa">
+				<ead:bibref lang="ita" id="SIA-FN-2023542">
+					<ead:genreform localtype="Tipologia"><ead:part>Legge</ead:part></ead:genreform>
+					<ead:corpname relator="AutoritaEmittente"><ead:part>Regno d'Italia</ead:part></ead:corpname>
+					<ead:date>17-04-1930</ead:date>
+					<ead:num localtype="IdentificativoNIR">https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1930-04-17;421@originale</ead:num>
+					<ead:title>
+						<ead:part localtype="TitoloAtto">Legge 17 aprile 1930, n. 421. Norme sul reclutamento e sulla carriera dei magistrati</ead:part> 
+						<ead:part localtype="NumeroAtto">421</ead:part> 
+						<ead:part localtype="Annesso">Tabella</ead:part>
+						<ead:part localtype="DataVersione"><ead:date>17-04-1930</ead:date></ead:part>
+						<ead:part localtype="SpecificaVersione">originale</ead:part>
+						<ead:part localtype="StatusScheda">Bozza</ead:part>
+					</ead:title>
+				</ead:bibref>
+			</ead:bibliography>
+			<!-- / FONTE NORMATIVA -->
+			
+		</ead:bibliography>
+		<ead:odd localtype="Osservazioni">
+			<ead:odd localtype="ComplessoArchivistico">
+				<ead:p>Su molti documenti del fondo si trovano diversi timbri.</ead:p>
+			</ead:odd>
+			
+			<odd localtype="Tematismo">
+				<p>Gli enti territoriali curano gli interessi (e sono, quindi, enti esponenziali) di una collettività costituita da tutti coloro che risiedono nel loro territorio (che può essere l'intero territorio nazionale o una sua parte, ossia una circoscrizione), vale a dire di comunità territoriale nella sua interezza, il che conferisce loro il carattere della politicità. Lo Stato è ente sovrano, mentre gli enti territoriali locali sono enti autonomi, in quanto curano gli interessi di una collettività in posizione di più o meno ampia autonomia dallo Stato e da altri enti pubblici.</p>
+			</odd>
+			
+		</ead:odd>
+		<ead:processinfo localtype="StatusScheda">
+			<ead:p>Bozza</ead:p>
+		</ead:processinfo>
+		<ead:processinfo localtype="Compilazione">
+			<ead:processinfo localtype="ComplessoArchivistico">
+				<ead:chronlist>
+					<ead:chronitem>
+						<ead:datesingle>2025/02/22</ead:datesingle>
+						<ead:event>
+							<ead:corpname relator="Compilatore">
+								<ead:part localtype="Denominazione">ICAR-CP-1988029</ead:part>
+							</ead:corpname>
+							<ead:name localtype="TipoAzione">
+								<ead:part>Importazione</ead:part>
+							</ead:name>
+						</ead:event>
+					</ead:chronitem>
+				</ead:chronlist>
+				<ead:p> Note redazionali? </ead:p>
+			</ead:processinfo>
+		</ead:processinfo>
+		<ead:dsc>
+			<ead:c level="series"> 					
+				<ead:did>
+					<ead:unitid label="SIA" identifier="2013155">SIA-CA-2013155</ead:unitid> 
+					<ead:unittitle localtype="Denominazione">Danni di Guerra</ead:unittitle>
+					<ead:unitdatestructured>
+						<ead:dateset>
+							<ead:datesingle localtype="DataTestuale" altrender="Intervallo di date">1941-1983</ead:datesingle>
+							<ead:daterange>
+								<ead:fromdate standarddate="1941">1941</ead:fromdate>
+								<ead:todate standarddate="1983">1983</ead:todate>
+							</ead:daterange>
+							<ead:datesingle localtype="NoteAllaDatazione">con documentazione dal 1915</ead:datesingle>
+						</ead:dateset>
+					</ead:unitdatestructured>
+				</ead:did>
+				<ead:custodhist>
+					<ead:p>La serie Danni di guerra fu consegnata dall'Intendenza di Finanza di Bolzano all'Archivio di Stato mediante vari versamenti tra il 30 giugno 1987 e l'8 marzo 1988.</ead:p>
+				</ead:custodhist>
+				<ead:accessrestrict>
+					<ead:accessrestrict localtype="VisibilitaFE">
+						<ead:p>Completa</ead:p>
+					</ead:accessrestrict>
+				</ead:accessrestrict>
+				<ead:relations>
+					<ead:relation relationtype="resourcerelation">
+						<ead:relationentry localtype="ComplArchSovraordinato">SIA-CA-2013153</ead:relationentry>
+					</ead:relation>
+				</ead:relations>
+				<ead:processinfo localtype="StatusScheda">
+					<ead:p>Pubblicata</ead:p> 
+				</ead:processinfo>
+				<ead:processinfo localtype="Compilazione">
+					<ead:processinfo localtype="ComplessoArchivistico">
+						<ead:chronlist>
+							<ead:chronitem>
+								<ead:datesingle>2025/02/22</ead:datesingle>
+								<ead:event>
+									<ead:corpname relator="Compilatore">
+										<ead:part localtype="Denominazione">ICAR-CP-1988029</ead:part>
+									</ead:corpname>
+									<ead:name localtype="TipoAzione">
+										<ead:part>Importazione</ead:part>
+									</ead:name>
+								</ead:event>
+							</ead:chronitem>
+						</ead:chronlist>
+						<ead:p> Note redazionali? </ead:p>
+					</ead:processinfo>
+				</ead:processinfo>
+				
+				<ead:c level="file">
+					<ead:did>
+						<ead:unitid label="SIA" identifier="2013159">SIA-UA-2013159</ead:unitid>
+						<ead:unitid localtype="AltroId" label="SIAS">IT-ASBZ-F230000251</ead:unitid>
+						<ead:unitid localtype="IdPrecedente">SIcod055</ead:unitid> 
+						<ead:unitid localtype="NumeroSequenza">1556</ead:unitid> 
+						<ead:unitid localtype="NumOrdinamentoProvvisorio">00256</ead:unitid> 
+						<ead:unitid localtype="NumOrdinamentoDefinitivo">31</ead:unitid> 
+						<ead:unitid label="Segnatura">b.1 fasc.2 </ead:unitid> 
+						<ead:unitid label="SegnaturaPrecedente" localtype="SIAS">SI-ITBZ-00031</ead:unitid>
+						<ead:unittitle localtype="TitoloOriginale">113 - 104/II</ead:unittitle> 
+						<ead:unittitle label="IntegrazioneTitolo">Barbiano</ead:unittitle> 
+						<ead:unittitle localtype="TitoloAttribuito">Richiesta risarcimento di guerra 113 - 104/II - Barbiano</ead:unittitle> 
+						<ead:unitdatestructured>
+							<ead:dateset>
+								<ead:datesingle localtype="DataTestuale" altrender="Intervallo di date">1946 ott. 15 - 1983 apr. 19 (con documenti in copia del 1943)</ead:datesingle>
+								<ead:daterange>
+									<ead:fromdate standarddate="1946-10-15">1946 ott. 15</ead:fromdate>
+									<ead:todate standarddate="1983-04-19">1983 apr. 19</ead:todate>
+								</ead:daterange>
+								<ead:datesingle localtype="NoteAllaDatazione">con documenti in copia del 1943</ead:datesingle>
+							</ead:dateset>
+						</ead:unitdatestructured>	
+						<ead:physdescstructured physdescstructuredtype="materialtype" coverage="part">
+							<ead:quantity>1</ead:quantity> 
+							<ead:unittype>Fascicolo</ead:unittype>
+							<ead:physfacet localtype="Tipologia">Fascicolo</ead:physfacet>
+							<ead:physfacet localtype="Supporto">Carta</ead:physfacet>
+							<ead:physfacet localtype="Legatura">Senza legatura.</ead:physfacet>
+							<ead:dimensions localtype="Altezza">21 cm</ead:dimensions>
+							<ead:dimensions localtype="Larghezza">29 cm</ead:dimensions>
+							<ead:dimensions localtype="Spessore">0,1 cm</ead:dimensions>
+							<ead:descriptivenote>
+								<ead:p>-Integrazione alla descrizione e alla consistenza.-</ead:p>
+							</ead:descriptivenote>
+						</ead:physdescstructured>
+						<ead:physdesc localtype="ConsistenzaTotale">1 fascicolo</ead:physdesc>
+						<ead:container localtype="Busta">
+							<ead:ref>
+								<ead:num>5</ead:num>
+								<ead:title><ead:part>Richieste 1946</ead:part></ead:title>
+							</ead:ref> 
+						</ead:container>
+						<ead:physloc> 
+							<ead:ref>SIA_CL_15494262
+								<ead:num>0024</ead:num>
+							</ead:ref> 
+						</ead:physloc>
+						<ead:didnote localtype="StatoDiConservazione">Discreto</ead:didnote>
+						<ead:didnote localtype="CondizioniDelMateriale">Le condizioni del materiale sono stabili e non presenta particolari problemi di conservazione.</ead:didnote>
+						<ead:didnote localtype="RestauroOAltriInterventi">Fascicolo non restaurato.</ead:didnote>
+						<ead:langmaterial label="LinguaDocumentazione">
+							<ead:languageset> 
+								<ead:language lang="ita"/>
+								<ead:script scriptcode="Latn">Latin</ead:script>
+							</ead:languageset>
+							<ead:descriptivenote>
+								<ead:p>Parte dei documenti scritti in tedesco.</ead:p>
+							</ead:descriptivenote>
+						</ead:langmaterial>
+						<ead:langmaterial label="LinguaDescrizione">
+							<ead:language lang="ita"/>
+						</ead:langmaterial>
+					</ead:did>
+					<ead:scopecontent localtype="DescrizioneContenuto">
+						<ead:p>Richiedente: E.N.T.V. / Ministero del tesoro, uff. liquidazioni</ead:p>
+					</ead:scopecontent>
+					<ead:fileplan> 
+						<ead:p>Titolario di classificazione</ead:p> 
+						<ead:p>
+							<ead:subject localtype="IndiceClassificazione" identifier="VI.05.02">
+								<ead:part localtype="Note">Si riferisce ai risarcimenti di guerra</ead:part>
+							</ead:subject>
+						</ead:p>  
+					</ead:fileplan>
+					<ead:arrangement localtype="CriteriOrdinamento">
+						<ead:p>Docuenti in ordine cronologico.</ead:p>
+					</ead:arrangement>
+					<ead:arrangement localtype="Numerazione">
+						<ead:p><ead:num localtype="Numeri arabi">2 (numerazione del fascicolo)</ead:num></ead:p>
+					</ead:arrangement>
+					<ead:accessrestrict>
+						<ead:accessrestrict localtype="VisibilitaFE">
+							<ead:p>Completa</ead:p>
+						</ead:accessrestrict>
+					</ead:accessrestrict>
+					<ead:accessrestrict localtype="CondizioniAccesso">
+						<ead:p>Liberamente accessibile</ead:p>
+						<ead:accessrestrict localtype="NoteCondizioniAccesso">
+							<ead:p>Non ci sono restrizioni all'accesso.</ead:p>
+						</ead:accessrestrict>
+					</ead:accessrestrict>
+					<ead:userestrict localtype="Riproduzione">
+						<ead:p>Riproduzione libera</ead:p>
+						<ead:userestrict localtype="NoteCondizioniUtilizzo">
+							<ead:p>Non si sono restrizioni all'utilizzo dei documenti.</ead:p>
+						</ead:userestrict>
+					</ead:userestrict>
+					<ead:originalsloc>
+						<ead:head>Agenzia delle entrate di Bolzano</ead:head>
+						<ead:p>Alcuni documenti originali sono conservati nel fondo dell'Agenzia delle entrate di Bolzano.</ead:p>
+						<ead:p><ead:ref arcrole="Localizzazione">...</ead:ref></ead:p>
+						<ead:p><ead:ref arcrole="Segnatura">...</ead:ref></ead:p>
+						<ead:p><ead:ref arcrole="RiferimentoWeb" href="http://..."/></ead:p>
+					</ead:originalsloc>
+					<ead:altformavail>
+						<ead:head>Free University of Bozen-Bolzano</ead:head>
+						<ead:p>Fascicolo disponibile in copia nella biblioteca della Free University of Bozen-Bolzano.</ead:p>
+						<ead:p><ead:ref arcrole="Localizzazione">...</ead:ref></ead:p>
+						<ead:p><ead:ref arcrole="Segnatura">...</ead:ref></ead:p>
+						<ead:p><ead:ref arcrole="RiferimentoWeb" href="http://..."/></ead:p>
+					</ead:altformavail>
+					<ead:relatedmaterial localtype="DocumentazioneEsterna">
+						<ead:archref>
+							<ead:title><ead:part>Archivio storico della Città di Bolzano</ead:part></ead:title>
+						
+							<ead:ref href="https://opencity.comune.bolzano.it/Argomenti/Istruzione-cultura-e-sport/Cultura/Archivio-Storico" arcrole="SIA">Archivio storico della Città di Bolzano, Fondo Città di Bolzano, vol. 3, fasc. 2</ead:ref>
+						</ead:archref>
+					</ead:relatedmaterial>
+					<ead:relatedmaterial localtype="DocumentazioneInterna">
+						<ead:archref>
+							<ead:title><ead:part>Agenzia delle entrate di Bolzano</ead:part></ead:title>
+						
+							<ead:ref linktitle="RelazioneConCA" arcrole="SIA">ICAR-BZ-1500021</ead:ref>
+						</ead:archref>
+						<ead:archref>
+							<ead:title><ead:part>...</ead:part></ead:title>
+							
+							<ead:ref linktitle="RelazioneConUA" arcrole="SIA">ICAR-UA-1500025</ead:ref>
+						</ead:archref>
+						<ead:archref> 
+							<ead:title><ead:part>...</ead:part></ead:title>
+							
+							<ead:ref linktitle="RelazioneConUD" arcrole="SIA">ICAR-UD-1500121</ead:ref>
+						</ead:archref>
+					</ead:relatedmaterial>
+					<ead:relations>
+						<ead:relation relationtype="resourcerelation">
+							<ead:relationentry localtype="LivelloSuperiore">SIA-CA-2013153</ead:relationentry>
+						</ead:relation>
+						<ead:relation relationtype="cpfrelation" arcrole="Detentore dei diritti">
+							<ead:relationentry>SIA-AG-1021243</ead:relationentry>
+							<ead:dateset>
+								<ead:datesingle localtype="DataTestuale" altrender="Intervallo di date">1946 ott. 15 - 1983 apr. 19</ead:datesingle>
+								<ead:daterange>
+									<ead:fromdate standarddate="1946-10-15">1946 ott. 15</ead:fromdate>
+									<ead:todate standarddate="1983-04-19">1983 apr. 19</ead:todate>
+								</ead:daterange>
+							</ead:dateset>
+							<ead:descriptivenote>
+								<ead:p altrender="MotivoAttribuzione">Simbolo</ead:p>
+								<ead:p altrender="Note">...</ead:p>
+							</ead:descriptivenote>
+						</ead:relation>
+						<ead:relation relationtype="otherrelationtype" otherrelationtype="ProgettoCollegato">
+							<ead:relationentry>SIA-prg-A00011</ead:relationentry>
+						</ead:relation>
+						<ead:relation relationtype="otherrelationtype" otherrelationtype="EventoCollegato">
+							<ead:relationentry>SIA-evn-C00032</ead:relationentry>
+						</ead:relation>
+						<ead:relation relationtype="otherrelationtype" otherrelationtype="StrumentoCollegato">
+							<ead:relationentry>SIA-SR-2013011</ead:relationentry>
+							<ead:descriptivenote>
+								<ead:p>Il fascicolo è descritto alla p. 5.</ead:p>
+							</ead:descriptivenote>
+						</ead:relation>
+						<ead:relation relationtype="otherrelationtype" otherrelationtype="TematismoCollegato">
+							<ead:relationentry>SIA-TE-2418365</ead:relationentry>
+						</ead:relation>
+					</ead:relations>
+					<ead:controlaccess>
+						<ead:subject><ead:part>Storia economica</ead:part></ead:subject>
+						<ead:subject><ead:part identifier="TE-419145"/></ead:subject>
+						<ead:persname><ead:part identifier="SIA-PE-2419175"/></ead:persname>
+						<ead:corpname><ead:part identifier="SIA-AG-2419933"/></ead:corpname>
+						<ead:geogname><ead:part identifier="SIA-LG-2418324"/></ead:geogname>
+						<ead:famname><ead:part identifier="SIA-FA-2419443"/></ead:famname>
+					</ead:controlaccess>
+					
+					<!-- SOGGETTO -->
+					<ead:controlaccess localtype="Authority">
+				<ead:subject lang="ita" id="SIA_SOG_172853" altrender="Completa" source="SIAS">
+				<ead:part localtype="AltroAuthority" identifier="IS4316" source="ISNI"/>
+				<ead:part altrender="StatusScheda">Bozza</ead:part>
+				<ead:part localtype="Lemma">Affari risoluti</ead:part>
+				<ead:part localtype="Definizione">Si tratta principalmente di buste contenenti i fascicoli degli affari risolti a livello governativo. Gli affari potevano essere risolti e spediti secondo diverse modalità: - all'interno del Consiglio in presenza del Granduca. - dal Granduca fuori dal Consiglio. - dal Consiglio con le facoltà attribuitegli dal Granduca. - dai Direttori delle Segreterie con le facoltà attribuite loro dal Granduca come nel caso precedente.</ead:part>
+				<ead:part localtype="AltroCodice" identifier="SS56322" source="ASI"/>
+				<ead:part>				
+					<ead:ref arcrole="SoggettoCorrelato" linkrole="Associativo">SIA_SOG_173312</ead:ref> 
+					<ead:ref arcrole="SoggettoCorrelato" linkrole="Associativo">SIA_SOG_173466</ead:ref>
+					
+					
+					<ead:ref arcrole="Compilatore">
+						<ead:corpname>
+							<ead:part>ICAR-CP-1988029</ead:part>
+						</ead:corpname>
+						<ead:name localtype="Azione"><ead:part>Prima redazione</ead:part></ead:name>
+						<ead:footnote localtype="NoteRedazionali"><ead:p>...</ead:p></ead:footnote>
+						<ead:date localtype="DataCompilazione">2025/09/21</ead:date> 
+					</ead:ref>
+					<ead:ref arcrole="Osservazioni">
+						<ead:footnote localtype="NoteLavoro"><ead:p>Completare definizione.</ead:p></ead:footnote>
+					</ead:ref>
+					<ead:ref arcrole="GradoElaborazione">
+						<ead:footnote localtype="StatoCompilazione"><ead:p>pubblicazione locale</ead:p></ead:footnote>
+					</ead:ref>
+				</ead:part>
+			</ead:subject>	
+			<!-- / SOGGETTO -->
+			<!-- TOPONIMO -->
+			<ead:geogname lang="ita" id="SIA_TO_1182862" altrender="Completa">
+				<ead:part localtype="AltroAuthority" identifier="IS3356" source="ISNI"/>
+				<ead:part altrender="StatusScheda">Bozza</ead:part>
+				<ead:part localtype="Intestazione">Agrigento (Agrigento)</ead:part>
+				<ead:part localtype="Toponimo">Agrigento</ead:part>
+				<ead:part localtype="ToponimoStorico">Girgenti</ead:part>
+				<ead:part localtype="Stato">Italia</ead:part>
+				<ead:part localtype="Annotazioni">Nel 1927 Girgenti fu rinominata con il toponimo attuale.</ead:part>
+				<ead:part localtype="AltroCodice" identifier="TP66012" source="ASI"/>
+				<ead:part>
+					<ead:ref arcrole="Compilatore">
+						<ead:corpname>
+							<ead:part>ICAR-CP-1988029</ead:part>
+						</ead:corpname>
+						<ead:name localtype="Azione"><ead:part>Prima redazione</ead:part></ead:name>
+						<ead:footnote localtype="NoteRedazionali"><ead:p>...</ead:p></ead:footnote>
+						<ead:date localtype="DataCompilazione">2025/09/21</ead:date>
+					</ead:ref>
+					<ead:ref arcrole="Osservazioni">
+						<ead:footnote localtype="NoteLavoro"><ead:p>Verificare formato intestazione.</ead:p></ead:footnote>
+					</ead:ref>
+					<ead:ref arcrole="GradoElaborazione">
+						<ead:footnote localtype="StatoCompilazione"><ead:p>pubblicazione locale</ead:p></ead:footnote>
+					</ead:ref>
+				</ead:part>
+				<ead:geographiccoordinates altrender="Latitudine" coordinatesystem="WGS84">37.311199</ead:geographiccoordinates> 
+				<ead:geographiccoordinates altrender="Longitudine" coordinatesystem="WGS84">13.586655</ead:geographiccoordinates>
+			</ead:geogname>
+			<!-- / TOPONIMO -->
+			</ead:controlaccess>
+				
+					<ead:bibliography> 
+						<ead:bibliography localtype="LinkRiferimentoBibliografico">
+							<ead:bibref>
+								<ead:ref>ICAR-RB-1992347</ead:ref>
+								<ead:footnote><ead:p>pp. 55-102.</ead:p></ead:footnote>
+							</ead:bibref>
+						</ead:bibliography>
+						<ead:archref altrender="LinkFonteArchivistica">
+							<ead:ref>ICAR-FA-20200312</ead:ref>
+						</ead:archref>
+						<ead:bibliography localtype="LinkFonteNormativa">
+							<ead:bibref>
+								<ead:ref>ICAR-FN-2109923</ead:ref>
+							</ead:bibref>
+						</ead:bibliography>
+						<ead:bibliography localtype="LinkRiferimentoWeb">
+							<ead:bibref>
+								<ead:ref>SIA-RW-3025911</ead:ref>
+							</ead:bibref>
+						</ead:bibliography>
+					</ead:bibliography>
+					<ead:odd localtype="Osservazioni">
+						<ead:odd localtype="UnitaArchivistica">
+							<ead:p>Sui documenti si trovano diversi timbri.</ead:p>
+						</ead:odd>
+					</ead:odd>
+					<ead:processinfo localtype="StatusScheda">
+						<ead:p>Pubblicata</ead:p> 
+					</ead:processinfo>
+					<ead:processinfo localtype="Compilazione">
+						<ead:processinfo localtype="UnitaArchivistica">
+							<ead:chronlist>
+								<ead:chronitem>
+									<ead:datesingle>2025/02/22</ead:datesingle>
+									<ead:event>
+										<ead:corpname relator="Compilatore">
+											<ead:part localtype="Denominazione">ICAR-CP-1988029</ead:part>
+										</ead:corpname>
+										<ead:name localtype="TipoAzione">
+											<ead:part>Importazione</ead:part>
+										</ead:name>
+									</ead:event>
+								</ead:chronitem>
+							</ead:chronlist>
+							<ead:p> Note redazionali? </ead:p>
+						</ead:processinfo>
+					</ead:processinfo>
+					
+					<ead:c level="item">
+						<ead:did>
+							<ead:unitid label="SIA" identifier="2013229">SIA-UD-2013229</ead:unitid>
+							<ead:unitid localtype="AltroId" label="SIAS">IT-ASBZ-F230003577</ead:unitid>
+							<ead:unitid localtype="IdPrecedente">SIcod1131</ead:unitid> 
+							<ead:unitid localtype="NumeroSequenza">1876</ead:unitid> 
+							<ead:unitid localtype="NumOrdinamentoProvvisorio">01156</ead:unitid> 
+							<ead:unitid localtype="NumOrdinamentoDefinitivo">2</ead:unitid> 
+							<ead:unitid label="Segnatura">b.1, fasc.2</ead:unitid> 
+							<ead:unitid label="SegnaturaPrecedente" localtype="SIAS">SI-ITBZ-00062</ead:unitid>
+							<ead:unittitle localtype="TitoloOriginale">Risarcimento di guerra 113 - 104/II</ead:unittitle> 
+							<ead:unittitle label="IntegrazioneTitolo">Barbiano</ead:unittitle> 
+							<ead:unittitle localtype="TitoloAttributo">Lettera di richiesta risarcimento di guerra 113 - 104/II - Barbiano</ead:unittitle>
+							<ead:unitdatestructured>
+								<ead:dateset>
+									<ead:datesingle localtype="DataTestuale" altrender="Data singola">1946 ott. 15</ead:datesingle>
+									<ead:datesingle localtype="DataSingola" standarddate="1946-10-15">1946 ott. 15</ead:datesingle>
+									<ead:datesingle localtype="DataTopica">
+										<ead:ref>
+											<ead:geogname><ead:part>SIA-LG-2418324</ead:part></ead:geogname>
+										</ead:ref>
+									</ead:datesingle>
+								</ead:dateset>
+							</ead:unitdatestructured>
+							<ead:physdescstructured physdescstructuredtype="materialtype" coverage="part">
+								<ead:quantity>1</ead:quantity> 
+								<ead:unittype>Foglio</ead:unittype>
+								<ead:physfacet localtype="Tipologia">Quaderno</ead:physfacet>
+								<ead:physfacet localtype="TipologiaDocumentaria">
+									<ead:genreform>
+										<ead:part>Lettera</ead:part>
+										<ead:part localtype="TracciatoSpecifico">Carteggio</ead:part>
+									</ead:genreform>
+								</ead:physfacet>
+								<ead:physfacet localtype="Sigillo">
+									<ead:genreform localtype="PresenzaSigillo">  
+										<ead:part>Si</ead:part> 
+									</ead:genreform>
+									<ead:genreform localtype="DescrizioneSigillo">  
+										<ead:part localtype="Natura">Sigillo a una faccia</ead:part>
+										<ead:part localtype="Materiale">Cera</ead:part>
+										<ead:part localtype="ModoApposizione">Aderente</ead:part>
+										<ead:part localtype="Descrizione">Sigillo circolare</ead:part>
+									</ead:genreform>
+								</ead:physfacet>
+								<ead:physfacet localtype="Supporto">Carta</ead:physfacet>
+								<ead:physfacet localtype="Legatura">Senza legatura.</ead:physfacet>
+								<ead:dimensions localtype="Altezza">29 cm</ead:dimensions>
+								<ead:dimensions localtype="Larghezza">21 cm</ead:dimensions>
+								<ead:dimensions localtype="Spessore">0,1 cm</ead:dimensions>
+								<ead:descriptivenote>
+									<ead:p>-Integrazione alla descrizione e alla consistenza.-</ead:p>
+								</ead:descriptivenote>
+							</ead:physdescstructured>
+							<ead:physdesc localtype="ConsistenzaTotale">1 foglio</ead:physdesc>
+							<ead:container localtype="Cartella">
+								<ead:ref>
+									<ead:num>5</ead:num>
+									<ead:title><ead:part>Richieste 1946</ead:part></ead:title>
+								</ead:ref> 
+							</ead:container>
+							<ead:physloc> 
+								<ead:ref>SIA_CL_15494262
+									<ead:num>0024</ead:num>
+								</ead:ref>  
+							</ead:physloc>
+							<ead:langmaterial label="LinguaDocumentazione">
+								<ead:languageset> 
+									<ead:language lang="ita"/>
+									<ead:script scriptcode="Latn">Latin</ead:script>
+								</ead:languageset>
+								<ead:descriptivenote>
+									<ead:p>Parte del testo risulta scritto in gotica.</ead:p>
+								</ead:descriptivenote>
+							</ead:langmaterial>
+							<ead:langmaterial label="LinguaDescrizione">
+								<ead:language lang="ita"/>
+							</ead:langmaterial>
+							<ead:didnote localtype="StatoDiConservazione">Discreto</ead:didnote>
+							<ead:didnote localtype="CondizioniDelMateriale">Le condizioni del materiale sono stabili e non presenta particolari problemi di conservazione.</ead:didnote>
+							<ead:didnote localtype="RestauroOAltriInterventi">Documento non restaurato.</ead:didnote>
+						</ead:did>
+						<ead:fileplan>
+							<ead:p>
+								<ead:subject localtype="CodiceClassificazione" identifier="VI.05.02">
+									<ead:part localtype="Qualifica">Qualifica in base al cuadro di classificazione</ead:part>
+								</ead:subject>
+							</ead:p>
+						</ead:fileplan>
+						<ead:scopecontent localtype="DescrizioneContenuto">
+							<ead:p>Lettera di richiesta risarcimento relativo al comune di Barbiano.</ead:p>
+						</ead:scopecontent>
+						<ead:scopecontent localtype="Regesto">
+							<ead:p/> 
+						</ead:scopecontent>
+						<ead:scopecontent localtype="TrascrizioneEdizione">
+							<ead:p/> 
+						</ead:scopecontent>
+						<ead:arrangement localtype="CriteriOrdinamento">
+							<ead:p/>
+						</ead:arrangement>
+						<ead:accessrestrict>
+							<ead:accessrestrict localtype="VisibilitaFE">
+								<ead:p>Completa</ead:p>
+							</ead:accessrestrict>
+						</ead:accessrestrict>
+						<ead:accessrestrict localtype="CondizioniAccesso">
+							<ead:p>Liberamente accessibile</ead:p>
+							<ead:accessrestrict localtype="NoteCondizioniAccesso">
+								<ead:p>Non ci sono restrizioni all'accesso.</ead:p>
+							</ead:accessrestrict>
+						</ead:accessrestrict>
+						<ead:userestrict localtype="Riproduzione">
+							<ead:p>Riproduzione libera</ead:p>
+							<ead:userestrict localtype="NoteCondizioniUtilizzo">
+								<ead:p>Non si sono restrizioni all'utilizzo dei documenti.</ead:p>
+							</ead:userestrict>
+						</ead:userestrict>
+						<ead:originalsloc> 
+							<ead:head>Agenzia delle entrate di Bolzano</ead:head>
+							<ead:p>L'originale del documento è conservato nel fondo dell'Agenzia delle entrate di Bolzano.</ead:p>
+							<ead:p><ead:ref arcrole="Localizzazione">...</ead:ref></ead:p>
+							<ead:p><ead:ref arcrole="Segnatura">...</ead:ref></ead:p>
+							<ead:p><ead:ref arcrole="RiferimentoWeb" href="http://..."/></ead:p>
+						</ead:originalsloc>
+						<ead:altformavail> 
+							<ead:head>Free University of Bozen-Bolzano</ead:head>
+							<ead:p>Documento disponibile in copia nella biblioteca della Free University of Bozen-Bolzano.</ead:p>
+							<ead:p><ead:ref arcrole="Localizzazione">...</ead:ref></ead:p>
+							<ead:p><ead:ref arcrole="Segnatura">...</ead:ref></ead:p>
+							<ead:p><ead:ref arcrole="RiferimentoWeb" href="http://..."/></ead:p>
+						</ead:altformavail>
+						<ead:relatedmaterial localtype="DocumentazioneEsterna">
+							<ead:archref>
+								<ead:title><ead:part>Archivio storico della Città di Bolzano</ead:part></ead:title>
+							
+								<ead:ref href="https://opencity.comune.bolzano.it/Argomenti/Istruzione-cultura-e-sport/Cultura/Archivio-Storico" arcrole="SIA"/>
+							</ead:archref>
+						</ead:relatedmaterial>
+						<ead:relatedmaterial localtype="DocumentazioneInterna">
+							<ead:archref>
+								<ead:title><ead:part>Agenzia delle entrate di Bolzano</ead:part></ead:title>
+							
+								<ead:ref linktitle="RelazioneConCA" arcrole="SIA">ICAR-BZ-1500021</ead:ref>
+							</ead:archref>
+							<ead:archref>
+								<ead:title><ead:part/></ead:title>
+								
+								<ead:ref linktitle="RelazioneConUA" arcrole="SIA">ICAR-UA-1500025</ead:ref>
+							</ead:archref>
+							<ead:archref> 
+								<ead:title><ead:part/></ead:title>
+								
+								<ead:ref linktitle="RelazioneConUD" arcrole="SIA">ICAR-UD-1500121</ead:ref>
+							</ead:archref>
+						</ead:relatedmaterial>
+						<ead:relations>
+							<ead:relation relationtype="resourcerelation">
+								<ead:relationentry localtype="LivelloSuperiore">SIA-UA-2013159</ead:relationentry>
+							</ead:relation>
+							<ead:relation relationtype="cpfrelation" arcrole="Detentore dei diritti">
+								<ead:relationentry>SIA-AG-1021243</ead:relationentry>
+								<ead:descriptivenote>
+									<ead:p altrender="MotivoAttribuzione">Simbolo</ead:p>
+									<ead:p altrender="Note">...</ead:p>
+								</ead:descriptivenote>
+							</ead:relation>
+							<ead:relation relationtype="otherrelationtype" otherrelationtype="ProgettoCollegato">
+								<ead:relationentry>SIA-prg-A00011</ead:relationentry>
+							</ead:relation>
+							<ead:relation relationtype="otherrelationtype" otherrelationtype="EventoCollegato">
+								<ead:relationentry>SIA-evn-C00032</ead:relationentry>
+							</ead:relation>
+							<ead:relation relationtype="otherrelationtype" otherrelationtype="TematismoCollegato">
+								<ead:relationentry>SIA-TE-2419131</ead:relationentry>
+							</ead:relation>
+							<ead:relation relationtype="otherrelationtype" otherrelationtype="StrumentoCollegato">
+								<ead:relationentry>SIA-SR-2013011</ead:relationentry>
+								<ead:descriptivenote>
+									<ead:p>Il documento è descritto alla p. 5.</ead:p>
+								</ead:descriptivenote>
+							</ead:relation>
+						</ead:relations>
+						<ead:controlaccess>
+							<ead:subject><ead:part>Storia economica</ead:part></ead:subject>
+							<ead:subject><ead:part identifier="TE-419145"/></ead:subject>
+							<ead:persname><ead:part identifier="SIA-PE-2419175"/></ead:persname>
+							<ead:corpname><ead:part identifier="SIA-AG-2419933"/></ead:corpname>
+							<ead:famname><ead:part identifier="SIA-FA-2419443"/></ead:famname>
+							<ead:geogname><ead:part identifier="SIA-LG-2418324"/></ead:geogname>
+							<ead:geogname><ead:part>Barbiano</ead:part></ead:geogname>
+						</ead:controlaccess>
+						<ead:bibliography> 
+							<ead:bibliography localtype="LinkRiferimentoBibliografico">
+								<ead:bibref>
+									<ead:ref>ICAR-RB-1992347</ead:ref>
+									<ead:footnote><ead:p>pp. 55-102.</ead:p></ead:footnote>
+								</ead:bibref>
+							</ead:bibliography>
+							<ead:archref altrender="LinkFonteArchivistica">
+								<ead:ref>ICAR-FA-20200312</ead:ref>
+							</ead:archref>
+							<ead:bibliography localtype="LinkFonteNormativa">
+								<ead:bibref>
+									<ead:ref>ICAR-FN-2109923</ead:ref>
+								</ead:bibref>
+							</ead:bibliography>
+							<ead:bibliography localtype="LinkRiferimentoWeb">
+								<ead:bibref>
+									<ead:ref>SIA-RW-3025911</ead:ref>
+								</ead:bibref>
+							</ead:bibliography>
+						</ead:bibliography>
+						<ead:odd localtype="Osservazioni">
+							<ead:odd localtype="UnitaDocumentaria">
+								<ead:p>Sul documento si trovano diversi timbri.</ead:p>
+							</ead:odd>
+						</ead:odd>
+						<ead:processinfo localtype="StatusScheda">
+							<ead:p>Pubblicata</ead:p> 
+						</ead:processinfo>
+						<ead:processinfo localtype="Compilazione">
+							<ead:processinfo localtype="UnitaDocumentaria">
+								<ead:chronlist>
+									<ead:chronitem>
+										<ead:datesingle>2025/02/22</ead:datesingle>
+										<ead:event>
+											<ead:corpname relator="Compilatore">
+												<ead:part localtype="Denominazione">ICAR-CP-1988029</ead:part>
+											</ead:corpname>
+											<ead:name localtype="TipoAzione">
+												<ead:part>Importazione</ead:part>
+											</ead:name>
+										</ead:event>
+									</ead:chronitem>
+								</ead:chronlist>
+								<ead:p> Note redazionali? </ead:p>
+							</ead:processinfo>
+						</ead:processinfo>
+					</ead:c>
+				</ead:c>
+			</ead:c>
+		</ead:dsc>
+	</ead:archdesc>
+</ead:ead>
+</icar-import:recordBody>
+</icar-import:record>
+
+<icar-import:record>
+<icar-import:recordHeader action="insert" groupEad="single" type="ead3">
+<icar-import:id>SIA-SR-2013011</icar-import:id>
+<icar-import:lastUpdate>2025-11-17T14:16:27.093+02:00</icar-import:lastUpdate>
+</icar-import:recordHeader>
+<icar-import:recordBody>
+
+<ead:ead xmlns:ead="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.san.beniculturali.it/tracciato/ead3.xsd">
+	<ead:control repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" scriptencoding="iso15924" langencoding="iso639-3">
+
+		<ead:recordid>SIA-PR-15134566</ead:recordid>
+		<ead:filedesc>
+			<ead:titlestmt>
+				<ead:titleproper localtype="DenominazioneProgetto">Le pergamene dell'Archivio di Stato di Novara</ead:titleproper>
+				<ead:subtitle localtype="AcronimoProgetto">
+					<ead:abbr>PASN</ead:abbr>
+				</ead:subtitle>
+				<ead:author localtype="AgentePartecipante">
+					<ead:ref id="SIA-AG-13634966">
+						<ead:function localtype="Qualifica">
+							<ead:part>Coordinatore</ead:part>
+						</ead:function>
+					</ead:ref>
+				</ead:author>
+			</ead:titlestmt>
+			<ead:notestmt>
+				<ead:controlnote localtype="TipologiaProgetto">
+					<ead:p>Progetto di digitalizzazione</ead:p>
+				</ead:controlnote>
+				<ead:controlnote localtype="FinalitaProgetto">
+					<ead:p>Riproduzione di serie/fondi archivistici</ead:p>
+				</ead:controlnote>
+				<ead:controlnote localtype="ObiettiviProgetto">
+					<ead:p>Rendere disponibili in formato digitale le pergamene conservate nell'Archivio di Stato di Novara.</ead:p>
+				</ead:controlnote>
+				<ead:controlnote localtype="CriteriSelezioneMateriale"> 
+					<ead:p>Tutte le pergamene.</ead:p>
+				</ead:controlnote>
+				<ead:controlnote localtype="CriteriRiproduzioneMateriale"> 
+					<ead:p>Alta qualità.</ead:p>
+				</ead:controlnote>
+				<ead:controlnote localtype="CoperturaSpazialeMateriale"> 
+					<ead:p>Provincia di Novara.</ead:p>
+				</ead:controlnote>
+				<ead:controlnote localtype="CoperturaTemporaleMateriale"> 
+					<ead:p>Secoli XII-XVI.</ead:p>
+				</ead:controlnote>
+			</ead:notestmt>
+		</ead:filedesc>
+		<ead:maintenancestatus value="derived"/>
+		<ead:maintenanceagency>
+			<ead:agencyname localtype="AgentePrincipale" id="SIA-AG-13019682"/>
+			<ead:descriptivenote>
+				<ead:p>Responsabile</ead:p>
+			</ead:descriptivenote>
+		</ead:maintenanceagency>
+		
+		<ead:localcontrol localtype="AcronimoDiSistema"> 
+			<ead:term>SIA</ead:term>
+		</ead:localcontrol>
+		<ead:localcontrol localtype="IdentificativoDiSistema"> 
+			<ead:term>15134566</ead:term>
+		</ead:localcontrol>
+		<ead:localcontrol localtype="StatusScheda"> 
+			<ead:term>Bozza</ead:term>
+		</ead:localcontrol>
+		
+		<ead:maintenancehistory>
+			<ead:maintenanceevent>
+				<ead:eventtype value="derived"/>
+				<ead:eventdatetime>2025-02-21</ead:eventdatetime>
+				<ead:agenttype value="human"/>
+				<ead:agent>Gruppo di lavoro ICAR</ead:agent>
+			</ead:maintenanceevent>
+		</ead:maintenancehistory>
+		
+	</ead:control>
+	<ead:archdesc level="otherlevel" otherlevel="ProgettoDigitalizzazione">
+		<ead:did>
+			<ead:unitid>SIA-PR-15134566</ead:unitid>
+			<ead:unitdatestructured> 
+				<ead:dateset>
+					<ead:datesingle localtype="DataTestuale" altrender="Intervallo di date">2021-2023</ead:datesingle>
+					<ead:daterange>
+						<ead:fromdate standarddate="2021">2021</ead:fromdate>
+						<ead:todate standarddate="2023">2023</ead:todate>
+					</ead:daterange>
+				</ead:dateset>
+			</ead:unitdatestructured>
+			<ead:physdesc localtype="Dimensioni">2 GB</ead:physdesc>
+			<ead:physdesc localtype="FormatoImmaginiOnline">JPG</ead:physdesc>
+			<ead:physdesc localtype="FormatoRiproduzione">TIFF, JPEG, PDF</ead:physdesc>
+			<ead:physdesc localtype="Risoluzione">300 dpi</ead:physdesc>
+			<ead:physdesc localtype="GestioneColore">RGB a 24 bits</ead:physdesc>
+			<ead:langmaterial>
+				<ead:language lang="ita"/>
+			</ead:langmaterial>
+		</ead:did>
+		<ead:phystech localtype="ArchitetturaSistema">
+			<ead:p/>  
+		</ead:phystech>
+		<ead:phystech localtype="AltroSoftware">
+			<ead:p/>  
+		</ead:phystech>
+		<ead:phystech localtype="StrumentazioneRipresa">
+			<ead:p>Scanner</ead:p>
+		</ead:phystech>
+		<ead:phystech localtype="StandardAdottati">
+			<ead:p/>  
+		</ead:phystech>
+		<ead:accessrestrict localtype="AccessoOriginaliAnalogici">
+			<ead:p>Gli originali sono consultabili presso l'Archivio di Stato di Novara previa autorizzazione.</ead:p>
+		</ead:accessrestrict>
+		<ead:accessrestrict localtype="DetentoreDiritti">
+			<ead:p>
+				<ead:corpname><ead:part>Archivio di Stato di Novara</ead:part></ead:corpname>
+			</ead:p>  
+		</ead:accessrestrict>
+		<ead:accessrestrict>
+			<ead:accessrestrict localtype="VisibilitaFE">
+				<ead:p>Completa</ead:p>
+			</ead:accessrestrict>
+		</ead:accessrestrict>
+		<ead:scopecontent localtype="NoteProgetto">
+			<ead:p>Il progetto trae origine dall'attività di schedatura e inventariazione delle pergamene del fondo Cacciapiatti, effettuata nel 2021 dalla dott.ssa Sara Sarselli, che ha prestato attività di servizio volontario presso l'Archivio di Stato di Novara ai sensi dell'art. 55 del DPR 1409/1963. Successivamente, Patrizio Zamborlin si è occupato della digitalizzazione delle preziose raccolte membranacee pervenute nel Fondo manoscritti della Biblioteca Civica di Novara: Azzati, Canetta, Cattaneo-Brambilla, Giannoni, Mirabelli, Olina, San Giulio d'Orta, Società archeologica di Novara, Tarella. Nell'ambito del tirocinio "Fondo giovani per la cultura", promosso dalla Direzione Generale Educazione, Ricerca e Istituti culturali, svolto dalla dott.ssa Ilaria Crespi nel corso del 2023, le dette raccolte sono state schedate sia su Archimista sia sulla piattaforma Metafad, con l'importazione dei relativi oggetti digitali nel DAM.</ead:p>
+		</ead:scopecontent>
+		<ead:relations>
+			<ead:relation relationtype="resourcerelation">
+				<ead:relationentry localtype="ComplArchCollegato">SIA-CA-13637874</ead:relationentry> 
+			</ead:relation>
+			<ead:relation relationtype="resourcerelation">
+				<ead:relationentry localtype="UACollegata">SIA-UA-2013122</ead:relationentry>
+			</ead:relation>
+			<ead:relation relationtype="resourcerelation">
+				<ead:relationentry localtype="UDCollegata">SIA-UD-2013129</ead:relationentry>
+			</ead:relation>
+			<ead:relation relationtype="otherrelationtype" otherrelationtype="StrumentoDiRicerca">
+				<ead:relationentry>SIA-SR-2013087</ead:relationentry>
+			</ead:relation>
+			<ead:relation relationtype="otherrelationtype" otherrelationtype="Tematismo">
+				<ead:relationentry>SIA-TE-2413133</ead:relationentry>
+			</ead:relation>
+		</ead:relations>
+		<ead:bibliography>
+			<ead:bibliography localtype="LinkRiferimentoBibliografico"> 
+				<ead:bibref>
+					<ead:ref>SIA-RB-2023899</ead:ref>
+					<ead:footnote><ead:p>Pp. 55-102.</ead:p></ead:footnote>
+				</ead:bibref>
+			</ead:bibliography>
+			<ead:bibliography localtype="LinkFonteNormativa">
+				<ead:bibref>
+					<ead:ref>SIA-FN-3025677</ead:ref>
+				</ead:bibref>
+			</ead:bibliography>
+			<ead:bibliography localtype="LinkRiferimentoWeb"> 
+				<ead:bibref>
+					<ead:ref>SIA-RW-3025911</ead:ref>
+				</ead:bibref>
+			</ead:bibliography>
+			<ead:archref altrender="LinkFonteArchivistica">
+				<ead:ref>SIA-FA-3023657</ead:ref>
+			</ead:archref>
+		</ead:bibliography>
+		<ead:odd localtype="Osservazioni">
+			<ead:odd localtype="Progetto">
+				<ead:p>Progetto realizzato in due parti.</ead:p>
+			</ead:odd>
+		</ead:odd>
+		<ead:processinfo localtype="StatoAvanzamento">
+			<ead:p>Progetto termintao.</ead:p>
+		</ead:processinfo>
+		<ead:processinfo localtype="Compilazione">
+			<ead:processinfo localtype="Progetto">
+				<ead:chronlist>
+					<ead:chronitem>
+						<ead:datesingle>2025/02/22</ead:datesingle>
+						<ead:event>
+							<ead:name localtype="TipoAzione">
+								<ead:part>Importazione</ead:part>
+							</ead:name>
+							<ead:corpname relator="Compilatore">
+								<ead:part localtype="Denominazione">ICAR-CP-1988029</ead:part>
+							</ead:corpname>
+						</ead:event>
+					</ead:chronitem>
+				</ead:chronlist>
+				<ead:p> ..Note redazionali.. </ead:p> 
+			</ead:processinfo>
+		</ead:processinfo>
+	</ead:archdesc>
+</ead:ead>
+
+</icar-import:recordBody>
+</icar-import:record>
+
+<icar-import:record>
+<icar-import:recordHeader action="insert" type="eac">
+<icar-import:id>SIA-AG-1021243</icar-import:id>
+<icar-import:lastUpdate>2025-11-17T14:16:27.093+02:00</icar-import:lastUpdate>
+</icar-import:recordHeader>
+<icar-import:recordBody>
+<eac:eac audience="external">
+ <eac:control maintenanceStatus="derived" eac-sia:status="Bozza">
+  <eac:recordId>SIA-AG-1021243</eac:recordId>
+  <eac:maintenanceAgency>
+   <eac:agencyCode>IT-ICAR</eac:agencyCode>
+   <eac:agencyName>ICAR</eac:agencyName>
+  </eac:maintenanceAgency>
+  <eac:maintenanceHistory>
+   <eac:maintenanceEvent languageOfElement="ita" maintenanceEventType="created">
+    <eac:agent agentType="human">Alessandro Chiaretti</eac:agent>
+    <eac:eventDateTime standardDateTime="20250321"/>
+    <eac:eventDescription>
+     <eac:span localType="Azione">Importazione</eac:span>
+     <eac:span localType="NoteRedazionali">Registro creato per sistema di test</eac:span>
+    </eac:eventDescription>
+   </eac:maintenanceEvent>
+  </eac:maintenanceHistory>
+  <eac:sources>
+   <eac:source>
+    <eac:reference linkRole="RiferimentoBibliografico">SIA-RB-19923471</eac:reference>
+    <eac:descriptiveNote><eac:p>pp. 34-46</eac:p></eac:descriptiveNote>
+   </eac:source>
+   <eac:source>
+    <eac:reference linkRole="FonteArchivistica">SIA-FA-202003122</eac:reference>
+   </eac:source>
+   <eac:source>
+    <eac:reference linkRole="FonteNormativa">ICAR-FN-21099233</eac:reference>
+   </eac:source>
+   <eac:source>
+    <eac:reference linkRole="RiferimentoWeb">wiki_Intendenza_di_finanza</eac:reference>
+   </eac:source>
+  </eac:sources>
+  <eac:localControl localType="Visibilita_FE"><eac:term>Completa</eac:term></eac:localControl>
+  <eac:localControl localType="AcronimoSistema"><eac:term>SIA</eac:term></eac:localControl>
+  <eac:otherRecordId localType="ISIL">IT-BZ0331</eac:otherRecordId>
+  <eac:otherRecordId localType="SIAS">IT-ASBZ-CC236400094</eac:otherRecordId> 
+  <eac:otherRecordId localType="IdPrecedente">ASBZ-347856</eac:otherRecordId>
+ </eac:control>
+ <eac:cpfDescription>
+  <eac:identity>
+   <eac:entityType value="corporateBody"/>
+   <eac:nameEntry localType="DenominazioneEnte" languageOfElement="ita">
+    <eac:part localType="IntestazionePrincipaleEnte">Intendenza di finanza di Bolzano, Bolzano (1927 - 1991)</eac:part>
+    <eac:part localType="DenominazionePrincipaleEnte">Intendenza di finanza di Bolzano</eac:part>
+    <eac:part localType="AcronimoEnte">IFBZ</eac:part>
+    <eac:useDates>
+     <eac:dateSet>
+      <eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1927-1991</eac:date>
+      <eac:dateRange>
+       <eac:fromDate standardDate="1927">1927</eac:fromDate>
+       <eac:toDate standardDate="1991">1991</eac:toDate>
+      </eac:dateRange>
+     </eac:dateSet>
+    </eac:useDates>
+   </eac:nameEntry>
+   <eac:nameEntry localType="AltraDenominazioneEnte" languageOfElement="deu" status="alternative">
+    <eac:part localType="AltraIntestazione">Finanzintendanz Bozen, Bozen (1927 - 1991)</eac:part>
+    <eac:part localType="AltraDenominazione">Finanzintendanz Bozen</eac:part>
+    <eac:part localType="AltroAcronimo">FIBZ</eac:part>
+	<eac:part localType="Qualifica">Denominazione parallela - Intestazione parallela</eac:part>
+    <eac:useDates>
+     <eac:dateSet>
+      <eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1927-1991</eac:date>
+      <eac:dateRange>
+       <eac:fromDate standardDate="1927">1927</eac:fromDate>
+       <eac:toDate standardDate="1991">1991</eac:toDate>
+      </eac:dateRange>
+     </eac:dateSet>
+    </eac:useDates>
+   </eac:nameEntry>
+   <eac:otherEntityTypes>
+    <eac:otherEntityType localType="Ente">
+     <eac:term>Organo e ufficio statale periferico del periodo postunitario</eac:term>
+     <eac:dateSet>
+      <eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1927-1991</eac:date>
+      <eac:dateRange>
+       <eac:fromDate standardDate="1927">1927</eac:fromDate>
+       <eac:toDate standardDate="1991">1991</eac:toDate>
+      </eac:dateRange>
+     </eac:dateSet>
+    </eac:otherEntityType>
+   </eac:otherEntityTypes> 
+   <eac:identityId>1021243</eac:identityId>
+  </eac:identity>
+  <eac:description>
+   <eac:legalStatuses>
+    <eac:legalStatus>
+     <eac:term>Ente pubblico</eac:term>
+     <eac:dateSet>
+      <eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1927-1991</eac:date>
+      <eac:dateRange>
+       <eac:fromDate standardDate="1927">1927</eac:fromDate>
+       <eac:toDate standardDate="1991">1991</eac:toDate>
+      </eac:dateRange>
+     </eac:dateSet>
+    </eac:legalStatus>
+   </eac:legalStatuses>
+   <eac:localDescriptions>
+    <eac:localDescription>
+     <eac:term>Osservazioni</eac:term>
+     <eac:descriptiveNote><eac:p>La scheda deve essere integrata inserendo le fonti normative.</eac:p></eac:descriptiveNote>
+    </eac:localDescription>
+   </eac:localDescriptions>
+   <eac:places>
+    <eac:place localType="LuogoEnte">
+     <eac:placeName>ICAR-TOP-20190114</eac:placeName>
+     <eac:placeRole>Sede</eac:placeRole>
+     <eac:dateSet>
+      <eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1927-1991</eac:date>
+      <eac:dateRange>
+       <eac:fromDate standardDate="1927">1927</eac:fromDate>
+       <eac:toDate standardDate="1991">1991</eac:toDate>
+      </eac:dateRange>
+     </eac:dateSet>
+    </eac:place>
+   </eac:places>
+   <eac:existDates localType="DateEsistenzaEnte">
+    <eac:dateSet>
+     <eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date" eac-sia:qualificaData="Date di esistenza">1927-1991</eac:date>
+     <eac:dateRange>
+      <eac:fromDate standardDate="1927">1927</eac:fromDate>
+      <eac:toDate standardDate="1991">1991</eac:toDate>
+     </eac:dateRange>
+    </eac:dateSet>
+   </eac:existDates>
+   <eac:biogHist>
+    <eac:p>Le Intendenze di finanza sono organi locali dell’amministrazione finanziaria istituiti nel 1869 alle dipendenze del Ministero delle finanze, con il compito di vigilare sulle pubbliche entrate e provvedere alla riscossione di tributi o altri proventi, di amministrare i beni patrimoniali immobili dello Stato e tutelare i beni del demanio pubblico. A Bolzano venne istituita l'Intendenza di finanza nel 1927, in concomitanza con la nascita della Provincia, con competenza estesa a tutto il territorio di questa. Nel quadro del processo di ristrutturazione dell'amministrazione finanziaria iniziato con la l. 358/29 ottobre 1991, il 31 dicembre 1994 venne soppressa l'Intendenza di finanza di Bolzano e contestualemente, invariata la sede, venne istituita la Direzione provinciale di Bolzano del Ministero delle finanze, le cui competenze transitarono poi, dapprima nel Dipartimento delle entrate e, da ultimo, all'Agenzia delle entrate - Direzione provinciale di Bolzano.</eac:p>
+   </eac:biogHist>
+   <eac:structureOrGenealogy>
+    <eac:p>...</eac:p> 
+   </eac:structureOrGenealogy>
+  </eac:description>
+  <eac:relations>
+   <eac:relation>
+    <eac:targetEntity targetType="agent" valueURI="http://n2t.net/ark:/99166/w6gj5s8z" vocabularySource="SNAC" vocabularySourceURI="https://snaccooperative.org/"><eac:part>Intendenza di finanza di Bolzano</eac:part>
+	</eac:targetEntity>
+	<eac:relationType>sameAs</eac:relationType>
+   </eac:relation>
+   <eac:relation>
+    <eac:targetEntity targetType="resource">
+		<eac:part>SIA-CA-20131535</eac:part>
+	</eac:targetEntity>
+    <eac:dateSet>
+     <eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1927-1991</eac:date>
+     <eac:dateRange>
+      <eac:fromDate standardDate="1927">1927</eac:fromDate>
+      <eac:toDate standardDate="1991">1991</eac:toDate>
+     </eac:dateRange>
+    </eac:dateSet>
+    <eac:relationType>Soggetto produttore</eac:relationType>
+    <eac:targetRole>Complesso archivistico</eac:targetRole>
+   </eac:relation>
+   <eac:relation>
+    <eac:targetEntity targetType="resource">
+		<eac:part>SIA-UA-20213156</eac:part>
+	</eac:targetEntity>
+    <eac:dateSet>
+     <eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">15 feb. 1930 - 1 ott. 1932</eac:date>
+     <eac:dateRange>
+      <eac:fromDate standardDate="1930-02-15">15 feb. 1930</eac:fromDate>
+      <eac:toDate standardDate="1932-10-01">1 ott. 1932</eac:toDate>
+     </eac:dateRange>
+    </eac:dateSet>
+    <eac:relationType>Mittente</eac:relationType>
+	<eac:targetRole>Unità archivistica</eac:targetRole>
+    <eac:descriptiveNote><eac:p>Timbro</eac:p></eac:descriptiveNote>
+   </eac:relation>
+   <eac:relation>
+    <eac:targetEntity targetType="resource">
+		<eac:part>SIA-UD-20214257</eac:part>
+	</eac:targetEntity>
+	<eac:dateSet> 	
+		<eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data singola">10 mar. 1951</eac:date>
+		<eac:date standardDate="1951-03-10">10 mar. 1951</eac:date>
+    </eac:dateSet>
+	<eac:relationType>Destinatario</eac:relationType>
+    <eac:targetRole>Unità documentaria</eac:targetRole>
+    <eac:descriptiveNote><eac:p>Timbro</eac:p></eac:descriptiveNote>
+   </eac:relation>
+   <eac:relation>
+    <eac:targetEntity targetType="resource">
+		<eac:part>SIA-SR-20130118</eac:part>
+	</eac:targetEntity>
+    <eac:relationType>Autore</eac:relationType>
+	<eac:targetRole>Strumento di ricerca</eac:targetRole>
+   </eac:relation> 
+   <eac:relation>
+    <eac:targetEntity targetType="resource">
+		<eac:part>SIA-PR-67191319</eac:part>
+	</eac:targetEntity>
+    <eac:relationType>Finanziatore</eac:relationType>
+	<eac:targetRole>Progetto</eac:targetRole>
+   </eac:relation> 
+   <eac:relation>
+    <eac:targetEntity targetType="function">
+		<eac:part>SIA-EV-77191320</eac:part>
+	</eac:targetEntity>
+    <eac:relationType>Finanziatore</eac:relationType>
+	<eac:targetRole>Evento</eac:targetRole>
+   </eac:relation> 
+   <eac:relation>
+    <eac:targetEntity targetType="agent">
+		<eac:part>SIA-CS-19221321</eac:part>
+	</eac:targetEntity>
+    <eac:dateSet>
+     <eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1927-1946</eac:date>
+     <eac:dateRange>
+      <eac:fromDate standardDate="1927">1927</eac:fromDate>
+      <eac:toDate standardDate="1946">1946</eac:toDate>
+     </eac:dateRange>
+    </eac:dateSet>
+    <eac:targetRole>Contesto storico istituzionale collegato</eac:targetRole>
+   </eac:relation>
+   <eac:relation>
+    <eac:targetEntity targetType="resource">
+		<eac:part>SIA-TE-24191312</eac:part>
+	</eac:targetEntity>
+    <eac:targetRole>Tematismo</eac:targetRole>
+   </eac:relation>
+   <eac:relation>
+    <eac:targetEntity targetType="corporateBody">
+     <eac:part>SIA-AG-10212463</eac:part>
+    </eac:targetEntity>
+	<eac:dateSet>
+     <eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data singola">1994</eac:date>
+	 <eac:date standardDate="1994">1994</eac:date>
+    </eac:dateSet>
+    <eac:targetRole>Soggetto produttore collegato</eac:targetRole>
+    <eac:relationType>TemporaleSuccessiva</eac:relationType>
+   </eac:relation> 
+   <eac:relation>
+    <eac:targetEntity targetType="corporateBody">
+     <eac:part>SIA-PI-19212664</eac:part>
+    </eac:targetEntity>
+    <eac:dateSet>
+     <eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1927-1991</eac:date>
+     <eac:dateRange>
+      <eac:fromDate standardDate="1927">1927</eac:fromDate>
+      <eac:toDate standardDate="1991">1991</eac:toDate>
+     </eac:dateRange>
+    </eac:dateSet>
+    <eac:targetRole>Profilo istituzionale collegato</eac:targetRole>
+   </eac:relation> 
+   <eac:relation>
+    <eac:targetEntity targetType="resource">
+     <eac:part>SIA-RR-1220565</eac:part> 
+    </eac:targetEntity>
+    <eac:relationType>È documentazione</eac:relationType>
+	<eac:targetRole>Risorsa digitale collegata</eac:targetRole>
+   </eac:relation>
+  </eac:relations>
+ </eac:cpfDescription>
+</eac:eac></icar-import:recordBody></icar-import:record><icar-import:record><icar-import:recordHeader action="insert" type="eac"><icar-import:id>ASI-AG-1021256</icar-import:id><icar-import:lastUpdate>2025-11-17T14:16:27.093+02:00</icar-import:lastUpdate></icar-import:recordHeader><icar-import:recordBody><eac:eac audience="external">
+	<eac:control maintenanceStatus="derived" eac-sia:status="Bozza">
+		<eac:recordId>ASI-AG-1021256</eac:recordId>
+		<eac:maintenanceAgency>
+			<eac:agencyCode>IT-ICAR</eac:agencyCode>
+			<eac:agencyName>ICAR</eac:agencyName>
+		</eac:maintenanceAgency>
+		<eac:maintenanceHistory>
+			<eac:maintenanceEvent languageOfElement="ita" maintenanceEventType="created">
+			<eac:agent agentType="human">Alessandro Chiaretti</eac:agent>
+			<eac:eventDateTime standardDateTime="20250321"/>
+			<eac:eventDescription>
+				<eac:span localType="Azione">Importazione</eac:span>
+				<eac:span localType="NoteRedazionali">Registro creato per sistema di test</eac:span>
+			</eac:eventDescription>
+			</eac:maintenanceEvent>
+		</eac:maintenanceHistory>
+		<eac:sources>
+			<eac:source>
+				<eac:reference linkRole="RiferimentoBibliografico">SIA-RB-19923596</eac:reference>
+				<eac:descriptiveNote><eac:p>pp. 34-46</eac:p></eac:descriptiveNote>
+			</eac:source>
+			<eac:source>
+				<eac:reference linkRole="FonteArchivistica">SIA-FA-202004627</eac:reference>
+			</eac:source>
+			<eac:source>
+				<eac:reference linkRole="FonteNormativa">ICAR-FN-21099558</eac:reference>
+			</eac:source>
+			<eac:source>
+				<eac:reference linkRole="RiferimentoWeb">wiki_Cruciani_Fabozzi</eac:reference>
+			</eac:source>
+		</eac:sources>
+		<eac:localControl localType="Visibilita_FE"><eac:term>Completa</eac:term></eac:localControl>
+		<eac:localControl localType="AcronimoSistema"><eac:term>SIA</eac:term></eac:localControl>
+		<eac:otherRecordId localType="SIAS">IT-ASAN-CC236400</eac:otherRecordId>
+		<eac:otherRecordId localType="IdPrecedente">ASAN-347112</eac:otherRecordId>
+	</eac:control>
+	<eac:cpfDescription>
+		<eac:identity>
+			<eac:entityType value="family"/>
+			<eac:nameEntry localType="DenominazioneFamiglia" languageOfElement="ita">
+				<eac:part localType="IntestazionePrincipaleFamiglia">Cruciani Fabozzi, Amandola (Fermo), sec. XVIII fine - </eac:part>
+				<eac:part localType="DenominazionePrincipaleFamiglia">Cruciani Fabozzi</eac:part>
+				<eac:useDates>
+					<eac:dateSet>
+						<eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)">sec. XVIII fine - </eac:date> 
+						<eac:dateRange>
+							<eac:fromDate certainty="DataApprossimativa" notBefore="1791-01-01" notAfter="1800-12-31">sec. XVIII fine</eac:fromDate>
+						</eac:dateRange>
+						<eac:date localType="NoteAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</eac:date>
+					</eac:dateSet> 
+				</eac:useDates>
+			</eac:nameEntry>
+			<eac:nameEntry localType="AltraDenominazioneFamiglia" languageOfElement="ita" status="alternative">
+				<eac:part localType="Intestazione">Cruciani F., Amandola (Fermo), sec. XVIII fine - </eac:part>
+				<eac:part localType="Denominazione">Cruciani F.</eac:part>
+				<eac:part localType="Qualifica">Altra denominazione</eac:part>
+				<eac:useDates>
+					<eac:dateSet> 
+						<eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)">sec. XVIII fine - </eac:date> 
+						<eac:dateRange>
+							<eac:fromDate certainty="DataApprossimativa" notBefore="1791-01-01" notAfter="1800-12-31">sec. XVIII fine</eac:fromDate>
+						</eac:dateRange>
+						<eac:date localType="NoteAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</eac:date>
+					</eac:dateSet> 
+				</eac:useDates>
+			</eac:nameEntry>
+			<eac:identityId>1021256</eac:identityId>
+		</eac:identity>
+		<eac:description>
+			<eac:localDescriptions>
+				<eac:localDescription localType="TitoloFamiglia">
+					<eac:term>Nobile</eac:term>
+					<eac:dateSet>
+						<eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)">1825 - </eac:date>
+						<eac:dateRange>
+							<eac:fromDate standardDate="1825">1825</eac:fromDate>
+						</eac:dateRange>
+					</eac:dateSet>
+				</eac:localDescription>
+			</eac:localDescriptions>
+			<eac:places>
+				<eac:place localType="LuogoFamiglia">
+					<eac:placeName>ICAR-TOP-20193149</eac:placeName>
+					<eac:placeRole>Residenza</eac:placeRole>
+					<eac:dateSet>
+						<eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)">sec. XVIII fine - </eac:date> 
+						<eac:dateRange>
+							<eac:fromDate certainty="DataApprossimativa" notBefore="1791-01-01" notAfter="1800-12-31">sec. XVIII fine</eac:fromDate>
+						</eac:dateRange>
+						<eac:date localType="NoteAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</eac:date>
+					</eac:dateSet>
+				</eac:place>
+			</eac:places>
+			<eac:existDates localType="DateEsistenzaFamiglia">
+				<eac:dateSet>
+					<eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)" eac-sia:qualificaData="Data di origine">sec. XVIII fine - </eac:date> 
+					<eac:dateRange>
+						<eac:fromDate certainty="DataApprossimativa" notBefore="1791-01-01" notAfter="1800-12-31">sec. XVIII fine</eac:fromDate>
+					</eac:dateRange>
+					<eac:date localType="NoteAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</eac:date>
+				</eac:dateSet>
+			</eac:existDates>
+			<eac:biogHist> 
+				<eac:p>Dalla documentazione conservata in archivio, sappiamo che la famiglia era sicuramente esistente alla fine del sec. XVIII. Tra i suoi membri si segnalano Giuseppe Fabozzi (1799-1860), dal 1834 medico primario di Amandola ed in seguito gonfaloniere della città; l'avvocato Fernando Cruciani (1836-1898), giudice mandamentale a Cascia e dal 1862 pretore ad Amandola e Sarnano; Luigia Fabozzi (1839-1911). Di particolare rilievo è Giuseppe Cruciani Fabozzi, figlio di Fernando Cruciani, nato ad Amandola nel 1865 e morto a Firenze nel 1952. Ingegnere, fu attivo professionalmente in Italia, Portogallo, Germania, Bulgaria, Paesi Bassi. Egli compì i primi studi a Spello (Perugia) presso i Padri Somaschi; conseguì la laurea in Ingegneria industriale a Milano nel 1888 e l'anno seguente in Ingegneria elettrotecnica a Liegi. Si spostò, poi, in vari paesi europei per progettare ed eseguire impianti industriali. Direttore dei lavori della prima centrale elettrica di Bruxelles, realizzò tra il 1894 ed il 1903, i sistemi di alimentazione e di distribuzione di energia per le esposizioni di Anversa e di Amsterdam e, nel 1898, il primo tronco tramviario a trazione elettrica in Napoli. Per la costruzione e la messa in esercizio degli impianti della rete tramviaria di Sofia ricevette nel 1903 un'onorificenza cavalleresca dal principe di Bulgaria Ferdinando di Coburgo-Gotha. Rientrato definitivamente in Italia, partecipò agli studi per lo sviluppo delle linee ferroviarie adriatiche e, nel 1908, venne chiamato a dirigere i servizi tecnici della Società belga "Les tramways florentins".</eac:p>
+			</eac:biogHist>
+		</eac:description>
+		<eac:relations>
+			<eac:relation>
+				<eac:targetEntity targetType="agent" valueURI="http://n2t.net/ark:/99141/i5gg1s2y" vocabularySource="SNAC" vocabularySourceURI="https://snaccooperative.org/">
+					<eac:part>Famiglia Cruciani Fabozzi</eac:part>
+				</eac:targetEntity>
+				<eac:relationType>sameAs</eac:relationType>
+			</eac:relation> 
+			<eac:relation>
+				<eac:targetEntity targetType="resource">
+					<eac:part>SIA-CA-20134930</eac:part>
+				</eac:targetEntity>
+				<eac:dateSet>
+					<eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)">sec. XVIII fine - </eac:date> 
+					<eac:dateRange>
+						<eac:fromDate certainty="DataApprossimativa" notBefore="1791-01-01" notAfter="1800-12-31">sec. XVIII fine</eac:fromDate>
+					</eac:dateRange>
+				</eac:dateSet>
+				<eac:targetRole>Complesso archivistico</eac:targetRole>
+				<eac:relationType>Soggetto produttore</eac:relationType>
+			</eac:relation>
+			<eac:relation>
+				<eac:targetEntity targetType="resource">
+					<eac:part>SIA-TE-24121561</eac:part>
+				</eac:targetEntity>
+				<eac:targetRole>Tematismo</eac:targetRole>
+			</eac:relation>
+			<eac:relation>
+				<eac:targetEntity targetType="person">
+					<eac:part>SIA-AG-10214452</eac:part>
+				</eac:targetEntity>
+				<eac:dateSet>	
+					<eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1945-2023</eac:date>
+					<eac:dateRange>
+						<eac:fromDate standardDate="1945-01-01">1945</eac:fromDate>
+						<eac:toDate standardDate="2023-12-31">2023</eac:toDate>
+					</eac:dateRange>
+				</eac:dateSet>
+				<eac:targetRole>Soggetto produttore collegato</eac:targetRole>
+				<eac:relationType>Associativa</eac:relationType>
+			</eac:relation>
+			<eac:relation>
+				<eac:targetEntity targetType="agent">
+					<eac:part>SIA-CS-19221323</eac:part>
+				</eac:targetEntity>
+				<eac:dateSet>
+					<eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1862-1946</eac:date>
+					<eac:dateRange>
+						<eac:fromDate standardDate="1862">1862</eac:fromDate>
+						<eac:toDate standardDate="1946">1946</eac:toDate>
+					</eac:dateRange>
+				</eac:dateSet>
+				<eac:targetRole>Contesto storico istituzionale collegato</eac:targetRole>
+			</eac:relation>
+			<eac:relation>
+				<eac:targetEntity targetType="resource">
+					<eac:part>SIA-RR-1220574</eac:part> 
+				</eac:targetEntity>
+				<eac:relationType>È documentazione</eac:relationType>
+				<eac:targetRole>Risorsa digitale collegata</eac:targetRole>
+			</eac:relation>
+		</eac:relations>
+	</eac:cpfDescription>
+</eac:eac>
+</icar-import:recordBody>
+</icar-import:record>
+
+<icar-import:record><icar-import:recordHeader action="insert" type="eac"><icar-import:id>SIA-AG-1021187</icar-import:id><icar-import:lastUpdate>2025-11-17T14:16:27.093+02:00</icar-import:lastUpdate></icar-import:recordHeader><icar-import:recordBody><eac:eac audience="external">
+	<eac:control maintenanceStatus="derived" eac-sia:status="Bozza">
+		<eac:recordId>SIA-AG-1021187</eac:recordId>
+		<eac:maintenanceAgency>
+			<eac:agencyCode>IT-ICAR</eac:agencyCode>
+			<eac:agencyName>ICAR</eac:agencyName>
+		</eac:maintenanceAgency>
+		<eac:maintenanceHistory>
+			<eac:maintenanceEvent languageOfElement="ita" maintenanceEventType="created">
+				<eac:agent agentType="human">Alessandro Chiaretti</eac:agent>
+				<eac:eventDateTime standardDateTime="20250401"/>
+				<eac:eventDescription>
+					<eac:span localType="Azione">Importazione</eac:span>
+					<eac:span localType="NoteRedazionali">Registro creato per sistema di test</eac:span>
+				</eac:eventDescription>
+			</eac:maintenanceEvent>
+		</eac:maintenanceHistory>
+		<eac:sources>
+			<eac:source>
+				<eac:reference linkRole="RiferimentoBibliografico">SIA-RB-19923815</eac:reference>
+				<eac:descriptiveNote><eac:p>pp. 34-46</eac:p></eac:descriptiveNote>
+			</eac:source>
+			<eac:source>
+				<eac:reference linkRole="FonteArchivistica">SIA-FA-202004426</eac:reference>
+			</eac:source>
+			<eac:source>
+				<eac:reference linkRole="FonteNormativa">ICAR-FN-21098257</eac:reference>
+			</eac:source>
+			<eac:source>
+				<eac:reference linkRole="RiferimentoWeb">wiki_Antonioli_25X</eac:reference>
+			</eac:source>
+		</eac:sources>
+		<eac:localControl localType="Visibilita_FE"><eac:term>Completa</eac:term></eac:localControl>
+		<eac:localControl localType="AcronimoSistema"><eac:term>SIA</eac:term></eac:localControl>
+		<eac:otherRecordId localType="SIAS">IT-CC23644</eac:otherRecordId> 
+	</eac:control>
+	<eac:cpfDescription>
+		<eac:identity>
+			<eac:entityType value="person"/>
+			<eac:nameEntry localType="DenominazionePersona" languageOfElement="ita">
+				<eac:part localType="IntestazionePersona">Antonioli, Francesco Maria, militante anarchico (sec. XX inizio - 1981 apr. 1)</eac:part>
+				<eac:part localType="NomePersona">Francesco Maria</eac:part>
+				<eac:part localType="CognomePersona">Antonioli</eac:part>
+				<eac:part localType="Patronimico">...</eac:part> 
+				<eac:part localType="Origine-provenienzaPersona">...</eac:part>  				
+				<eac:part localType="Pseudonimo">Italo Svevo</eac:part>
+				<eac:part localType="SoprannomePersona">Gagìn</eac:part>
+				<eac:useDates>
+				<eac:dateSet>
+					<eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">sec. XX inizio - 1981 apr. 1</eac:date>
+					<eac:dateRange>
+						<eac:fromDate certainty="DataApprossimativa" notBefore="1901-01-01" notAfter="1910-12-31">sec. XX inizio</eac:fromDate> 
+						<eac:toDate standardDate="1981-04-01">1981 apr. 1</eac:toDate>
+					</eac:dateRange>
+				</eac:dateSet>
+				</eac:useDates>
+			</eac:nameEntry>
+			<eac:nameEntry localType="AltraDenominazionePersona" languageOfElement="ita" status="alternative"> 
+				<eac:part localType="IntestazionePersona">Antonioli, Francesco, militante anarchico (sec. XX inizio - 1981 apr. 1)</eac:part>
+				<eac:part localType="NomePersona">Francesco</eac:part>
+				<eac:part localType="CognomePersona">Antonioli</eac:part>
+				<eac:part localType="Qualifica">Altra denominazione</eac:part>
+			</eac:nameEntry>
+			<eac:otherEntityTypes>
+				<eac:otherEntityType localType="Genere"><eac:term>Maschile</eac:term></eac:otherEntityType>
+			</eac:otherEntityTypes> 
+			<eac:identityId>1021187</eac:identityId>
+		</eac:identity>
+		<eac:description>
+			<eac:functions>
+				<eac:function localType="Qualifica">
+					<eac:term>Consigliere della Corte dei conti</eac:term>
+				</eac:function> 
+			</eac:functions>
+			<eac:localDescriptions>
+				<eac:localDescription localType="TitoloPersona">
+					<eac:term>Nobile</eac:term> 
+					<eac:dateSet>
+					<eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">sec. XX inizio - 1981 apr. 1</eac:date>
+					<eac:dateRange>
+						<eac:fromDate certainty="DataApprossimativa" notBefore="1901-01-01" notAfter="1910-12-31">sec. XX inizio</eac:fromDate> 
+						<eac:toDate standardDate="1981-04-01">1981 apr. 1</eac:toDate>
+					</eac:dateRange>
+					</eac:dateSet>
+				</eac:localDescription>
+			</eac:localDescriptions>
+			<eac:occupations>
+				<eac:occupation>
+					<eac:term>Regioniere</eac:term>
+					<eac:dateSet>
+						<eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1935 - 1955</eac:date>
+						<eac:dateRange>
+							<eac:fromDate certainty="DataApprossimativa" standardDate="1935">1935</eac:fromDate>
+							<eac:toDate standardDate="1955">1955</eac:toDate>
+						</eac:dateRange>
+					</eac:dateSet>
+				</eac:occupation>
+			</eac:occupations>
+			<eac:places>
+				<eac:place localType="LuogoPersona">
+					<eac:placeName>ICAR-TOP-20195248</eac:placeName>
+					<eac:placeRole>Nascita</eac:placeRole>
+					<eac:dateSet> 	
+						<eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data singola">sec. XX inizio</eac:date>
+						<eac:date certainty="DataApprossimativa" notBefore="1901-01-01" notAfter="1910-12-31">sec. XX inizio</eac:date>
+					</eac:dateSet>
+				</eac:place>
+				<eac:place localType="LuogoPersona">
+					<eac:placeName>ICAR-TOP-20196119</eac:placeName>
+					<eac:placeRole>Morte</eac:placeRole>
+					<eac:dateSet>
+						<eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data singola">1981 apr. 1</eac:date>
+						<eac:date standardDate="1981-04-01">1981 apr. 1</eac:date>
+					</eac:dateSet>
+				</eac:place>
+			</eac:places>
+			<eac:existDates localType="DateEsistenzaPersona">
+			<eac:dateSet>
+				<eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date" eac-sia:qualificaData="Date di esistenza">sec. XX inizio - 1981 apr. 1</eac:date>
+				<eac:dateRange>
+					<eac:fromDate certainty="DataApprossimativa" notBefore="1901-01-01" notAfter="1910-12-31">sec. XX inizio</eac:fromDate> 
+					<eac:toDate standardDate="1981-04-01">1981 apr. 1</eac:toDate>
+				</eac:dateRange>
+			</eac:dateSet>
+			</eac:existDates>
+			<eac:biogHist>
+				<eac:p>Militante anarchico. Ha vissuto la maggior parte della sua vita in Emilia.</eac:p>
+			</eac:biogHist>
+		</eac:description>
+		<eac:relations>
+			<eac:relation>
+				<eac:targetEntity targetType="agent" valueURI="http://n2t.net/ark:/99156/w5gf5s1q" vocabularySource="SNAC" vocabularySourceURI="https://snaccooperative.org/">
+					<eac:part>Francesco Antonioli</eac:part>
+				</eac:targetEntity>
+				<eac:relationType>sameAs</eac:relationType>
+			</eac:relation>
+			<eac:relation>
+				<eac:targetEntity targetType="resource">
+					<eac:part>SIA-CA-20171230</eac:part>
+				</eac:targetEntity>
+				<eac:targetRole>Complesso archivistico</eac:targetRole>
+				<eac:relationType>Soggetto produttore</eac:relationType>
+			</eac:relation>
+			<eac:relation>
+				<eac:targetEntity targetType="resource">
+					<eac:part>SIA-TE-24121461</eac:part>
+				</eac:targetEntity>
+				<eac:targetRole>Tematismo</eac:targetRole>
+			</eac:relation>
+			<eac:relation>
+				<eac:targetEntity targetType="agent">
+					<eac:part>SIA-CS-19221322</eac:part>
+				</eac:targetEntity>
+				<eac:dateSet>
+					<eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">sec. XX inizio-1946</eac:date>
+					<eac:dateRange>
+						<eac:fromDate certainty="DataApprossimativa" notBefore="1901-01-01" notAfter="1910-12-31">sec. XX inizio</eac:fromDate>
+						<eac:toDate standardDate="1946">1946</eac:toDate>
+					</eac:dateRange>
+				</eac:dateSet>
+				<eac:targetRole>Contesto storico istituzionale collegato</eac:targetRole>
+			</eac:relation>
+			<eac:relation>
+				<eac:targetEntity targetType="person">
+					<eac:part>SIA-AG-10213253</eac:part>
+				</eac:targetEntity>
+				<eac:dateSet>
+					<eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1945-1971</eac:date>
+					<eac:dateRange>
+						<eac:fromDate standardDate="1945-01-01">1945</eac:fromDate>
+						<eac:toDate standardDate="1971-12-31">1971</eac:toDate>
+					</eac:dateRange>
+				</eac:dateSet>
+				<eac:targetRole>Soggetto produttore collegato</eac:targetRole>
+				<eac:relationType>Associativa</eac:relationType>
+			</eac:relation>
+			
+		</eac:relations>
+	</eac:cpfDescription>
+</eac:eac></icar-import:recordBody>
+</icar-import:record>
+
+<icar-import:record><icar-import:recordHeader action="insert" type="eac">
+<icar-import:id>SIA-CS-1922132</icar-import:id><icar-import:lastUpdate>2025-11-17T14:16:27.093+02:00</icar-import:lastUpdate></icar-import:recordHeader>
+<icar-import:recordBody><eac:eac audience="external">
+ <eac:control maintenanceStatus="derived" eac-sia:status="Bozza">
+  <eac:recordId>SIA-CS-1922132</eac:recordId>
+  <eac:maintenanceAgency>
+   <eac:agencyCode>IT-ICAR</eac:agencyCode>
+   <eac:agencyName>ICAR</eac:agencyName>
+  </eac:maintenanceAgency>
+  <eac:maintenanceHistory>
+   <eac:maintenanceEvent languageOfElement="ita" maintenanceEventType="created">
+    <eac:agent agentType="human">Alessandro Chiaretti</eac:agent>
+    <eac:eventDateTime standardDateTime="20250421"/>
+    <eac:eventDescription>
+     <eac:span localType="Azione">Importazione</eac:span>
+     <eac:span localType="NoteRedazionali">Registro creato per sistema di test</eac:span>
+    </eac:eventDescription>
+   </eac:maintenanceEvent>
+  </eac:maintenanceHistory>
+  <eac:sources>
+   <eac:source>
+    <eac:reference linkRole="RiferimentoBibliografico">SIA-RB-19923474</eac:reference>
+    <eac:descriptiveNote><eac:p>...</eac:p></eac:descriptiveNote> 
+   </eac:source>
+   <eac:source>
+    <eac:reference linkRole="FonteArchivistica">SIA-FA-202003125</eac:reference>
+   </eac:source>
+   <eac:source>
+    <eac:reference linkRole="FonteNormativa">ICAR-FN-21099236</eac:reference>
+   </eac:source>
+   <eac:source>
+    <eac:reference linkRole="RiferimentoWeb">wiki_Regno_d_Italia</eac:reference>
+   </eac:source>
+  </eac:sources>
+  <eac:localControl localType="Visibilita_FE"><eac:term>Completa</eac:term></eac:localControl>
+  <eac:localControl localType="AcronimoSistema"><eac:term>SIA</eac:term></eac:localControl>
+  <eac:otherRecordId localType="ISIL">IT-CS0341</eac:otherRecordId>
+  <eac:otherRecordId localType="SIAS">IT-RI002566</eac:otherRecordId>
+ </eac:control>
+ <eac:cpfDescription>
+  <eac:identity localType="ContestoStoricoIstituzionale">
+   <eac:entityType value="corporateBody"/>
+   <eac:nameEntry localType="DenominazioneContesto" languageOfElement="ita">
+    <eac:part localType="IntestazioneContesto">Regno d'Italia (1861 - 1946)</eac:part>
+   </eac:nameEntry>
+   <eac:identityId>1922132</eac:identityId>
+  </eac:identity>
+  <eac:description>
+   <eac:localDescriptions>
+    <eac:localDescription>
+     <eac:term>Osservazioni</eac:term>
+     <eac:descriptiveNote><eac:p>...</eac:p></eac:descriptiveNote> 
+    </eac:localDescription>
+   </eac:localDescriptions>
+   <eac:existDates localType="DateEsistenzaContesto">
+    <eac:dateSet>
+     <eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date" eac-sia:qualificaData="Date di esistenza">1861-1946</eac:date>
+     <eac:dateRange>
+      <eac:fromDate standardDate="1861">1861</eac:fromDate>
+      <eac:toDate standardDate="1946">1946</eac:toDate>
+     </eac:dateRange>
+    </eac:dateSet>
+   </eac:existDates>
+   <eac:generalContext localType="DescrizioneContesto">
+		<eac:p>Il 17 marzo Vittorio Emanuele II viene proclamato re d'Italia. Il 18 febbraio 1861 si inaugura a Torino il primo Parlamento italiano: lo Statuto albertino, concesso da Carlo Alberto nel 1848, diventa la carta fondamentale del nuovo Stato. Il dibattito sull'organizzazione dello Stato, che includeva posizioni centralistiche e posizioni federative e regionalistiche, vede l'affermarsi della soluzione centralistica, nella linea risorgimentale dell'unità e indipendenza nazionale. Il nuovo Stato si modella sulla legge cavouriana del 1853 in un ordinamento per ministeri e si incardina a livello territoriale sulla figura del prefetto, sul modello dei dipartimenti francesi, ancorché derivante dalla figura dell'intendente, che rappresenta in ogni provincia il governo centrale ed esercita il controllo politico ed economico sulle amministrazioni provinciali e comunali e su tutte le amministrazioni periferiche dello Stato. Dopo una prima fase in cui rimangono in vigore alcune norme di Stati preunitari e operano varie amministrazioni stralcio, viene affrontata la complessa questione dell'unificazione amministrativa e giudiziaria che ha in un complesso di norme del 1865 il risultato più rilevante...</eac:p>
+   </eac:generalContext>
+  </eac:description>
+  <eac:relations>
+   <eac:relation>
+    <eac:targetEntity targetType="agent">
+     <eac:part>SIA-AG-10212437</eac:part>
+    </eac:targetEntity>
+     <eac:dateSet>
+      <eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1927-1991</eac:date>
+      <eac:dateRange>
+       <eac:fromDate standardDate="1927">1927</eac:fromDate>
+       <eac:toDate standardDate="1991">1991</eac:toDate>
+      </eac:dateRange>
+     </eac:dateSet>
+    <eac:targetRole>Agente collegato</eac:targetRole>
+    <eac:relationType>TemporaleSuccessiva</eac:relationType>
+   </eac:relation>
+	<eac:relation>
+    <eac:targetEntity targetType="corporateBody">
+     <eac:part>SIA-PI-19212668</eac:part>
+    </eac:targetEntity>
+    <eac:dateSet>
+     <eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1927-1991</eac:date>
+     <eac:dateRange>
+      <eac:fromDate standardDate="1927">1927</eac:fromDate>
+      <eac:toDate standardDate="1991">1991</eac:toDate>
+     </eac:dateRange>
+    </eac:dateSet>
+    <eac:targetRole>Profilo istituzionale collegato</eac:targetRole>
+   </eac:relation> 
+   <eac:relation>
+    <eac:targetEntity targetType="corporateBody">
+		<eac:part>SIA-CS-19221449</eac:part>
+	</eac:targetEntity>
+    <eac:dateSet>
+     <eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1297-1861</eac:date>
+     <eac:dateRange>
+      <eac:fromDate standardDate="1297">1297</eac:fromDate>
+      <eac:toDate standardDate="1861">1861</eac:toDate>
+     </eac:dateRange>
+    </eac:dateSet>
+    <eac:targetRole>Contesto storico istituzionale collegato</eac:targetRole>
+	<eac:relationType>Collegato</eac:relationType>
+   </eac:relation>
+   </eac:relations>
+ </eac:cpfDescription>
+</eac:eac></icar-import:recordBody>
+</icar-import:record>
+
+<icar-import:record>
+<icar-import:recordHeader action="insert" type="eac"><icar-import:id>SIA-EV-3221199</icar-import:id><icar-import:lastUpdate>2025-11-17T14:16:27.093+02:00</icar-import:lastUpdate></icar-import:recordHeader>
+<icar-import:recordBody>
+<eac:eac audience="external">
+	<eac:control maintenanceStatus="derived" eac-sia:status="Bozza"> 
+		<eac:recordId>SIA-EV-3221199</eac:recordId>
+		<eac:maintenanceAgency>
+			<eac:agencyCode>IT-ICAR</eac:agencyCode>
+			<eac:agencyName>ICAR</eac:agencyName>
+		</eac:maintenanceAgency>
+		<eac:maintenanceHistory>
+			<eac:maintenanceEvent languageOfElement="ita" maintenanceEventType="created">
+				<eac:agent agentType="human">Alessandro Chiaretti</eac:agent>
+				<eac:eventDateTime standardDateTime="20250401"/>
+				<eac:eventDescription>
+					<eac:span localType="Azione">Importazione</eac:span>
+					<eac:span localType="NoteRedazionali">Registro creato per sistema di test</eac:span>
+				</eac:eventDescription>
+			</eac:maintenanceEvent>
+		</eac:maintenanceHistory>
+		<eac:localControl localType="Visibilita_FE"><eac:term>Completa</eac:term></eac:localControl>
+		<eac:localControl localType="AcronimoSistema"><eac:term>SIA</eac:term></eac:localControl>
+	</eac:control>
+	<eac:cpfDescription>
+		<eac:identity>
+			<eac:entityType value="corporateBody" eac-sia:tipoLocale="Evento"/>
+			<eac:nameEntry localType="DenominazioneEvento">
+				<eac:part>Strage di Ustica</eac:part>
+			</eac:nameEntry>
+			<eac:otherEntityTypes>
+				<eac:otherEntityType localType="TipoEvento">
+					<eac:term>Evento storico</eac:term>
+				</eac:otherEntityType>
+			</eac:otherEntityTypes>
+			<eac:identityId>3221199</eac:identityId>
+		</eac:identity>
+		<eac:description>
+			<eac:localDescriptions>
+				<eac:localDescription>
+					<eac:term>Osservazioni</eac:term>
+					<eac:descriptiveNote><eac:p>...</eac:p></eac:descriptiveNote>  
+				</eac:localDescription>
+			</eac:localDescriptions>
+			<eac:places>
+				<eac:place localType="LuogoEvento">
+					<eac:placeName>ICAR-TOP-20210320</eac:placeName>
+					<eac:placeRole>Luogo evento</eac:placeRole>
+				</eac:place>
+			</eac:places>
+			<eac:existDates>
+				<eac:dateSet>
+					<eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data singola">1980 giu. 27</eac:date>
+					<eac:date standardDate="1980-06-27">1980 giu. 27</eac:date>
+				</eac:dateSet>
+			</eac:existDates>
+			<eac:biogHist>
+				<eac:p>Il 27 giugno 1980 il velivolo DC9 I-TIGI della compagnia Itavia decolla dall'aeroporto "Guglielmo Marconi" di Bologna. Sono a bordo 81 passeggeri, 64 adulti, 11 bambini tra i due e i dodici anni, due bambini di età inferiore ai 24 mesi, oltre ai 4 uomini dell'equipaggio. Il volo, con nominativo IH870, è diretto a Palermo e parte alle 20.08, con due ore di ritardo. L'atterraggio è previsto per le 21.13. Tutto procede regolarmente fino all'ultimo normale contatto radio tra il velivolo e Roma Controllo, avvenuto alle 20.58. Alle 21.04, chiamato per autorizzare l'avvio della fase di atterraggio su Palermo, il DC9 non risponde. Iniziano affannose ricerche e cominciano anche ad emergere dubbi inquietanti su quello che può essere capitato. Già alle 21.40 si ha qualche sospetto: dalle comunicazioni radio - ascoltate molto tempo dopo, durante l'inchiesta - si apprende infatti che «il personale di Roma aveva sentito traffico americano in quella zona». La mattina dopo tutti i giornali riportano notizie della tragedia e si comincia anche a fare le prime ipotesi sulle cause del disastro. Nonostante tanti inquietanti interrogativi, le indagini si adagiano sulla ipotesi più tranquillizzante: la «tragica ovvietà» che purtroppo gli aerei cadono. E l'Aeronautica Militare è molto attiva nel supportare l'ipotesi del cedimento strutturale. Un'ipotesi che sarà presto smentita (la Commissione ministeriale chiuse i propri lavori escludendo il cedimento strutturale), ma che continuerà inspiegabilmente a condizionare tanti atteggiamenti; tanto che il sospetto che si era diffuso circa la cattiva manutenzione del DC9 ha portato, nel gennaio 1981, alla chiusura e in seguito al fallimento della compagnia aerea Itavia.</eac:p>
+			</eac:biogHist>
+		</eac:description>
+	</eac:cpfDescription>
+</eac:eac></icar-import:recordBody></icar-import:record><icar-import:record><icar-import:recordHeader action="insert" type="eac"><icar-import:id>SIA-PI-19256155</icar-import:id><icar-import:lastUpdate>2025-11-17T14:16:27.093+02:00</icar-import:lastUpdate></icar-import:recordHeader><icar-import:recordBody><eac:eac audience="external">
+ <eac:control maintenanceStatus="derived" eac-sia:status="Bozza">
+  <eac:recordId>SIA-PI-19256155</eac:recordId>
+  <eac:maintenanceAgency>
+   <eac:agencyCode>IT-ICAR</eac:agencyCode>
+   <eac:agencyName>ICAR</eac:agencyName>
+  </eac:maintenanceAgency>
+  <eac:maintenanceHistory>
+   <eac:maintenanceEvent languageOfElement="ita" maintenanceEventType="created">
+    <eac:agent agentType="human">Alessandro Chiaretti</eac:agent>
+    <eac:eventDateTime standardDateTime="20250421"/>
+    <eac:eventDescription>
+     <eac:span localType="Azione">Importazione</eac:span>
+     <eac:span localType="NoteRedazionali">Registro creato per sistema di test</eac:span>
+    </eac:eventDescription>
+   </eac:maintenanceEvent>
+  </eac:maintenanceHistory>
+  <eac:sources>
+   <eac:source>
+    <eac:reference linkRole="RiferimentoBibliografico">SIA-RB-19423411</eac:reference>
+    <eac:descriptiveNote><eac:p>...</eac:p></eac:descriptiveNote> 
+   </eac:source>
+   <eac:source>
+    <eac:reference linkRole="FonteArchivistica">SIA-FA-202303422</eac:reference>
+   </eac:source>
+   <eac:source>
+    <eac:reference linkRole="FonteNormativa">ICAR-FN-21039293</eac:reference>
+   </eac:source>
+   <eac:source>
+    <eac:reference linkRole="RiferimentoWeb">wiki_Intendenza_di_finanza</eac:reference>
+   </eac:source>
+  </eac:sources>
+  <eac:localControl localType="Visibilita_FE"><eac:term>Completa</eac:term></eac:localControl>
+  <eac:localControl localType="AcronimoSistema"><eac:term>SIA</eac:term></eac:localControl>
+  <eac:otherRecordId localType="SIAS">IT-PS1122</eac:otherRecordId>
+  <eac:otherRecordId localType="GGASI">IT-PI002416</eac:otherRecordId>
+ </eac:control>
+ <eac:cpfDescription>
+  <eac:identity localType="ProfiloIstituzionale">
+   <eac:entityType value="corporateBody"/>
+   <eac:nameEntry localType="DenominazioneProfilo" languageOfElement="ita">
+    <eac:part localType="IntestazioneProfilo">Direzioni compartimentali (1862-1869) poi Intendenza  di finanza (1869-1991)</eac:part>
+    <eac:part localType="AcronimoProfilo">IF</eac:part>
+   </eac:nameEntry>
+   <eac:identityId>19256155</eac:identityId>
+  </eac:identity>
+  <eac:description>
+   <eac:localDescriptions>
+    <eac:localDescription>
+     <eac:term>Osservazioni</eac:term>
+     <eac:descriptiveNote><eac:p>...</eac:p></eac:descriptiveNote> 
+    </eac:localDescription>
+   </eac:localDescriptions>
+   <eac:existDates localType="DateEsistenzaProfilo">
+    <eac:dateSet>
+     <eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date" eac-sia:qualificaData="Date di esistenza">1862-1991</eac:date>
+     <eac:dateRange>
+      <eac:fromDate standardDate="1862">1862</eac:fromDate>
+      <eac:toDate standardDate="1991">1991</eac:toDate>
+     </eac:dateRange>
+    </eac:dateSet>
+   </eac:existDates>
+	<eac:biogHist>
+		<eac:p>Il r.d. 26 set. 1869, n. 5286, istituisce le Intendenze di finanza in ogni capoluogo di provincia, come organi di decentramento, direzione e coordinamento dell'attività tributaria locale, cui vengono devolute tutte le attribuzioni spettanti alle cessate Direzioni compartimentali del demanio e delle tasse sugli affari, delle imposte dirette, del catasto e dei pesi e misure, delle gabelle, alle Ispezioni distrettuali ed alle Agenzie del tesoro, con esclusione pertanto delle competenze delle sopravvissute Direzioni del debito pubblico e delle casse depositi e prestiti, del Lotto e del Contenzioso finanziario. Restano, inoltre, la Direzione delle zecche, gli Uffici del cambio delle paste preziose, gli stabilimenti salini e l'Officina per la fabbricazione delle marche da bollo, francobolli e carte valori.</eac:p>
+   </eac:biogHist>
+  </eac:description>
+  <eac:relations>
+  <eac:relation>
+    <eac:targetEntity targetType="corporateBody">
+     <eac:part>SIA-AG-10212434</eac:part>
+    </eac:targetEntity>
+	<eac:dateSet>
+      <eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1927 - 1991</eac:date>
+      <eac:dateRange>
+       <eac:fromDate standardDate="1927-01-01">1927</eac:fromDate>
+       <eac:toDate standardDate="1991-12-31">1991</eac:toDate>
+      </eac:dateRange>
+     </eac:dateSet>
+    <eac:targetRole>Soggetto produttore collegato</eac:targetRole>
+   </eac:relation>
+   <eac:relation>
+    <eac:targetEntity targetType="corporateBody">
+     <eac:part>SIA-PI-19213245</eac:part>
+    </eac:targetEntity>
+    <eac:dateSet> 	
+		<eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data singola">1991</eac:date>
+		<eac:date standardDate="1991">1991</eac:date>
+    </eac:dateSet>
+    <eac:targetRole>Profilo istituzionale collegato</eac:targetRole>
+	<eac:relationType>Successore</eac:relationType>
+   </eac:relation>
+   <eac:relation>
+    <eac:targetEntity targetType="corporateBody">
+		<eac:part>SIA-CS-19221326</eac:part>
+	</eac:targetEntity>
+    <eac:dateSet>
+     <eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1862-1946</eac:date>
+     <eac:dateRange>
+      <eac:fromDate standardDate="1862">1862</eac:fromDate>
+      <eac:toDate standardDate="1946">1946</eac:toDate>
+     </eac:dateRange>
+    </eac:dateSet>
+    <eac:targetRole>Contesto storico istituzionale collegato</eac:targetRole>
+   </eac:relation>
+  </eac:relations>
+ </eac:cpfDescription>
+</eac:eac>
+</icar-import:recordBody>
+</icar-import:record>
+
+</icar-import:listRecords>
+</icar-import:icar-import>
