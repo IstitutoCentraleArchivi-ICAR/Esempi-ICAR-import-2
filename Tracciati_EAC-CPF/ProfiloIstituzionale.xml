@@ -21,17 +21,17 @@
   </maintenanceHistory>
   <sources>
    <source>
-    <reference linkRole="RiferimentoBibliografico" id="SIA-RB-1942341"/>
+    <reference linkRole="RiferimentoBibliografico">SIA-RB-1942341</reference>
     <descriptiveNote><p>...</p></descriptiveNote> <!-- contenuto -->
    </source>
    <source>
-    <reference linkRole="FonteArchivistica" id="SIA-FA-20230342"/>
+    <reference linkRole="FonteArchivistica">SIA-FA-20230342</reference>
    </source>
    <source>
-    <reference linkRole="FonteNormativa" id="ICAR-FN-2103929"/>
+    <reference linkRole="FonteNormativa">ICAR-FN-2103929</reference>
    </source>
    <source>
-    <reference linkRole="RiferimentoWeb" id="wiki_Intendenza_di_finanza"/>
+    <reference linkRole="RiferimentoWeb">wiki_Intendenza_di_finanza</reference>
    </source>
   </sources>
   <localControl localType="Visibilita_FE"><term>Completa</term></localControl>
@@ -70,8 +70,8 @@
   </description>
   <relations>
   <relation>
-    <targetEntity targetType="corporateBody" id="SIA-AG-1021243">
-     <part>Intendenza di finanza di Bolzano, Bolzano (1927 - 1991)</part>
+    <targetEntity targetType="corporateBody">
+     <part>SIA-AG-1021243</part>
     </targetEntity>
 	<dateSet>
       <date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1927 - 1991</date>
@@ -83,8 +83,8 @@
     <targetRole>Soggetto produttore collegato</targetRole>
    </relation>
    <relation>
-    <targetEntity targetType="corporateBody" id="SIA-PI-1921324">
-     <part>Direzione regionale delle entrate e Direzione compartimentale del territorio (1991 - )</part>
+    <targetEntity targetType="corporateBody">
+     <part>SIA-PI-1921324</part>
     </targetEntity>
     <dateSet> 	
 		<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data singola">1991</date>
@@ -94,8 +94,8 @@
 	<relationType>Successore</relationType>
    </relation>
    <relation>
-    <targetEntity targetType="corporateBody" id="SIA-CS-1922132">
-		<part>Regno d'Italia</part>
+    <targetEntity targetType="corporateBody">
+		<part>SIA-CS-1922132</part>
 	</targetEntity>
     <dateSet>
      <date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1862-1946</date>

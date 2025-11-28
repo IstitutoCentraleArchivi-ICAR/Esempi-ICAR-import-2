@@ -21,17 +21,17 @@
 		</maintenanceHistory>
 		<sources>
 			<source>
-				<reference linkRole="RiferimentoBibliografico" id="SIA-RB-1992359"/>
+				<reference linkRole="RiferimentoBibliografico">SIA-RB-1992359</reference>
 				<descriptiveNote><p>pp. 34-46</p></descriptiveNote>
 			</source>
 			<source>
-				<reference linkRole="FonteArchivistica" id="SIA-FA-20200462"/>
+				<reference linkRole="FonteArchivistica">SIA-FA-20200462</reference>
 			</source>
 			<source>
-				<reference linkRole="FonteNormativa" id="ICAR-FN-2109955"/>
+				<reference linkRole="FonteNormativa">ICAR-FN-2109955</reference>
 			</source>
 			<source>
-				<reference linkRole="RiferimentoWeb" id="wiki_Cruciani_Fabozzi"/>
+				<reference linkRole="RiferimentoWeb">wiki_Cruciani_Fabozzi</reference>
 			</source>
 		</sources>
 		<localControl localType="Visibilita_FE"><term>Completa</term></localControl>
@@ -85,7 +85,7 @@
 			</localDescriptions>
 			<places>
 				<place localType="LuogoFamiglia">
-					<placeName id="ICAR-TOP-2019314"/>
+					<placeName>ICAR-TOP-2019314</placeName>
 					<placeRole>Residenza</placeRole>
 					<dateSet>
 						<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)">sec. XVIII fine - </date> 
@@ -117,8 +117,8 @@
 				<relationType>sameAs</relationType>
 			</relation> 
 			<relation>
-				<targetEntity targetType="resource" id="SIA-CA-2013493">
-					<part>Famiglia Cruciani Fabozzi</part>
+				<targetEntity targetType="resource">
+					<part>SIA-CA-2013493</part>
 				</targetEntity>
 				<dateSet>
 					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)">sec. XVIII fine - </date> 
@@ -130,14 +130,14 @@
 				<relationType>Soggetto produttore</relationType>
 			</relation>
 			<relation>
-				<targetEntity targetType="resource" id="SIA-TE-2412156">
-					<part>Storia locale</part>
+				<targetEntity targetType="resource">
+					<part>SIA-TE-2412156</part>
 				</targetEntity>
 				<targetRole>Tematismo</targetRole>
 			</relation>
 			<relation>
-				<targetEntity targetType="person" id="SIA-AG-1021445">
-					<part>Giuseppe Cruciani Fabozzi</part>
+				<targetEntity targetType="person">
+					<part>SIA-AG-1021445</part>
 				</targetEntity>
 				<dateSet>	
 					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1945-2023</date>
@@ -150,8 +150,8 @@
 				<relationType>Associativa</relationType>
 			</relation>
 			<relation>
-				<targetEntity targetType="agent" id="SIA-CS-1922132">
-					<part>Regno d'Italia</part>
+				<targetEntity targetType="agent">
+					<part>SIA-CS-1922132</part>
 				</targetEntity>
 				<dateSet>
 					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1862-1946</date>
@@ -163,8 +163,8 @@
 				<targetRole>Contesto storico istituzionale collegato</targetRole>
 			</relation>
 			<relation>
-				<targetEntity targetType="resource" id="SIA-RR-122057">
-					<part>...</part> <!-- contenuto -->
+				<targetEntity targetType="resource">
+					<part>SIA-RR-122057</part>
 				</targetEntity>
 				<relationType>È documentazione</relationType>
 				<targetRole>Risorsa digitale collegata</targetRole>

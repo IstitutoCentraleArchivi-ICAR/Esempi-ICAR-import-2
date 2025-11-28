@@ -21,17 +21,17 @@
   </maintenanceHistory>
   <sources>
    <source>
-    <reference linkRole="RiferimentoBibliografico" id="SIA-RB-1992347"/>
+    <reference linkRole="RiferimentoBibliografico">SIA-RB-1992347</reference>
     <descriptiveNote><p>pp. 34-46</p></descriptiveNote>
    </source>
    <source>
-    <reference linkRole="FonteArchivistica" id="SIA-FA-20200312"/>
+    <reference linkRole="FonteArchivistica">SIA-FA-20200312</reference>
    </source>
    <source>
-    <reference linkRole="FonteNormativa" id="ICAR-FN-2109923"/>
+    <reference linkRole="FonteNormativa">ICAR-FN-2109923</reference>
    </source>
    <source>
-    <reference linkRole="RiferimentoWeb" id="wiki_Intendenza_di_finanza"/>
+    <reference linkRole="RiferimentoWeb">wiki_Intendenza_di_finanza</reference>
    </source>
   </sources>
   <localControl localType="Visibilita_FE"><term>Completa</term></localControl>
@@ -107,7 +107,7 @@
    </localDescriptions>
    <places>
     <place localType="LuogoEnte">
-     <placeName id="ICAR-TOP-2019011"/>
+     <placeName>ICAR-TOP-2019011</placeName>
      <placeRole>Sede</placeRole>
      <dateSet>
       <date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1927-1991</date>
@@ -141,8 +141,8 @@
 	<relationType>sameAs</relationType>
    </relation>
    <relation>
-    <targetEntity targetType="resource" id="SIA-CA-2013153">
-		<part>Intendenza di finanza di Bolzano</part>
+    <targetEntity targetType="resource">
+		<part>SIA-CA-2013153</part>
 	</targetEntity>
     <dateSet>
      <date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1927-1991</date>
@@ -155,8 +155,8 @@
     <targetRole>Complesso archivistico</targetRole>
    </relation>
    <relation>
-    <targetEntity targetType="resource" id="SIA-UA-2021315">
-		<part>Ristrutturazione facciata sede principale</part>
+    <targetEntity targetType="resource">
+		<part>SIA-UA-2021315</part>
 	</targetEntity>
     <dateSet>
      <date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">15 feb. 1930 - 1 ott. 1932</date>
@@ -170,8 +170,8 @@
     <descriptiveNote><p>Timbro</p></descriptiveNote>
    </relation>
    <relation>
-    <targetEntity targetType="resource" id="SIA-UD-2021425">
-		<part>Circolare N.3/1951</part>
+    <targetEntity targetType="resource">
+		<part>SIA-UD-2021425</part>
 	</targetEntity>
 	<dateSet> 	
 		<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data singola">10 mar. 1951</date>
@@ -182,29 +182,29 @@
     <descriptiveNote><p>Timbro</p></descriptiveNote>
    </relation>
    <relation>
-    <targetEntity targetType="resource" id="SIA-SR-2013011">
-		<part>Inventario del fondo Intendenza di finanza di Bolzano</part>
+    <targetEntity targetType="resource">
+		<part>SIA-SR-2013011</part>
 	</targetEntity>
     <relationType>Autore</relationType>
 	<targetRole>Strumento di ricerca</targetRole>
    </relation> 
    <relation>
-    <targetEntity targetType="resource" id="SIA-PR-6719131">
-		<part>Progetto di digitalizzazione dei documenti più antichi delfondo Intendenza di finanza di Bolzano</part>
+    <targetEntity targetType="resource">
+		<part>SIA-PR-6719131</part>
 	</targetEntity>
     <relationType>Finanziatore</relationType>
 	<targetRole>Progetto</targetRole>
    </relation> 
    <relation>
-    <targetEntity targetType="function" id="SIA-EV-7719132">
-		<part>...</part><!-- contenuto -->
+    <targetEntity targetType="function">
+		<part>SIA-EV-7719132</part>
 	</targetEntity>
     <relationType>Finanziatore</relationType>
 	<targetRole>Evento</targetRole>
    </relation> 
    <relation>
-    <targetEntity targetType="agent" id="SIA-CS-1922132">
-		<part>Regno d'Italia</part>
+    <targetEntity targetType="agent">
+		<part>SIA-CS-1922132</part>
 	</targetEntity>
     <dateSet>
      <date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1927-1946</date>
@@ -216,14 +216,14 @@
     <targetRole>Contesto storico istituzionale collegato</targetRole>
    </relation>
    <relation>
-    <targetEntity targetType="resource" id="SIA-TE-2419131">
-		<part>Storia economica</part>
+    <targetEntity targetType="resource">
+		<part>SIA-TE-2419131</part>
 	</targetEntity>
     <targetRole>Tematismo</targetRole>
    </relation>
    <relation>
-    <targetEntity targetType="corporateBody" id="SIA-AG-1021246">
-     <part>Direzione provinciale di Bolzano del Ministero delle finanze</part>
+    <targetEntity targetType="corporateBody">
+     <part>SIA-AG-1021246</part>
     </targetEntity>
 	<dateSet>
      <date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data singola">1994</date>
@@ -233,8 +233,8 @@
     <relationType>TemporaleSuccessiva</relationType>
    </relation> 
    <relation>
-    <targetEntity targetType="corporateBody" id="SIA-PI-1921266">
-     <part>Direzioni compartimentali (1862-1869) poi Intendenza  di finanza (1869-1991)</part>
+    <targetEntity targetType="corporateBody">
+     <part>SIA-PI-1921266</part>
     </targetEntity>
     <dateSet>
      <date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1927-1991</date>
@@ -246,8 +246,8 @@
     <targetRole>Profilo istituzionale collegato</targetRole>
    </relation> 
    <relation>
-    <targetEntity targetType="resource" id="SIA-RR-122056">
-     <part>...</part> <!-- contenuto -->
+    <targetEntity targetType="resource">
+     <part>SIA-RR-122056</part>
     </targetEntity>
     <relationType>È documentazione</relationType>
 	<targetRole>Risorsa digitale collegata</targetRole>

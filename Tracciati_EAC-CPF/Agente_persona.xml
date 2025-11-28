@@ -21,17 +21,17 @@
 		</maintenanceHistory>
 		<sources>
 			<source>
-				<reference linkRole="RiferimentoBibliografico" id="SIA-RB-1992381"/>
+				<reference linkRole="RiferimentoBibliografico">SIA-RB-1992381</reference>
 				<descriptiveNote><p>pp. 34-46</p></descriptiveNote>
 			</source>
 			<source>
-				<reference linkRole="FonteArchivistica" id="SIA-FA-20200442"/>
+				<reference linkRole="FonteArchivistica">SIA-FA-20200442</reference>
 			</source>
 			<source>
-				<reference linkRole="FonteNormativa" id="ICAR-FN-2109825"/>
+				<reference linkRole="FonteNormativa">ICAR-FN-2109825</reference>
 			</source>
 			<source>
-				<reference linkRole="RiferimentoWeb" id="wiki_Antonioli_25X"/>
+				<reference linkRole="RiferimentoWeb">wiki_Antonioli_25X</reference>
 			</source>
 		</sources>
 		<localControl localType="Visibilita_FE"><term>Completa</term></localControl>
@@ -102,7 +102,7 @@
 			</occupations>
 			<places>
 				<place localType="LuogoPersona">
-					<placeName id="ICAR-TOP-2019524"/>
+					<placeName>ICAR-TOP-2019524</placeName>
 					<placeRole>Nascita</placeRole>
 					<dateSet> 	
 						<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data singola">sec. XX inizio</date>
@@ -110,7 +110,7 @@
 					</dateSet>
 				</place>
 				<place localType="LuogoPersona">
-					<placeName id="ICAR-TOP-2019611"/>
+					<placeName>ICAR-TOP-2019611</placeName>
 					<placeRole>Morte</placeRole>
 					<dateSet>
 						<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data singola">1981 apr. 1</date>
@@ -139,21 +139,21 @@
 				<relationType>sameAs</relationType>
 			</relation>
 			<relation>
-				<targetEntity targetType="resource" id="SIA-CA-2017123">
-					<part>Francesco Maria Antonioli</part>
+				<targetEntity targetType="resource">
+					<part>SIA-CA-2017123</part>
 				</targetEntity>
 				<targetRole>Complesso archivistico</targetRole>
 				<relationType>Soggetto produttore</relationType>
 			</relation>
 			<relation>
-				<targetEntity targetType="resource" id="SIA-TE-2412146">
-					<part>Anarchismo</part>
+				<targetEntity targetType="resource">
+					<part>SIA-TE-2412146</part>
 				</targetEntity>
 				<targetRole>Tematismo</targetRole>
 			</relation>
 			<relation>
-				<targetEntity targetType="agent" id="SIA-CS-1922132">
-					<part>Regno d'Italia</part>
+				<targetEntity targetType="agent">
+					<part>SIA-CS-1922132</part>
 				</targetEntity>
 				<dateSet>
 					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">sec. XX inizio-1946</date>
@@ -165,8 +165,8 @@
 				<targetRole>Contesto storico istituzionale collegato</targetRole>
 			</relation>
 			<relation>
-				<targetEntity targetType="person" id="SIA-AG-1021325">
-					<part>Giuseppe Malaguti</part>
+				<targetEntity targetType="person">
+					<part>SIA-AG-1021325</part>
 				</targetEntity>
 				<dateSet>
 					<date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date">1945-1971</date>
@@ -178,7 +178,7 @@
 				<targetRole>Soggetto produttore collegato</targetRole>
 				<relationType>Associativa</relationType>
 			</relation>
-			<!-- Mancano alcune relazioni. È necessario crearle tutte, o basta con quelle che sono presenti nella scheda dell'agente ente? -->
+			
 		</relations>
 	</cpfDescription>
 </eac>

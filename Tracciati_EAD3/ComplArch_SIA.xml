@@ -55,10 +55,7 @@
 			</physdescstructured>
 			<physdesc localtype="ConsistenzaTotale">10 volumi e 400 buste</physdesc>
 			<physdesc localtype="NoteAllaConsistenza">Con alcuni salti nella numerazione delle buste.</physdesc>
-			<physloc>
-				<ptr id="SIA_CL_24451" linkrole="Internal"/>
-				<ref arcrole="DaPezzo">1</ref>
-				<ref arcrole="APezzo">1018</ref>
+			<physloc label="Collocazione">SIA_CL_24451<ref arcrole="DaPezzo">1</ref><ref arcrole="APezzo">1018</ref>
 			</physloc>
 			<didnote localtype="StatoDiConservazione">Discreto</didnote>
 			<didnote localtype="CondizioniDelMateriale">Le condizioni del materiale sono stabili e non presenta particolari problemi di conservazione.</didnote>
