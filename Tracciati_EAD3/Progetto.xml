@@ -10,7 +10,8 @@
 					<abbr>PASN</abbr>
 				</subtitle>
 				<author localtype="AgentePartecipante">
-					<ref id="SIA-AG-13634966">
+					<ref>
+						<name><part>SIA-AG-13634966</part></name>
 						<function localtype="Qualifica">
 							<part>Coordinatore</part>
 						</function>
@@ -43,7 +44,7 @@
 		</filedesc>
 		<maintenancestatus value="derived"/>
 		<maintenanceagency>
-			<agencyname localtype="AgentePrincipale" id="SIA-AG-13019682"/>
+			<agencyname localtype="AgentePrincipale">SIA-AG-13019682</agencyname>
 			<descriptivenote>
 				<p>Responsabile</p>
 			</descriptivenote>

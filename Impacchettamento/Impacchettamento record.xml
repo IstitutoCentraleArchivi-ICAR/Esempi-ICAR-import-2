@@ -1034,7 +1034,8 @@
 					<ead:abbr>PASN</ead:abbr>
 				</ead:subtitle>
 				<ead:author localtype="AgentePartecipante">
-					<ead:ref id="SIA-AG-13634966">
+					<ead:ref>
+						<ead:name><ead:part>SIA-AG-13634966</ead:part></ead:name>
 						<ead:function localtype="Qualifica">
 							<ead:part>Coordinatore</ead:part>
 						</ead:function>
@@ -1067,7 +1068,7 @@
 		</ead:filedesc>
 		<ead:maintenancestatus value="derived"/>
 		<ead:maintenanceagency>
-			<ead:agencyname localtype="AgentePrincipale" id="SIA-AG-13019682"/>
+			<ead:agencyname localtype="AgentePrincipale">SIA-AG-13019682</ead:agencyname>
 			<ead:descriptivenote>
 				<ead:p>Responsabile</ead:p>
 			</ead:descriptivenote>
