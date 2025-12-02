@@ -30,7 +30,9 @@
 		</did>
 		
 		<controlaccess localtype="Authority">
-			<subject lang="ita" id="SIA_SOG_172853" altrender="Completa" source="SIAS">
+			<subject lang="ita" altrender="Completa" source="SIAS">
+				<part localtype="Identificativo">SIA_SOG_172853</part>
+				<part localtype="IdentificativoDiSistema">172853</part>
 				<part localtype="AltroAuthority" identifier="IS4316" source="ISNI"/>
 				<part altrender="StatusScheda">Bozza</part>
 				<part localtype="Lemma">Affari risoluti</part>
@@ -39,8 +41,6 @@
 				<part>				
 					<ref arcrole="SoggettoCorrelato" linkrole="Associativo">SIA_SOG_173312</ref> <!-- errore in M528, dice che @source è obbligatorio -->
 					<ref arcrole="SoggettoCorrelato" linkrole="Associativo">SIA_SOG_173466</ref>
-					
-					
 					<ref arcrole="Compilatore">
 						<corpname>
 							<part>ICAR-CP-1988029</part>

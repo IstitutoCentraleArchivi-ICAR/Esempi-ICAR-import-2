@@ -30,7 +30,9 @@
 		</did>
 		
 		<controlaccess>
-			<subject localtype="Tematismo" lang="ita" id="SIA_TE_8782869">
+			<subject localtype="Tematismo" lang="ita">
+				<part localtype="Identificativo">SIA_TE_8782869</part>
+				<part localtype="IdentificativoDiSistema">8782869</part>
 				<part localtype="Denominazione">Enti pubblici locali e territoriali</part>
 				<part localtype="Descrizione">Sono enti territoriali le regioni e gli enti locali, per i quali il territorio della circoscrizione non è solo limite della competenza degli organi, ma anche elemento costitutivo dell'ente stesso, i cui organi di governo sono rappresentativi della popolazione residente.</part>
 				<part localtype="PercorsoRicercaNo"/>

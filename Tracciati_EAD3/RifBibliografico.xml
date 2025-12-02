@@ -30,7 +30,9 @@
 		</did>
 		<bibliography>
 			<bibliography localtype="RiferimentoBibliografico">
-				<bibref lang="ita" id="SIA-RB-2025998">
+				<bibref lang="ita">
+					<ref altrender="Identificativo">SIA-RB-2025998</ref>
+					<ref altrender="IdentificativoDiSistema">2025998</ref>
 					<num localtype="CodicePrecedente">KH-02001</num>
 					<persname relator="Autore"><part>Bottazzi G.</part></persname>
 					<persname relator="Curatore"><part>Giunti A.</part></persname>

@@ -657,8 +657,8 @@
 					<!-- SOGGETTO -->
 					<ead:controlaccess localtype="Authority">
 				<ead:subject lang="ita" altrender="Completa" source="SIAS">
-				<ead:part altrender="Identificativo">SIA_SOG_172853</ead:part>
-				<ead:part altrender="IdentificativoDiSistema">172853</ead:part>
+				<ead:part localtype="Identificativo">SIA_SOG_172853</ead:part>
+				<ead:part localtype="IdentificativoDiSistema">172853</ead:part>
 				<ead:part localtype="AltroAuthority" identifier="IS4316" source="ISNI"/>
 				<ead:part altrender="StatusScheda">Bozza</ead:part>
 				<ead:part localtype="Lemma">Affari risoluti</ead:part>

@@ -31,13 +31,15 @@
 		
 		<bibliography>
 			<bibliography localtype="RiferimentoWeb"> 
-				<bibref lang="ita" id="SIA-RW-3025911">
+				<bibref lang="ita">
 					<title>
 						<part localtype="Denominazione">Intendenza di Finznza</part>
 						<part localtype="Descrizione">Pagina di Wikipedia dedicata all'Intendenza di Finznza.</part>
 						<part localtype="StatusScheda">Bozza</part>
 					</title>
 					<ref href="https://it.wikipedia.org/wiki/Intendenza_di_finanza"/>
+					<ref altrender="Identificativo">SIA-RW-3025911</ref>
+					<ref altrender="IdentificativoDiSistema">3025911</ref>
 					<date localtype="DataInserimento">2011/06/11</date>
 				</bibref>
 			</bibliography>

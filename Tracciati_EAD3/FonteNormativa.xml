@@ -31,7 +31,9 @@
 		
 		<bibliography>
 			<bibliography localtype="FonteNormativa">
-				<bibref lang="ita" id="SIA-FN-2023542">
+				<bibref lang="ita">
+					<ref altrender="Identificativo">SIA-FN-2023542</ref>
+					<ref altrender="IdentificativoDiSistema">2023542</ref>
 					<genreform localtype="Tipologia"><part>Legge</part></genreform>
 					<corpname relator="AutoritaEmittente"><part>Regno d'Italia</part></corpname>
 					<date>17-04-1930</date>

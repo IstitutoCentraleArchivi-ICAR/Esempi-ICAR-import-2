@@ -30,7 +30,9 @@
 		</did>
 		
 		<controlaccess localtype="Authority">
-			<geogname lang="ita" id="SIA_TO_1182862" altrender="Completa">
+			<geogname lang="ita" altrender="Completa">
+				<part localtype="Identificativo">SIA_TO_1182862</part>
+				<part localtype="IdentificativoDiSistema">1182862</part>
 				<part localtype="AltroAuthority" identifier="IS3356" source="ISNI"/>
 				<part altrender="StatusScheda">Bozza</part>
 				<part localtype="Intestazione">Agrigento (Agrigento)</part>

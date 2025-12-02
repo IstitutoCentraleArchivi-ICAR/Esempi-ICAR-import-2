@@ -30,8 +30,10 @@
 		</did> 
 		
 		<bibliography>
-			<archref  lang="ita" id="SIA-FA-2013027">
+			<archref  lang="ita">
 				<num localtype="CodicePrecedente">IT-ASCA-F346000090</num>
+				<ref altrender="Identificativo">SIA-FA-2013027</ref>
+				<ref altrender="IdentificativoDiSistema">2013027</ref>
 				<ref>CA-424529</ref>
 				<title>
 					<part localtype="TitoloBreve">Carteggio particolare della Segreteria di Stato</part>
