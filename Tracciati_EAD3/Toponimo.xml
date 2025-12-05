@@ -29,10 +29,9 @@
 			<unittitle localtype="Denominazione">..Denominazione record contenitore..</unittitle>
 		</did>
 		
-		<controlaccess localtype="Authority">
+		<controlaccess localtype="VoceIndice">
 			<geogname lang="ita" altrender="Completa">
-				<part localtype="Identificativo">SIA_TO_1182862</part>
-				<part localtype="IdentificativoDiSistema">1182862</part>
+				<part localtype="IdentificativoToponimo" source="SIA" identifier="1182862">SIA_TO_1182862</part>
 				<part localtype="AltroAuthority" identifier="IS3356" source="ISNI"/>
 				<part altrender="StatusScheda">Bozza</part>
 				<part localtype="Intestazione">Agrigento (Agrigento)</part>
@@ -43,18 +42,15 @@
 				<part localtype="AltroCodice" identifier="TP66012" source="ASI"/>
 				<part>
 					<ref arcrole="Compilatore">
-						<corpname>
-							<part>ICAR-CP-1988029</part>
-						</corpname>
-						<name localtype="Azione"><part>Prima redazione</part></name>
+						<name>
+							<part localtype="RiferimentoCompilatore">ICAR-CP-1988029</part>
+						</name>
+						<name><part localtype="Azione">Prima redazione</part></name>
 						<footnote localtype="NoteRedazionali"><p>...</p></footnote>
 						<date localtype="DataCompilazione">2025/09/21</date>
 					</ref>
 					<ref arcrole="Osservazioni">
 						<footnote localtype="NoteLavoro"><p>Verificare formato intestazione.</p></footnote>
-					</ref>
-					<ref arcrole="GradoElaborazione">
-						<footnote localtype="StatoCompilazione"><p>pubblicazione locale</p></footnote>
 					</ref>
 				</part>
 				<geographiccoordinates altrender="Latitudine" coordinatesystem="WGS84">37.311199</geographiccoordinates> 

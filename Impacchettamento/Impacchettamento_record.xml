@@ -655,41 +655,42 @@
 					</ead:controlaccess>
 					
 					<!-- SOGGETTO -->
-					<ead:controlaccess localtype="Authority">
+				<ead:controlaccess localtype="VoceIndice">
 				<ead:subject lang="ita" altrender="Completa" source="SIAS">
-				<ead:part localtype="Identificativo">SIA_SOG_172853</ead:part>
-				<ead:part localtype="IdentificativoDiSistema">172853</ead:part>
+				<ead:part localtype="IdentificativoSoggetto" source="SIA" identifier="172853">SIA_SOG_172853</ead:part>
 				<ead:part localtype="AltroAuthority" identifier="IS4316" source="ISNI"/>
 				<ead:part altrender="StatusScheda">Bozza</ead:part>
 				<ead:part localtype="Lemma">Affari risoluti</ead:part>
 				<ead:part localtype="Definizione">Si tratta principalmente di buste contenenti i fascicoli degli affari risolti a livello governativo. Gli affari potevano essere risolti e spediti secondo diverse modalità: - all'interno del Consiglio in presenza del Granduca. - dal Granduca fuori dal Consiglio. - dal Consiglio con le facoltà attribuitegli dal Granduca. - dai Direttori delle Segreterie con le facoltà attribuite loro dal Granduca come nel caso precedente.</ead:part>
 				<ead:part localtype="AltroCodice" identifier="SS56322" source="ASI"/>
 				<ead:part>				
-					<ead:ref arcrole="SoggettoCorrelato" linkrole="Associativo">SIA_SOG_173312</ead:ref> 
-					<ead:ref arcrole="SoggettoCorrelato" linkrole="Associativo">SIA_SOG_173466</ead:ref>
-					
-					
+					<ead:ref arcrole="SoggettoCorrelato" linkrole="Associativo">
+						<ead:subject>
+							<ead:part>SIA_SOG_173312</ead:part>
+						</ead:subject>
+					</ead:ref>
+					<ead:ref arcrole="SoggettoCorrelato" linkrole="Associativo">
+						<ead:subject>
+							<ead:part>SIA_SOG_173466</ead:part>
+						</ead:subject>
+					</ead:ref>
 					<ead:ref arcrole="Compilatore">
-						<ead:corpname>
-							<ead:part>ICAR-CP-1988029</ead:part>
-						</ead:corpname>
-						<ead:name localtype="Azione"><ead:part>Prima redazione</ead:part></ead:name>
+						<ead:name>
+							<ead:part localtype="RiferimentoCompilatore">ICAR-CP-1988029</ead:part>
+						</ead:name>
+						<ead:name><ead:part localtype="Azione">Prima redazione</ead:part></ead:name>
 						<ead:footnote localtype="NoteRedazionali"><ead:p>...</ead:p></ead:footnote>
 						<ead:date localtype="DataCompilazione">2025/09/21</ead:date> 
 					</ead:ref>
 					<ead:ref arcrole="Osservazioni">
 						<ead:footnote localtype="NoteLavoro"><ead:p>Completare definizione.</ead:p></ead:footnote>
 					</ead:ref>
-					<ead:ref arcrole="GradoElaborazione">
-						<ead:footnote localtype="StatoCompilazione"><ead:p>pubblicazione locale</ead:p></ead:footnote>
-					</ead:ref>
 				</ead:part>
 			</ead:subject>	
 			<!-- / SOGGETTO -->
 			<!-- TOPONIMO -->
 			<ead:geogname lang="ita" altrender="Completa">
-				<ead:part altrender="Identificativo">SIA_TO_1182862</ead:part>
-				<ead:part altrender="IdentificativoDiSistema">1182862</ead:part>
+				<ead:part localtype="IdentificativoToponimo" source="SIA" identifier="1182862">SIA_TO_1182862</ead:part>
 				<ead:part localtype="AltroAuthority" identifier="IS3356" source="ISNI"/>
 				<ead:part altrender="StatusScheda">Bozza</ead:part>
 				<ead:part localtype="Intestazione">Agrigento (Agrigento)</ead:part>
@@ -700,18 +701,15 @@
 				<ead:part localtype="AltroCodice" identifier="TP66012" source="ASI"/>
 				<ead:part>
 					<ead:ref arcrole="Compilatore">
-						<ead:corpname>
-							<ead:part>ICAR-CP-1988029</ead:part>
-						</ead:corpname>
-						<ead:name localtype="Azione"><ead:part>Prima redazione</ead:part></ead:name>
+						<ead:name>
+							<ead:part localtype="RiferimentoCompilatore">ICAR-CP-1988029</ead:part>
+						</ead:name>
+						<ead:name><ead:part localtype="Azione">Prima redazione</ead:part></ead:name>
 						<ead:footnote localtype="NoteRedazionali"><ead:p>...</ead:p></ead:footnote>
 						<ead:date localtype="DataCompilazione">2025/09/21</ead:date>
 					</ead:ref>
 					<ead:ref arcrole="Osservazioni">
 						<ead:footnote localtype="NoteLavoro"><ead:p>Verificare formato intestazione.</ead:p></ead:footnote>
-					</ead:ref>
-					<ead:ref arcrole="GradoElaborazione">
-						<ead:footnote localtype="StatoCompilazione"><ead:p>pubblicazione locale</ead:p></ead:footnote>
 					</ead:ref>
 				</ead:part>
 				<ead:geographiccoordinates altrender="Latitudine" coordinatesystem="WGS84">37.311199</ead:geographiccoordinates> 

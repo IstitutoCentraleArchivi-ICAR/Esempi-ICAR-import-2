@@ -29,31 +29,35 @@
 			<unittitle localtype="Denominazione">..Denominazione record contenitore..</unittitle>
 		</did>
 		
-		<controlaccess localtype="Authority">
+		<controlaccess localtype="VoceIndice">
 			<subject lang="ita" altrender="Completa" source="SIAS">
-				<part localtype="Identificativo">SIA_SOG_172853</part>
-				<part localtype="IdentificativoDiSistema">172853</part>
+				<part localtype="IdentificativoSoggetto" source="SIA" identifier="172853">SIA_SOG_172853</part>
 				<part localtype="AltroAuthority" identifier="IS4316" source="ISNI"/>
 				<part altrender="StatusScheda">Bozza</part>
 				<part localtype="Lemma">Affari risoluti</part>
 				<part localtype="Definizione">Si tratta principalmente di buste contenenti i fascicoli degli affari risolti a livello governativo. Gli affari potevano essere risolti e spediti secondo diverse modalità: - all'interno del Consiglio in presenza del Granduca. - dal Granduca fuori dal Consiglio. - dal Consiglio con le facoltà attribuitegli dal Granduca. - dai Direttori delle Segreterie con le facoltà attribuite loro dal Granduca come nel caso precedente.</part>
 				<part localtype="AltroCodice" identifier="SS56322" source="ASI"/>
 				<part>				
-					<ref arcrole="SoggettoCorrelato" linkrole="Associativo">SIA_SOG_173312</ref> <!-- errore in M528, dice che @source è obbligatorio -->
-					<ref arcrole="SoggettoCorrelato" linkrole="Associativo">SIA_SOG_173466</ref>
+					<ref arcrole="SoggettoCorrelato" linkrole="Associativo">
+						<subject>
+							<part>SIA_SOG_173312</part>
+						</subject>
+					</ref>
+					<ref arcrole="SoggettoCorrelato" linkrole="Associativo">
+						<subject>
+							<part>SIA_SOG_173466</part>
+						</subject>
+					</ref>
 					<ref arcrole="Compilatore">
-						<corpname>
-							<part>ICAR-CP-1988029</part>
-						</corpname>
-						<name localtype="Azione"><part>Prima redazione</part></name>
+						<name>
+							<part localtype="RiferimentoCompilatore">ICAR-CP-1988029</part>
+						</name>
+						<name><part localtype="Azione">Prima redazione</part></name>
 						<footnote localtype="NoteRedazionali"><p>...</p></footnote>
 						<date localtype="DataCompilazione">2025/09/21</date> 
 					</ref>
 					<ref arcrole="Osservazioni">
 						<footnote localtype="NoteLavoro"><p>Completare definizione.</p></footnote>
-					</ref>
-					<ref arcrole="GradoElaborazione">
-						<footnote localtype="StatoCompilazione"><p>pubblicazione locale</p></footnote>
 					</ref>
 				</part>
 			</subject>	
