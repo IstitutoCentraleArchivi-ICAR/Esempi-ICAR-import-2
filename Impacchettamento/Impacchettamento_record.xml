@@ -1987,7 +1987,7 @@
 					<eac:placeRole>Luogo evento</eac:placeRole>
 				</eac:place>
 			</eac:places>
-			<eac:existDates>
+			<eac:existDates localType="DateEvento">
 				<eac:dateSet>
 					<eac:date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data singola">1980 giu. 27</eac:date>
 					<eac:date standardDate="1980-06-27">1980 giu. 27</eac:date>
