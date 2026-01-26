@@ -8,6 +8,9 @@
 				<titleproper/>
 			</titlestmt>
 		</filedesc>
+		<localcontrol localtype="AcronimoDiSistema">
+			<term>SIA</term>
+		</localcontrol>
 		<maintenancestatus value="derived"/>
 		<maintenanceagency>
 			<agencyname>ICAR</agencyname>
@@ -38,6 +41,7 @@
 					<corpname relator="AutoritaEmittente"><part>Regno d'Italia</part></corpname>
 					<date>17-04-1930</date>
 					<num localtype="IdentificativoNIR">https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1930-04-17;421@originale</num>
+					<num altrender="AltroCodiceIdentificativo" localtype="Ant">AS.20034</num>
 					<title>
 						<part localtype="TitoloAtto">Legge 17 aprile 1930, n. 421. Norme sul reclutamento e sulla carriera dei magistrati</part> 
 						<part localtype="NumeroAtto">421</part> 
@@ -47,6 +51,23 @@
 						<part localtype="StatusScheda">Bozza</part>
 					</title>
 				</bibref>
+				<p altrender="Osservazioni">Pubblicato in GU n.100 del 29-04-1930.</p>
+				<chronlist>
+					<chronitem>
+						<datesingle>2025/02/22</datesingle>
+						<event>
+							<name localtype="TipoAzione">
+								<part>Importazione</part>
+							</name>
+							<name localtype="Note">
+								<part>..Note redazionali..</part>
+							</name>
+							<corpname relator="Compilatore">
+								<part localtype="Denominazione">ICAR-CP-1988029</part>
+							</corpname>
+						</event>
+					</chronitem>
+				</chronlist>
 			</bibliography>
 			<bibliography localtype="LinkRiferimentoWeb"> 
 				<bibref>
@@ -60,11 +81,6 @@
 				</bibref>
 			</bibliography>
 		</bibliography>
-		<odd localtype="Osservazioni">
-			<odd localtype="FonteNormativa">
-				<p>Pubblicato in GU n.100 del 29-04-1930</p>
-			</odd>
-		</odd>
 		
 		<accessrestrict>
 			<accessrestrict localtype="VisibilitaFE">  <!-- VisibilitaFE della scheda contenitore -->
@@ -73,24 +89,6 @@
 		</accessrestrict>
 		<processinfo localtype="StatusScheda"> <!-- status della scheda contenitore -->
 			<p>Pubblicata</p> 
-		</processinfo>
-		<processinfo localtype="Compilazione">
-			<processinfo localtype="FonteNormativa">
-				<chronlist>
-					<chronitem>
-						<datesingle>2025/02/22</datesingle>
-						<event>
-							<name localtype="TipoAzione">
-								<part>Importazione</part>
-							</name>
-							<corpname relator="Compilatore">
-								<part localtype="Denominazione">ICAR-CP-1988029</part>
-							</corpname>
-						</event>
-					</chronitem>
-				</chronlist>
-				<p> ..Note redazionali.. </p> <!-- contenuto -->
-			</processinfo>
 		</processinfo>
 	</archdesc>
 </ead>

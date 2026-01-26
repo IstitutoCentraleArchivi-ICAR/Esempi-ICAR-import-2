@@ -8,6 +8,9 @@
 				<titleproper/>
 			</titlestmt>
 		</filedesc>
+		<localcontrol localtype="AcronimoDiSistema">
+			<term>SIA</term>
+		</localcontrol>
 		<maintenancestatus value="derived"/>
 		<maintenanceagency>
 			<agencyname>ICAR</agencyname>
@@ -37,18 +40,31 @@
 						<part localtype="Descrizione">Pagina di Wikipedia dedicata all'Intendenza di Finznza.</part>
 						<part localtype="StatusScheda">Bozza</part>
 					</title>
+					<num altrender="AltroCodiceIdentificativo" localtype="Ant">AR-x103</num>
 					<ref href="https://it.wikipedia.org/wiki/Intendenza_di_finanza"/>
 					<ref altrender="Identificativo">SIA-RW-3025911</ref>
 					<ref altrender="IdentificativoDiSistema">3025911</ref>
 					<date localtype="DataInserimento">2011/06/11</date>
 				</bibref>
+				<p altrender="Osservazioni">Questa pagina è stata modificata per l'ultima volta il 13 mar 2025 alle 16:17.</p>
+				<chronlist>
+					<chronitem>
+						<datesingle>2025/02/22</datesingle>
+						<event>
+							<name localtype="TipoAzione">
+								<part>Importazione</part>
+							</name>
+							<name localtype="Note">
+								<part>..Note redazionali..</part>
+							</name>
+							<corpname relator="Compilatore">
+								<part localtype="Denominazione">ICAR-CP-1988029</part>
+							</corpname>
+						</event>
+					</chronitem>
+				</chronlist>
 			</bibliography>
 		</bibliography>
-		<odd localtype="Osservazioni">
-			<odd localtype="RiferimentoWeb">
-				<p>Questa pagina è stata modificata per l'ultima volta il 13 mar 2025 alle 16:17.</p>
-			</odd>
-		</odd>
 		
 		<accessrestrict>
 			<accessrestrict localtype="VisibilitaFE">  <!-- VisibilitaFE della scheda contenitore -->
@@ -57,24 +73,6 @@
 		</accessrestrict>
 		<processinfo localtype="StatusScheda"> <!-- status della scheda contenitore -->
 			<p>Pubblicata</p> 
-		</processinfo>
-		<processinfo localtype="Compilazione">
-			<processinfo localtype="RiferimentoWeb">
-				<chronlist>
-					<chronitem>
-						<datesingle>2025/02/22</datesingle>
-						<event>
-							<name localtype="TipoAzione">
-								<part>Importazione</part>
-							</name>
-							<corpname relator="Compilatore">
-								<part localtype="Denominazione">ICAR-CP-1988029</part>
-							</corpname>
-						</event>
-					</chronitem>
-				</chronlist>
-				<p> ..Note redazionali.. </p> <!-- contenuto -->
-			</processinfo>
 		</processinfo>
 	</archdesc>
 </ead>

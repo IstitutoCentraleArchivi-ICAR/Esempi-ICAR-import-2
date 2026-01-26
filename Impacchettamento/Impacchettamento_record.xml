@@ -357,8 +357,10 @@
 			</ead:bibliography>
 			
 			<!-- FONTE ARCHIVISTICA -->
+			<ead:bibliography localtype="FonteArchivistica">
 			<ead:archref  lang="ita">
 				<ead:num localtype="CodicePrecedente">IT-ASCA-F346000090</ead:num>
+				<ead:num altrender="AltroCodiceIdentificativo" localtype="Ant">ST-10023</ead:num>
 				<ead:ref altrender="Identificativo">SIA-FA-2013027</ead:ref>
 				<ead:ref altrender="IdentificativoDiSistema">2013027</ead:ref>
 				<ead:ref>CA-424529</ead:ref>
@@ -369,6 +371,24 @@
 					<ead:part localtype="StatusScheda">Bozza</ead:part>
 				</ead:title>
 			</ead:archref>
+			<ead:p altrender="Osservazioni">Una parte dei documenti è stata sottoposta a processi di restaurazione.</ead:p>
+				<ead:chronlist>
+					<ead:chronitem>
+						<ead:datesingle>2025/02/22</ead:datesingle>
+						<ead:event>
+							<ead:name localtype="TipoAzione">
+								<ead:part>Importazione</ead:part>
+							</ead:name>
+							<ead:name localtype="Note">
+								<ead:part>..Note redazionali..</ead:part>
+							</ead:name>
+							<ead:corpname relator="Compilatore">
+								<ead:part localtype="Denominazione">ICAR-CP-1988029</ead:part>
+							</ead:corpname>
+						</ead:event>
+					</ead:chronitem>
+				</ead:chronlist>
+			</ead:bibliography>
 			<!-- / FONTE ARCHIVISTICA -->
 			
 			<!-- FONTE NORMATIVA -->
@@ -380,6 +400,7 @@
 					<ead:corpname relator="AutoritaEmittente"><ead:part>Regno d'Italia</ead:part></ead:corpname>
 					<ead:date>17-04-1930</ead:date>
 					<ead:num localtype="IdentificativoNIR">https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1930-04-17;421@originale</ead:num>
+					<ead:num altrender="AltroCodiceIdentificativo" localtype="Ant">AS.20034</ead:num>
 					<ead:title>
 						<ead:part localtype="TitoloAtto">Legge 17 aprile 1930, n. 421. Norme sul reclutamento e sulla carriera dei magistrati</ead:part> 
 						<ead:part localtype="NumeroAtto">421</ead:part> 
@@ -389,6 +410,23 @@
 						<ead:part localtype="StatusScheda">Bozza</ead:part>
 					</ead:title>
 				</ead:bibref>
+				<ead:p altrender="Osservazioni">Pubblicato in GU n.100 del 29-04-1930.</ead:p>
+				<ead:chronlist>
+					<ead:chronitem>
+						<ead:datesingle>2025/02/22</ead:datesingle>
+						<ead:event>
+							<ead:name localtype="TipoAzione">
+								<ead:part>Importazione</ead:part>
+							</ead:name>
+							<ead:name localtype="Note">
+								<ead:part>..Note redazionali..</ead:part>
+							</ead:name>
+							<ead:corpname relator="Compilatore">
+								<ead:part localtype="Denominazione">ICAR-CP-1988029</ead:part>
+							</ead:corpname>
+						</ead:event>
+					</ead:chronitem>
+				</ead:chronlist>
 			</ead:bibliography>
 			<!-- / FONTE NORMATIVA -->
 			

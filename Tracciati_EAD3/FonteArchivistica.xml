@@ -8,6 +8,9 @@
 				<titleproper/>
 			</titlestmt>
 		</filedesc>
+		<localcontrol localtype="AcronimoDiSistema">
+			<term>SIA</term>
+		</localcontrol>
 		<maintenancestatus value="derived"/>
 		<maintenanceagency>
 			<agencyname>ICAR</agencyname>
@@ -30,29 +33,44 @@
 		</did> 
 		
 		<bibliography>
-			<archref  lang="ita">
-				<num localtype="CodicePrecedente">IT-ASCA-F346000090</num>
-				<ref altrender="Identificativo">SIA-FA-2013027</ref>
-				<ref altrender="IdentificativoDiSistema">2013027</ref>
-				<ref>CA-424529</ref>
-				<title>
-					<part localtype="TitoloBreve">Carteggio particolare della Segreteria di Stato</part>
-					<part localtype="Titolo">Carteggio particolare della Segreteria di Stato presso Sua Maestà in Cagliari con funzionari, particolari ed ecclesiastici dell'isola</part>
-					<part localtype="Descrizione">Registri copialettere contenenti il carteggio tra il viceré e i funzionari regi, ecclesiastici ed altre persone.</part>
-					<part localtype="StatusScheda">Bozza</part>
-				</title>
-			</archref>
+			<bibliography localtype="FonteArchivistica">
+				<archref lang="ita">
+					<num localtype="CodicePrecedente">IT-ASCA-F346000090</num>
+					<num altrender="AltroCodiceIdentificativo" localtype="Ant">ST-10023</num>
+					<ref altrender="Identificativo">SIA-FA-2013027</ref>
+					<ref altrender="IdentificativoDiSistema">2013027</ref>
+					<ref>CA-424529</ref>
+					<title>
+						<part localtype="TitoloBreve">Carteggio particolare della Segreteria di Stato</part>
+						<part localtype="Titolo">Carteggio particolare della Segreteria di Stato presso Sua Maestà in Cagliari con funzionari, particolari ed ecclesiastici dell'isola</part>
+						<part localtype="Descrizione">Registri copialettere contenenti il carteggio tra il viceré e i funzionari regi, ecclesiastici ed altre persone.</part>
+						<part localtype="StatusScheda">Bozza</part>
+					</title>
+				<archref>
+				<p altrender="Osservazioni">Una parte dei documenti è stata sottoposta a processi di restaurazione.</p>
+				<chronlist>
+					<chronitem>
+						<datesingle>2025/02/22</datesingle>
+						<event>
+							<name localtype="TipoAzione">
+								<part>Importazione</part>
+							</name>
+							<name localtype="Note">
+								<part>..Note redazionali..</part>
+							</name>
+							<corpname relator="Compilatore">
+								<part localtype="Denominazione">ICAR-CP-1988029</part>
+							</corpname>
+						</event>
+					</chronitem>
+				</chronlist>
+			</bibliography>
 			<bibliography localtype="LinkRiferimentoWeb"> 
 				<bibref> 
 					<ref>SIA-RW-3025911</ref>
 				</bibref> 
 			</bibliography>
 		</bibliography>
-		<odd localtype="Osservazioni">
-			<odd localtype="FonteArchivistica">
-				<p>Una parte dei documenti è stata sottoposta a processi di restaurazione.</p>
-			</odd>
-		</odd>
 
 		<accessrestrict>
 			<accessrestrict localtype="VisibilitaFE"> <!-- VisibilitaFE della scheda contenitore -->
@@ -61,24 +79,6 @@
 		</accessrestrict>
 		<processinfo localtype="StatusScheda"> <!-- status della scheda contenitore -->
 			<p>Pubblicata</p> 
-		</processinfo>
-		<processinfo localtype="Compilazione">
-			<processinfo localtype="FonteArchivistica">
-				<chronlist>
-					<chronitem>
-						<datesingle>2025/02/22</datesingle>
-						<event>
-							<name localtype="TipoAzione">
-								<part>Importazione</part>
-							</name>
-							<corpname relator="Compilatore">
-								<part localtype="Denominazione">ICAR-CP-1988029</part>
-							</corpname>
-						</event>
-					</chronitem>
-				</chronlist>
-				<p> ..Note redazionali.. </p> <!-- contenuto -->
-			</processinfo>
 		</processinfo>
 	</archdesc>
 </ead>
