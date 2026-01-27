@@ -336,27 +336,8 @@
 			
 		</ead:controlaccess>
 		<ead:bibliography> 
-			<ead:bibliography localtype="LinkRiferimentoBibliografico">
-				<ead:bibref>
-					<ead:ref>ICAR-RB-1992347</ead:ref>
-					<ead:footnote><ead:p>pp. 55-102.</ead:p></ead:footnote>
-				</ead:bibref>
-			</ead:bibliography>
-			<ead:archref altrender="LinkFonteArchivistica">
-				<ead:ref>ICAR-FA-20200312</ead:ref>
-			</ead:archref>
-			<ead:bibliography localtype="LinkFonteNormativa">
-				<ead:bibref>
-					<ead:ref>ICAR-FN-2109923</ead:ref>
-				</ead:bibref>
-			</ead:bibliography>
-			<ead:bibliography localtype="LinkRiferimentoWeb">
-				<ead:bibref>
-					<ead:ref>SIA-RW-3025911</ead:ref>
-				</ead:bibref>
-			</ead:bibliography>
 			
-			<!-- FONTE ARCHIVISTICA -->
+			<!-- Esempio di Fonte archivistica definita come entità -->
 			<ead:bibliography localtype="FonteArchivistica">
 			<ead:archref  lang="ita">
 				<ead:num localtype="CodicePrecedente">IT-ASCA-F346000090</ead:num>
@@ -391,7 +372,7 @@
 			</ead:bibliography>
 			<!-- / FONTE ARCHIVISTICA -->
 			
-			<!-- FONTE NORMATIVA -->
+			<!-- Esempio di Fonte normativa definita come entità -->
 			<ead:bibliography localtype="FonteNormativa">
 				<ead:bibref lang="ita">
 					<ead:ref altrender="Identificativo">SIA-FN-2023542</ead:ref>
@@ -429,6 +410,98 @@
 				</ead:chronlist>
 			</ead:bibliography>
 			<!-- / FONTE NORMATIVA -->
+			
+			<!-- Esempio di Riferimento web definito come entità -->
+			<ead:bibliography localtype="RiferimentoWeb"> 
+				<ead:bibref lang="ita">
+					<ead:title>
+						<ead:part localtype="Denominazione">Intendenza di Finznza</ead:part>
+						<ead:part localtype="Descrizione">Pagina di Wikipedia dedicata all'Intendenza di Finznza.</ead:part>
+						<ead:part localtype="StatusScheda">Bozza</ead:part>
+					</ead:title>
+					<ead:num altrender="AltroCodiceIdentificativo" localtype="Ant">AR-x103</ead:num>
+					<ead:ref href="https://it.wikipedia.org/wiki/Intendenza_di_finanza"/>
+					<ead:ref altrender="Identificativo">SIA-RW-3025911</ead:ref>
+					<ead:ref altrender="IdentificativoDiSistema">3025911</ead:ref>
+					<ead:date localtype="DataInserimento">2011/06/11</ead:date>
+				</ead:bibref>
+				<ead:p altrender="Osservazioni">Questa pagina è stata modificata per l'ultima volta il 13 mar 2025 alle 16:17.</ead:p>
+				<ead:chronlist>
+					<ead:chronitem>
+						<ead:datesingle>2025/02/22</ead:datesingle>
+						<ead:event>
+							<ead:name localtype="TipoAzione">
+								<ead:part>Importazione</ead:part>
+							</ead:name>
+							<ead:name localtype="Note">
+								<ead:part>..Note redazionali..</ead:part>
+							</ead:name>
+							<ead:corpname relator="Compilatore">
+								<ead:part localtype="Denominazione">ICAR-CP-1988029</ead:part>
+							</ead:corpname>
+						</ead:event>
+					</ead:chronitem>
+				</ead:chronlist>
+			</ead:bibliography>			
+			<!-- / RIFERIMENTO WEB -->
+			
+			<!-- Esempio di Riferimento bibliografico definito come entità -->
+			<ead:bibliography localtype="RiferimentoBibliografico">
+				<ead:bibref lang="ita">
+					<ead:ref altrender="Identificativo">SIA-RB-2025998</ead:ref>
+					<ead:ref altrender="IdentificativoDiSistema">2025998</ead:ref>
+					<ead:num localtype="CodicePrecedente">KH-02001</ead:num>
+					<ead:num altrender="AltroCodiceIdentificativo" localtype="Ant">AB.11032</ead:num>
+					<ead:persname relator="Autore"><ead:part>Bottazzi G.</ead:part></ead:persname>
+					<ead:persname relator="Curatore"><ead:part>Giunti A.</ead:part></ead:persname>
+					<ead:genreform localtype="Tipologia"><ead:part>Periodico</ead:part></ead:genreform>
+					<ead:title>
+						<ead:part localtype="TitoloLibroOrRivista">Civiltà padana. Archeologia e storia del territorio</ead:part>
+						<ead:part localtype="TitoloContributo">L'evoluzione del paesaggio agrario di età romana. Dalla Carta archeologica alla storia dell'ambiente e delle comunità padane</ead:part>
+						<ead:part localtype="TitoloCorrelato"></ead:part>
+						<ead:part localtype="NotaTitoloCorrelato"></ead:part>
+						<ead:part localtype="SiglaCitazione">00000009</ead:part>
+						<ead:part localtype="Volume"></ead:part>
+						<ead:part localtype="Pagine">pp. 65-91</ead:part>
+						<ead:part localtype="Specifiche">LXVI, VI, n.11</ead:part>
+						<ead:part localtype="StatusScheda">Bozza</ead:part>
+					</ead:title>
+					<ead:geogname localtype="LuogoPubblicazione"><ead:part>Modena</ead:part></ead:geogname>
+					<ead:date localtype="DataPubblicazione">1990</ead:date>
+					<ead:corpname localtype="Editore"><ead:part>Aedes Muratoriana</ead:part></ead:corpname>
+					<ead:geogname localtype="LuogoEdizione"><ead:part>Modena</ead:part></ead:geogname>
+					<ead:date localtype="AnnoEdizione">1990</ead:date>
+					<ead:num localtype="NumEdizione">1</ead:num>
+					<ead:subject localtype="Abstract"><ead:part>Il mondo che ruota attorno alle funzioni, alla produzione e alla ricerca del testo sta oggi subendo una trasformazione redicale di cui molti parlano (perchè il fenomeno è sotto gli occhi di tutti) ma di cui pochi sono in grado di apprezzare compiutamente le origini e l'esatto significato, e dunque le possibili conseguenze.</ead:part></ead:subject>
+				</ead:bibref>
+				<ead:p altrender="Osservazioni">In appendice: I concetti dell'informatica, dello stesso autore.</ead:p>
+				<ead:chronlist>
+					<ead:chronitem>
+						<ead:datesingle>2025/02/22</ead:datesingle>
+						<ead:event>
+							<ead:name localtype="TipoAzione">
+								<ead:part>Importazione</ead:part>
+							</ead:name>
+							<ead:name localtype="Note">
+								<ead:part>..Note redazionali..</ead:part>
+							</ead:name>
+							<ead:corpname relator="Compilatore">
+								<ead:part localtype="Denominazione">ICAR-CP-1988029</ead:part>
+							</ead:corpname>
+						</ead:event>
+					</ead:chronitem>
+				</ead:chronlist>
+				<ead:bibref>
+					<ead:ref linkrole="BidSBN" id="xxx" href="https://opac.sbn.it/risultati-ricerca-avanzata/-/opac-adv/detail/MIL0792005?">
+						<ead:title>
+							<ead:part localtype="Didascalia"></ead:part> <!-- contenuto -->
+							<ead:part localtype="Qualifica"></ead:part> <!-- contenuto -->
+						</ead:title>
+						<ead:date localtype="DataInserimento"></ead:date> <!-- contenuto -->
+					</ead:ref>
+				</ead:bibref>
+			</ead:bibliography>
+			<!-- / RIFERIMENTO BIBLIOGRAFICO -->
 			
 		</ead:bibliography>
 		<ead:odd localtype="Osservazioni">
@@ -776,6 +849,20 @@
 								<ead:ref>SIA-RW-3025911</ead:ref>
 							</ead:bibref>
 						</ead:bibliography>
+						
+						<!-- Nel caso in cui i link alle fonti o riferimenti siano 
+						stringhe	di testo senza un identificativo, è possibile 
+						inserire i valori testuali come contenuto dell'elemento ead:ref.
+						Esempi:
+						<ead:archref altrender="LinkFonteArchivistica">
+							<ead:ref>Liquidazioni Barbiano</ead:ref>
+						</ead:archref> 
+						<ead:bibliography localtype="LinkRiferimentoWeb">
+							<ead:bibref>
+								<ead:ref>http://www.bolzano.it/WP-1002c</ead:ref>
+							</ead:bibref>
+						</ead:bibliography>
+						-->
 					</ead:bibliography>
 					<ead:odd localtype="Osservazioni">
 						<ead:odd localtype="UnitaArchivistica">
