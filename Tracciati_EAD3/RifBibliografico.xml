@@ -86,12 +86,13 @@
 						<date localtype="DataInserimento"></date> <!-- contenuto -->
 					</ref>
 				</bibref>
-			</bibliography>
-			<bibliography localtype="LinkRiferimentoWeb">
+				<bibliography localtype="LinkRiferimentoWeb">
 				<bibref>
 					<ref>SIA-RW-3025911</ref>
 				</bibref>
+				</bibliography>
 			</bibliography>
+			
 		</bibliography>
 		<accessrestrict>
 			<accessrestrict localtype="VisibilitaFE">  <!-- VisibilitaFE della scheda contenitore -->

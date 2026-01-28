@@ -68,17 +68,17 @@
 						</event>
 					</chronitem>
 				</chronlist>
-			</bibliography>
-			<bibliography localtype="LinkRiferimentoWeb"> 
+				<bibliography localtype="LinkRiferimentoWeb"> 
 				<bibref>
 					<ref>SIA-RW-3025911</ref>
 				</bibref>
-			</bibliography>
-			<bibliography localtype="LinkRiferimentoBibliografico"> 
+				</bibliography>
+				<bibliography localtype="LinkRiferimentoBibliografico"> 
 				<bibref>
 					<ref>SIA-RB-2023899</ref>
 					<footnote><p>Pp. 55-102.</p></footnote>
 				</bibref>
+				</bibliography>
 			</bibliography>
 		</bibliography>
 		
