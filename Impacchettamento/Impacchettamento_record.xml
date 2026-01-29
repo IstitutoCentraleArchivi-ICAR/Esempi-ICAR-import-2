@@ -369,11 +369,11 @@
 						</ead:event>
 					</ead:chronitem>
 				</ead:chronlist>
-				<bibliography localtype="LinkRiferimentoWeb"> 
-				<bibref> 
-					<ref>SIA-RW-3025911</ref>
-				</bibref> 
-				</bibliography>
+				<ead:bibliography localtype="LinkRiferimentoWeb"> 
+				<ead:bibref> 
+					<ead:ref>SIA-RW-3025911</ead:ref>
+				</ead:bibref> 
+				</ead:bibliography>
 			</ead:bibliography>
 			<!-- / FONTE ARCHIVISTICA -->
 			
@@ -413,17 +413,17 @@
 						</ead:event>
 					</ead:chronitem>
 				</ead:chronlist>
-				<bibliography localtype="LinkRiferimentoWeb"> 
-				<bibref>
-					<ref>SIA-RW-3025911</ref>
-				</bibref>
-				</bibliography>
-				<bibliography localtype="LinkRiferimentoBibliografico"> 
-				<bibref>
-					<ref>SIA-RB-2023899</ref>
-					<footnote><p>Pp. 55-102.</p></footnote>
-				</bibref>
-				</bibliography>
+				<ead:bibliography localtype="LinkRiferimentoWeb"> 
+				<ead:bibref>
+					<ead:ref>SIA-RW-3025911</ead:ref>
+				</ead:bibref>
+				</ead:bibliography>
+				<ead:bibliography localtype="LinkRiferimentoBibliografico"> 
+				<ead:bibref>
+					<ead:ref>SIA-RB-2023899</ead:ref>
+					<ead:footnote><ead:p>Pp. 55-102.</ead:p></ead:footnote>
+				</ead:bibref>
+				</ead:bibliography>
 			</ead:bibliography>
 			<!-- / FONTE NORMATIVA -->
 			
@@ -516,11 +516,11 @@
 						<ead:date localtype="DataInserimento"></ead:date> <!-- contenuto -->
 					</ead:ref>
 				</ead:bibref>
-				<bibliography localtype="LinkRiferimentoWeb">
-				<bibref>
-					<ref>SIA-RW-3025911</ref>
-				</bibref>
-				</bibliography>
+				<ead:bibliography localtype="LinkRiferimentoWeb">
+				<ead:bibref>
+					<ead:ref>SIA-RW-3025911</ead:ref>
+				</ead:bibref>
+				</ead:bibliography>
 			</ead:bibliography>
 			<!-- / RIFERIMENTO BIBLIOGRAFICO -->
 			

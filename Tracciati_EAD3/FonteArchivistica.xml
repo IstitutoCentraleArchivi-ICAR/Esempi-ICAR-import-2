@@ -8,14 +8,13 @@
 				<titleproper/>
 			</titlestmt>
 		</filedesc>
-		<localcontrol localtype="AcronimoDiSistema">
-			<term>SIA</term>
-		</localcontrol>
 		<maintenancestatus value="derived"/>
 		<maintenanceagency>
 			<agencyname>ICAR</agencyname>
 		</maintenanceagency>
-		
+		<localcontrol localtype="AcronimoDiSistema">
+			<term>SIA</term>
+		</localcontrol>
 		<maintenancehistory>
 			<maintenanceevent>
 				<eventtype value="derived"/>
@@ -46,7 +45,7 @@
 						<part localtype="Descrizione">Registri copialettere contenenti il carteggio tra il viceré e i funzionari regi, ecclesiastici ed altre persone.</part>
 						<part localtype="StatusScheda">Bozza</part>
 					</title>
-				<archref>
+				</archref>
 				<p altrender="Osservazioni">Una parte dei documenti è stata sottoposta a processi di restaurazione.</p>
 				<chronlist>
 					<chronitem>

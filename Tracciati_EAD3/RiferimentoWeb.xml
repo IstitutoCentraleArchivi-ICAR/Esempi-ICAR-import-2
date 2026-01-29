@@ -8,14 +8,13 @@
 				<titleproper/>
 			</titlestmt>
 		</filedesc>
-		<localcontrol localtype="AcronimoDiSistema">
-			<term>SIA</term>
-		</localcontrol>
 		<maintenancestatus value="derived"/>
 		<maintenanceagency>
 			<agencyname>ICAR</agencyname>
 		</maintenanceagency>
-
+		<localcontrol localtype="AcronimoDiSistema">
+			<term>SIA</term>
+		</localcontrol>
 		<maintenancehistory>
 			<maintenanceevent>
 				<eventtype value="derived"/>
