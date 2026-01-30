@@ -106,7 +106,6 @@
 								</genreform>
 							</physfacet>
 							<physfacet localtype="Tecnica">..</physfacet>
-							<physfacet localtype="Tipologia">..</physfacet>
 							<physfacet localtype="Durata">65 minuti</physfacet>
 							<dimensions localtype="Altezza">12 cm</dimensions>
 							<dimensions localtype="Larghezza">12 cm</dimensions>
@@ -114,7 +113,7 @@
 						</physdescstructured>
 						<materialspec label="Colore">8 bits</materialspec>
 						<materialspec label="Formato">WAW</materialspec>
-						<container localtype="Busta">
+						<container localtype="Cartella">
 							<ref>
 								<num>5</num>
 								<title><part>Interviste 1956</part></title>

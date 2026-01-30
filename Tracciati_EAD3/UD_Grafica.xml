@@ -86,7 +86,7 @@
 						</unitdatestructured>
 						<physdescstructured physdescstructuredtype="materialtype" coverage="part">
 							<quantity>1</quantity> 
-							<unittype></unittype>
+							<unittype/>
 							<physfacet localtype="TipologiaDocumentaria">
 								<genreform>
 									<part localtype="TracciatoSpecifico">Grafica</part> 
@@ -97,7 +97,6 @@
 									<part>Disegno tecnico</part> 
 								</genreform>
 							</physfacet>
-							<physfacet localtype="Materia">Carta</physfacet>
 							<physfacet localtype="Tecnica">Chiaroscuro</physfacet>
 							<physfacet localtype="Esecuzione">Mano libera</physfacet>
 							<dimensions localtype="Altezza">30 cm</dimensions>
@@ -112,6 +111,7 @@
 						</physdescstructured>
 						<materialspec label="Colore">Colorato a mano</materialspec>
 						<materialspec label="Lineare">1:2000</materialspec>
+						<materialspec label="Materia">Carta</materialspec>
 				</did>
 					<scopecontent localtype="DescrizioneContenuto">
 						<p>Piante, prospetti, sezioni, particolari costruttivi delle coperture metalliche, disegno relativo alla sopraelevazione; pubblicazione "Nuovo progetto di ampliamento della stazione di Bologna" (1914)</p>

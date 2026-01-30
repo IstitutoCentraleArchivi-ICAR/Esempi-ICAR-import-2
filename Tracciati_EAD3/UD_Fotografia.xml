@@ -105,7 +105,7 @@
 							<descriptivenote>
 								<p>
 									<subject localtype="Occasione"><part>Campagna fotografica</part></subject>
-									<geogname><part localtype="LuogoRappresentato">SIA-LG-2423324</part></geogname>
+									<geogname localtype="LuogoRappresentato"><part>SIA-LG-2423324</part></geogname>
 								</p>
 							</descriptivenote>
 						</physdescstructured>
