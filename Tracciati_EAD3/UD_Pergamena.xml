@@ -83,7 +83,7 @@
 						<unitdatestructured>
 							<dateset>
 								<datesingle localtype="DataTestuale" altrender="Data singola">sec. XVII inizio</datesingle>
-								<datesingle localtype="DataSingola" altrender="DataAttribuita" notbefore="1601-01-01" notafter="1610-12-31"/>
+								<datesingle localtype="DataSingola" altrender="DataAttribuita" notbefore="1601-01-01" notafter="1610-12-31">sec. XVII inizio</datesingle>
 								<datesingle localtype="DataTopica">
 									<ref>
 										<geogname><part>SIA-LG-2421668</part></geogname>
@@ -108,7 +108,7 @@
 							<dimensions localtype="Altezza">20 cm</dimensions>
 							<dimensions localtype="Larghezza">12 cm</dimensions>
 						</physdescstructured>
-						<container localtype="Busta">
+						<container localtype="Cartella">
 							<ref>
 								<num>4299</num>
 							</ref> 
