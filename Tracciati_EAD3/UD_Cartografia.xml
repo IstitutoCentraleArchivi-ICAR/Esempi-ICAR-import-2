@@ -86,8 +86,8 @@
 							</dateset>
 						</unitdatestructured>
 						<physdescstructured physdescstructuredtype="materialtype" coverage="part">
-							<quantity>1</quantity> 
-							<unittype></unittype>
+							<quantity/>
+							<unittype/>
 							<physfacet localtype="TipologiaDocumentaria">
 								<genreform>
 									<part localtype="TracciatoSpecifico">Cartografia</part> 

@@ -92,8 +92,8 @@
 							</dateset>
 						</unitdatestructured>
 						<physdescstructured physdescstructuredtype="materialtype" coverage="part">
-							<quantity>1</quantity> 
-							<unittype>CD-ROM</unittype>
+							<quantity/>
+							<unittype/>
 							<physfacet localtype="TipologiaDocumentaria">
 								<genreform>
 									<part>Intervista</part>
