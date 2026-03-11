@@ -159,13 +159,13 @@
 						</relation>
 					</relations>
 					<controlaccess>
-						<subject><part>Congregazioni religiose</part></subject>
-						<subject><part identifier="TE-412245"/></subject>
-						<persname><part identifier="SIA-PE-2422175"/></persname>
-						<corpname><part identifier="SIA-AG-2422933"/></corpname>
-						<famname><part identifier="SIA-FA-2422443"/></famname>
-						<geogname><part identifier="SIA-LG-2423324"/></geogname>
-						<geogname><part>Mafalda</part></geogname>
+						<subject><part localtype="Soggetto">Congregazioni religiose</part></subject>
+						<subject><part localtype="Soggetto" identifier="TE-412245"/></subject>
+						<persname><part localtype="Antroponimo" identifier="SIA-PE-2422175"/></persname>
+						<corpname><part localtype="NomeEnte" identifier="SIA-AG-2422933"/></corpname>
+						<famname><part localtype="NomeFamiglia" identifier="SIA-FA-2422443"/></famname>
+						<geogname><part localtype="Toponimo" identifier="SIA-LG-2423324"/></geogname>
+						<geogname><part localtype="Toponimo">Mafalda</part></geogname>
 					</controlaccess>
 					<processinfo localtype="StatusScheda">
 						<p>Pubblicata</p> 

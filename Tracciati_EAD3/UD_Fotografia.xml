@@ -155,8 +155,8 @@
 						</relation>
 					</relations>
 					<controlaccess>
-						<persname><part identifier="SIA-PE-2422175"/></persname>
-						<corpname><part identifier="SIA-AG-2422933"/></corpname>
+						<persname><part localtype="Antroponimo" identifier="SIA-PE-2422175"/></persname>
+						<corpname><part localtype="NomeEnte" identifier="SIA-AG-2422933"/></corpname>
 					</controlaccess>
 					<processinfo localtype="StatusScheda">
 						<p>Pubblicata</p> 

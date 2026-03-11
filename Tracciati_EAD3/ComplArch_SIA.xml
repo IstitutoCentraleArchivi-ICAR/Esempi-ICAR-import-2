@@ -193,12 +193,12 @@
 			</relation>	
 		</relations>
 		<controlaccess>
-			<subject><part>Storia economica</part></subject>
-			<subject><part identifier="TE-419145"/></subject>
-			<persname><part identifier="SIA-PE-2419175"/></persname>
-			<corpname><part identifier="SIA-AG-2419933"/></corpname>
-			<geogname><part identifier="SIA-LG-2418324"/></geogname>
-			<famname><part identifier="SIA-FA-2419443"/></famname>
+			<subject><part localtype="Soggetto">Storia economica</part></subject>
+			<subject><part localtype="Soggetto" identifier="TE-419145"/></subject>
+			<persname><part localtype="Antroponimo" identifier="SIA-PE-2419175"/></persname>
+			<corpname><part localtype="NomeEnte" identifier="SIA-AG-2419933"/></corpname>
+			<geogname><part localtype="Toponimo" identifier="SIA-LG-2418324"/></geogname>
+			<famname><part localtype="NomeFamiglia" identifier="SIA-FA-2419443"/></famname>
 		</controlaccess>
 		<bibliography> 
 			<bibliography localtype="LinkRiferimentoBibliografico">
@@ -469,12 +469,16 @@
 						</relation>
 					</relations>
 					<controlaccess>
-						<subject><part>Storia economica</part></subject>
-						<subject><part identifier="TE-419145"/></subject>
-						<persname><part identifier="SIA-PE-2419175"/></persname>
-						<corpname><part identifier="SIA-AG-2419933"/></corpname>
-						<geogname><part identifier="SIA-LG-2418324"/></geogname>
-						<famname><part identifier="SIA-FA-2419443"/></famname>
+						<subject><part localtype="Soggetto">Storia economica</part></subject>
+						<subject><part localtype="Soggetto" identifier="TE-419145"/></subject>
+						<persname><part localtype="Antroponimo" identifier="SIA-PE-2419175"/></persname>
+						<persname>
+							<part localtype="Antroponimo" identifier="SIA-PE-2419186"/>
+							<part localtype="NoteRelazione">Persona relazionata</part>
+						</persname>
+						<corpname><part localtype="NomeEnte" identifier="SIA-AG-2419933"/></corpname>
+						<geogname><part localtype="Toponimo" identifier="SIA-LG-2418324"/></geogname>
+						<famname><part localtype="NomeFamiglia" identifier="SIA-FA-2419443"/></famname>
 					</controlaccess>
 					<bibliography> 
 						<bibliography localtype="LinkRiferimentoBibliografico">
@@ -708,13 +712,13 @@
 							</relation>
 						</relations>
 						<controlaccess>
-							<subject><part>Storia economica</part></subject>
-							<subject><part identifier="TE-419145"/></subject>
-							<persname><part identifier="SIA-PE-2419175"/></persname>
-							<corpname><part identifier="SIA-AG-2419933"/></corpname>
-							<famname><part identifier="SIA-FA-2419443"/></famname>
-							<geogname><part identifier="SIA-LG-2418324"/></geogname>
-							<geogname><part>Barbiano</part></geogname>
+							<subject><part localtype="Soggetto">Storia economica</part></subject>
+							<subject><part localtype="Soggetto" identifier="TE-419145"/></subject>
+							<persname><part localtype="Antroponimo" identifier="SIA-PE-2419175"/></persname>
+							<corpname><part localtype="NomeEnte" identifier="SIA-AG-2419933"/></corpname>
+							<famname><part localtype="NomeFamiglia" identifier="SIA-FA-2419443"/></famname>
+							<geogname><part localtype="Toponimo" identifier="SIA-LG-2418324"/></geogname>
+							<geogname><part localtype="Toponimo">Barbiano</part></geogname>
 						</controlaccess>
 						<bibliography> 
 							<bibliography localtype="LinkRiferimentoBibliografico">

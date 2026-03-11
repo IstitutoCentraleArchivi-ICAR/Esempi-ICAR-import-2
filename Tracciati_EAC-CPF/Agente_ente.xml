@@ -252,6 +252,15 @@
     <relationType>È documentazione</relationType>
 	<targetRole>Risorsa digitale collegata</targetRole>
    </relation>
+   <relation>
+    <targetEntity targetType="resource">
+     <part>SIA-SG-123329</part>
+    </targetEntity>
+	<targetRole>Soggetto</targetRole>
+	<descriptiveNote>
+	<p>Soggetto relazionato</p>
+	</descriptiveNote>
+   </relation>
   </relations>
  </cpfDescription>
 </eac>

@@ -316,12 +316,12 @@
 			</ead:relation>	
 		</ead:relations>
 		<ead:controlaccess>
-			<ead:subject><ead:part>Storia economica</ead:part></ead:subject>
-			<ead:subject><ead:part identifier="TE-419145"/></ead:subject>
-			<ead:persname><ead:part identifier="SIA-PE-2419175"/></ead:persname>
-			<ead:corpname><ead:part identifier="SIA-AG-2419933"/></ead:corpname>
-			<ead:geogname><ead:part identifier="SIA-LG-2418324"/></ead:geogname>
-			<ead:famname><ead:part identifier="SIA-FA-2419443"/></ead:famname>
+			<ead:subject><ead:part localtype="Soggetto">Storia economica</ead:part></ead:subject>
+			<ead:subject><ead:part localtype="Soggetto" identifier="TE-419145"/></ead:subject>
+			<ead:persname><ead:part localtype="Antroponimo" identifier="SIA-PE-2419175"/></ead:persname>
+			<ead:corpname><ead:part localtype="NomeEnte" identifier="SIA-AG-2419933"/></ead:corpname>
+			<ead:geogname><ead:part localtype="Toponimo" identifier="SIA-LG-2418324"/></ead:geogname>
+			<ead:famname><ead:part localtype="NomeFamiglia" identifier="SIA-FA-2419443"/></ead:famname>
 			
 			<!-- TEMATISMO -->
 			<ead:subject localtype="Tematismo" lang="ita">
@@ -778,12 +778,15 @@
 						</ead:relation>
 					</ead:relations>
 					<ead:controlaccess>
-						<ead:subject><ead:part>Storia economica</ead:part></ead:subject>
-						<ead:subject><ead:part identifier="TE-419145"/></ead:subject>
-						<ead:persname><ead:part identifier="SIA-PE-2419175"/></ead:persname>
-						<ead:corpname><ead:part identifier="SIA-AG-2419933"/></ead:corpname>
-						<ead:geogname><ead:part identifier="SIA-LG-2418324"/></ead:geogname>
-						<ead:famname><ead:part identifier="SIA-FA-2419443"/></ead:famname>
+						<ead:subject><ead:part localtype="Soggetto">Storia economica</ead:part></ead:subject>
+						<ead:subject><ead:part localtype="Soggetto" identifier="TE-419145"/></ead:subject>
+						<ead:persname>
+							<ead:part localtype="Antroponimo" identifier="SIA-PE-2419175"/>
+							<ead:part localtype="NoteRelazione">Persona relazionata</ead:part>
+						</ead:persname>
+						<ead:corpname><ead:part localtype="NomeEnte" identifier="SIA-AG-2419933"/></ead:corpname>
+						<ead:geogname><ead:part localtype="Toponimo" identifier="SIA-LG-2418324"/></ead:geogname>
+						<ead:famname><ead:part localtype="NomeFamiglia" identifier="SIA-FA-2419443"/></ead:famname>
 					</ead:controlaccess>
 					
 					<!-- SOGGETTO -->
@@ -1096,13 +1099,13 @@
 							</ead:relation>
 						</ead:relations>
 						<ead:controlaccess>
-							<ead:subject><ead:part>Storia economica</ead:part></ead:subject>
-							<ead:subject><ead:part identifier="TE-419145"/></ead:subject>
-							<ead:persname><ead:part identifier="SIA-PE-2419175"/></ead:persname>
-							<ead:corpname><ead:part identifier="SIA-AG-2419933"/></ead:corpname>
-							<ead:famname><ead:part identifier="SIA-FA-2419443"/></ead:famname>
-							<ead:geogname><ead:part identifier="SIA-LG-2418324"/></ead:geogname>
-							<ead:geogname><ead:part>Barbiano</ead:part></ead:geogname>
+							<ead:subject><ead:part localtype="Soggetto">Storia economica</ead:part></ead:subject>
+							<ead:subject><ead:part localtype="Soggetto" identifier="TE-419145"/></ead:subject>
+							<ead:persname><ead:part localtype="Antroponimo" identifier="SIA-PE-2419175"/></ead:persname>
+							<ead:corpname><ead:part localtype="NomeEnte" identifier="SIA-AG-2419933"/></ead:corpname>
+							<ead:famname><ead:part localtype="NomeFamiglia" identifier="SIA-FA-2419443"/></ead:famname>
+							<ead:geogname><ead:part localtype="Toponimo" identifier="SIA-LG-2418324"/></ead:geogname>
+							<ead:geogname><ead:part localtype="Toponimo">Barbiano</ead:part></ead:geogname>
 						</ead:controlaccess>
 						<ead:bibliography> 
 							<ead:bibliography localtype="LinkRiferimentoBibliografico">
@@ -1613,9 +1616,20 @@
     <eac:relationType>È documentazione</eac:relationType>
 	<eac:targetRole>Risorsa digitale collegata</eac:targetRole>
    </eac:relation>
+   <eac:relation>
+    <eac:targetEntity targetType="resource">
+     <eac:part>SIA-SG-123329</eac:part>
+    </eac:targetEntity>
+	<eac:targetRole>Soggetto</eac:targetRole>
+	<eac:descriptiveNote>
+	<eac:p>Soggetto relazionato</eac:p>
+	</eac:descriptiveNote>
+   </eac:relation>
   </eac:relations>
  </eac:cpfDescription>
-</eac:eac></icar-import:recordBody></icar-import:record><icar-import:record><icar-import:recordHeader action="insert" type="eac"><icar-import:id>ASI-AG-1021256</icar-import:id><icar-import:lastUpdate>2025-11-17T14:16:27.093+02:00</icar-import:lastUpdate></icar-import:recordHeader><icar-import:recordBody><eac:eac audience="external">
+</eac:eac></icar-import:recordBody>
+</icar-import:record>
+<icar-import:record><icar-import:recordHeader action="insert" type="eac"><icar-import:id>ASI-AG-1021256</icar-import:id><icar-import:lastUpdate>2025-11-17T14:16:27.093+02:00</icar-import:lastUpdate></icar-import:recordHeader><icar-import:recordBody><eac:eac audience="external">
 	<eac:control maintenanceStatus="derived" eac-sia:status="Bozza">
 		<eac:recordId>ASI-AG-1021256</eac:recordId>
 		<eac:maintenanceAgency>
