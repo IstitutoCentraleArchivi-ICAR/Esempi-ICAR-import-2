@@ -109,9 +109,9 @@
 								</p>
 							</descriptivenote>
 						</physdescstructured>
-						<materialspec label="Colore">Colorato a mano</materialspec>
-						<materialspec label="Lineare">1:2000</materialspec>
-						<materialspec label="Materia">Carta</materialspec>
+						<materialspec localtype="Colore">Colorato a mano</materialspec>
+						<materialspec localtype="Lineare">1:2000</materialspec>
+						<materialspec localtype="Materia">Carta</materialspec>
 				</did>
 					<scopecontent localtype="DescrizioneContenuto">
 						<p>Piante, prospetti, sezioni, particolari costruttivi delle coperture metalliche, disegno relativo alla sopraelevazione; pubblicazione "Nuovo progetto di ampliamento della stazione di Bologna" (1914)</p>

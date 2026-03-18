@@ -126,9 +126,9 @@
 								</p>
 							</descriptivenote>
 						</physdescstructured>
-						<materialspec label="Colore">Misto</materialspec>
-						<materialspec label="Orientamento">Nord</materialspec>
-						<materialspec label="Lineare">1:2000</materialspec>
+						<materialspec localtype="Colore">Misto</materialspec>
+						<materialspec localtype="Orientamento">Nord</materialspec>
+						<materialspec localtype="Lineare">1:2000</materialspec>
 				</did>
 					<scopecontent localtype="DescrizioneContenuto">
 						<p>Pianta di una parte del Bosco di Ripalda dichiarata dissodabile.</p>

@@ -111,8 +111,8 @@
 							<dimensions localtype="Larghezza">12 cm</dimensions>
 							<dimensions localtype="Spessore">0,12 cm</dimensions>
 						</physdescstructured>
-						<materialspec label="Colore">8 bits</materialspec>
-						<materialspec label="Formato">WAW</materialspec>
+						<materialspec localtype="Colore">8 bits</materialspec>
+						<materialspec localtype="Formato">WAW</materialspec>
 						<container localtype="Cartella">
 							<ref>
 								<num>5</num>
