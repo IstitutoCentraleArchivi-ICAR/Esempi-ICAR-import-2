@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eac xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns="https://archivists.org/ns/eac/v2"
+ xmlns:eac-sia="http://www.san.beniculturali.it/eac-sia"
+ audience="external">
+ <control maintenanceStatus="derived" eac-sia:status="Bozza">
+  <recordId>SIA-AG-1021249</recordId>
+  <maintenanceAgency>
+   <agencyCode>IT-ICAR</agencyCode>
+   <agencyName>ICAR</agencyName>
+  </maintenanceAgency>
+  <maintenanceHistory>
+   <maintenanceEvent languageOfElement="ita" maintenanceEventType="created">
+    <agent agentType="human">Alessandro Chiaretti</agent>
+    <eventDateTime standardDateTime="20250321"/>
+    <eventDescription>
+     <span localType="Azione">Importazione</span>
+     <span localType="NoteRedazionali">Registro creato per sistema di test</span>
+    </eventDescription>
+   </maintenanceEvent>
+  </maintenanceHistory>
+  <localControl localType="Visibilita_FE"><term>Completa</term></localControl>
+  <localControl localType="AcronimoSistema"><term>SIA</term></localControl>
+  <otherRecordId localType="ISIL">IT-TR0331</otherRecordId>
+  <otherRecordId localType="SIAS">IT-ASTR-CC236500094</otherRecordId>
+ </control>
+ <cpfDescription>
+  <identity localType="VoceIndice">
+   <entityType value="corporateBody"/>
+   <nameEntry localType="Ente" languageOfElement="ita">
+    <part localType="IntestazioneEnte">Intendenza di finanza di Trento, Trento (1927 - 1991)</part>
+    <part localType="DenominazioneEnte">Intendenza di finanza di Trento</part>
+    <part localType="AcronimoEnte">IFTR</part>
+	<part localType="AltraDenominazioneEnte">Finanzintendanz Trient</part>
+    <part localType="AltroAcronimoEnte">FITR</part>
+    <useDates>
+      <dateRange>
+       <fromDate standardDate="1927">1927</fromDate>
+       <toDate standardDate="1991">1991</toDate>
+      </dateRange>
+    </useDates>
+   </nameEntry>
+   <identityId>1021249</identityId>
+  </identity>
+  <description>
+   <legalStatuses>
+    <legalStatus>
+     <term>Ente pubblico</term>
+    </legalStatus>
+   </legalStatuses>
+   <localDescriptions>
+    <localDescription>
+     <term>Osservazioni</term>
+     <descriptiveNote><p>La scheda deve essere integrata inserendo le fonti normative.</p></descriptiveNote>
+    </localDescription>
+   </localDescriptions>
+   <places>
+    <place localType="SedeEnte">
+     <placeName>Trento</placeName>
+    </place>
+   </places>
+   <existDates localType="DateEsistenzaEnte">
+    <dateSet>
+     <date localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date" eac-sia:qualificaData="Date di esistenza">1869-1991</date>
+     <dateRange>
+      <fromDate standardDate="1869">1869</fromDate>
+      <toDate standardDate="1991">1991</toDate>
+     </dateRange>
+    </dateSet>
+   </existDates>
+   <biogHist>
+    <p>Le Intendenze di finanza sono organi locali dell’amministrazione finanziaria istituiti nel 1869 alle dipendenze del Ministero delle finanze, con il compito di vigilare sulle pubbliche entrate e provvedere alla riscossione di tributi o altri proventi, di amministrare i beni patrimoniali immobili dello Stato e tutelare i beni del demanio pubblico. A Trento venne istituita l'Intendenza di finanza nel 1869.</p>
+   </biogHist>
+  </description>
+  <relations>
+   <relation>
+    <targetEntity targetType="corporateBody" valueURI="http://n2t.net/ark:/99166/w6gj5s8z" vocabularySource="SNAC" vocabularySourceURI="https://snaccooperative.org/"><part>Intendenza di finanza di Trento</part>
+	</targetEntity>
+	<relationType>sameAs</relationType>
+   </relation>
+   <relation>
+		<targetEntity targetType="resource">
+			<part>SIA-CA-2017443</part>
+		</targetEntity>
+		<targetRole>Complesso archivistico</targetRole>
+	</relation>
+	<relation>
+		<targetEntity targetType="resource">
+			<part>SIA-UA-1013311</part>
+		</targetEntity>
+		<targetRole>Unità archivistica</targetRole>
+	</relation>
+	<relation>
+		<targetEntity targetType="resource">
+			<part>SIA-UD-1034545</part>
+		</targetEntity>
+		<targetRole>Unità documentaria</targetRole>
+	</relation>
+  </relations>
+ </cpfDescription>
+</eac>

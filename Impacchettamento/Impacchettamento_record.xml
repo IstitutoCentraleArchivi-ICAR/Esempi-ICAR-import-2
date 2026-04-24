@@ -2268,5 +2268,319 @@
 </icar-import:recordBody>
 </icar-import:record>
 
+<icar-import:record>
+<icar-import:recordHeader action="insert" type="eac"><icar-import:id>SIA-AG-1021143</icar-import:id><icar-import:lastUpdate>2025-11-17T14:16:27.093+02:00</icar-import:lastUpdate></icar-import:recordHeader>
+<icar-import:recordBody>
+<eac:eac xmlns:eac="https://archivists.org/ns/eac/v2" audience="external">
+ 	<eac:control xmlns:eac-sia="http://www.san.beniculturali.it/eac-sia" maintenanceStatus="derived" eac-sia:status="Bozza">
+		<eac:recordId>SIA-AG-1021143</eac:recordId>
+		<eac:maintenanceAgency>
+			<eac:agencyCode>IT-ICAR</eac:agencyCode>
+			<eac:agencyName>ICAR</eac:agencyName>
+		</eac:maintenanceAgency>
+		<eac:maintenanceHistory>
+			<eac:maintenanceEvent languageOfElement="ita" maintenanceEventType="created">
+				<eac:agent agentType="human">Alessandro Chiaretti</eac:agent>
+				<eac:eventDateTime standardDateTime="20250401"/>
+				<eac:eventDescription>
+					<eac:span localType="Azione">Importazione</eac:span>
+					<eac:span localType="NoteRedazionali">Registro creato per sistema di test</eac:span>
+				</eac:eventDescription>
+			</eac:maintenanceEvent>
+		</eac:maintenanceHistory>
+		<eac:localControl localType="Visibilita_FE"><eac:term>Completa</eac:term></eac:localControl>
+		<eac:localControl localType="AcronimoSistema"><eac:term>SIA</eac:term></eac:localControl>
+		<eac:otherRecordId localType="SIAS">IT-CC22774</eac:otherRecordId> 
+	</eac:control>
+	<eac:cpfDescription>
+		<eac:identity localType="VoceIndice">
+			<eac:entityType value="person"/>
+			<eac:nameEntry localType="Antroponimo" languageOfElement="ita">
+				<eac:part localType="NomePersona">Luigina</eac:part>
+				<eac:part localType="CognomePersona">Marconi</eac:part>
+				<eac:part localType="Patronimico">...</eac:part> 
+				<eac:part localType="Origine-provenienzaPersona">...</eac:part>  				
+				<eac:part localType="Pseudonimo">Laura Marchi</eac:part>
+				<eac:part localType="Soprannome">Pilar</eac:part>
+			</eac:nameEntry>
+			<eac:otherEntityTypes>
+				<eac:otherEntityType localType="Genere"><eac:term>Femminile</eac:term></eac:otherEntityType>
+			</eac:otherEntityTypes> 
+			<eac:identityId>1021143</eac:identityId>
+		</eac:identity>
+		<eac:description>
+			<eac:localDescriptions>
+				<eac:localDescription>
+					<eac:term>Osservazioni</eac:term> 
+					<eac:descriptiveNote><eac:p>Registro creato per sistema di test.</eac:p></eac:descriptiveNote>
+				</eac:localDescription>
+			</eac:localDescriptions>
+			<eac:functions>
+				<eac:function localType="Qualifica">	
+					<eac:term>...</eac:term>  
+				</eac:function> 
+			</eac:functions>
+			<eac:occupations>
+				<eac:occupation>
+					<eac:term>Impiegata</eac:term>
+				</eac:occupation>
+			</eac:occupations>
+			<eac:places>
+				<eac:place localType="LuogoPersona">
+					<eac:placeName>Roma</eac:placeName> 
+					<eac:placeRole>Nascita</eac:placeRole>	
+				</eac:place>
+				<eac:place localType="LuogoPersona">
+					<eac:placeName>Rieti</eac:placeName>
+					<eac:placeRole>Morte</eac:placeRole>
+				</eac:place>
+			</eac:places>
+			<eac:existDates localType="DateEsistenzaPersona">
+			<eac:dateSet>
+				<eac:date xmlns:eac-sia="http://www.san.beniculturali.it/eac-sia" localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date" eac-sia:qualificaData="Date di esistenza">1908 mar. 22 - 1969 apr. 1</eac:date>
+				<eac:dateRange>
+					<eac:fromDate standardDate="1908-03-22">1908 mar. 22</eac:fromDate> 
+					<eac:toDate standardDate="1969-04-01">1969 apr. 1</eac:toDate>
+				</eac:dateRange>
+			</eac:dateSet>
+			</eac:existDates>
+			<eac:biogHist>
+				<eac:p>Ha vissuto la maggior parte della sua vita nel Lazio.</eac:p>
+			</eac:biogHist>
+		</eac:description>
+		<eac:relations>
+			<eac:relation>
+				<eac:targetEntity targetType="person" valueURI="http://n2t.net/ark:/99156/w5gf5s1q" vocabularySource="SNAC" vocabularySourceURI="https://snaccooperative.org/">
+					<eac:part>Luigina Marconi</eac:part>
+				</eac:targetEntity>
+				<eac:relationType>sameAs</eac:relationType>
+			</eac:relation>
+			<eac:relation>
+				<eac:targetEntity targetType="resource">
+					<eac:part>SIA-CA-2017423</eac:part>
+				</eac:targetEntity>
+				<eac:targetRole>Complesso archivistico</eac:targetRole>
+			</eac:relation>
+			<eac:relation>
+				<eac:targetEntity targetType="resource">
+					<eac:part>SIA-UA-1013394</eac:part>
+				</eac:targetEntity>
+				<eac:targetRole>Unità archivistica</eac:targetRole>
+			</eac:relation>
+			<eac:relation>
+				<eac:targetEntity targetType="resource">
+					<eac:part>SIA-UD-1032145</eac:part>
+				</eac:targetEntity>
+				<eac:targetRole>Unità documentaria</eac:targetRole>
+			</eac:relation>
+			<eac:relation>
+				<eac:targetEntity targetType="person">
+					<eac:part>SIA-AG-1331325</eac:part>
+				</eac:targetEntity>
+				<eac:targetRole>Antroponimo collegato</eac:targetRole>
+				<eac:relationType>Associativa</eac:relationType>
+			</eac:relation>
+		</eac:relations>
+	</eac:cpfDescription>
+</eac:eac>
+</icar-import:recordBody>
+</icar-import:record>
+
+<icar-import:record>
+<icar-import:recordHeader action="insert" type="eac"><icar-import:id>SIA-AG-1021249</icar-import:id><icar-import:lastUpdate>2025-11-17T14:16:27.093+02:00</icar-import:lastUpdate></icar-import:recordHeader>
+<icar-import:recordBody>
+<eac:eac xmlns:eac="https://archivists.org/ns/eac/v2" audience="external">
+ <eac:control xmlns:eac-sia="http://www.san.beniculturali.it/eac-sia" maintenanceStatus="derived" eac-sia:status="Bozza">
+  <eac:recordId>SIA-AG-1021249</eac:recordId>
+  <eac:maintenanceAgency>
+   <eac:agencyCode>IT-ICAR</eac:agencyCode>
+   <eac:agencyName>ICAR</eac:agencyName>
+  </eac:maintenanceAgency>
+  <eac:maintenanceHistory>
+   <eac:maintenanceEvent languageOfElement="ita" maintenanceEventType="created">
+    <eac:agent agentType="human">Alessandro Chiaretti</eac:agent>
+    <eac:eventDateTime standardDateTime="20250321"/>
+    <eac:eventDescription>
+     <eac:span localType="Azione">Importazione</eac:span>
+     <eac:span localType="NoteRedazionali">Registro creato per sistema di test</eac:span>
+    </eac:eventDescription>
+   </eac:maintenanceEvent>
+  </eac:maintenanceHistory>
+  <eac:localControl localType="Visibilita_FE"><eac:term>Completa</eac:term></eac:localControl>
+  <eac:localControl localType="AcronimoSistema"><eac:term>SIA</eac:term></eac:localControl>
+  <eac:otherRecordId localType="ISIL">IT-TR0331</eac:otherRecordId>
+  <eac:otherRecordId localType="SIAS">IT-ASTR-CC236500094</eac:otherRecordId>
+ </eac:control>
+ <eac:cpfDescription>
+  <eac:identity localType="VoceIndice">
+   <eac:entityType value="corporateBody"/>
+   <eac:nameEntry localType="Ente" languageOfElement="ita">
+    <eac:part localType="IntestazioneEnte">Intendenza di finanza di Trento, Trento (1927 - 1991)</eac:part>
+    <eac:part localType="DenominazioneEnte">Intendenza di finanza di Trento</eac:part>
+    <eac:part localType="AcronimoEnte">IFTR</eac:part>
+	<eac:part localType="AltraDenominazioneEnte">Finanzintendanz Trient</eac:part>
+    <eac:part localType="AltroAcronimoEnte">FITR</eac:part>
+    <eac:useDates>
+      <eac:dateRange>
+       <eac:fromDate standardDate="1927">1927</eac:fromDate>
+       <eac:toDate standardDate="1991">1991</eac:toDate>
+      </eac:dateRange>
+    </eac:useDates>
+   </eac:nameEntry>
+   <eac:identityId>1021249</eac:identityId>
+  </eac:identity>
+  <eac:description>
+   <eac:legalStatuses>
+    <eac:legalStatus>
+     <eac:term>Ente pubblico</eac:term>
+    </eac:legalStatus>
+   </eac:legalStatuses>
+   <eac:localDescriptions>
+    <eac:localDescription>
+     <eac:term>Osservazioni</eac:term>
+     <eac:descriptiveNote><eac:p>La scheda deve essere integrata inserendo le fonti normative.</eac:p></eac:descriptiveNote>
+    </eac:localDescription>
+   </eac:localDescriptions>
+   <eac:places>
+    <eac:place localType="SedeEnte">
+     <eac:placeName>Trento</eac:placeName>
+    </eac:place>
+   </eac:places>
+   <eac:existDates localType="DateEsistenzaEnte">
+    <eac:dateSet>
+     <eac:date xmlns:eac-sia="http://www.san.beniculturali.it/eac-sia" localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Intervallo di date" eac-sia:qualificaData="Date di esistenza">1869-1991</eac:date>
+     <eac:dateRange>
+      <eac:fromDate standardDate="1869">1869</eac:fromDate>
+      <eac:toDate standardDate="1991">1991</eac:toDate>
+     </eac:dateRange>
+    </eac:dateSet>
+   </eac:existDates>
+   <eac:biogHist>
+    <eac:p>Le Intendenze di finanza sono organi locali dell’amministrazione finanziaria istituiti nel 1869 alle dipendenze del Ministero delle finanze, con il compito di vigilare sulle pubbliche entrate e provvedere alla riscossione di tributi o altri proventi, di amministrare i beni patrimoniali immobili dello Stato e tutelare i beni del demanio pubblico. A Trento venne istituita l'Intendenza di finanza nel 1869.</eac:p>
+   </eac:biogHist>
+  </eac:description>
+  <eac:relations>
+   <eac:relation>
+    <eac:targetEntity targetType="corporateBody" valueURI="http://n2t.net/ark:/99166/w6gj5s8z" vocabularySource="SNAC" vocabularySourceURI="https://snaccooperative.org/"><eac:part>Intendenza di finanza di Trento</eac:part>
+	</eac:targetEntity>
+	<eac:relationType>sameAs</eac:relationType>
+   </eac:relation>
+   <eac:relation>
+		<eac:targetEntity targetType="resource">
+			<eac:part>SIA-CA-2017443</eac:part>
+		</eac:targetEntity>
+		<eac:targetRole>Complesso archivistico</eac:targetRole>
+	</eac:relation>
+	<eac:relation>
+		<eac:targetEntity targetType="resource">
+			<eac:part>SIA-UA-1013311</eac:part>
+		</eac:targetEntity>
+		<eac:targetRole>Unità archivistica</eac:targetRole>
+	</eac:relation>
+	<eac:relation>
+		<eac:targetEntity targetType="resource">
+			<eac:part>SIA-UD-1034545</eac:part>
+		</eac:targetEntity>
+		<eac:targetRole>Unità documentaria</eac:targetRole>
+	</eac:relation>
+  </eac:relations>
+ </eac:cpfDescription>
+</eac:eac>
+</icar-import:recordBody>
+</icar-import:record>
+
+<icar-import:record>
+<icar-import:recordHeader action="insert" type="eac"><icar-import:id>ASI-AG-1021244</icar-import:id><icar-import:lastUpdate>2025-11-17T14:16:27.093+02:00</icar-import:lastUpdate></icar-import:recordHeader>
+<icar-import:recordBody>
+<eac:eac xmlns:eac="https://archivists.org/ns/eac/v2" audience="external">
+	<eac:control xmlns:eac-sia="http://www.san.beniculturali.it/eac-sia" maintenanceStatus="derived" eac-sia:status="Bozza">
+		<eac:recordId>ASI-AG-1021244</eac:recordId>
+		<eac:maintenanceAgency>
+			<eac:agencyCode>IT-ICAR</eac:agencyCode>
+			<eac:agencyName>ICAR</eac:agencyName>
+		</eac:maintenanceAgency>
+		<eac:maintenanceHistory>
+			<eac:maintenanceEvent languageOfElement="ita" maintenanceEventType="created">
+			<eac:agent agentType="human">Alessandro Chiaretti</eac:agent>
+			<eac:eventDateTime standardDateTime="20250321"/>
+			<eac:eventDescription>
+				<eac:span localType="Azione">Importazione</eac:span>
+				<eac:span localType="NoteRedazionali">Registro creato per sistema di test</eac:span>
+			</eac:eventDescription>
+			</eac:maintenanceEvent>
+		</eac:maintenanceHistory>
+		<eac:localControl localType="Visibilita_FE"><eac:term>Completa</eac:term></eac:localControl>
+		<eac:localControl localType="AcronimoSistema"><eac:term>SIA</eac:term></eac:localControl>
+		<eac:otherRecordId localType="SIAS">IT-ASAN-CC236423</eac:otherRecordId>
+	</eac:control>
+	<eac:cpfDescription>
+		<eac:identity localType="VoceIndice">
+			<eac:entityType value="family"/>
+			<eac:nameEntry localType="Famiglia" languageOfElement="ita">
+				<eac:part localType="IntestazioneFamiglia">Martini Fabbri, San Clemente (Rimini), sec. XIX fine - </eac:part>
+				<eac:part localType="DenominazioneFamiglia">Martini Fabbri</eac:part>
+				<eac:part localType="AltraDenominazioneFamiglia">Martini F.</eac:part>
+			</eac:nameEntry>
+			<eac:identityId>1021244</eac:identityId>
+		</eac:identity>
+		<eac:description>
+			<eac:localDescriptions>
+				<eac:localDescription localType="TitoloFamiglia">
+					<eac:term>Nobile</eac:term>
+				</eac:localDescription>
+				<eac:localDescription>
+					<eac:term>Osservazioni</eac:term>
+					<eac:descriptiveNote><eac:p>Registro creato per sistema di test.</eac:p></eac:descriptiveNote>
+				</eac:localDescription>
+			</eac:localDescriptions>
+			<eac:places>
+				<eac:place localType="LuogoFamiglia">
+					<eac:placeName>San Clemente</eac:placeName>
+				</eac:place>
+			</eac:places>
+			<eac:existDates localType="DateEsistenzaFamiglia">
+				<eac:dateSet>
+					<eac:date xmlns:eac-sia="http://www.san.beniculturali.it/eac-sia" localType="EstremoCronologicoTestuale" eac-sia:tipologiaData="Data aperta (a partire da)" eac-sia:qualificaData="Data di origine">sec. XIX fine - </eac:date> 
+					<eac:dateRange>
+						<eac:fromDate certainty="DataApprossimativa" notBefore="1891-01-01" notAfter="1900-12-31">sec. XIX fine</eac:fromDate>
+					</eac:dateRange>
+					<eac:date localType="NoteAllaDatazione">Data ricavata dai documenti più antichi presenti nell'archivio della famiglia.</eac:date>
+				</eac:dateSet>
+			</eac:existDates>
+			<eac:biogHist> 
+				<eac:p>Dalla documentazione conservata in archivio, sappiamo che la famiglia era sicuramente esistente alla fine del sec. XIX.</eac:p>
+			</eac:biogHist>
+		</eac:description>
+		<eac:relations>
+			<eac:relation>
+				<eac:targetEntity targetType="family" valueURI="http://n2t.net/ark:/99141/i5gg1s2y" vocabularySource="SNAC" vocabularySourceURI="https://snaccooperative.org/">
+					<eac:part>Famiglia Martini Fabbri</eac:part>
+				</eac:targetEntity>
+				<eac:relationType>sameAs</eac:relationType>
+			</eac:relation> 
+			<eac:relation>
+				<eac:targetEntity targetType="resource">
+					<eac:part>SIA-CA-2013493</eac:part>
+				</eac:targetEntity>
+				<eac:targetRole>Complesso archivistico</eac:targetRole>
+			</eac:relation>
+			<eac:relation>
+				<eac:targetEntity targetType="resource">
+					<eac:part>SIA-UA-1013394</eac:part>
+				</eac:targetEntity>
+				<eac:targetRole>Unità archivistica</eac:targetRole>
+			</eac:relation>
+			<eac:relation>
+				<eac:targetEntity targetType="resource">
+					<eac:part>SIA-UD-1033345</eac:part>
+				</eac:targetEntity>
+				<eac:targetRole>Unità documentaria</eac:targetRole>
+			</eac:relation>
+		</eac:relations>
+	</eac:cpfDescription>
+</eac:eac>
+</icar-import:recordBody>
+</icar-import:record>
+
 </icar-import:listRecords>
 </icar-import:icar-import>
