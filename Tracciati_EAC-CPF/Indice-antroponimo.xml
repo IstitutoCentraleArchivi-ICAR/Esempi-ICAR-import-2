@@ -27,6 +27,7 @@
 		<identity localType="VoceIndice">
 			<entityType value="person"/>
 			<nameEntry localType="Antroponimo" languageOfElement="ita">
+				<part localType="IntestazionePersona">Marconi, Luigina</part>
 				<part localType="NomePersona">Luigina</part>
 				<part localType="CognomePersona">Marconi</part>
 				<part localType="Patronimico">...</part> <!-- contenuto -->
@@ -40,17 +41,17 @@
 			<identityId>1021143</identityId>
 		</identity>
 		<description>
+			<functions>
+				<function localType="Qualifica">	
+					<term>...</term>  <!-- contenuto -->
+				</function> 
+			</functions>
 			<localDescriptions>
 				<localDescription>
 					<term>Osservazioni</term> 
 					<descriptiveNote><p>Registro creato per sistema di test.</p></descriptiveNote>
 				</localDescription>
 			</localDescriptions>
-			<functions>
-				<function localType="Qualifica">	
-					<term>...</term>  <!-- contenuto -->
-				</function> 
-			</functions>
 			<occupations>
 				<occupation>
 					<term>Impiegata</term>
